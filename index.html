@@ -420,6 +420,71 @@ a:hover { text-decoration: underline; }
   font-weight: 700;
   text-transform: uppercase;
 }
+
+/* ===== 감성 워닝 ===== */
+.video-card.warn-red {
+  border-left: 4px solid #dc2626;
+  background: #fef2f2;
+}
+.video-card.warn-yellow {
+  border-left: 4px solid #f59e0b;
+  background: #fffbeb;
+}
+.warn-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.warn-badge.red {
+  background: #dc2626;
+  color: #fff;
+}
+.warn-badge.yellow {
+  background: #f59e0b;
+  color: #fff;
+}
+.sentiment-bar {
+  display: flex;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 4px;
+  background: #e5e7eb;
+}
+.sentiment-bar .seg-neg { background: #dc2626; }
+.sentiment-bar .seg-neu { background: #9ca3af; }
+.sentiment-bar .seg-pos { background: #10b981; }
+.sentiment-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-top: 6px;
+}
+.sentiment-info .neg-ratio.high { color: #dc2626; font-weight: 700; }
+.sentiment-info .neg-ratio.mid { color: #f59e0b; font-weight: 700; }
+.comment-item.sent-neg { border-left: 3px solid #dc2626; padding-left: 7px; }
+.comment-item.sent-neu { border-left: 3px solid #9ca3af; padding-left: 7px; }
+.comment-item.sent-pos { border-left: 3px solid #10b981; padding-left: 7px; }
+.comment-sentiment-tag {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  margin-right: 4px;
+}
+.comment-sentiment-tag.neg { background: #fee2e2; color: #dc2626; }
+.comment-sentiment-tag.neu { background: #f3f4f6; color: #6b7280; }
+.comment-sentiment-tag.pos { background: #d1fae5; color: #065f46; }
+
 .video-info {
   display: flex;
   flex-direction: column;
@@ -771,6 +836,7 @@ a:hover { text-decoration: underline; }
       <button class="chip" data-sort="views">👁 조회순</button>
       <button class="chip" data-sort="comments">💬 댓글순</button>
       <button class="chip" data-sort="likes">👍 좋아요순</button>
+      <button class="chip" data-sort="negative">⚠️ 부정률순</button>
     </div>
 
     <!-- Search -->
@@ -981,6 +1047,16 @@ a:hover { text-decoration: underline; }
         return function(a, b) { return (b.comment_count || 0) - (a.comment_count || 0); };
       case 'likes':
         return function(a, b) { return (b.likes || 0) - (a.likes || 0); };
+      case 'negative':
+        // 부정률순: 감성 없으면 뒤로, 같으면 댓글 총량 많은 순
+        return function(a, b) {
+          var at = (a.sentiment_counts && (a.sentiment_counts.neg + a.sentiment_counts.neu + a.sentiment_counts.pos)) || 0;
+          var bt = (b.sentiment_counts && (b.sentiment_counts.neg + b.sentiment_counts.neu + b.sentiment_counts.pos)) || 0;
+          var ar = at > 0 ? (a.negative_ratio || 0) : -1;
+          var br = bt > 0 ? (b.negative_ratio || 0) : -1;
+          if (br !== ar) return br - ar;
+          return bt - at;
+        };
       case 'buzz':
       default:
         return function(a, b) { return (b.buzz_score || 0) - (a.buzz_score || 0); };
@@ -988,11 +1064,55 @@ a:hover { text-decoration: underline; }
   }
 
   // ===== Render =====
+  function sentimentSegments(sc) {
+    var total = (sc.neg || 0) + (sc.neu || 0) + (sc.pos || 0);
+    if (total <= 0) return '';
+    var pn = (sc.neg || 0) / total * 100;
+    var pu = (sc.neu || 0) / total * 100;
+    var pp = (sc.pos || 0) / total * 100;
+    return '<div class="sentiment-bar">' +
+      (pn > 0 ? '<div class="seg-neg" style="width:' + pn + '%"></div>' : '') +
+      (pu > 0 ? '<div class="seg-neu" style="width:' + pu + '%"></div>' : '') +
+      (pp > 0 ? '<div class="seg-pos" style="width:' + pp + '%"></div>' : '') +
+    '</div>';
+  }
+
+  function warnBadgeHtml(level) {
+    if (level === 'red') return '<span class="warn-badge red">🚨 위험</span>';
+    if (level === 'yellow') return '<span class="warn-badge yellow">⚠️ 주의</span>';
+    return '';
+  }
+
+  function sentimentMarker(s) {
+    if (s === '부정') return { cls: 'sent-neg', tag: '<span class="comment-sentiment-tag neg">부정</span>' };
+    if (s === '긍정') return { cls: 'sent-pos', tag: '<span class="comment-sentiment-tag pos">긍정</span>' };
+    if (s === '중립') return { cls: 'sent-neu', tag: '<span class="comment-sentiment-tag neu">중립</span>' };
+    return { cls: '', tag: '' };
+  }
+
   function renderVideo(v) {
     var thumbUrl = 'https://i.ytimg.com/vi/' + encodeURIComponent(v.video_id) + '/mqdefault.jpg';
     var dur = formatDuration(v.duration);
     var bc = buzzColor(v.buzz_score || 0);
     var pct = Math.min(100, (v.buzz_score || 0));
+
+    var sc = v.sentiment_counts || {neg: 0, neu: 0, pos: 0};
+    var sTotal = (sc.neg || 0) + (sc.neu || 0) + (sc.pos || 0);
+    var negRatio = v.negative_ratio || 0;
+    var warnLevel = v.warning_level || '';
+    var cardCls = 'video-card' + (warnLevel ? ' warn-' + warnLevel : '');
+
+    var sentimentHtml = '';
+    if (sTotal > 0) {
+      var ratioCls = negRatio >= 0.5 ? 'high' : (negRatio >= 0.3 ? 'mid' : '');
+      sentimentHtml =
+        '<div class="sentiment-info">' +
+          '<span class="neg-ratio ' + ratioCls + '">부정 ' + Math.round(negRatio * 100) + '%</span>' +
+          '<span>🔴 ' + sc.neg + ' · ⚪ ' + sc.neu + ' · 🟢 ' + sc.pos + '</span>' +
+          warnBadgeHtml(warnLevel) +
+        '</div>' +
+        sentimentSegments(sc);
+    }
 
     var commentsHtml = '';
     if (v.top_comments && v.top_comments.length > 0) {
@@ -1000,8 +1120,9 @@ a:hover { text-decoration: underline; }
       commentsHtml = '<button class="comments-toggle" onclick="toggleComments(\'' + cid + '\', this)">💬 댓글 ' + v.top_comments.length + '개 보기</button>';
       commentsHtml += '<div class="comments-list" id="' + cid + '">';
       v.top_comments.forEach(function(c) {
-        commentsHtml += '<div class="comment-item">' +
-          '<div class="comment-author">' + escapeHtml(c.author) + '</div>' +
+        var m = sentimentMarker(c.sentiment);
+        commentsHtml += '<div class="comment-item ' + m.cls + '">' +
+          '<div class="comment-author">' + m.tag + escapeHtml(c.author) + '</div>' +
           '<div class="comment-text">' + escapeHtml(c.text) + '</div>' +
           (c.likes ? '<div class="comment-likes">👍 ' + c.likes + '</div>' : '') +
           '</div>';
@@ -1009,7 +1130,7 @@ a:hover { text-decoration: underline; }
       commentsHtml += '</div>';
     }
 
-    return '<div class="video-card">' +
+    return '<div class="' + cardCls + '">' +
       '<div class="video-thumb">' +
         '<a href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener">' +
           '<img src="' + thumbUrl + '" alt="" loading="lazy">' +
@@ -1018,7 +1139,8 @@ a:hover { text-decoration: underline; }
         (dur ? '<span class="duration-badge">' + dur + '</span>' : '') +
       '</div>' +
       '<div class="video-info">' +
-        '<div class="video-title"><a href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener">' + escapeHtml(v.title) + '</a></div>' +
+        '<div class="video-title">' + warnBadgeHtml(warnLevel) +
+          '<a href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener">' + escapeHtml(v.title) + '</a></div>' +
         '<div class="video-channel">' +
           escapeHtml(v.channel) +
           (v.is_verified ? ' <span class="verified-icon" title="인증됨">✓</span>' : '') +
@@ -1036,6 +1158,7 @@ a:hover { text-decoration: underline; }
           '<div class="buzz-bar-bg"><div class="buzz-bar" style="width:' + pct + '%;background:' + bc + '"></div></div>' +
           '<span class="buzz-value" style="color:' + bc + '">' + (v.buzz_score != null ? v.buzz_score.toFixed(1) : '-') + '</span>' +
         '</div>' +
+        sentimentHtml +
         '<div class="video-date">📅 ' + escapeHtml(v.upload_date || '') + '</div>' +
         commentsHtml +
       '</div>' +
@@ -1078,12 +1201,23 @@ a:hover { text-decoration: underline; }
         '</div>';
     }
 
+    // 브랜드 레벨 감성 (원본 JSON 값 사용 — 필터와 무관한 전체)
+    var bSc = brand.sentiment_counts || {neg:0,neu:0,pos:0};
+    var bTotal = (bSc.neg||0) + (bSc.neu||0) + (bSc.pos||0);
+    var bRatio = brand.negative_ratio || 0;
+    var bWarn = brand.warning_level || '';
+    var brandSentHtml = '';
+    if (bTotal > 0) {
+      brandSentHtml = '<span class="brand-stat">부정 ' + Math.round(bRatio * 100) + '% (' + bSc.neg + '/' + bTotal + ')</span>' + warnBadgeHtml(bWarn);
+    }
+
     return '<div class="brand-section" data-brand="' + escapeHtml(key) + '">' +
       '<div class="brand-header">' +
         '<span class="brand-name">' + escapeHtml(brand.display || BRAND_DISPLAY_KOR[key] || key) + '</span>' +
         '<span class="brand-stat">영상 ' + filteredVideos.length + '개</span>' +
         '<span class="brand-stat">조회수 ' + formatNumber(totalViews) + '</span>' +
         '<span class="brand-stat">Short ' + nShort + ' / Long ' + nLong + '</span>' +
+        brandSentHtml +
         '<div class="brand-tier-badges">' + tierHtml + '</div>' +
       '</div>' +
       (brand.summary ? '<div class="ai-summary"><div class="ai-summary-label">🤖 AI 요약</div>' + escapeHtml(brand.summary) + '</div>' : '') +

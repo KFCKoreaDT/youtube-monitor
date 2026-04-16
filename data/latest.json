@@ -1,18 +1,18 @@
 {
   "date": "2026-04-16",
-  "generated_at": "2026-04-16 15:39:11",
+  "generated_at": "2026-04-16 19:03:38",
   "window_days": 30,
   "brands": {
     "kfc": {
       "display": "KFC 한국",
-      "video_count": 6,
-      "total_views": 199936,
-      "total_likes": 18,
-      "total_comments": 0,
+      "video_count": 11,
+      "total_views": 200443,
+      "total_likes": 27,
+      "total_comments": 1,
       "n_short": 2,
-      "n_long": 4,
+      "n_long": 9,
       "tier_counts": {
-        "Nano": 4,
+        "Nano": 9,
         "Macro": 2
       },
       "summary": "영국 여성 여행자가 한국 치킨 문화를 체험하며 KFC와 다른 맛과 문화적 차이점을 강조, 한국 치킨 문화의 독특함을 소개. 소비자들은 KFC 대신 다양한 현지 치킨집을 선호하는 경향이 있으며, 이는 KFC가 현지화 전략을 고려해야 함을 시사.\n  📌 KFC와 한국치킨차이 · 현지화전략 · 한국치킨문화",
@@ -38,54 +38,81 @@
             {
               "author": "@boribwab",
               "text": "떠오르는 신성임 오래활동한 먹방러 몇몇분도 이분이 이길 수 있을거 같음 24시간내에 햄버거만 40개 먹는데 사이드도 몇십개씩 먹으면서 물리지도 않고 소화력도 좋음",
-              "likes": 769
+              "likes": 769,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@이르밈-u3f",
               "text": "타임라인 경이롭다진짜",
-              "likes": 534
+              "likes": 534,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@돌돌이-j4j",
               "text": "그.. 복순님.. 팔 아프게 시간 인증 안 해주셔도 될 거 같아여.... 이제 믿는 정도를 넘어 경이로움에 도달했거등요",
-              "likes": 438
+              "likes": 438,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@maps-j1k",
               "text": "제목 보고 배부르긴 또 처음이네",
-              "likes": 360
+              "likes": 360,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@영-j9k",
               "text": "챗지피티한테 정리만 도와달라고 하고 직접 브랜드 영양표보면서 작성했습니다 \n\n총칼로리 36,748kcal\n\n🍔1.맥도날드\n버거\n불고기버거:409kcal\n슈슈버거:424kcal\n맥스파이시상하이버거:464kcal\n1955버거:530kcal\n빅맥:548kcal\n사이드+음료\n모짜렐라치즈스틱4:330kcal\n너겟4:163kcal\n스위트앤샤워소스:40kcal\n케이준디핑소스:98kcal\n고구마후라이:295kcal\n감자튀김L:397kcal\n콜라L:185kcal\n\n🍔2.롯데리아\n버거\n불고기버거:390kcal\n새우버거:421kcal\n핫크리스피:503",
-              "likes": 210
+              "likes": 210,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@youjinchoi3430",
               "text": "내가 뚱뚱해봐서 아는데 100키로 넘어도 햄버거 하루 5개 이상 힘듦 저정도면 초고도 비만도 아닌데 진짜 대단한 소화력임 그것도 모잘라 배달내역 시간 모든걸 증명하는게 찐중에 찐임. 먹뱉 먹토논란 자자한 먹방계에서 레알 찐 먹방러는 이분하나일듯",
-              "likes": 190
+              "likes": 190,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@moonvii127",
               "text": "이분한테는 감히 햄최몇을 물을 수가 없을 거 같음...",
-              "likes": 186
+              "likes": 186,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@aeongnyang38",
               "text": "4시간만에 햄버거 20개를 먹었다는거쟌아......... 경이로우면서 복순님 행복해보여서 귀여움 ㅋㅋㅋㅋㅋ",
-              "likes": 166
+              "likes": 166,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@kimboksoon222",
               "text": "00:01 [맥도날드]불고기버거(₩4,700)+슈슈버거(₩5,600)+맥스파이시상하이버거(₩6,800)+1955버거(₩7,600)+빅맥(₩6,600)+사이드:골든모짜렐라치즈스틱4조각(₩5,400)+맥너겟4조각(+스위트앤사워소스₩3,700)+고구마후라이(₩3,600)+감자튀김L(₩4,100)+케이준디핑소스2개(1개₩300)+코카콜라L(₩3,200)\n08:14 [롯데리아]불고기버거(₩5,800)+새우버거(₩5,800)+핫크리스피치킨버거(₩7,000)+모짜렐라인더버거(₩8,800)+한우불고기버거(₩9,800)+사이드:양념감자(+치즈시즈닝",
-              "likes": 122
+              "likes": 122,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@나무-i2p",
               "text": "어디 햄버거든 전메뉴 소개해주는 채널은 여기뿐이니 얼른 광고 줄서시길.. 찐으로 다 먹어주심..ㄷㄷ",
-              "likes": 116
+              "likes": 116,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 5,
+            "neu": 0,
+            "pos": 5
+          },
+          "negative_ratio": 0.5,
+          "warning_level": "red"
         },
         {
           "video_id": "KRNefjLqooQ",
@@ -104,7 +131,14 @@
           "upload_date": "2026.04.14",
           "url": "https://www.youtube.com/watch?v=KRNefjLqooQ",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "ltGcJmD5XNI",
@@ -123,7 +157,14 @@
           "upload_date": "2026.04.14",
           "url": "https://www.youtube.com/watch?v=ltGcJmD5XNI",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "R3zfTO6LvFM",
@@ -146,9 +187,44 @@
             {
               "author": "@와라정TV",
               "text": "재미있어요 유익한정보 감사요~~",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
+        },
+        {
+          "video_id": "r00Zp9vcKQ4",
+          "title": "KFC 징거버거 먹방 ASMR",
+          "channel": "옥돌이okdol",
+          "subscribers": 212,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 429,
+          "likes": 5,
+          "comment_count": 1,
+          "engagement_rate": 0.014,
+          "duration": 494,
+          "is_short": false,
+          "buzz_score": 31.9,
+          "upload_date": "2026.04.10",
+          "url": "https://www.youtube.com/watch?v=r00Zp9vcKQ4",
+          "description_excerpt": "",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "WTWuhQJUmhc",
@@ -167,7 +243,14 @@
           "upload_date": "2026.04.16",
           "url": "https://www.youtube.com/watch?v=WTWuhQJUmhc",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "3mbVO5dxE3o",
@@ -186,9 +269,127 @@
           "upload_date": "2026.04.08",
           "url": "https://www.youtube.com/watch?v=3mbVO5dxE3o",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
+        },
+        {
+          "video_id": "KgFKNcalkTE",
+          "title": "4/11 오늘 KFC 치킨 하루내내 1+1이라며??",
+          "channel": "파란주의보",
+          "subscribers": 101,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 14,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.0714,
+          "duration": 8065,
+          "is_short": false,
+          "buzz_score": 24.1,
+          "upload_date": "2026.04.11",
+          "url": "https://www.youtube.com/watch?v=KgFKNcalkTE",
+          "description_excerpt": "",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
+        },
+        {
+          "video_id": "OMA8m_8bTGI",
+          "title": "KFC 매일밤 치킨나이트 1+1 이벤트 정보 공유",
+          "channel": "소비다이어트(SpendingDiet)",
+          "subscribers": 15,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 44,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.0455,
+          "duration": 65,
+          "is_short": false,
+          "buzz_score": 23.7,
+          "upload_date": "2026.04.12",
+          "url": "https://www.youtube.com/watch?v=OMA8m_8bTGI",
+          "description_excerpt": "",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
+        },
+        {
+          "video_id": "l_aTZ-VvnG0",
+          "title": "5.vlog/먹기만하다 끝난 일상/강아지육아/우울할땐 먹자/김밥/카레/두바이초콜릿케잌/버거킹/KFC/맥도날드/",
+          "channel": "그냥 함께 ",
+          "subscribers": 8,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 20,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.05,
+          "duration": 819,
+          "is_short": false,
+          "buzz_score": 18.8,
+          "upload_date": "2026.04.09",
+          "url": "https://www.youtube.com/watch?v=l_aTZ-VvnG0",
+          "description_excerpt": "",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
+        },
+        {
+          "video_id": "AWlJvgrnb90",
+          "title": "65세에 “인생 끝”이라고 생각한 치킨 할아버지가 KFC 제국 세운 충격 실화 | 커널 샌더스 숨겨진 기원",
+          "channel": "숨겨진 기원",
+          "subscribers": 75,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 0,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 277,
+          "is_short": false,
+          "buzz_score": 0.0,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=AWlJvgrnb90",
+          "description_excerpt": "",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         }
-      ]
+      ],
+      "sentiment_counts": {
+        "neg": 5,
+        "neu": 0,
+        "pos": 6
+      },
+      "negative_ratio": 0.455,
+      "warning_level": "yellow"
     },
     "burgerking": {
       "display": "버거킹",
@@ -227,54 +428,81 @@
             {
               "author": "@boribwab",
               "text": "떠오르는 신성임 오래활동한 먹방러 몇몇분도 이분이 이길 수 있을거 같음 24시간내에 햄버거만 40개 먹는데 사이드도 몇십개씩 먹으면서 물리지도 않고 소화력도 좋음",
-              "likes": 769
+              "likes": 769,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@이르밈-u3f",
               "text": "타임라인 경이롭다진짜",
-              "likes": 534
+              "likes": 534,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@돌돌이-j4j",
               "text": "그.. 복순님.. 팔 아프게 시간 인증 안 해주셔도 될 거 같아여.... 이제 믿는 정도를 넘어 경이로움에 도달했거등요",
-              "likes": 438
+              "likes": 438,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@maps-j1k",
               "text": "제목 보고 배부르긴 또 처음이네",
-              "likes": 360
+              "likes": 360,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@youjinchoi3430",
               "text": "내가 뚱뚱해봐서 아는데 100키로 넘어도 햄버거 하루 5개 이상 힘듦 저정도면 초고도 비만도 아닌데 진짜 대단한 소화력임 그것도 모잘라 배달내역 시간 모든걸 증명하는게 찐중에 찐임. 먹뱉 먹토논란 자자한 먹방계에서 레알 찐 먹방러는 이분하나일듯",
-              "likes": 190
+              "likes": 190,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@moonvii127",
               "text": "이분한테는 감히 햄최몇을 물을 수가 없을 거 같음...",
-              "likes": 186
+              "likes": 186,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@aeongnyang38",
               "text": "4시간만에 햄버거 20개를 먹었다는거쟌아......... 경이로우면서 복순님 행복해보여서 귀여움 ㅋㅋㅋㅋㅋ",
-              "likes": 166
+              "likes": 166,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@kimboksoon222",
               "text": "00:01 [맥도날드]불고기버거(₩4,700)+슈슈버거(₩5,600)+맥스파이시상하이버거(₩6,800)+1955버거(₩7,600)+빅맥(₩6,600)+사이드:골든모짜렐라치즈스틱4조각(₩5,400)+맥너겟4조각(+스위트앤사워소스₩3,700)+고구마후라이(₩3,600)+감자튀김L(₩4,100)+케이준디핑소스2개(1개₩300)+코카콜라L(₩3,200)\n08:14 [롯데리아]불고기버거(₩5,800)+새우버거(₩5,800)+핫크리스피치킨버거(₩7,000)+모짜렐라인더버거(₩8,800)+한우불고기버거(₩9,800)+사이드:양념감자(+치즈시즈닝",
-              "likes": 122
+              "likes": 122,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@나무-i2p",
               "text": "어디 햄버거든 전메뉴 소개해주는 채널은 여기뿐이니 얼른 광고 줄서시길.. 찐으로 다 먹어주심..ㄷㄷ",
-              "likes": 116
+              "likes": 116,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@grogujarin8430",
               "text": "전 이미 복순님이 떡볶이 24시간 먹방때부터 먹방계 판도가 이 분 기준으로 바뀌겠구나 싶엇음요",
-              "likes": 103
+              "likes": 103,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 4,
+            "neu": 0,
+            "pos": 6
+          },
+          "negative_ratio": 0.4,
+          "warning_level": "yellow"
         },
         {
           "video_id": "NaaIkPxS41A",
@@ -297,54 +525,81 @@
             {
               "author": "@밤양갱-r9m",
               "text": "샌드위치는 같은 가격에 크기도 작고 패티도 없어서 다들 비추하던데..",
-              "likes": 6
+              "likes": 6,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@현우-m1m",
               "text": "유튜브 해주셔서 감사합니다.",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@이민지-u3x",
               "text": "엽떡에 국물닭발 리뷰먹방해주세요 솔직하게",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@HONGSOUND",
               "text": "@musicianthe4128  아 ㅋㅋ 스몰토크는 찾으러가서 받아오면서 물어본거에요 ㅎㅎ 무튼 제가 먹은 정도면 추천ㅠ 적게 들어있으면 비싸긴 한거 같네요 아쉽.. ㅠ",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@HONGSOUND",
               "text": "아 진짜요? 저는 고기 진짜 크고 푸짐하게 들어있어서 너무 좋았는데 ㅠㅠ 걍 주문한거라 저라고 특별히 더 해주진 않았을거에요... 점바점인가 ㅠㅠㅠ",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@준준-m2b",
               "text": "난 샌드위치 진심 내가 먹은것중에 젤 마싯던데 고정메뉴되라..",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@musicianthe4128",
               "text": "@HONGSOUND  아하 그렇군요 ㅎㅎ 그럼 점바점인 걸루~~하핫 🍔🥓👍🏼",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@musicianthe4128",
               "text": "@H @HONGSOUND  홍사운드님이 뭔가를 특별히 했다 보다 중간에 매니져님 이러시는거 보니 스몰톡 중에 홍사운드님을 알아보시고 약간 든든하게 넣어주신게 아닐지.. 확실히 다른분들 리뷰에서는 저 정도로 푸짐하지 않드라고요~ ㅎㅎ",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@yumso_kyubee",
               "text": "홍사운드님❤요즘 실치회가 제철이래욧..그냥 그렇다구용😂",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@먹방-h7i",
               "text": "홍사운드님 먹방리뷰는 소리랑 맛표현 둘다 잘 전달이 돼서 챙겨보게 돼요 😄",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 2,
+            "pos": 6
+          },
+          "negative_ratio": 0.2,
+          "warning_level": ""
         },
         {
           "video_id": "rUb2QPFaaZM",
@@ -367,54 +622,81 @@
             {
               "author": "@arla-m5v",
               "text": "04:08 눈을 감으라고 해놓고 사진 보여줘버리기",
-              "likes": 16
+              "likes": 16,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@theorycuisine5897",
               "text": "아니 쌍배님 이거보고 냅다 버거킹 뛰어가서 샌드위치 시켜먹었는데 안에 고기 쌍창렬인데 쌍튜브 과대광고 실화인가여",
-              "likes": 14
+              "likes": 14,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@9mimimi-f7j",
               "text": "자 눈을 함 감아보세요",
-              "likes": 9
+              "likes": 9,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@wogns357357",
               "text": "양정 버거의 왕을 뵙습니다",
-              "likes": 6
+              "likes": 6,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@Cute_Weasel",
               "text": "점바점 아님? 우리동네는 고기 채소 넘치도록 넣어주는데",
-              "likes": 5
+              "likes": 5,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@찜씅",
               "text": "소스맛으로 버거먹는갑네 ㅋㅋ",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@mire_____4773",
               "text": "내돈주고 절대먹을일없을듯",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@렇렇-q2n",
               "text": "스모크 비프립 중에서는 샌드위치가 제일 맛있음. 근데 가격대비 양이 아쉬워서 또 사먹을 생각은 안 듦",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@kinsidest",
               "text": "나도 맛잇엇음.. BBQ소스가 많은데 맛이 괜찮았음. 아이러니 하게도 파이브가이즈는 생각이 안나는데 얘는 또 먹고 싶은 생각이 듬ㅋㅋ 매장에서 먹는걸 추천. 햄버거는 배달 해 먹기엔 안 좋은 음식임. 오는 동안 빵이 소스에 젓고 패티는 팍 식음..",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@징징이-t3y",
               "text": "테무테무버린",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 4,
+            "neu": 2,
+            "pos": 4
+          },
+          "negative_ratio": 0.4,
+          "warning_level": "yellow"
         },
         {
           "video_id": "ElywuwqwegM",
@@ -437,54 +719,81 @@
             {
               "author": "@김진-u7f",
               "text": "너무 성실해 뭐야 진짜…. 언니덕에 항상 신상 알고가요",
-              "likes": 58
+              "likes": 58,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@zzicong",
               "text": "한주 끝나기 전 빠르게 가지고 온 4월 2주차 신상털이⭐️\n\n이번주 화요일에 신상털이를 올린터라 신상이 별로 없으면 패스하려고 했는데,, 또 안먹고 넘어갈 수 없는 신상들이 잔뜩 나온거 있죠✨ 여기저기서 또 출시된 버터떡에 버거킹과 유용욱바베큐연구소 콜라보, 지난 영상에서 못 먹은 매직풍피자까지! 이번주에 먹은 것들은 대부분 기대를 안했는데 생각보다 맛있는 것들이 많아서 많이 놀랐던 것 같아요 시래기가 올라간 매직풍피자도 너무 맛있었고 편의점 버터떡들도 의외로 존맛,, 버터떡 유행 진짜 별로라고 생각하고 있었는데 이번주에 맛있게 먹",
-              "likes": 33
+              "likes": 33,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@seezseee",
               "text": "진짜 먹방유튜버중에 이렇게 성실하게 누구보다빠르게 신상 가져와서 보여주는사람 없음\n예쁘고 귀엽고 깔끔하고 알잘딱깔센에 안볼이유가없음\n진짜 대성할거야 찌콩⭐️",
-              "likes": 21
+              "likes": 21,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@쟌쟌-y6r",
               "text": "새로운 게 먹고 싶을 때, 요즘 머가 유행인지 궁금하면 웅니 영상 보면 다 해결 😙💛",
-              "likes": 12
+              "likes": 12,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@ian3365",
               "text": "진짜 경이로워요…",
-              "likes": 6
+              "likes": 6,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@almond_briize",
               "text": "정말 !!!! 인정을 인정합니다 !!!",
-              "likes": 5
+              "likes": 5,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@jhorigami41",
               "text": "늘 빠른 편의점 신상정보 넘~ 감사한데 건강도 챙기며 적당히 드세요~~ 찌콩뉨~~ 나이들어 고생할까봐...😢",
-              "likes": 4
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@px3xq",
               "text": "ㄹㅇ 신상 먹방 공무원 너무 믿음직해 하나하나 구하는 것도 다 발품 발아야 해서 번거로울 텐데 매번 소개해 줘서 고마워용 ❤",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@풍선껌-x3b",
               "text": "찌콩 등장!!!\n나 지금 정말 행복해🎉❤\n아껴봐야지ㅎㅎㅎ\n\n다음 영상 두 개 어떤건지 기대돼요!! 숨참고 기다릴게요....😂\n\n우리찌콩 구독자 10만 가즈아!!!!!!!",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@roseis_me",
               "text": "항상 언니 보는 맛에 살아요 제가 ,,, ♡",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 10
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "aKrcJgDHZTM",
@@ -507,54 +816,81 @@
             {
               "author": "@김성준-j5v",
               "text": "빨라빨라 역시 맛성무가 리뷰는 끝판왕임",
-              "likes": 136
+              "likes": 136,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@eugeney11",
               "text": "할인할때 먹으면 맛있게 먹을 수 있다.\n= 그 돈 주고 먹을 정도는 안된다",
-              "likes": 53
+              "likes": 53,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@한교동짬뽕-h4k",
               "text": "요건 한번 먹어봐야겠다",
-              "likes": 35
+              "likes": 35,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@RARAMUNE",
               "text": "맛있는 바비큐플래트에서 바비큐를 빵에 싸먹는 맛.\n언제가 한번 먹어보고싶었던건데 이 버거로 한번 체험해봐야겠네요..!\n좋은 리뷰 감사합니다",
-              "likes": 32
+              "likes": 32,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@yu_naki",
               "text": "와 이게 벌써 리뷰가 올라오네요",
-              "likes": 26
+              "likes": 26,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@jwb5156",
               "text": "5시쯤에 안나오고, 신메뉴 바로바로 편집해서 올리니 더 좋아요~~",
-              "likes": 24
+              "likes": 24,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@좋은하루-h3x",
               "text": "비프 먹었는데 소스가 확실히 존재감이 크긴해도. 와퍼 특유의 느끼함이 없어서 먹기는 편한것 같아요.",
-              "likes": 14
+              "likes": 14,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@이타밍1",
               "text": "할인해봤자 7프로라 겨우 900원 할인",
-              "likes": 12
+              "likes": 12,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@MangNine",
               "text": "샌드위치도 해주시지 ㅠ",
-              "likes": 10
+              "likes": 10,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@잉-s2q",
               "text": "세트 11700원이면 걍 싼데? 평소에 뭐 먹음? 도시락 싸고다닐 부지런할사람은 아닌거처럼 보이는데",
-              "likes": 7
+              "likes": 7,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 2,
+            "pos": 7
+          },
+          "negative_ratio": 0.1,
+          "warning_level": ""
         },
         {
           "video_id": "AJKPLnAuUrg",
@@ -577,14 +913,25 @@
             {
               "author": "@새봄이와콩이",
               "text": "신사동 이목 간지너무오래되서 향도까먹었네요 ㅠㅠ 안경이 너무잘어울리십니다😂",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@lemmy8284",
               "text": "만원짜리가 든게 너무 없네요. 와퍼는 몬스터가 최고인듯.",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.5,
+          "warning_level": ""
         },
         {
           "video_id": "w1HEtRMXQKU",
@@ -607,54 +954,81 @@
             {
               "author": "@밥빙기-n7s",
               "text": "22:45 \n 난 진짜 수준높은 장면이라고 생각함 \n이런건 처음임 \n지가 어제 쓴 편지에 지가 오늘 화내는 이런건",
-              "likes": 51
+              "likes": 51,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@히히-m1k7w",
               "text": "23:59 이런 스트리머는 진짜 처음봄",
-              "likes": 48
+              "likes": 48,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@ddddbehd",
               "text": "마녀재판 정권지르기 1일차",
-              "likes": 33
+              "likes": 33,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@태용이-c3f",
               "text": "얼마나 감격스러웠으면 영상 설명까지 있네요",
-              "likes": 30
+              "likes": 30,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@mega_yak",
               "text": "5:58 햄버거 먹방\n8:45 첫입",
-              "likes": 8
+              "likes": 8,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@간고등어-b4z",
               "text": "아니 프좀 너무 긴장해서 중간에 화장실 간 거 ㅋㅋㅋㅋㅋ 1:12:58",
-              "likes": 7
+              "likes": 7,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@sibasiba333",
               "text": "오늘 유독 더 햄버거 살인마 같아 흘러내린 케찹 때문인가",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@user-ym7wd8sz9y",
               "text": "축하해 선바 드디어 안죽었구나",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@jina7828",
               "text": "와 진짜 드디어 넘버링",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@나메-x3v",
               "text": "각심아 너만 기다렸다구",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 4,
+            "neu": 0,
+            "pos": 6
+          },
+          "negative_ratio": 0.4,
+          "warning_level": "yellow"
         },
         {
           "video_id": "qVT2j2dt6YE",
@@ -677,34 +1051,53 @@
             {
               "author": "@eina_holic",
               "text": "ㅋㅋㅋㅋ 하지만 양파가 짱맛인걸😝",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@김범준-w2k",
               "text": "썸넬 커엽네 엥나 옴뇸뇸 잘먹어 ㅋㅋㅋ 고기보다 양파가 짱맛이라는 엥나😂 내일 먹고 확인해보겠어!",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@냥서연-l2c",
               "text": "동그란 엥나가 동그란 햄버거에서 동그란(?)바베큐를 쏙쏙 빼 먹는다....  냠냠냠~",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@eina_holic",
               "text": "하필 햄버거가 동그랗다니... ㅂㄷㅂㄷ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@zerokim3626",
               "text": "나도 오늘 먹었는데...뒷말은 생략한다",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@eina_holic",
               "text": "앜ㅋㅋㅋㅋ 궁금하군여",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 5
+          },
+          "negative_ratio": 0.167,
+          "warning_level": ""
         },
         {
           "video_id": "ynItFxg0JhM",
@@ -727,14 +1120,25 @@
             {
               "author": "@moonroof2",
               "text": "베어풋 비프람 파이브 핑거스",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@정명건-h5q",
               "text": "신발뭐에요?",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 1,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "a_glBu3YmN4",
@@ -757,9 +1161,18 @@
             {
               "author": "@와라정TV",
               "text": "네네 알겠습니다",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "FVzgAYDeMbQ",
@@ -778,7 +1191,14 @@
           "upload_date": "2026.04.11",
           "url": "https://www.youtube.com/watch?v=FVzgAYDeMbQ",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "qE0k2ywpe-0",
@@ -797,7 +1217,14 @@
           "upload_date": "2026.04.10",
           "url": "https://www.youtube.com/watch?v=qE0k2ywpe-0",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "dGs9v5hMGGQ",
@@ -816,7 +1243,14 @@
           "upload_date": "2026.04.11",
           "url": "https://www.youtube.com/watch?v=dGs9v5hMGGQ",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "6FuY_lAn8n8",
@@ -835,9 +1269,23 @@
           "upload_date": "2026.04.09",
           "url": "https://www.youtube.com/watch?v=6FuY_lAn8n8",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         }
-      ]
+      ],
+      "sentiment_counts": {
+        "neg": 17,
+        "neu": 7,
+        "pos": 47
+      },
+      "negative_ratio": 0.239,
+      "warning_level": ""
     },
     "mcdonalds": {
       "display": "맥도날드",
@@ -874,54 +1322,81 @@
             {
               "author": "@boribwab",
               "text": "떠오르는 신성임 오래활동한 먹방러 몇몇분도 이분이 이길 수 있을거 같음 24시간내에 햄버거만 40개 먹는데 사이드도 몇십개씩 먹으면서 물리지도 않고 소화력도 좋음",
-              "likes": 769
+              "likes": 769,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@이르밈-u3f",
               "text": "타임라인 경이롭다진짜",
-              "likes": 534
+              "likes": 534,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@돌돌이-j4j",
               "text": "그.. 복순님.. 팔 아프게 시간 인증 안 해주셔도 될 거 같아여.... 이제 믿는 정도를 넘어 경이로움에 도달했거등요",
-              "likes": 438
+              "likes": 438,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@maps-j1k",
               "text": "제목 보고 배부르긴 또 처음이네",
-              "likes": 360
+              "likes": 360,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@youjinchoi3430",
               "text": "내가 뚱뚱해봐서 아는데 100키로 넘어도 햄버거 하루 5개 이상 힘듦 저정도면 초고도 비만도 아닌데 진짜 대단한 소화력임 그것도 모잘라 배달내역 시간 모든걸 증명하는게 찐중에 찐임. 먹뱉 먹토논란 자자한 먹방계에서 레알 찐 먹방러는 이분하나일듯",
-              "likes": 190
+              "likes": 190,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@moonvii127",
               "text": "이분한테는 감히 햄최몇을 물을 수가 없을 거 같음...",
-              "likes": 186
+              "likes": 186,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@aeongnyang38",
               "text": "4시간만에 햄버거 20개를 먹었다는거쟌아......... 경이로우면서 복순님 행복해보여서 귀여움 ㅋㅋㅋㅋㅋ",
-              "likes": 166
+              "likes": 166,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@kimboksoon222",
               "text": "00:01 [맥도날드]불고기버거(₩4,700)+슈슈버거(₩5,600)+맥스파이시상하이버거(₩6,800)+1955버거(₩7,600)+빅맥(₩6,600)+사이드:골든모짜렐라치즈스틱4조각(₩5,400)+맥너겟4조각(+스위트앤사워소스₩3,700)+고구마후라이(₩3,600)+감자튀김L(₩4,100)+케이준디핑소스2개(1개₩300)+코카콜라L(₩3,200)\n08:14 [롯데리아]불고기버거(₩5,800)+새우버거(₩5,800)+핫크리스피치킨버거(₩7,000)+모짜렐라인더버거(₩8,800)+한우불고기버거(₩9,800)+사이드:양념감자(+치즈시즈닝",
-              "likes": 122
+              "likes": 122,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@나무-i2p",
               "text": "어디 햄버거든 전메뉴 소개해주는 채널은 여기뿐이니 얼른 광고 줄서시길.. 찐으로 다 먹어주심..ㄷㄷ",
-              "likes": 116
+              "likes": 116,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@grogujarin8430",
               "text": "전 이미 복순님이 떡볶이 24시간 먹방때부터 먹방계 판도가 이 분 기준으로 바뀌겠구나 싶엇음요",
-              "likes": 103
+              "likes": 103,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 4,
+            "neu": 0,
+            "pos": 6
+          },
+          "negative_ratio": 0.4,
+          "warning_level": "yellow"
         },
         {
           "video_id": "L730xkGC_aU",
@@ -944,24 +1419,39 @@
             {
               "author": "@BEARFOX88",
               "text": "맥날엔 원두커피 드립커피라서 더 좋아요  기름기가 없어서 좋고  따뜻한게 더 맛있는거 같아요",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@낭만애기씨",
               "text": "컵이 14온스인가요??",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@원두커피살롱",
               "text": "맞아요 저도 따뜻한 것도 한 번 마셔볼게요! 감사합니다",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@원두커피살롱",
               "text": "그 정도 돼보입니다!",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 4
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 3
+          },
+          "negative_ratio": 0.25,
+          "warning_level": ""
         },
         {
           "video_id": "7wK_FgKpGY0",
@@ -980,7 +1470,14 @@
           "upload_date": "2026.04.09",
           "url": "https://www.youtube.com/watch?v=7wK_FgKpGY0",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "6FuY_lAn8n8",
@@ -999,9 +1496,23 @@
           "upload_date": "2026.04.09",
           "url": "https://www.youtube.com/watch?v=6FuY_lAn8n8",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         }
-      ]
+      ],
+      "sentiment_counts": {
+        "neg": 5,
+        "neu": 0,
+        "pos": 9
+      },
+      "negative_ratio": 0.357,
+      "warning_level": "yellow"
     },
     "lotteria": {
       "display": "롯데리아",
@@ -1040,54 +1551,81 @@
             {
               "author": "@이으-s5o",
               "text": "77777 칼로리 조회수 매일 체크하는 삼붕이는 개추 ❤",
-              "likes": 525
+              "likes": 525,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@박현지-f4e",
               "text": "치즈스틱 드린 팬입니닷ㅎㅎㅎ 그냥 유튜버도 아니고 제가 좋아하는 유튜버가 매장에 오신게 넘 놀래서 다른 건 더 못챙겨드렸네여ㅠㅠ 삼대장 화이팅>_<",
-              "likes": 78
+              "likes": 78,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@dhooh4730",
               "text": "​ @부리부리-h2f  또 해주는건 너무 힘들거같고..고생했으니 잘 나왔으면하는 바램에ㅋㅋ",
-              "likes": 35
+              "likes": 35,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@부리부리-h2f",
               "text": "엇 저만 그런줄 알았어욬ㅋㅋㅋ\n조회수 많이 나오면 담에 또 해줄거같아서ㅋㅋㅋㅋㅋ😅",
-              "likes": 25
+              "likes": 25,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@나난난다",
               "text": "솔직히 이번꺼 노잼이었어 감스트가 너무 감성에 안맞기도 하고 찡찡대는거 듣기도 싫더라 지피티랑 4명이서 실패한 그림이 훨 재밌었을듯",
-              "likes": 16
+              "likes": 16,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@wieucjxkwo",
               "text": "50만 까지만 가보자..",
-              "likes": 14
+              "likes": 14,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@Dixicjdj.codmmd",
               "text": "소신발언 셋이 할때가 제일재밌음..",
-              "likes": 10
+              "likes": 10,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@민우입니당",
               "text": "다음은 9만?",
-              "likes": 4
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@SunwooBae-t5j",
               "text": "@민우입니당 ㄴㄴ 10만 ㄱㄱ",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@ppp_s-k3s",
               "text": "ㄹㅇ 500만은 가야된다",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 0,
+            "pos": 8
+          },
+          "negative_ratio": 0.2,
+          "warning_level": ""
         },
         {
           "video_id": "duJiwIGdBUA",
@@ -1110,54 +1648,81 @@
             {
               "author": "@DinoSRainbow",
               "text": "하유님 매운맛먹방송 고마워용 사랑해용\n💕💗💘💖❤🧡💛💚💙💜🖤🤎🤍",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@nfh2137",
               "text": "앞으로도 이런거 자주 올려주세요 ㅋㅋ",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@무소의뿌울",
               "text": "캬~~ 올라왔구나~~!!\n이건 두고 두고 소장할 만한 가치가 있는 방송입니다 여러분~!",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@팔미에",
               "text": "빙랄의 업보는 무겁다wwww",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@Virtuber-t6k",
               "text": "이건 첫번째 조언:절대 방심하지 말기\n이건 두번째 조언:먹고난뒤 지옥체험\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n하유님 화이팅!!!!!!!!!!!!!!!!!!!❤❤❤❤❤❤❤❤❤❤❤❤🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@튜레비",
               "text": "13:10  침착하신 그 분 찾으셨나요?",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@튜레비",
               "text": "아니 테리님거도 지금 봤는에 똑같은 행동을..",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@하루-u29",
               "text": "얼마나 맵찔이인지 감도안옴",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@김혜진-i5j",
               "text": "롯데리아 공식으로 인정받은 빙식쿤인데\n뭔가 슬퍼지네요",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@마루마루-h2j",
               "text": "feat. 직박구리",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 3,
+            "neu": 2,
+            "pos": 5
+          },
+          "negative_ratio": 0.3,
+          "warning_level": "yellow"
         },
         {
           "video_id": "8qGtu7Q1P2Y",
@@ -1180,54 +1745,81 @@
             {
               "author": "@boribwab",
               "text": "떠오르는 신성임 오래활동한 먹방러 몇몇분도 이분이 이길 수 있을거 같음 24시간내에 햄버거만 40개 먹는데 사이드도 몇십개씩 먹으면서 물리지도 않고 소화력도 좋음",
-              "likes": 769
+              "likes": 769,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@이르밈-u3f",
               "text": "타임라인 경이롭다진짜",
-              "likes": 534
+              "likes": 534,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@돌돌이-j4j",
               "text": "그.. 복순님.. 팔 아프게 시간 인증 안 해주셔도 될 거 같아여.... 이제 믿는 정도를 넘어 경이로움에 도달했거등요",
-              "likes": 438
+              "likes": 438,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@maps-j1k",
               "text": "제목 보고 배부르긴 또 처음이네",
-              "likes": 360
+              "likes": 360,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@youjinchoi3430",
               "text": "내가 뚱뚱해봐서 아는데 100키로 넘어도 햄버거 하루 5개 이상 힘듦 저정도면 초고도 비만도 아닌데 진짜 대단한 소화력임 그것도 모잘라 배달내역 시간 모든걸 증명하는게 찐중에 찐임. 먹뱉 먹토논란 자자한 먹방계에서 레알 찐 먹방러는 이분하나일듯",
-              "likes": 190
+              "likes": 190,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@moonvii127",
               "text": "이분한테는 감히 햄최몇을 물을 수가 없을 거 같음...",
-              "likes": 186
+              "likes": 186,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@aeongnyang38",
               "text": "4시간만에 햄버거 20개를 먹었다는거쟌아......... 경이로우면서 복순님 행복해보여서 귀여움 ㅋㅋㅋㅋㅋ",
-              "likes": 166
+              "likes": 166,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@kimboksoon222",
               "text": "00:01 [맥도날드]불고기버거(₩4,700)+슈슈버거(₩5,600)+맥스파이시상하이버거(₩6,800)+1955버거(₩7,600)+빅맥(₩6,600)+사이드:골든모짜렐라치즈스틱4조각(₩5,400)+맥너겟4조각(+스위트앤사워소스₩3,700)+고구마후라이(₩3,600)+감자튀김L(₩4,100)+케이준디핑소스2개(1개₩300)+코카콜라L(₩3,200)\n08:14 [롯데리아]불고기버거(₩5,800)+새우버거(₩5,800)+핫크리스피치킨버거(₩7,000)+모짜렐라인더버거(₩8,800)+한우불고기버거(₩9,800)+사이드:양념감자(+치즈시즈닝",
-              "likes": 122
+              "likes": 122,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@나무-i2p",
               "text": "어디 햄버거든 전메뉴 소개해주는 채널은 여기뿐이니 얼른 광고 줄서시길.. 찐으로 다 먹어주심..ㄷㄷ",
-              "likes": 116
+              "likes": 116,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@grogujarin8430",
               "text": "전 이미 복순님이 떡볶이 24시간 먹방때부터 먹방계 판도가 이 분 기준으로 바뀌겠구나 싶엇음요",
-              "likes": 103
+              "likes": 103,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 4,
+            "neu": 0,
+            "pos": 6
+          },
+          "negative_ratio": 0.4,
+          "warning_level": "yellow"
         },
         {
           "video_id": "3KZpSUuDdtM",
@@ -1250,54 +1842,81 @@
             {
               "author": "@개구리-p4j",
               "text": "썸넬보고 무슨 디진다돈까스 먹는데 썸넬 오바가 심하네.. 했는데 썸네일러분 죄송합니다 ㅠ",
-              "likes": 76
+              "likes": 76,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@hdiyd7857",
               "text": "놀라지 마세요 그냥 뒤지게 매운 돈까스를 먹는겁니다",
-              "likes": 42
+              "likes": 42,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@루이-d1n",
               "text": "진심 디돈으로 노딱 먹을 것 같은 영상은 첨이네여",
-              "likes": 34
+              "likes": 34,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@HABBANG-k8b",
               "text": "하수 :  섬네일이 ㅓㅜㅑ\n고수 : 엘시는 매운걸 먹으면저자세를 한다",
-              "likes": 23
+              "likes": 23,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@kimkimkim-u3d",
               "text": "하씨...쓰고 고소 당할까",
-              "likes": 17
+              "likes": 17,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@harapro",
               "text": "오늘은 이거다....",
-              "likes": 11
+              "likes": 11,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@왔다네정말로",
               "text": "ek몰리월드가 사람을 망쳤다:..",
-              "likes": 8
+              "likes": 8,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@Wsk-m8o",
               "text": "사죄도 저렇게 하셔야될듯",
-              "likes": 6
+              "likes": 6,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@DinoSRainbow",
               "text": "엘시님 매운맛먹방 고마워용 따랑해용♡\n제가 먹어봤는데 생각보다 참을만해요ㅎ\n💕💗💘💖❤🧡💛💚💙💜🖤🤎🤍",
-              "likes": 6
+              "likes": 6,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@snp_0",
               "text": "썸넬 오바여도 저런 썸네일이면 ㅇㅈ 이긴해",
-              "likes": 5
+              "likes": 5,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 4,
+            "neu": 1,
+            "pos": 5
+          },
+          "negative_ratio": 0.4,
+          "warning_level": "yellow"
         },
         {
           "video_id": "pSof8RygONc",
@@ -1320,54 +1939,81 @@
             {
               "author": "@dongwonlee5586",
               "text": "래길아...영상 자주 올려주라..늦다늦어",
-              "likes": 169
+              "likes": 169,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@553love9",
               "text": "1편보다 리액션보는 재미는 더있다ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-              "likes": 69
+              "likes": 69,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@none5035",
               "text": "둘다 조지는 아이디어 좋다 ㅋㅋㅋㅋ",
-              "likes": 56
+              "likes": 56,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@BH-xe6wx",
               "text": "빨로미 잼춘이랑 둘이서 영상 올리는게 늦다 형 참기 힘들어....",
-              "likes": 27
+              "likes": 27,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@JJ-_-2",
               "text": "초록이형 리액션 개맛있닼ㅋㅋㅋㅋㅋ",
-              "likes": 25
+              "likes": 25,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@happycat-hav",
               "text": "둘기 형 살 빠졌네 확실히,, 얼굴이 반쪽이\n됐어",
-              "likes": 19
+              "likes": 19,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@minnieswimmie9180",
               "text": "9:17 맵다고 어버버거리다가 2단계라니까 갑자기 멀쩡하게 말하는 거 뭔데 ㅋㅋㅋㅋㅋㅋㅋㅋ",
-              "likes": 19
+              "likes": 19,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@1하이언1",
               "text": "잘 보고 있습니다~!",
-              "likes": 17
+              "likes": 17,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@곰사찢-z7t",
               "text": "둘기 초록이형이 최고다",
-              "likes": 11
+              "likes": 11,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@_j1n8",
               "text": "1:25 ㅋㅋㅋㅋㅋ다라이 살벌하다",
-              "likes": 11
+              "likes": 11,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 1,
+            "pos": 7
+          },
+          "negative_ratio": 0.2,
+          "warning_level": ""
         },
         {
           "video_id": "Mtz_FTUp7EE",
@@ -1390,54 +2036,81 @@
             {
               "author": "@khiro5658",
               "text": "아이가 매운것도 안남기고 잘 먹네요❤",
-              "likes": 101
+              "likes": 101,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@한초야-s7h",
               "text": "와 본점의 첫 저챗영상! 앙앙 우는 디진다돈가스 왔다 캬ㅑㅑㅑ",
-              "likes": 39
+              "likes": 39,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@김곰-i1o",
               "text": "2:20 눈을 가리고 카메라를 보며 혀를 내밀렴...\n(디진다 돈까스를 입에넣는다)",
-              "likes": 30
+              "likes": 30,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@Yellow_Tail-02",
               "text": "스스로 먹고 화내고 운다 멋지다 ㅋㅋㅋㅋㅋㅋㅋㅋ",
-              "likes": 19
+              "likes": 19,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@NeetLife93",
               "text": "이것은 한 신자를 태국으로 보낼려다가 천국을 갈뻔한 성녀의 이야기다...",
-              "likes": 15
+              "likes": 15,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@EnjoymyBeats",
               "text": "???: 먹었습니다, 저의 의지로💛",
-              "likes": 10
+              "likes": 10,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@Midnight_Angel_S2",
               "text": "하지만 아카시아 미드1황이라는 소문이.......?!",
-              "likes": 9
+              "likes": 9,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@OO-xy2zy",
               "text": "왔다 내 점심",
-              "likes": 7
+              "likes": 7,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@Chan-dv1vm",
               "text": "ㅋㅋㅋ 내 밥친구가 와써어",
-              "likes": 7
+              "likes": 7,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@gongja3096",
               "text": "시호 가버렷!!!",
-              "likes": 6
+              "likes": 6,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 2,
+            "pos": 6
+          },
+          "negative_ratio": 0.2,
+          "warning_level": ""
         },
         {
           "video_id": "_prbZLpnlBA",
@@ -1460,54 +2133,81 @@
             {
               "author": "@음밥이",
               "text": "점점 빅현배랑 비슷해지고있음 ㅜㅜ 살빼요",
-              "likes": 6
+              "likes": 6,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@페코얌",
               "text": "페코는 삼용이를 사랑해",
-              "likes": 4
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@마초-j3s",
               "text": "전혀 안매워 보이는데",
-              "likes": 4
+              "likes": 4,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@koreanflag조하요",
               "text": "삼용아 화이팅!",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@user-lotto",
               "text": "엄상용님 린클 라이브 영상 썸네일은 임팩트가 너무 큼 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@아누카",
               "text": "체격  봐선  디진다   3빡스는  먹을꺼  같은데  의외내 :face-purple-wide-eyes:",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@신이쁨-o5h",
               "text": "로데리아에도 저걸 판다고?",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@hahahata7",
               "text": "저도 맵찔이긴한데..10단계 먹을만하던데🤔",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@존목슬리-j7j",
               "text": "엄청 맵다는데",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@풍이-f1r",
               "text": "푸파x 식사 o",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 4,
+            "pos": 5
+          },
+          "negative_ratio": 0.1,
+          "warning_level": ""
         },
         {
           "video_id": "SwLIiRcWF_4",
@@ -1530,24 +2230,39 @@
             {
               "author": "@아무것도_묻지마",
               "text": "ㅠㅠ 방금 배달시켜 먹었는데 울었어요  너무 매워요 이건 남편꺼!!",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@좋은날-s1x",
               "text": "맵찔이라 2단계 양념맛 시켜 먹었는데도 맵더라고요 😅",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@뚠뚠이의일상-t6o",
               "text": "앗!ㅎㅎㅎㅎㅎ매운 돈가스 드셨어요?😂",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@뚠뚠이의일상-t6o",
               "text": "앗ㅎㅎ네 맵찔이분들우 매우실거에요 그래도 도전해보셨으니 그걸로 된거죠😊",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 1,
+            "pos": 2
+          },
+          "negative_ratio": 0.25,
+          "warning_level": ""
         },
         {
           "video_id": "wocuX807Vdk",
@@ -1566,7 +2281,14 @@
           "upload_date": "2026.04.08",
           "url": "https://www.youtube.com/watch?v=wocuX807Vdk",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "5Gomotij7y8",
@@ -1589,39 +2311,60 @@
             {
               "author": "@monkylu1590",
               "text": "냅다 옷벗는게 개웃기네 ㅋㅋㅋㅋ 겨자이크 좀 해주세요",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@정명희-g7d7w",
               "text": "이건 머여~이런거였어? 애쓴다 아들  ~짠하네 매운거 1도 못먹는디~ 쫌 봐주쇼들!",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@yonghyeonn",
               "text": "튜비님 탈의하고나니까 완전 꼬마돌 st 훈남이네요.",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@hojuizzang",
               "text": "왓다 내밥반찬",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@canfree-o5s",
               "text": "매운 거 못 드시는 분 절대 먹지 마십쇼...",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@canfree-o5s",
               "text": "재밌게 봐주셔서 감사합니다!! 겨자이크.. ㅎ 날것의 매력.. 하하..??",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@canfree-o5s",
               "text": "감사해요!!! ㅎㅎ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 3,
+            "neu": 0,
+            "pos": 4
+          },
+          "negative_ratio": 0.429,
+          "warning_level": "yellow"
         },
         {
           "video_id": "c_8YXfXEoZM",
@@ -1644,9 +2387,18 @@
             {
               "author": "@튀슬",
               "text": "밥까지 ㄷㄷ 대상공",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "ec_SVmB41-o",
@@ -1665,7 +2417,14 @@
           "upload_date": "2026.04.10",
           "url": "https://www.youtube.com/watch?v=ec_SVmB41-o",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "QXLp_0WzXD4",
@@ -1688,54 +2447,81 @@
             {
               "author": "@salmatna-log",
               "text": "디지게 매운 돈까스라니 저도 도전하러 가봐야 겠어요~\n장전리 왕벚꽃거리 너무 멋져요😄👍 바다보며 힐링하고 갑니다💛",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@최하루-o8j",
               "text": "제주는 아름다운 곳이많기도 하지만  도전해보고픈  음식도  넘 많아유~~~~😄😄❤❤❤❤",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@힐링_강마리",
               "text": "매운돈까스 먹어보고 싶어지네요\n제주도 벚꽃 아름답습니다❤❤❤😅😅",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@푸들청이댓글용",
               "text": "제주 바다가 좋아요 \n오늘 하루도 행복한 하루 되세요❤❤  해피불금❤",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@조이힐링Seoul",
               "text": "🎉매운 음식은 건강에 적신호 정보 감사합니다 ❤🎉영상공유 좋아요 🎉늘 응원합니다 ❤🎉수고하셨습니다",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@수채화영상",
               "text": "맛있는 매운 돈까스 정말 맛있어 보입니다^^\n벚꽃거리도 아름답고\n길거리 간식도 정말 정겨워보입니다^^\n미니전기차가 정말 귀엽네요^^\n좋은 날씨 푸른 바닷가 뷰 좋은 까페 커피맛 정말 맛이있죠!^^\n즐겁게 잘 보았습니다^^\n감사합니다\n행복 가득한 봄날!\n좋아요^^👍❤️응원합니다^^🙏❤️☕️🍰✨️🌸🌿👏👏👏👏",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@mlee7470",
               "text": "2👍❤ 오늘도 행복하루 되세요 🎶 😘 💕",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@느티나무랑",
               "text": "🌶 매운거ᆢ진짜진짜 사랑했던 1인입니다😊ᆢ그러나ᆢ세월속에 달라진 입맛ㆍ\n디지게 매운 돈까스는 회장님께 양보하겠 습니나ㆍ\n 돈까스라기보단 너겟같은 크기ᆢ한입크기네욤ᆢ\n🌶 🌶 🌶 🌶 🌶 🌶 🌶 🌶 🌶 🌶 \n맵찔이는ᆢ 금지🚫",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@애월부부",
               "text": "봄기운 가득한 풍경과 함께 힐링하셨다니 저도 정말 기쁘네요~^^😊",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@애월부부",
               "text": "제주에는 볼거리도 먹거리도 정말 끝이 없는 것 같아요~^^😊",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 1,
+            "pos": 9
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "Fe2MGeCrclM",
@@ -1754,7 +2540,14 @@
           "upload_date": "2026.04.11",
           "url": "https://www.youtube.com/watch?v=Fe2MGeCrclM",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "nst609nuU3c",
@@ -1777,14 +2570,25 @@
             {
               "author": "@나쁜팬더",
               "text": "먹는소리 진짜 웃기네ㅋㅋㅋㅋㅋㅋ",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@naver324",
               "text": "루비 리액션이 제일 재밌더라 ㅋㅋㅋㅋㅋ 지수님이 계속 루비님 화면 크게 띄우더만ㅋㅋㅋㅋㅋㅋㅋㅋ 그래서 팬유동까지 오고 개이득",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.5,
+          "warning_level": ""
         },
         {
           "video_id": "hS07i5lN-K4",
@@ -1807,54 +2611,81 @@
             {
               "author": "@milan-y5u8r",
               "text": "알고리즘 떠서 봤는데 귀엽게 생겼는데 되게 사투리가 익숙하고 친근하네요 저도 나름 맵부심 있는 편이지만 이거 먹고 에겐해졌습니다",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@Eibom82",
               "text": "'매운 거 잘 먹음'   ㅋㅋㅋㅋㅋㅋㅋ인간의 언어가 비명으로 변하가네ㅋㅋㅋ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@다나가-w1e",
               "text": "기\n0:55\n승\n1:45\n전\n3:20\n결\n5:05\n하이라이트\n3:47",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@서정민-h9g7w",
               "text": "너겟눈썹 너무조와",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@strong_hada",
               "text": "너겟눈썹 자주 보러와주세효 ˶ˊᜊˋ˶ಣ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@지크하트-k7v",
               "text": "이야...제목부터 폭력적이네...염라대왕이랑 사귀시나요",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@strong_hada",
               "text": "어제부터 1일❤",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@DHPark-abc",
               "text": "먹어봤는데 이정도 호들갑 아닌데..",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@strong_hada",
               "text": "구라지？구라지？이정도잖아요 보통👼🏻",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@아니메케",
               "text": "이분 어라 좀 버티네 했는데 결국 디진다 2트에 뚫릴뻔 하고 3트도 버티다 4트에 함락당하네요\n\n그래도 좀 하시는군요\n\n제가 본 분중 제일 최약체는 혀에 대기만 해도 즉을뻔 랬다가 그냥 버리던데",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 4,
+            "neu": 0,
+            "pos": 6
+          },
+          "negative_ratio": 0.4,
+          "warning_level": "yellow"
         },
         {
           "video_id": "LtcaXgx7Fmg",
@@ -1877,19 +2708,32 @@
             {
               "author": "@리뷰주이보",
               "text": "디진다 돈까스 안매운사람 있음?...",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@코스타맨",
               "text": "번창 하세요~^^",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@리뷰주이보",
               "text": "감사합니다!",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 1,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "D-Wjt7R3ifM",
@@ -1912,54 +2756,81 @@
             {
               "author": "@뚜띠-t2w",
               "text": "ㅋㅋㅋㅋㅋ머야 오늘 왜이렇게 애기같앙",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@이슬-y1i5d",
               "text": "먹기전부터 마이 당황하셨나보네\n그래도 다 먹었네\n 멋지다 라비또👏🏻👏🏻👏🏻",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@이슬-y1i5d",
               "text": "​ @beeny7810 ㅋㅋㅋㅋ그래두 안 남기고 다 드셨구만요",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@이슬-y1i5d",
               "text": "​ @beeny7810 너무 매워보여서 남길줄 알았지",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@소다-an",
               "text": "다 먹었네에~ 대단해~",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@beeny7810",
               "text": "매워서...? 화장을 열심히해서...? 으음 ...",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@beeny7810",
               "text": "ㅋㅋㅋㅋㅋㅋ 땀을 먹기도 전부터 열심히 흘렸지",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@beeny7810",
               "text": "​ @이슬-y1i5d 남긴다는 선택지가 있긴했구나...",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@beeny7810",
               "text": "​ @이슬-y1i5d 오히려 정신이 없어서 남긴다는 선택지 자체를 생각하지 못하곸ㅋㅋㅋ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@beeny7810",
               "text": "먹은거 후회해요..ㅋㅋㅋㅋ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 4,
+            "neu": 2,
+            "pos": 4
+          },
+          "negative_ratio": 0.4,
+          "warning_level": "yellow"
         },
         {
           "video_id": "V9UVOmG67h8",
@@ -1982,14 +2853,25 @@
             {
               "author": "@seol_mae",
               "text": "저처럼 매운음식 못 먹는사람은 먹지마세요... 진짜 죽어요... 🥵🥵",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@혜니-r5b",
               "text": "먹어주세여",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.5,
+          "warning_level": ""
         },
         {
           "video_id": "opgVATwtAlw",
@@ -2008,7 +2890,14 @@
           "upload_date": "2026.04.14",
           "url": "https://www.youtube.com/watch?v=opgVATwtAlw",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "KnIfI4ZEC8c",
@@ -2027,7 +2916,14 @@
           "upload_date": "2026.04.15",
           "url": "https://www.youtube.com/watch?v=KnIfI4ZEC8c",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "FXG8Dfq8KoI",
@@ -2050,9 +2946,18 @@
             {
               "author": "@윤영준0703",
               "text": "롯리 디진다 던까스 먹어봤는데 매운거 즐겨먹으면 먹을만해요 근데 고태님은 힘드실거 같아요",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 1,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "10Y1REePs94",
@@ -2071,7 +2976,14 @@
           "upload_date": "2026.04.11",
           "url": "https://www.youtube.com/watch?v=10Y1REePs94",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "YnfwQuUcR4U",
@@ -2090,7 +3002,14 @@
           "upload_date": "2026.04.08",
           "url": "https://www.youtube.com/watch?v=YnfwQuUcR4U",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "qDR3v0jQSO0",
@@ -2113,14 +3032,25 @@
             {
               "author": "@신현진-i2v",
               "text": "엄청맵던데 맵질이인 난.못먹어",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@Ruv2-y7d",
               "text": "일반인은 못 먹을 매운맛이긴 해요 ㅋㅋㅋ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 4
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.5,
+          "warning_level": ""
         },
         {
           "video_id": "IspFsi9p_PI",
@@ -2139,7 +3069,14 @@
           "upload_date": "2026.04.12",
           "url": "https://www.youtube.com/watch?v=IspFsi9p_PI",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "NME4RLXar_4",
@@ -2162,14 +3099,25 @@
             {
               "author": "@world-nari",
               "text": "잘 생각하셨어요\n맵찔이시라면 빠른포기가 최선이에요\n저도 다시보니 표정에서 매운게 보이네요😂",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@letitgo90",
               "text": "저도 맵찔인데 영상보고 포기합니다😅  표정보니 찐 매움이 느껴지네요, 그나저나 돈가스가 용가리 치킨 닮은듯 ㅋㅋ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "sa0Tcj4T6Iw",
@@ -2188,7 +3136,14 @@
           "upload_date": "2026.04.11",
           "url": "https://www.youtube.com/watch?v=sa0Tcj4T6Iw",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "W_OMulVXs_M",
@@ -2207,7 +3162,14 @@
           "upload_date": "2026.04.09",
           "url": "https://www.youtube.com/watch?v=W_OMulVXs_M",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "3Ni9HjQWhIM",
@@ -2226,7 +3188,14 @@
           "upload_date": "2026.04.09",
           "url": "https://www.youtube.com/watch?v=3Ni9HjQWhIM",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "eVZJtLH4yBQ",
@@ -2249,16 +3218,34 @@
             {
               "author": "@Tree-and",
               "text": "재미있는 방송해주세요😊",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@쿠르간Kurgan",
               "text": "우왕 첫 뎃글 감사해요.^&^/",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         }
-      ]
+      ],
+      "sentiment_counts": {
+        "neg": 33,
+        "neu": 16,
+        "pos": 77
+      },
+      "negative_ratio": 0.262,
+      "warning_level": ""
     },
     "momstouch": {
       "display": "맘스터치",
@@ -2295,54 +3282,81 @@
             {
               "author": "@boribwab",
               "text": "떠오르는 신성임 오래활동한 먹방러 몇몇분도 이분이 이길 수 있을거 같음 24시간내에 햄버거만 40개 먹는데 사이드도 몇십개씩 먹으면서 물리지도 않고 소화력도 좋음",
-              "likes": 769
+              "likes": 769,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@이르밈-u3f",
               "text": "타임라인 경이롭다진짜",
-              "likes": 534
+              "likes": 534,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@돌돌이-j4j",
               "text": "그.. 복순님.. 팔 아프게 시간 인증 안 해주셔도 될 거 같아여.... 이제 믿는 정도를 넘어 경이로움에 도달했거등요",
-              "likes": 438
+              "likes": 438,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@maps-j1k",
               "text": "제목 보고 배부르긴 또 처음이네",
-              "likes": 360
+              "likes": 360,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@youjinchoi3430",
               "text": "내가 뚱뚱해봐서 아는데 100키로 넘어도 햄버거 하루 5개 이상 힘듦 저정도면 초고도 비만도 아닌데 진짜 대단한 소화력임 그것도 모잘라 배달내역 시간 모든걸 증명하는게 찐중에 찐임. 먹뱉 먹토논란 자자한 먹방계에서 레알 찐 먹방러는 이분하나일듯",
-              "likes": 190
+              "likes": 190,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@moonvii127",
               "text": "이분한테는 감히 햄최몇을 물을 수가 없을 거 같음...",
-              "likes": 186
+              "likes": 186,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@aeongnyang38",
               "text": "4시간만에 햄버거 20개를 먹었다는거쟌아......... 경이로우면서 복순님 행복해보여서 귀여움 ㅋㅋㅋㅋㅋ",
-              "likes": 166
+              "likes": 166,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@kimboksoon222",
               "text": "00:01 [맥도날드]불고기버거(₩4,700)+슈슈버거(₩5,600)+맥스파이시상하이버거(₩6,800)+1955버거(₩7,600)+빅맥(₩6,600)+사이드:골든모짜렐라치즈스틱4조각(₩5,400)+맥너겟4조각(+스위트앤사워소스₩3,700)+고구마후라이(₩3,600)+감자튀김L(₩4,100)+케이준디핑소스2개(1개₩300)+코카콜라L(₩3,200)\n08:14 [롯데리아]불고기버거(₩5,800)+새우버거(₩5,800)+핫크리스피치킨버거(₩7,000)+모짜렐라인더버거(₩8,800)+한우불고기버거(₩9,800)+사이드:양념감자(+치즈시즈닝",
-              "likes": 122
+              "likes": 122,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@나무-i2p",
               "text": "어디 햄버거든 전메뉴 소개해주는 채널은 여기뿐이니 얼른 광고 줄서시길.. 찐으로 다 먹어주심..ㄷㄷ",
-              "likes": 116
+              "likes": 116,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@grogujarin8430",
               "text": "전 이미 복순님이 떡볶이 24시간 먹방때부터 먹방계 판도가 이 분 기준으로 바뀌겠구나 싶엇음요",
-              "likes": 103
+              "likes": 103,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 4,
+            "neu": 0,
+            "pos": 6
+          },
+          "negative_ratio": 0.4,
+          "warning_level": "yellow"
         },
         {
           "video_id": "diYIrHCXTvU",
@@ -2365,54 +3379,81 @@
             {
               "author": "@JadeMaKing",
               "text": "이렇게 다들 궁금해하는데 왜 카페는 안 됐을까",
-              "likes": 310
+              "likes": 310,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@최규진-t1f",
               "text": "한번씩 개망한 음식 나오는거까지 김풍 콜라보 확실 ㅋㅋㅋㅋㅋ",
-              "likes": 268
+              "likes": 268,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@조덕례-o",
               "text": "9:57 우리가 싫어하는 맛은 아니야 \n피자위에서날줄몰랐던맛인거뿐이지 < 이 말이 개웃김",
-              "likes": 139
+              "likes": 139,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@vcorea123",
               "text": "음탕한 바다 코끼리 안경 쓴 거구 아저씨의 버거 ㄷㄷ",
-              "likes": 101
+              "likes": 101,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@jdw1735",
               "text": "피자는 먹어보면 진짜 웃음이 나오는 맛임 ㅋㅋㅋㅋㅋ\n맛있어서 나오는 웃음이 아니라 그냥 웃김ㅋㅋㅋㅋㅋㅋ\n또 그렇다고 맛없는건 절대 아님..",
-              "likes": 88
+              "likes": 88,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@막랑-z8o",
               "text": "음탕한 바다코끼리 남자 그의 매력은 도대체 어디까지인가",
-              "likes": 53
+              "likes": 53,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@yjh4033",
               "text": "좀 나이먹으시고 냉부하면서 성장한 측면이 있으심.. 그때의 김풍과 지금 김풍을 동일선상으로 보기엔 엄청나게 성장한편이라",
-              "likes": 42
+              "likes": 42,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@Dark_DoriTang",
               "text": "솔직히 다른 사람들은 암만 유명한 쉐프라도 그냥 뭐 콜라보했구나지 쉐프가 콜라보 했으니 엄청 맛있겠지 ㄷㄷ 나도 먹어보고싶다 이런 생각 자체가 안들어서 딱히 흥미가 안생기는데 바다풍끼리님 음식은 맛있겠다 이전에 도대체 뭘 했을까가 궁금해지긴 함",
-              "likes": 41
+              "likes": 41,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@air7976",
               "text": "맵찔이를 위한 우정잉 콜라보 기대한다",
-              "likes": 36
+              "likes": 36,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@waynerooney-no.10",
               "text": "하필 코로나시즌 겹쳐서 연예인 장사의 강점인 오프라인 만남이 어려웠고 걍 다 떠나서 카페는 체인점아니면 입에 풀칠하는것도 기적일정도로 포화상태임.\n카페는 개인적으로 자영업중에 난이도 최상이라고 봄",
-              "likes": 34
+              "likes": 34,
+              "sentiment": "중립",
+              "rating": 3
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 4,
+            "pos": 4
+          },
+          "negative_ratio": 0.2,
+          "warning_level": ""
         },
         {
           "video_id": "2lz5L1kCLYU",
@@ -2435,54 +3476,81 @@
             {
               "author": "@박지현-r7n8g",
               "text": "이 아저씨 진짜 꾸준함 멋지고 영상도 삼삼하니 좋음",
-              "likes": 74
+              "likes": 74,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@liquidfire6051",
               "text": "어제 먹은 맛도 기억이 안나는데 7년전 맛을 기억해내는 맛상무님",
-              "likes": 22
+              "likes": 22,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@Collaintp",
               "text": "마살라 치킨버거 맛있겠다 ~",
-              "likes": 22
+              "likes": 22,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@WonseobLEE-t8o",
               "text": "언제나 감사합니다.맛상무님ㅎㅎ",
-              "likes": 5
+              "likes": 5,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@kskim4096",
               "text": "두목님 영상 감사합니다",
-              "likes": 5
+              "likes": 5,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@riselk7752",
               "text": "리샐버거 내놔",
-              "likes": 4
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@Sena_9612",
               "text": "오!!!두목님 정보 감사합니다!😊",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@rollingloudrolexrollsroyce",
               "text": "리뷰는 맛상무가 담백함",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@시니컬2080",
               "text": "마살라 소스가 특이하고 매콤해서 좋아햇는데,이번에 다시왓군요 ㅎㅎ 싸이순살 치킨에도 적용되는지 모르겟지만 혹시나 나오면 단종되기전에 먹어봐야겟어요 ❤",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@patraschu",
               "text": "맘터 최애 버거였는데 다시 돌아와서 너무 좋아요 ㅠㅠ 본사 홈페이지에 제발 살려달라고 글까지 남겼었는데 그것 때문에 부활한 건 아니지만 아무튼 감격스럽기 그지없네요 다시 사라지기 전까지 많이 먹어야겠어용",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 1,
+            "pos": 9
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "djjKlRGA_i8",
@@ -2505,54 +3573,81 @@
             {
               "author": "@GAMEPORTTT",
               "text": "갈비뼈가 작살 났는데도 잘 드시네요 ㄷㄷㄷ",
-              "likes": 10
+              "likes": 10,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@hitbone007",
               "text": "0:39 편집자 감다살 아주좋았으~ 나이스~",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@정현영-u1j",
               "text": "양이 적어서  그래요 보통 5인분씩드시니",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@로크콜-r2z",
               "text": "매직풍피자도 먹어야 하는데 먹어보면 냉부 게스트 셰프 들이 왜 그런 반응이 나오는지 알수 있음...",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@뱀프-h8b",
               "text": "끝나고 다 드셨다합니다",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@JinHaeSoo.",
               "text": "1004t 개웃기넼ㅋㅋ😂😂",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@Awesome-im1sf",
               "text": "신뢰가 가는 돼장먹교수님 리뷰",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@머하지-22",
               "text": "소신? 대신 아니신가요?",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@박성은-w2j",
               "text": "소고기를 넣은 신메뉴를 원한다는거죠?",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@더플레",
               "text": "햄버거 2개에 치킨까지 와...나보다 잘드셔서 라이벌 해야겠는데",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 2,
+            "pos": 7
+          },
+          "negative_ratio": 0.1,
+          "warning_level": ""
         },
         {
           "video_id": "ol_nYjt-x3Y",
@@ -2575,54 +3670,81 @@
             {
               "author": "@marinadecat",
               "text": "파인애플치킨 호불호 겁나 갈리네 ㅋㅋ",
-              "likes": 22
+              "likes": 22,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@빨간발-d9o",
               "text": "승빠님거 보다가 쌍베님꺼 보니까 점바점 차이 너무 심하다 ㅋㅋㅋㅋㅋ 치킨 바삭한거 같지도 않고 코코넛 어디감....",
-              "likes": 15
+              "likes": 15,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@yjsong8473",
               "text": "치킨이 다른치킨같은데 코코넛도안보이고..",
-              "likes": 9
+              "likes": 9,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@5rial",
               "text": "솔직히 김풍이랑 콜라보 할거였으면 \n신박하게 번데기 튀김 같은거 도입한 메뉴를 만들었어야지..",
-              "likes": 8
+              "likes": 8,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@cheolhojeong3372",
               "text": "치킨은 소스에 찍어먹어보고 맛 얘기도 해주지 그냥 끝내버렸네.",
-              "likes": 7
+              "likes": 7,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@ssonyTEN",
               "text": "재주문 의사 묻지마 = 두번 다시 안먹을거다",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@Imhappyhh",
               "text": "대먹드 인트로 브금 맛집인데 어디감",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@파치리스-l7v",
               "text": "침울해지는 표정 ㅋㅋ\n소스를 안찍어먹었네 저녁에 발견하겠지\n피자는 안시킨게 다행일지도",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@user-tp2je1tg2q",
               "text": "오랫만에 보는데 뭔가 눈이 예전으로 돌아오신거 같은데..? 훨씬 낫네요 싸응베님",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@디루_디루",
               "text": "맘터는 진짜 저 기형스러운 치킨패티 모양 좀 균일하게 잡아줬으면 좋겠다.",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 2
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 8,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.8,
+          "warning_level": "red"
         },
         {
           "video_id": "i31EvPmYPC0",
@@ -2641,7 +3763,14 @@
           "upload_date": "2026.04.14",
           "url": "https://www.youtube.com/watch?v=i31EvPmYPC0",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "AHHW-uMdZhU",
@@ -2660,7 +3789,14 @@
           "upload_date": "2026.04.08",
           "url": "https://www.youtube.com/watch?v=AHHW-uMdZhU",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "XrBNaSPaDR0",
@@ -2683,54 +3819,81 @@
             {
               "author": "@daily-hanel",
               "text": "[🍻타임라인]\n00:21 [1차 : 석쇳집] 한우 뭉티기+갑오징어 구이\n00:49 [2차 혼술] 편의점도시락\n03:28 [1차 : 한센] 대방어숙성회\n03:31 [2차 혼술 : 맘스터치] 핫치즈 빅싸이순살, 화이트갈릭 싸이버거, 렌치소스\n06:29 [1차 : 심야식당중도] 숙성회(전복, 삼치, 참숭어, 도미, 광어, 뿔돔, 단새우), 트러플 아나 타마고\n11:43 [2차 혼술 : 엽떡] 엽기 닭볶음탕(매운맛) \n14:17 [1차 : 경성상회] 가지완자튀김과 아라비아따소스, 후토마키 반줄\n17:17 [2차 : 로쿠지] 스키야키+우동면",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@서우엄마미",
               "text": "오늘도 소중한 영상 떴다 ❤",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@망이-m2s",
               "text": "운동하면서 봐야겠다💪🏻",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@껨온SON153",
               "text": "한얼하루님 먹는모습이 아주예쁘군요.",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@망이-m2s",
               "text": "한얼하루님 먹는모습이 아주예쁘군요.\n1빠~",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@안보미-t3l",
               "text": "헬스장에서는 유산소운동만 하시나요?ㅎ\n유산소 뭐하시는지 알려주세요 ~ \n그렇게 술매일드시고 살안찌는게\n진짜 부럽네여 ~~~~",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@안보미-t3l",
               "text": "​ @daily-hanel 와 운동량이 진짜 어마어마 하신데요 ??? 😮",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@공주-e6f",
               "text": "언니 2월달에는 면접도 보고 엄청 바빴네요옹~면접 보기전 술마시는거 대단⭐️5차 정도는 달려줘야 언니 답다용ㅋㅋㅋㅋ잘보고 갑니동❤",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@daily-hanel",
               "text": "꺍 오늘도 바쁜 하루 중 찾아줘서 고마와요옹❤\n얼른 영상 올리고 싶은데 도대체 왜 아직두 겨울영상ㅠㅠㅋㅋㅋㅋㅋ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@daily-hanel",
               "text": "앜ㅋㅋㅋㅋㅋ 저도 운동하묜서 브이로그나 넷플릭스 많이 보거든요\n특히 런닝할 때 시간 완전 호록호록 가요!!!",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 9
+          },
+          "negative_ratio": 0.1,
+          "warning_level": ""
         },
         {
           "video_id": "ggaBYUHlHPw",
@@ -2753,54 +3916,81 @@
             {
               "author": "@다이어터진입-g6b",
               "text": "복근 무슨일이에요... 야식도 안먹고 클린식만먹는 저보다 몸이 더 좋으셔요....",
-              "likes": 5
+              "likes": 5,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@GoldenWoman-e1n",
               "text": "꺄악~! 제이님 복근 모예요😍 아무리 힘줘도 가로선(?)만 생기는 저는 마냥 신기하구 부럽습니당~!",
-              "likes": 4
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@lnhung7905",
               "text": "드디어 오늘도 올라왔다 잘볼께요~~!!",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@일인-e7g",
               "text": "군것질 하시고도 몸유지 잘하시는거같아요\n부럽슴당..ㅎㅎ👍",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@gomgom-i4b",
               "text": "빵과 디저트를 많이 드시는데도 어떻게 몸매를 유지하시는거져.. 너무 멋있어요🥹 마지막에 잠옷 입고 있는 부분 화장과 머리가 너무 찰떡!! 🫢✨",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@hi_imj__",
               "text": "여행온다고 너무 급하게 부랴부랴 한 거 같아서 조금 눈치가 보이지만.. 재밌게 봐주세요 ㅎㅎㅎㅎ 항상 감사드리고 감사드려요!",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@해바-x1i",
               "text": "요즘 제이님 영상 계속 계속 돌려보거든요 하루 1개 영상은 저에게 부족하니까요 전 아메리카노만  마시는데 라떼에 빠졌어요ㅎ 우유랑 스틱커피사서 시럽넣고 타먹는 짭이지만 그래도 빠져살아요 근데요 글쎄 제이님이 페페론치노가 맵다길래 얼마나 매운걸까 주문하러 쿠팡갔다가 제가산 스틱커피 할인특가로 파는거에요 무려7000원이나 저렴하게 바로 반품하고 다시 주문했어요ㅎ 제이님 덕분에 맛있는 라떼도 빠지고 돈도 아낌ㅎㅎ 기분조아요 헤~~^____^",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@emerald0605",
               "text": "어제 보다가 잠들었어요 다시 시청😅",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@현쁘로그",
               "text": "내사랑 제이언닛 〰️🖤 몸매모냐구요영상잼게볼게유",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@hi_imj__",
               "text": "지금 저 사람 없어요. 그냥 사라졌어요!! ㅋㅋㅋ 지금 일본 여행와서 1일 3끼+간식 후식 빵 먹었더니 저때의 제가 그리울 지경…",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 1,
+            "pos": 8
+          },
+          "negative_ratio": 0.1,
+          "warning_level": ""
         },
         {
           "video_id": "_nmord6KGHw",
@@ -2823,54 +4013,81 @@
             {
               "author": "@KM-xl4zi",
               "text": "저도 어제 먹어봤습니다 땅콩소스와 피클 진짜 갸우뚱한 조합인데 맛있어서 놀랐어요",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@janijun-h8h",
               "text": "다 먹어봄. 그냥 싸이버거 기본 세트 추천",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@month4369",
               "text": "맛있는 리뷰네요 번창하시기 바랍니다\n\n개인적으로 저도 비슷하게 느끼고 싶어서 시켰는데\n\n정말 뭐랄까 웃음이 나오는 맛이었어요\n\n이게뭐야?? 근데 맛있네 ㅋㅋㅋㅋ\n\n제가 먹은건 싸이와 비프버거인데 이게 점바점인진 모르겠지만 소스가 엄청 묽어서 물이 많이 나와 불편했던것 빼고는 다 좋았습니다.",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@burgerparade2122",
               "text": "이건 먹어보고 싶네요. 냉장고를 부탁해 컨셉으로 자리잡고 앉아서 온 가족이 하프컷해서 나눠 먹으면 재밌을 것 같아요 😁😁😁",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@버거덕",
               "text": "입에 맞으신듯 해서 다행입니다... ㅎㅎ 딱 냉부 초청받은 그 느낌이어서 재미있더라구요.. 맛도 괜찮구요..!",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@user-qwerrrr",
               "text": "꽤 맛있었나보네요!! 후덕죽 셰프님 버거도 못먹었는데 김풍님 꺼는 꼭 먹어봐야겠어요 ㅠㅠ \n이번에 버거킹 신메뉴가 새로 나왔어요. 다음 영상 리뷰 기다릴게용~",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@버거덕",
               "text": "저는 버거를 맛나게 먹어서 피자도 궁금하더라고요…ㅎㅎ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@month4369",
               "text": "한번쯤 아 이런것도 있을수 있구나 하고 먹어볼만은 하다고 생각합니다\n\n비프는 말고 싸이버거",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@버거덕",
               "text": "저도 먹으면서 정말 웃음이 나더라고요, 공감해주셔서 기분이 좋네요... 정말 감사합니다…!",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@버거덕",
               "text": "맛있더라고요. 하나 드신다면 매직풍싸이 추천드립니다! 버거킹 신메뉴도 리뷰 해보도록 할게요. 감사합니다!",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 10
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "UGe-7byHCKM",
@@ -2889,7 +4106,14 @@
           "upload_date": "2026.04.09",
           "url": "https://www.youtube.com/watch?v=UGe-7byHCKM",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "NSj89W7dg5g",
@@ -2912,14 +4136,25 @@
             {
               "author": "@hyunsunkim2153",
               "text": "ㅋㅋㅋㅋㅋㅋ 김풍매직 대박 😂",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@EmilyinKorea-co2di",
               "text": "맛있어요 강추합니다",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "QaGBLieg2f8",
@@ -2942,9 +4177,18 @@
             {
               "author": "@itsmetheluckiestgirl",
               "text": "또 궁금한 신메뉴가 있으신가요?❤",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "UBV1Zc69r5E",
@@ -2963,7 +4207,14 @@
           "upload_date": "2026.04.14",
           "url": "https://www.youtube.com/watch?v=UBV1Zc69r5E",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "HMFFNtBh_D4",
@@ -2986,19 +4237,32 @@
             {
               "author": "@rachelryu5749",
               "text": "5번째 구독자네요.ㅎㅎ\n말씀이 차분하면서 조곤조곤 설명을 잘하시네요.\n이번동영상이 첫번째이고 첫댓글인가요? 영광입니다.\n김풍을 좋아하고 맘스터치 싸이버거 좋아해서 사먹어볼려고 합니다.\n화이팅하세요~😊",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@NooHo_official",
               "text": "첫 영상 첫 번째 댓글 감사합니다! 매직풍 버거 둘 다 맛있구요, 참고로 매직풍 피자는 지점별로 판매하지 않는 곳도 많아서 매장 방문 전 꼭 확인하시길 바랍니다. 앞으로도 꾸준히 재미난 영상들 올려볼게요! 응원 감사합니다😊",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@NooHo_official",
               "text": "타임라인\n\n00:00 Preview\r\n00:19 제품 소개\r\n01:48 매직풍 싸이버거\r\n04:50 매직풍 비프버거\r\n07:46 매직풍 빅싸이 순살 치킨\r\n11:32 (냉부해 상황극)\r\n12:36 매직풍 피자\r\n19:23 순위 매기기\r\n24:00 총평",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 3
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "WFnchhY7vyk",
@@ -3021,54 +4285,81 @@
             {
               "author": "@진짜혼모노-toy",
               "text": "고생 많이 했어 그리고 너무 울지마 예쁜 얼굴에 눈 엄청 붓는다능🩵",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@k김태우",
               "text": "다시보기 보기 ㅎ\n\n오랜만에 같이보기 봣는데\n\n결국은 치순님은 울엇다고합니다ㅎ\n\n치방에서 같이볼수있어서 좋았다요 👍👍",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@또이치순",
               "text": "ㅎㅎ 그래도 후련해요오오",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@참새짹짹-e3m",
               "text": "6:06:49 여기부터 보세요 ㅋㅋㅋ",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@또이치순",
               "text": "짜식이",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@또이치순",
               "text": "벌금어젠 못냄 ^.^헷",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@또이치순",
               "text": "아침에 ... 벌레에물린줄",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@뽀양-r4w",
               "text": "치사장은 F가 맞았습니다!! 👏👏👏👏",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@또이치순",
               "text": "난 F가맞댜구!!",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@커피는콜롬비아",
               "text": "다시보기는 언제나 옳다!!🫰",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 3,
+            "neu": 1,
+            "pos": 6
+          },
+          "negative_ratio": 0.3,
+          "warning_level": "yellow"
         },
         {
           "video_id": "SAkForZtBBw",
@@ -3087,7 +4378,14 @@
           "upload_date": "2026.04.15",
           "url": "https://www.youtube.com/watch?v=SAkForZtBBw",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "TTJCh9VwniI",
@@ -3110,9 +4408,18 @@
             {
               "author": "@마실나간_고촌댁",
               "text": "리뷰 완전 별루  ...역시 초짜",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 1.0,
+          "warning_level": ""
         },
         {
           "video_id": "FMsJ9zaTla4",
@@ -3131,7 +4438,14 @@
           "upload_date": "2026.04.10",
           "url": "https://www.youtube.com/watch?v=FMsJ9zaTla4",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "-dxBT2Ur-po",
@@ -3154,9 +4468,18 @@
             {
               "author": "@reviewmontv",
               "text": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.\n(구매하시는 가격은 동일 합니다)\n\n겉바속쫀 끝판왕! 맘스터치 모짜렐라 치즈볼을 에어프라이어로 8분 만에 즐겨보세요!\n바삭한 튀김옷 속에 쭉 늘어나는 모짜렐라 치즈가 가득! 맘스터치 모짜렐라 치즈볼은 자연 모짜렐라 치즈가 듬뿍 들어있어 풍부한 치즈 맛을 느낄 수 있습니다. 에어프라이어 160도에서 8분만 조리하면 겉은 바삭하고 속은 쫄깃한 최고의 치즈볼이 완성됩니다. 간식으로도, 술안주로도 정말 완벽해요! 한 입 베어 물면 끊을 수 없는 매력에 ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "zn8gNceacAU",
@@ -3175,7 +4498,14 @@
           "upload_date": "2026.04.08",
           "url": "https://www.youtube.com/watch?v=zn8gNceacAU",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "ARebzed0j5o",
@@ -3198,9 +4528,18 @@
             {
               "author": "@reviewmontv",
               "text": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.\n(구매하시는 가격은 동일 합니다)\n\n오늘 간식은 이걸로 정했다! 겉바속쫀 맘스터치 치즈스틱!\n맘스터치 치즈스틱 1kg은 에어프라이어로 간편하게 조리할 수 있습니다. 바삭한 튀김옷과 쫄깃한 자연 치즈의 조화가 일품입니다. 냉동 보관하여 언제든 맛있게 즐길 수 있고, 매장 맛 그대로 집에서 느낄 수 있습니다. 치킨 텐더, 치즈볼, 감자튀김 등 다양한 맘스터치 냉동 간편식도 함께 즐겨보세요.\n지금 바로 맘스터치 치즈스틱으로 맛있는 간식 시간을 즐겨보세",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "MVTdXtKsZho",
@@ -3223,9 +4562,18 @@
             {
               "author": "@할인도깨비-c5n",
               "text": "이 포스팅은 쿠팡파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n▼▼ 제품 확인하기 ▼▼\n쇼핑하실때는 꼭 할인도깨비에서 체크하세요. \n평점과, 리뷰체크, 가성비까지 가격정보와 실사용후기를 참고해서 안내해드립니다. \n\n\n5위 - 맘스터치 시그니처 순살치킨 1kg, 2개\n가격 : 21500원\n할인제품 : https://link.coupang.com/a/el5YKi\n\n\n4위 - [고메 소바바치킨] 소이허니 순살, 375g, 6개\n가격 : 40100원\n할인제품 : https://link.coupang.com/a/el",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "EX3AnJhmdXM",
@@ -3244,7 +4592,14 @@
           "upload_date": "2026.04.12",
           "url": "https://www.youtube.com/watch?v=EX3AnJhmdXM",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "iAUR7HStwR4",
@@ -3263,9 +4618,23 @@
           "upload_date": "2026.04.11",
           "url": "https://www.youtube.com/watch?v=iAUR7HStwR4",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         }
-      ]
+      ],
+      "sentiment_counts": {
+        "neg": 21,
+        "neu": 9,
+        "pos": 70
+      },
+      "negative_ratio": 0.21,
+      "warning_level": ""
     },
     "popeyes": {
       "display": "파파이스",
@@ -3327,14 +4696,25 @@
             {
               "author": "@제니-h9i",
               "text": "안녕하세요 \n매력적이셔요~~\n뭘 그렇게 좋은거를 바르시나요\n알려줘 보셔요\n피부도 반짝 반짝..",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@제니-h9i",
               "text": "여기는 오전11시50분\n어제 녹화된거군요~~\n예쁘고 귀여운 자태에 반해서 보고있다가 두꺼운 목소리가 나오면 뒤집어 지게 재밌어요\n머리도 미용사처럼 잘도 만지시네요\n\n끼가 넘치시나봅니다",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "xnxIjEhT72c",
@@ -3357,54 +4737,81 @@
             {
               "author": "@_mukgang7234",
               "text": "💌 오늘의 식당 : [닭살부부] 인천 미추홀구 용현1.4동 186-17\r\n💜 좋아요와 구독은 먹갱에게 큰 힘이됩니다! 💜",
-              "likes": 31
+              "likes": 31,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@johnnybae9953",
               "text": "저는 먹갱님 보다 오히려 멱따님 팬입니다, 자주 나와주세요,,",
-              "likes": 11
+              "likes": 11,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@성삼-z5c",
               "text": "오늘도 먹갱님 먹방 잘 보고 갈게요! ㅎㅎ😊",
-              "likes": 4
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@진우-t3d1k",
               "text": "정말 추천 맛집 잘 고르셨네요. 👍바비큐 맛이 제대로 나네요. 🍖🍗😋 굿굿~~ 먹나이스~ ✌👍💜💜",
-              "likes": 4
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@남자윤굉인",
               "text": "와우🎉🎉🎉근래에본 먹방메뉴중에 최고인거같아용^^😮..정말먹고싶어요..여긴부산이라ㅠㅠ😂..암튼 맛나게 잘봤어요..담방송 기대할게요..❤❤❤",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@_mukgang7234",
               "text": "멱따도 자주자주 출연 가즈아💪🐷",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@멱따",
               "text": "자주 나올 수 있도록 노력하겠습니다~😋🩷",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@만듀-u3w",
               "text": "맛있겠따꾸용😊😊\n전기구이통닭두  맛있따꾸용!!!!!!!!!❤❤\n추워지네영😢😢  감기조심하세용🥰🥰",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@서영진-d6d",
               "text": "1:02 싫어하는 표정 빵터졌다ㅋㅋㅋㅋ",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@한석주-k3j",
               "text": "오늘 통닭이 맛있어보였어요\n맛있게 드시고 건강하세요 ❤",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 9
+          },
+          "negative_ratio": 0.1,
+          "warning_level": ""
         },
         {
           "video_id": "E0tMhh_6zvY",
@@ -3427,39 +4834,60 @@
             {
               "author": "@bbq_offi",
               "text": "저희 제품을 맛있게 드셔주셔서 감사합니다!",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@끝없는수행자-r7b",
               "text": "단 2초를 넘기지 않고 쉴 틈 없는 전투적인 먹방 개쌉인정",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@고양이발바닥-g8t",
               "text": "으아 너무 맛있게 드셔서 치킨 땡기네요! 👍👍",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@서우리-u5s",
               "text": "열정넘치는억빵😅",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@DK_DanielK",
               "text": "치킨순삭",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@블루블루밍",
               "text": "아 맛있게 드시는데..다음엔 양좀 더 늘려주시면 안되나요?",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@조조조-g5j",
               "text": "요즘 뜸하시네요 ㅎ",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 7
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "CSUAgqTu66I",
@@ -3482,54 +4910,81 @@
             {
               "author": "@김주완-v4c",
               "text": "트름 지랄..🤣🤣 따봉님 싸다구 한대 부탁요😆🖐",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@부침개-ifree1999",
               "text": "와... 영상내용이 섬네일과 제목이 다야 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ🤣🤣🤣🤣",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@리얼민트초코",
               "text": "아...또 밤에 이 맛있는 걸...😅\n11시 20분에 이걸 보고 있자니 침이 줄줄 나옵니다. ㅋ",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@따끔OI",
               "text": "서비스 트름은 미안해요 민초사마 ㅜㅜ",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@진튜브-u5k",
               "text": "이런 먹방 좋아요ㅎㅎ 자주 올려주세용",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@nicely0303",
               "text": "헉!!! 큰일났습니다ㅏㅏ!! 이시간에 보다니 넘 맛있어보이네요 ㄷㄷㄷ",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@WhiskeyBankKorea",
               "text": "치킨 하고 버번? 우와우 ~ 재밌게 보고 갑니다!",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@띠리링퓨전",
               "text": "다음엔 족발 가시죠❤",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@homebarlate",
               "text": "아 조만간 협찬들어오시는거 아닌가요 ㅋㅋㅋㅋㅋㅋㅋ너무맛있게드시는뎈ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@따끔OI",
               "text": "재밌을줄 알았지만 X망...",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 4,
+            "neu": 0,
+            "pos": 6
+          },
+          "negative_ratio": 0.4,
+          "warning_level": "yellow"
         },
         {
           "video_id": "V3p2aPjXEXc",
@@ -3548,7 +5003,14 @@
           "upload_date": "2026.04.09",
           "url": "https://www.youtube.com/watch?v=V3p2aPjXEXc",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "uSKNOD3K1t8",
@@ -3567,7 +5029,14 @@
           "upload_date": "2026.04.12",
           "url": "https://www.youtube.com/watch?v=uSKNOD3K1t8",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "SlFGfbNTky4",
@@ -3590,24 +5059,39 @@
             {
               "author": "@헤일메어리",
               "text": "아니.. 교촌이 1위가 아니었어?",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@김민석-k9b3g",
               "text": "교촌은 망해야댐",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@힝키랩",
               "text": "그렇더라구요! 😮",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@헤일메어리",
               "text": "안돼요 ㅠㅜ 오ㅑ요왜요~~",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 3,
+            "neu": 1,
+            "pos": 0
+          },
+          "negative_ratio": 0.75,
+          "warning_level": "yellow"
         },
         {
           "video_id": "XKgw6XH06No",
@@ -3626,7 +5110,14 @@
           "upload_date": "2026.04.12",
           "url": "https://www.youtube.com/watch?v=XKgw6XH06No",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "6ADTzTA3DeU",
@@ -3645,9 +5136,23 @@
           "upload_date": "2026.04.10",
           "url": "https://www.youtube.com/watch?v=6ADTzTA3DeU",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         }
-      ]
+      ],
+      "sentiment_counts": {
+        "neg": 8,
+        "neu": 1,
+        "pos": 24
+      },
+      "negative_ratio": 0.242,
+      "warning_level": ""
     },
     "bhc": {
       "display": "BHC치킨",
@@ -3684,54 +5189,81 @@
             {
               "author": "@코리안맨-r3d",
               "text": "ㅋㅋㅋㅋㅋ맨날 챙겨보는데 몇 시간 굶고가 왜 이렇게 웃기지ㅋㅋㅋㅋㅋㅋ 그냥 푹 잤다가 먹는",
-              "likes": 80
+              "likes": 80,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@dstoe-d2f",
               "text": "요즘은 12시간 굶고가 12시간 자고나서로 보임 ㅋ",
-              "likes": 18
+              "likes": 18,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@nandh1233",
               "text": "12시간이면 자고일어나서 먹는거아니냐 마빡이는",
-              "likes": 10
+              "likes": 10,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@ヤナギ27",
               "text": "1인1닭도 물리는데 2닭은 진짜.. 게다가 모두 닭다리를 2닭은 대단해 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-              "likes": 7
+              "likes": 7,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@장인-h5t",
               "text": "걍 컨셉임ㅋㅋㅋ 애초에 밤낮바껴서 새벽에 먹는게 쟤한텐 아침임ㅋㅋㅋ",
-              "likes": 5
+              "likes": 5,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@김태현-v3w7i",
               "text": "와 치킨 2마리를 ㄷㄷ 개잘먹노",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@Rexx-n2l",
               "text": "ㅎㅎ 형이 나 대신 맛있는거 많이 먹어줘  항상 잘보고있어",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@jdjsusejjej",
               "text": "2마리는 진짜  말이안되네",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@제시린가드-o1h",
               "text": "12시간 자고 밤에 일어나서 바로 야식 조지는 마빡이면 개추 ㅋㅋㅋㅋㅋ",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@4ang1n",
               "text": "항상 응원합니다 형님 꼭 성공하시길~😍",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 4,
+            "neu": 1,
+            "pos": 5
+          },
+          "negative_ratio": 0.4,
+          "warning_level": "yellow"
         },
         {
           "video_id": "xwikl7B4bRo",
@@ -3754,39 +5286,60 @@
             {
               "author": "@daily-hanel",
               "text": "[🍻타임라인]\n00:00 [고모표 잔치국수]\n01:27 [할머니 생신🎂] 성심당 딸기시루 케이크\n02:32 [1차 : 창도수산] 신선 모듬 활어회, 물회\n04:41 [2차 : 명절푸드] 오리고기, 육전, 산적꼬치, 두부부침, 바람떡\n07:32 [3차 : 언니네집] 스스스 샌드위치, 이마트트레이더스 쿠키\n10:36 [애슐리퀸즈] \n13:41 [쇼어]\n13:57 [아빠랑 저녁] 옥돔구이, 곱창김, 전, 구기자주\n15:31 [1차 : 육회]\n16:58 [2차 : 실비김치 볶음밥]\n18:53 [1차 : 교대국밥포차] 오돌뼈, 꼬리+스지 수",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@daily-hanel",
               "text": "머리 자르니까 넘 가볍고 편하고><ㅋㅋㅋㅋㅋ\n지금은 또 점점 길어지고 있어용!!!\n머리 컬러도 빠져가지구 다시 까만색으로 염색하고 싶기두 해용🥺",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@공주-e6f",
               "text": "오오 내 드라마 왔다⭐️ 댓글 먼저 달고 봐야지☺️ 역시 술 마시는건  언니가 짱!!❤ 나의 힐링💕",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@껨온SON153",
               "text": "한얼하루님 먹는모습이 아주예쁘군요.",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@서우엄마미",
               "text": "이번 영상 머리스타일 진짜 넘 넘넘 잘어울리고 진심 예쁨 👍🏻👍🏻",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@daily-hanel",
               "text": "꺅!!! 댓글먼저 달아주는거 쏘 스윗❤\n저 주간은 진짜 일주일 내내 먹어서 간이 약간 쪼그라드는 느낌잌ㅋㅋㅋㅋㅋㅋ 들옸던 것 같기두 하궁😂",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@daily-hanel",
               "text": "껨온님 오늘도 출석체크 감사드립니당><ㅋㅋㅋㅋㅋ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 1,
+            "pos": 6
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "OQ0k2eMoN78",
@@ -3809,34 +5362,53 @@
             {
               "author": "@lllearningkorean_.1",
               "text": "어떻게 그렇게 귀엽게 드세요? 너무 좋아요! 영상 더 자주 올려주세요! 🫶🏻🫶🏻🩷🌸🫷🏻🫷🏻",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@llluurin",
               "text": "영상 자주 올릴게요 ㅎㅎㄱ감사합니당😎",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@껨온SON153",
               "text": "룰루린 LULURIN님 먹는모습이 아주예쁘군요.",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@오비스o",
               "text": "귀여우세요",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@llluurin",
               "text": "뿌링 핫도그 드셔보세유우🥹♥️",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@llluurin",
               "text": "감사해요 ㅎㅎ!🤭",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 6
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "DuhOd3vKGaA",
@@ -3859,24 +5431,39 @@
             {
               "author": "@joykim21-z9q",
               "text": "닭에는 염지안해서 소스 덜뿌려주면 ㄹㅇ 니맛도내맛도 아닐듯",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@reversal2460",
               "text": "거기 지점이 맛없는듯?",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@Officialmisterstory",
               "text": "다른 메뉴는 맛있는데 골드킹에... 조리과정 실수라고 생각하고 있긴 합니다만 ㅠ.ㅠ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@sunggyusim7728",
               "text": "잘보고갑니다",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 1,
+            "pos": 1
+          },
+          "negative_ratio": 0.5,
+          "warning_level": "yellow"
         },
         {
           "video_id": "RGxYOcRF_CU",
@@ -3895,7 +5482,14 @@
           "upload_date": "2026.04.12",
           "url": "https://www.youtube.com/watch?v=RGxYOcRF_CU",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "pePXVTHtJRE",
@@ -3918,54 +5512,81 @@
             {
               "author": "@이찬희-d4v",
               "text": "미래가 기대되는 유튜버네요!",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@만세-u4p",
               "text": "너무 잘생기셨습니다. 먹는 것도  맛있게 먹네요~~",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@서정숙-t7o",
               "text": "주말에 뿌링클 사서 차박 출발~  상크먹빵 최고, 멋지다^",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@고즐라팀장",
               "text": "잘 먹네요~",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@상크-t2i",
               "text": "감사합니다!!",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@냐앙_99",
               "text": "비비큐 황금올리브 후라이드 양념 반반도 먹어쥬세용",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@상크-t2i",
               "text": "다음 치킨먹방때 먹어보겠습니다!!",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@태랑이-b4x",
               "text": "형항상화이팅해 🎉🎉",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@bowrain7880",
               "text": "굳잡",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@박수영수영-m7s",
               "text": "오 ❤❤",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 10
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "ri24aWaOtFw",
@@ -3984,7 +5605,14 @@
           "upload_date": "2026.04.13",
           "url": "https://www.youtube.com/watch?v=ri24aWaOtFw",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "SlFGfbNTky4",
@@ -4007,24 +5635,39 @@
             {
               "author": "@헤일메어리",
               "text": "아니.. 교촌이 1위가 아니었어?",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@김민석-k9b3g",
               "text": "교촌은 망해야댐",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@힝키랩",
               "text": "그렇더라구요! 😮",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@헤일메어리",
               "text": "안돼요 ㅠㅜ 오ㅑ요왜요~~",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 3,
+            "neu": 1,
+            "pos": 0
+          },
+          "negative_ratio": 0.75,
+          "warning_level": "yellow"
         },
         {
           "video_id": "LmlObjOebPk",
@@ -4043,9 +5686,23 @@
           "upload_date": "2026.04.13",
           "url": "https://www.youtube.com/watch?v=LmlObjOebPk",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         }
-      ]
+      ],
+      "sentiment_counts": {
+        "neg": 9,
+        "neu": 4,
+        "pos": 28
+      },
+      "negative_ratio": 0.22,
+      "warning_level": ""
     },
     "kyochon": {
       "display": "교촌치킨",
@@ -4082,24 +5739,39 @@
             {
               "author": "@들레지-b9c",
               "text": "개유유님, 김현미님, 남경희님,  로사님, 원장님, 후원해주심에 👏👏👏감사합니다.\n 빠박이님! 홧팅 🧧",
-              "likes": 7
+              "likes": 7,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@쫑이-w5d",
               "text": "빠박님 감사히 잘 보구가요~~쉬세요♧♡♧",
-              "likes": 5
+              "likes": 5,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@김형준_777",
               "text": "오늘하루도 고생하셨습니다 형님 편히쉬십쇼 😊",
-              "likes": 5
+              "likes": 5,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@샵.샵",
               "text": "울 빠박님 오늘도 고생하셨습니다🫡\n좋은밤 되시고 화이팅❣️❣️",
-              "likes": 4
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 4
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "kHZ4948fzkY",
@@ -4118,7 +5790,14 @@
           "upload_date": "2026.04.14",
           "url": "https://www.youtube.com/watch?v=kHZ4948fzkY",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "LWKr18Y_fs4",
@@ -4137,7 +5816,14 @@
           "upload_date": "2026.04.15",
           "url": "https://www.youtube.com/watch?v=LWKr18Y_fs4",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "xxOQ9kNNHNU",
@@ -4160,54 +5846,81 @@
             {
               "author": "@감남노숙자",
               "text": "몇년즨  양념 먹엇는데  짜기만 하고  맛없던데",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@SONG95758",
               "text": "닭은 교촌이던 규촌이던 않먹는다",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@이거나먹어-p7y",
               "text": "맛이 없어졌어",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@김수연-r9c3c",
               "text": "배달비랑,가격은 그렇다 치더라도 닭이 너무 작은걸 써서 양도 없는게 더 화난다  닭이 냉동쓰는데 생닭 쓰는것처럼 흉내내는게  너무 싦음~~~",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@우와앙-w9e",
               "text": "비비큐황올 맛있다고 해서 23000원 배달비 포함 26000~27000 \n시켜먹어보고 \n 왜 교촌이 업계 1위인지 새삼느꼈다 ㅋㅋ",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@오리온-t3n",
               "text": "교촌이 제일맛있던\n뭘 망해요",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@오리온-t3n",
               "text": "뭘교촌이 망해요\n방송도 믿을수가없어",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@Apieceofcake-ca",
               "text": "교촌 안먹은지 오래 되었네",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@seouk-v7y",
               "text": "저거  왜 먹어?",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@gogozap",
               "text": "자막 검수 좀 하고 올리던가 하지 ㅉㅉㅉ ai로 돌려서 꽁으로 먹으려면 검수라도 제대로 하던가",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 7,
+            "neu": 1,
+            "pos": 2
+          },
+          "negative_ratio": 0.7,
+          "warning_level": "red"
         },
         {
           "video_id": "lOIjDX2eUF8",
@@ -4226,7 +5939,14 @@
           "upload_date": "2026.04.12",
           "url": "https://www.youtube.com/watch?v=lOIjDX2eUF8",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "KZZewXvTSXI",
@@ -4245,7 +5965,14 @@
           "upload_date": "2026.04.10",
           "url": "https://www.youtube.com/watch?v=KZZewXvTSXI",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "vk-17mg5X3k",
@@ -4268,39 +5995,60 @@
             {
               "author": "@박영선-h5r",
               "text": "숏츠보고 영상 언제 올라오나 기다렸는데...이번영상도 너무 큰 도움이 됐습니다.앞으로도 좋은정보 부탁드려요^^",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@창업명탐정",
               "text": "화려한 월매출 7500만원\n그런데 실제 남는 돈은 전혀 다를 수 있습니다\n이번 영상의 핵심은 딱 하나입니다\n“많이 파는 것”과 “많이 남는 것”은 다르다\n매출보다 수익구조를 먼저 따져봐야 합니다\n여러분은 어떻게 보셨나요?\n교촌치킨 창업, 해볼 만한 창업이라고 보시는지 \n댓글로 남겨주시면 다음 영상 제작에 반영하겠습니다.\n감사합니다.",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@myoungmecha8100",
               "text": "도움이 많이 됐네요",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@비타민-l8p",
               "text": "치킨집 운영이 쉬운게 아니죠\n남는것도 별로없구..",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 2
             },
             {
               "author": "@창업명탐정",
               "text": "도움이 되셨다니 다행입니다, 앞으로도 유익한 정보로 찾아올게요!",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@창업명탐정",
               "text": "뿌듯합니다^^",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@창업명탐정",
               "text": "노동강도에 비해서는 수익이 크지 않은게 함정이죠",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 1,
+            "pos": 5
+          },
+          "negative_ratio": 0.143,
+          "warning_level": ""
         },
         {
           "video_id": "A7GwJ-dDeLY",
@@ -4319,7 +6067,14 @@
           "upload_date": "2026.04.10",
           "url": "https://www.youtube.com/watch?v=A7GwJ-dDeLY",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "8ZZgD90VQfM",
@@ -4342,24 +6097,39 @@
             {
               "author": "@Stella0112",
               "text": "@IlI1l1IllI1Il  저는 다음에 교촌 간장한마리랑도 같이 먹어볼 예정이예요😊",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@IlI1l1IllI1Il",
               "text": "감자칩은 다좋아요ㅜㅡㅜ 먹텔라님은 어떤맛이 가장 기억에 남으세요?",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@Stella0112",
               "text": "다 맛있는데, 그중에서도 교촌간장치킨맛이 간장의 짠맛이 진하면서 약간의 단맛이 느껴지는데다 젤 바삭해서 맘에 들었어요🥰",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@IlI1l1IllI1Il",
               "text": "​ @Stella0112  역시 교촌은 교촌이네요 👍 저도 기회되면 교촌맛으로 먹어봐야겠어요!",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 1,
+            "pos": 3
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "NVio9XwPUSM",
@@ -4378,7 +6148,14 @@
           "upload_date": "2026.04.08",
           "url": "https://www.youtube.com/watch?v=NVio9XwPUSM",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "w85C3asZznE",
@@ -4397,7 +6174,14 @@
           "upload_date": "2026.04.12",
           "url": "https://www.youtube.com/watch?v=w85C3asZznE",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "PWGKtqEEFrM",
@@ -4416,7 +6200,14 @@
           "upload_date": "2026.04.13",
           "url": "https://www.youtube.com/watch?v=PWGKtqEEFrM",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "MYyK-wnFsao",
@@ -4435,7 +6226,14 @@
           "upload_date": "2026.04.12",
           "url": "https://www.youtube.com/watch?v=MYyK-wnFsao",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "YwswtJcw_UM",
@@ -4454,7 +6252,14 @@
           "upload_date": "2026.04.12",
           "url": "https://www.youtube.com/watch?v=YwswtJcw_UM",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "Gf1mogqBqOA",
@@ -4473,7 +6278,14 @@
           "upload_date": "2026.04.11",
           "url": "https://www.youtube.com/watch?v=Gf1mogqBqOA",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "SlFGfbNTky4",
@@ -4496,24 +6308,39 @@
             {
               "author": "@헤일메어리",
               "text": "아니.. 교촌이 1위가 아니었어?",
-              "likes": 3
+              "likes": 3,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@김민석-k9b3g",
               "text": "교촌은 망해야댐",
-              "likes": 2
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@힝키랩",
               "text": "그렇더라구요! 😮",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@헤일메어리",
               "text": "안돼요 ㅠㅜ 오ㅑ요왜요~~",
-              "likes": 1
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 3,
+            "neu": 1,
+            "pos": 0
+          },
+          "negative_ratio": 0.75,
+          "warning_level": "yellow"
         },
         {
           "video_id": "lV6x1MBWM5A",
@@ -4532,7 +6359,14 @@
           "upload_date": "2026.04.09",
           "url": "https://www.youtube.com/watch?v=lV6x1MBWM5A",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "qkYPrYDKiUM",
@@ -4551,7 +6385,14 @@
           "upload_date": "2026.04.12",
           "url": "https://www.youtube.com/watch?v=qkYPrYDKiUM",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "yh6HudrmzYs",
@@ -4574,9 +6415,18 @@
             {
               "author": "@콩짱아-q3i",
               "text": "05:36 아니 나랑 실컷 싸워서 한마디도 안해너커 신상 과자도 사묵고 \n06:14 아침부텀 산책도 가뿟노 완전 앙큼재이",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "qaC1vTNyXq0",
@@ -4595,7 +6445,14 @@
           "upload_date": "2026.04.08",
           "url": "https://www.youtube.com/watch?v=qaC1vTNyXq0",
           "description_excerpt": "",
-          "top_comments": []
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         },
         {
           "video_id": "FJYzR_fxARU",
@@ -4618,11 +6475,27 @@
             {
               "author": "@maliya6823",
               "text": "저도 내일 저녁 치킨먹어야겟어요... 넘맛잇어보이자나😢",
-              "likes": 0
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
             }
-          ]
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": ""
         }
-      ]
+      ],
+      "sentiment_counts": {
+        "neg": 11,
+        "neu": 4,
+        "pos": 16
+      },
+      "negative_ratio": 0.355,
+      "warning_level": "yellow"
     }
   }
 }
