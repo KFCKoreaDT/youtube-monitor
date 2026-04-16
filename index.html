@@ -29,8 +29,10 @@
   --tier-mid: #a78bfa;
   --tier-macro: #f59e0b;
   --tier-mega: #ef4444;
+  --tier-official: #1d9bf0;
   --verified: #1d9bf0;
   --shadow: 0 2px 8px rgba(0,0,0,0.3);
+  --shadow-strong: 0 4px 18px rgba(0,0,0,0.45);
   --radius: 10px;
   --radius-sm: 6px;
 }
@@ -78,7 +80,7 @@ a:hover { text-decoration: underline; }
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 14px;
-  margin-bottom: 28px;
+  margin-bottom: 22px;
 }
 .summary-card {
   background: var(--bg-card);
@@ -106,35 +108,199 @@ a:hover { text-decoration: underline; }
   margin-left: 2px;
 }
 
-/* Search */
-.search-bar {
-  margin-bottom: 24px;
-}
-.search-bar input {
-  width: 100%;
-  padding: 12px 16px 12px 42px;
-  background: var(--bg-input);
+/* ===== Filter Toolbar ===== */
+.filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(15, 17, 23, 0.92);
+  backdrop-filter: saturate(150%) blur(10px);
+  -webkit-backdrop-filter: saturate(150%) blur(10px);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 22px;
+  box-shadow: var(--shadow-strong);
+}
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--border);
+}
+.filter-group:last-of-type { border-bottom: none; }
+.filter-group-label {
+  flex: 0 0 auto;
+  min-width: 120px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.filter-group-label .icon { font-size: 0.95rem; }
+
+/* Chip (pill) buttons */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  user-select: none;
+  font-family: inherit;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+.chip:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-light);
   color: var(--text-primary);
-  font-size: 0.95rem;
+}
+.chip.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(228, 0, 43, 0.3);
+}
+.chip.active:hover {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+}
+.chip .chip-count {
+  font-size: 0.74rem;
+  opacity: 0.85;
+  font-weight: 400;
+}
+.chip.active .chip-count { opacity: 0.95; }
+.chip.muted {
+  opacity: 0.45;
+}
+.chip.master {
+  background: transparent;
+  border-style: dashed;
+  font-weight: 600;
+}
+.chip.master.active {
+  background: var(--accent-bg);
+  color: var(--accent-light);
+  border-color: var(--accent);
+  border-style: solid;
+  box-shadow: none;
+}
+
+/* Date range inputs */
+.date-range {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  margin-left: 4px;
+  padding: 4px 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+.date-range.open { display: inline-flex; }
+.date-range input[type="date"] {
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 2px 4px;
+  outline: none;
+  color-scheme: dark;
+}
+.date-range .dash { color: var(--text-muted); font-size: 0.8rem; }
+.date-range .apply-btn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+.date-range .apply-btn:hover { background: var(--accent-light); }
+
+/* Search */
+.filter-search {
+  position: relative;
+  flex: 1;
+  min-width: 220px;
+}
+.filter-search input {
+  width: 100%;
+  padding: 8px 14px 8px 36px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-primary);
+  font-size: 0.85rem;
   outline: none;
   transition: border-color 0.2s;
+  font-family: inherit;
 }
-.search-bar input:focus {
-  border-color: var(--accent);
-}
-.search-bar {
-  position: relative;
-}
-.search-bar::before {
+.filter-search input:focus { border-color: var(--accent); }
+.filter-search::before {
   content: '🔍';
   position: absolute;
-  left: 14px;
+  left: 12px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 1rem;
+  font-size: 0.88rem;
   pointer-events: none;
+  opacity: 0.75;
+}
+
+/* Actions row */
+.filter-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 10px;
+  margin-top: 4px;
+  border-top: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.filter-reset-btn {
+  background: transparent;
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+  font-weight: 500;
+}
+.filter-reset-btn:hover {
+  background: var(--bg-card);
+  color: var(--accent-light);
+  border-color: var(--accent);
+}
+.filter-result-count {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+.filter-result-count strong {
+  color: var(--accent-light);
+  font-weight: 700;
 }
 
 /* Brand section */
@@ -166,6 +332,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   gap: 6px;
   margin-left: auto;
+  flex-wrap: wrap;
 }
 .brand-tier-badge {
   font-size: 0.72rem;
@@ -268,18 +435,15 @@ a:hover { text-decoration: underline; }
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.video-title a {
-  color: var(--text-primary);
-}
-.video-title a:hover {
-  color: var(--accent-light);
-}
+.video-title a { color: var(--text-primary); }
+.video-title a:hover { color: var(--accent-light); }
 .video-channel {
   display: flex;
   align-items: center;
   gap: 6px;
   font-size: 0.82rem;
   color: var(--text-secondary);
+  flex-wrap: wrap;
 }
 .verified-icon {
   color: var(--verified);
@@ -299,6 +463,7 @@ a:hover { text-decoration: underline; }
 .tier-mid { background: var(--tier-mid); color: #1a0e30; }
 .tier-macro { background: var(--tier-macro); color: #1a1200; }
 .tier-mega { background: var(--tier-mega); }
+.tier-official { background: var(--tier-official); }
 
 .video-stats {
   display: flex;
@@ -363,6 +528,7 @@ a:hover { text-decoration: underline; }
   cursor: pointer;
   margin-top: 4px;
   transition: background 0.15s, color 0.15s;
+  font-family: inherit;
 }
 .comments-toggle:hover {
   background: var(--bg-input);
@@ -442,20 +608,41 @@ a:hover { text-decoration: underline; }
   font-size: 0.9rem;
 }
 
+/* Load-more button */
+.load-more-wrap {
+  text-align: center;
+  padding: 8px 0 4px;
+}
+.load-more-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  color: var(--text-primary);
+  padding: 10px 22px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: all 0.15s ease;
+  font-family: inherit;
+}
+.load-more-btn:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent);
+  color: var(--accent-light);
+}
+.load-more-btn .count {
+  color: var(--text-muted);
+  margin-left: 4px;
+  font-weight: 400;
+}
+.load-more-btn:hover .count { color: var(--text-secondary); }
+
 /* Responsive */
 @media (max-width: 768px) {
-  .summary-row {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .video-card {
-    grid-template-columns: 1fr;
-  }
-  .video-thumb {
-    max-width: 100%;
-  }
-  .brand-tier-badges {
-    margin-left: 0;
-  }
+  .summary-row { grid-template-columns: repeat(2, 1fr); }
+  .video-card { grid-template-columns: 1fr; }
+  .video-thumb { max-width: 100%; }
+  .brand-tier-badges { margin-left: 0; }
   .brand-header {
     flex-direction: column;
     align-items: flex-start;
@@ -463,11 +650,28 @@ a:hover { text-decoration: underline; }
   }
   .header h1 { font-size: 1.3rem; }
   .summary-card .value { font-size: 1.25rem; }
+
+  .filter-bar {
+    position: static;
+    padding: 12px;
+  }
+  .filter-group-label {
+    min-width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 4px;
+  }
+  .filter-group {
+    padding: 6px 0;
+  }
+  .filter-search { min-width: 100%; }
+  .filter-actions { flex-direction: column; align-items: stretch; }
+  .filter-result-count { text-align: center; }
 }
 
 @media (max-width: 480px) {
   .summary-row { grid-template-columns: 1fr 1fr; gap: 8px; }
   .container { padding: 14px 10px 30px; }
+  .chip { padding: 5px 11px; font-size: 0.78rem; }
 }
 </style>
 </head>
@@ -486,8 +690,64 @@ a:hover { text-decoration: underline; }
     <div class="summary-card"><div class="label">기간</div><div class="value" id="s-period">-</div></div>
   </div>
 
-  <div class="search-bar">
-    <input type="text" id="search-input" placeholder="영상 제목, 채널명, 설명으로 검색...">
+  <!-- Filter Toolbar -->
+  <div class="filter-bar" id="filter-bar">
+    <!-- Period -->
+    <div class="filter-group" id="fg-period">
+      <div class="filter-group-label"><span class="icon">📅</span> 기간</div>
+      <button class="chip" data-period="today">오늘</button>
+      <button class="chip" data-period="1">최근 1일</button>
+      <button class="chip active" data-period="7">최근 7일</button>
+      <button class="chip" data-period="30">최근 30일</button>
+      <button class="chip" data-period="custom">기간 지정</button>
+      <div class="date-range" id="date-range">
+        <input type="date" id="date-from">
+        <span class="dash">~</span>
+        <input type="date" id="date-to">
+        <button class="apply-btn" id="date-apply">적용</button>
+      </div>
+    </div>
+
+    <!-- Brand -->
+    <div class="filter-group" id="fg-brand">
+      <div class="filter-group-label"><span class="icon">🏷️</span> 브랜드</div>
+      <button class="chip master active" data-brand-master>모두</button>
+      <!-- Brand chips injected here -->
+    </div>
+
+    <!-- Format -->
+    <div class="filter-group" id="fg-format">
+      <div class="filter-group-label"><span class="icon">🎬</span> 형식</div>
+      <button class="chip active" data-format="long">Long</button>
+      <button class="chip active" data-format="short">Short</button>
+    </div>
+
+    <!-- Tier -->
+    <div class="filter-group" id="fg-tier">
+      <div class="filter-group-label"><span class="icon">👤</span> 크리에이터 티어</div>
+      <button class="chip active" data-tier="Official">Official</button>
+      <button class="chip active" data-tier="Mega">Mega <span class="chip-count">(1M+)</span></button>
+      <button class="chip active" data-tier="Macro">Macro <span class="chip-count">(100K-1M)</span></button>
+      <button class="chip active" data-tier="Mid">Mid <span class="chip-count">(10K-100K)</span></button>
+      <button class="chip active" data-tier="Micro">Micro <span class="chip-count">(1K-10K)</span></button>
+      <button class="chip active" data-tier="Nano">Nano <span class="chip-count">(&lt;1K)</span></button>
+    </div>
+
+    <!-- Search -->
+    <div class="filter-group" id="fg-search">
+      <div class="filter-group-label"><span class="icon">🔍</span> 검색</div>
+      <div class="filter-search">
+        <input type="text" id="search-input" placeholder="영상 제목, 채널명, 설명으로 검색...">
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="filter-actions">
+      <button class="filter-reset-btn" id="filter-reset">↺ 필터 초기화</button>
+      <div class="filter-result-count" id="filter-result-count">
+        <strong>0</strong>개 영상 / <strong>0</strong>개 브랜드 표시 중
+      </div>
+    </div>
   </div>
 
   <div id="brands-container">
@@ -504,7 +764,7 @@ a:hover { text-decoration: underline; }
 (function() {
   'use strict';
 
-  // Utility functions
+  // ===== Utility functions =====
   function formatNumber(n) {
     if (n == null) return '-';
     if (n >= 1e8) return (n / 1e8).toFixed(1) + '억';
@@ -531,6 +791,7 @@ a:hover { text-decoration: underline; }
 
   function tierClass(tier) {
     var t = (tier || '').toLowerCase();
+    if (t === 'official') return 'tier-official';
     if (t === 'mega') return 'tier-mega';
     if (t === 'macro') return 'tier-macro';
     if (t === 'mid') return 'tier-mid';
@@ -540,10 +801,130 @@ a:hover { text-decoration: underline; }
 
   function escapeHtml(str) {
     var div = document.createElement('div');
-    div.textContent = str;
+    div.textContent = str == null ? '' : str;
     return div.innerHTML;
   }
 
+  // Parse YYYY.MM.DD → Date object (local time, midnight)
+  function parseDotDate(s) {
+    if (!s) return null;
+    var m = String(s).match(/^(\d{4})\.(\d{1,2})\.(\d{1,2})/);
+    if (!m) {
+      // try ISO fallback
+      var d = new Date(s);
+      return isNaN(d.getTime()) ? null : d;
+    }
+    return new Date(+m[1], +m[2] - 1, +m[3]);
+  }
+
+  function ymdToday() {
+    var d = new Date();
+    d.setHours(0, 0, 0, 0);
+    return d;
+  }
+
+  function toYmdInputStr(d) {
+    var y = d.getFullYear();
+    var m = String(d.getMonth() + 1).padStart(2, '0');
+    var dd = String(d.getDate()).padStart(2, '0');
+    return y + '-' + m + '-' + dd;
+  }
+
+  function parseInputDate(s) {
+    if (!s) return null;
+    var m = s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+    if (!m) return null;
+    return new Date(+m[1], +m[2] - 1, +m[3]);
+  }
+
+  // ===== State =====
+  var PAGE_SIZE = 10;
+  var ALL_BRAND_KEYS = ['kfc', 'burgerking', 'mcdonalds', 'lotteria', 'momstouch', 'popeyes', 'subway', 'bbq', 'bhc', 'kyochon'];
+  var BRAND_DISPLAY_KOR = {
+    kfc: 'KFC',
+    burgerking: '버거킹',
+    mcdonalds: '맥도날드',
+    lotteria: '롯데리아',
+    momstouch: '맘스터치',
+    popeyes: '파파이스',
+    subway: '서브웨이',
+    bbq: 'BBQ치킨',
+    bhc: 'BHC치킨',
+    kyochon: '교촌치킨'
+  };
+  var ALL_TIERS = ['Official', 'Mega', 'Macro', 'Mid', 'Micro', 'Nano'];
+
+  var DATA = null;           // loaded JSON
+  var BRAND_KEYS_ORDER = []; // sorted brand key order (from data)
+  var BRAND_KEYS_IN_DATA = []; // keys present in data
+  var filters = {
+    period: '7',                      // 'today' | '1' | '7' | '30' | 'custom'
+    customFrom: null,                 // Date
+    customTo: null,                   // Date
+    brands: new Set(),                // selected brand keys
+    formats: new Set(['long', 'short']),
+    tiers: new Set(ALL_TIERS),
+    search: ''
+  };
+  // per-brand pagination state: key -> true (expanded) | false (collapsed)
+  var expanded = {};
+
+  // ===== Filter logic =====
+  function passesPeriod(v) {
+    var d = parseDotDate(v.upload_date);
+    if (!d) return true; // missing date → don't exclude
+    var today = ymdToday();
+    if (filters.period === 'today') {
+      return d.getFullYear() === today.getFullYear() &&
+             d.getMonth() === today.getMonth() &&
+             d.getDate() === today.getDate();
+    }
+    if (filters.period === 'custom') {
+      if (filters.customFrom && d < filters.customFrom) return false;
+      if (filters.customTo) {
+        // include the whole day on customTo
+        var to = new Date(filters.customTo);
+        to.setHours(23, 59, 59, 999);
+        if (d > to) return false;
+      }
+      return true;
+    }
+    var days = parseInt(filters.period, 10);
+    if (isNaN(days)) return true;
+    var cutoff = new Date(today);
+    cutoff.setDate(cutoff.getDate() - (days - 1));
+    cutoff.setHours(0, 0, 0, 0);
+    return d >= cutoff && d <= new Date(today.getFullYear(), today.getMonth(), today.getDate(), 23, 59, 59, 999);
+  }
+
+  function passesFormat(v) {
+    return filters.formats.has(v.is_short ? 'short' : 'long');
+  }
+
+  function passesTier(v) {
+    var t = v.creator_tier || 'Nano';
+    return filters.tiers.has(t);
+  }
+
+  function passesSearch(v) {
+    if (!filters.search) return true;
+    var q = filters.search.toLowerCase();
+    var hay = ((v.title || '') + ' ' + (v.channel || '') + ' ' + (v.description_excerpt || '')).toLowerCase();
+    return hay.indexOf(q) !== -1;
+  }
+
+  function videoPassesNonBrandFilters(v) {
+    return passesPeriod(v) && passesFormat(v) && passesTier(v) && passesSearch(v);
+  }
+
+  function filterVideosForBrand(key) {
+    if (!DATA || !DATA.brands || !DATA.brands[key]) return [];
+    var videos = (DATA.brands[key].videos || []).filter(videoPassesNonBrandFilters);
+    videos.sort(function(a, b) { return (b.buzz_score || 0) - (a.buzz_score || 0); });
+    return videos;
+  }
+
+  // ===== Render =====
   function renderVideo(v) {
     var thumbUrl = 'https://i.ytimg.com/vi/' + encodeURIComponent(v.video_id) + '/mqdefault.jpg';
     var dur = formatDuration(v.duration);
@@ -565,7 +946,7 @@ a:hover { text-decoration: underline; }
       commentsHtml += '</div>';
     }
 
-    return '<div class="video-card" data-search="' + escapeHtml((v.title + ' ' + v.channel + ' ' + (v.description_excerpt || '')).toLowerCase()) + '">' +
+    return '<div class="video-card">' +
       '<div class="video-thumb">' +
         '<a href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener">' +
           '<img src="' + thumbUrl + '" alt="" loading="lazy">' +
@@ -598,93 +979,357 @@ a:hover { text-decoration: underline; }
     '</div>';
   }
 
-  function renderBrand(key, brand) {
-    var tierHtml = '';
-    if (brand.tier_counts) {
-      Object.keys(brand.tier_counts).forEach(function(t) {
-        tierHtml += '<span class="brand-tier-badge">' + t + ' ' + brand.tier_counts[t] + '</span>';
-      });
-    }
-
-    var videos = (brand.videos || []).slice().sort(function(a, b) {
-      return (b.buzz_score || 0) - (a.buzz_score || 0);
+  function renderBrand(key, brand, filteredVideos) {
+    // Re-compute tier counts over filtered set (so they match what's shown)
+    var tierCounts = {};
+    ALL_TIERS.forEach(function(t) { tierCounts[t] = 0; });
+    var nShort = 0, nLong = 0, totalViews = 0;
+    filteredVideos.forEach(function(v) {
+      var t = v.creator_tier || 'Nano';
+      if (tierCounts[t] != null) tierCounts[t]++;
+      if (v.is_short) nShort++; else nLong++;
+      totalViews += (v.views || 0);
     });
 
-    var videosHtml = videos.map(renderVideo).join('');
+    var tierHtml = '';
+    ALL_TIERS.forEach(function(t) {
+      if (tierCounts[t] > 0) {
+        tierHtml += '<span class="brand-tier-badge">' + t + ' ' + tierCounts[t] + '</span>';
+      }
+    });
+
+    var isExpanded = !!expanded[key];
+    var showAll = isExpanded || filters.search.length > 0; // in active search, show all matching
+    var visibleVideos = showAll ? filteredVideos : filteredVideos.slice(0, PAGE_SIZE);
+    var hiddenCount = Math.max(filteredVideos.length - visibleVideos.length, 0);
+
+    var videosHtml = visibleVideos.map(renderVideo).join('');
+
+    var loadMoreHtml = '';
+    if (hiddenCount > 0) {
+      loadMoreHtml =
+        '<div class="load-more-wrap">' +
+          '<button class="load-more-btn" onclick="loadMore(\'' + escapeHtml(key) + '\', this)">' +
+            '▼ 더보기 <span class="count">(' + hiddenCount + '개 더 · 전체 ' + filteredVideos.length + '개)</span>' +
+          '</button>' +
+        '</div>';
+    }
 
     return '<div class="brand-section" data-brand="' + escapeHtml(key) + '">' +
       '<div class="brand-header">' +
-        '<span class="brand-name">' + escapeHtml(brand.display || key) + '</span>' +
-        '<span class="brand-stat">영상 ' + (brand.video_count || 0) + '개</span>' +
-        '<span class="brand-stat">조회수 ' + formatNumber(brand.total_views) + '</span>' +
-        (brand.n_short != null ? '<span class="brand-stat">Short ' + brand.n_short + ' / Long ' + (brand.n_long || 0) + '</span>' : '') +
+        '<span class="brand-name">' + escapeHtml(brand.display || BRAND_DISPLAY_KOR[key] || key) + '</span>' +
+        '<span class="brand-stat">영상 ' + filteredVideos.length + '개</span>' +
+        '<span class="brand-stat">조회수 ' + formatNumber(totalViews) + '</span>' +
+        '<span class="brand-stat">Short ' + nShort + ' / Long ' + nLong + '</span>' +
         '<div class="brand-tier-badges">' + tierHtml + '</div>' +
       '</div>' +
       (brand.summary ? '<div class="ai-summary"><div class="ai-summary-label">🤖 AI 요약</div>' + escapeHtml(brand.summary) + '</div>' : '') +
       '<div class="video-list">' + videosHtml + '</div>' +
+      loadMoreHtml +
     '</div>';
   }
 
-  function render(data) {
-    // Header
-    document.getElementById('header-subtitle').textContent =
-      data.date + ' 기준 · 최근 ' + data.days + '일';
+  // Counts for brand chips — respects period/format/tier/search, IGNORES brand selection
+  function computeBrandChipCounts() {
+    var counts = {};
+    BRAND_KEYS_IN_DATA.forEach(function(k) {
+      counts[k] = (DATA.brands[k].videos || []).filter(videoPassesNonBrandFilters).length;
+    });
+    return counts;
+  }
 
-    // Summary
-    var brandKeys = Object.keys(data.brands || {});
+  function renderBrands() {
+    if (!DATA) return;
+    var html = '';
+    var totalVids = 0;
+    var shownBrands = 0;
+
+    BRAND_KEYS_ORDER.forEach(function(k) {
+      if (!filters.brands.has(k)) return;
+      var brand = DATA.brands[k];
+      if (!brand) return;
+      var vids = filterVideosForBrand(k);
+      if (vids.length === 0) return; // hide empty brand sections
+      html += renderBrand(k, brand, vids);
+      totalVids += vids.length;
+      shownBrands++;
+    });
+
+    var container = document.getElementById('brands-container');
+    if (html) {
+      container.innerHTML = html;
+    } else {
+      container.innerHTML = '<div class="no-results">조건에 맞는 영상이 없습니다. 필터를 조정해보세요.</div>';
+    }
+
+    // Update result count
+    var rc = document.getElementById('filter-result-count');
+    rc.innerHTML = '<strong>' + totalVids + '</strong>개 영상 / <strong>' + shownBrands + '</strong>개 브랜드 표시 중';
+
+    // Update brand chip counts
+    var counts = computeBrandChipCounts();
+    document.querySelectorAll('.chip[data-brand-key]').forEach(function(btn) {
+      var key = btn.getAttribute('data-brand-key');
+      var c = counts[key] != null ? counts[key] : 0;
+      var label = btn.querySelector('.chip-label');
+      var countEl = btn.querySelector('.chip-count');
+      if (countEl) countEl.textContent = '(' + c + ')';
+      // Mute chip if 0 results (still selectable)
+      if (c === 0) btn.classList.add('muted'); else btn.classList.remove('muted');
+    });
+  }
+
+  // ===== Filter bar UI =====
+  function buildBrandChips() {
+    var container = document.getElementById('fg-brand');
+    var master = container.querySelector('[data-brand-master]');
+    // remove any previously-injected brand chips
+    container.querySelectorAll('.chip[data-brand-key]').forEach(function(el) { el.remove(); });
+
+    // Determine which brand keys to render: union of ALL_BRAND_KEYS and keys present in data
+    var keys = ALL_BRAND_KEYS.slice();
+    BRAND_KEYS_IN_DATA.forEach(function(k) {
+      if (keys.indexOf(k) === -1) keys.push(k);
+    });
+
+    keys.forEach(function(k) {
+      var label = (DATA && DATA.brands && DATA.brands[k] && DATA.brands[k].display) ||
+                  BRAND_DISPLAY_KOR[k] || k;
+      var btn = document.createElement('button');
+      btn.className = 'chip active';
+      btn.setAttribute('data-brand-key', k);
+      btn.innerHTML = '<span class="chip-label">' + escapeHtml(label) + '</span> <span class="chip-count">(0)</span>';
+      btn.addEventListener('click', function() { toggleBrand(k); });
+      container.appendChild(btn);
+    });
+
+    // select all by default
+    filters.brands = new Set(keys);
+    updateBrandMaster();
+  }
+
+  function updateBrandMaster() {
+    var master = document.querySelector('[data-brand-master]');
+    if (!master) return;
+    var chips = document.querySelectorAll('.chip[data-brand-key]');
+    var allOn = chips.length > 0;
+    chips.forEach(function(c) {
+      if (!c.classList.contains('active')) allOn = false;
+    });
+    master.classList.toggle('active', allOn);
+  }
+
+  function toggleBrand(key) {
+    var btn = document.querySelector('.chip[data-brand-key="' + key + '"]');
+    if (!btn) return;
+    if (filters.brands.has(key)) {
+      filters.brands.delete(key);
+      btn.classList.remove('active');
+    } else {
+      filters.brands.add(key);
+      btn.classList.add('active');
+    }
+    updateBrandMaster();
+    resetPagination();
+    renderBrands();
+  }
+
+  function toggleBrandMaster() {
+    var chips = document.querySelectorAll('.chip[data-brand-key]');
+    var anyOff = false;
+    chips.forEach(function(c) { if (!c.classList.contains('active')) anyOff = true; });
+    // if any off → turn all on; else turn all off
+    if (anyOff) {
+      chips.forEach(function(c) {
+        var k = c.getAttribute('data-brand-key');
+        c.classList.add('active');
+        filters.brands.add(k);
+      });
+    } else {
+      chips.forEach(function(c) {
+        var k = c.getAttribute('data-brand-key');
+        c.classList.remove('active');
+        filters.brands.delete(k);
+      });
+    }
+    updateBrandMaster();
+    resetPagination();
+    renderBrands();
+  }
+
+  function resetPagination() {
+    expanded = {};
+  }
+
+  function setPeriod(p) {
+    filters.period = p;
+    document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-period') === p);
+    });
+    var dr = document.getElementById('date-range');
+    if (p === 'custom') {
+      dr.classList.add('open');
+      // populate with defaults if empty
+      var fromEl = document.getElementById('date-from');
+      var toEl = document.getElementById('date-to');
+      if (!fromEl.value) {
+        var d = new Date(); d.setDate(d.getDate() - 7);
+        fromEl.value = toYmdInputStr(d);
+      }
+      if (!toEl.value) toEl.value = toYmdInputStr(new Date());
+      // Don't re-render until 적용 clicked; but set the custom bounds from current inputs so chips show correct counts if user switches directly
+      filters.customFrom = parseInputDate(fromEl.value);
+      filters.customTo = parseInputDate(toEl.value);
+    } else {
+      dr.classList.remove('open');
+    }
+    resetPagination();
+    renderBrands();
+  }
+
+  function applyCustomDates() {
+    var fromEl = document.getElementById('date-from');
+    var toEl = document.getElementById('date-to');
+    filters.customFrom = parseInputDate(fromEl.value);
+    filters.customTo = parseInputDate(toEl.value);
+    filters.period = 'custom';
+    resetPagination();
+    renderBrands();
+  }
+
+  function toggleFormat(f) {
+    if (filters.formats.has(f)) {
+      if (filters.formats.size === 1) return; // don't allow empty — ignore
+      filters.formats.delete(f);
+    } else {
+      filters.formats.add(f);
+    }
+    document.querySelectorAll('.chip[data-format]').forEach(function(b) {
+      b.classList.toggle('active', filters.formats.has(b.getAttribute('data-format')));
+    });
+    resetPagination();
+    renderBrands();
+  }
+
+  function toggleTier(t) {
+    if (filters.tiers.has(t)) {
+      filters.tiers.delete(t);
+    } else {
+      filters.tiers.add(t);
+    }
+    document.querySelectorAll('.chip[data-tier]').forEach(function(b) {
+      b.classList.toggle('active', filters.tiers.has(b.getAttribute('data-tier')));
+    });
+    resetPagination();
+    renderBrands();
+  }
+
+  function resetFilters() {
+    filters.period = '7';
+    filters.customFrom = null;
+    filters.customTo = null;
+    filters.formats = new Set(['long', 'short']);
+    filters.tiers = new Set(ALL_TIERS);
+    filters.search = '';
+    // re-select all brands
+    var chips = document.querySelectorAll('.chip[data-brand-key]');
+    filters.brands = new Set();
+    chips.forEach(function(c) {
+      c.classList.add('active');
+      filters.brands.add(c.getAttribute('data-brand-key'));
+    });
+    // period chips
+    document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-period') === '7');
+    });
+    // format chips
+    document.querySelectorAll('.chip[data-format]').forEach(function(b) { b.classList.add('active'); });
+    // tier chips
+    document.querySelectorAll('.chip[data-tier]').forEach(function(b) { b.classList.add('active'); });
+    // search
+    document.getElementById('search-input').value = '';
+    // date range
+    document.getElementById('date-range').classList.remove('open');
+    document.getElementById('date-from').value = '';
+    document.getElementById('date-to').value = '';
+    updateBrandMaster();
+    resetPagination();
+    renderBrands();
+  }
+
+  // ===== Wire up event listeners =====
+  function wireFilterBar() {
+    document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+      b.addEventListener('click', function() { setPeriod(b.getAttribute('data-period')); });
+    });
+    document.getElementById('date-apply').addEventListener('click', applyCustomDates);
+
+    document.querySelector('[data-brand-master]').addEventListener('click', toggleBrandMaster);
+
+    document.querySelectorAll('.chip[data-format]').forEach(function(b) {
+      b.addEventListener('click', function() { toggleFormat(b.getAttribute('data-format')); });
+    });
+
+    document.querySelectorAll('.chip[data-tier]').forEach(function(b) {
+      b.addEventListener('click', function() { toggleTier(b.getAttribute('data-tier')); });
+    });
+
+    document.getElementById('filter-reset').addEventListener('click', resetFilters);
+
+    var searchInput = document.getElementById('search-input');
+    var searchTimer = null;
+    searchInput.addEventListener('input', function() {
+      clearTimeout(searchTimer);
+      var v = this.value.trim();
+      searchTimer = setTimeout(function() {
+        filters.search = v;
+        resetPagination();
+        renderBrands();
+      }, 120);
+    });
+  }
+
+  // ===== Top-level render after data loads =====
+  function render(data) {
+    DATA = data;
+    BRAND_KEYS_IN_DATA = Object.keys(data.brands || {});
+
+    // Header
+    var windowDays = data.window_days != null ? data.window_days : data.days;
+    document.getElementById('header-subtitle').textContent =
+      (data.date || '') + ' 기준 · 최근 ' + (windowDays != null ? windowDays : '?') + '일';
+
+    // Summary — overall, pre-filter
     var totalVideos = 0, totalViews = 0;
-    brandKeys.forEach(function(k) {
+    BRAND_KEYS_IN_DATA.forEach(function(k) {
       totalVideos += data.brands[k].video_count || 0;
       totalViews += data.brands[k].total_views || 0;
     });
-    document.getElementById('s-brands').textContent = brandKeys.length;
+    document.getElementById('s-brands').textContent = BRAND_KEYS_IN_DATA.length;
     document.getElementById('s-videos').innerHTML = totalVideos + '<span class="unit">개</span>';
     document.getElementById('s-views').textContent = formatNumber(totalViews);
-    document.getElementById('s-period').innerHTML = data.days + '<span class="unit">일</span>';
+    document.getElementById('s-period').innerHTML = (windowDays != null ? windowDays : '?') + '<span class="unit">일</span>';
 
-    // Sort brands: KFC first, then by total_views desc
-    brandKeys.sort(function(a, b) {
+    // Brand order: KFC first, then by total_views desc
+    var order = BRAND_KEYS_IN_DATA.slice().sort(function(a, b) {
       if (a === 'kfc') return -1;
       if (b === 'kfc') return 1;
       return (data.brands[b].total_views || 0) - (data.brands[a].total_views || 0);
     });
+    BRAND_KEYS_ORDER = order;
 
-    var html = '';
-    brandKeys.forEach(function(k) {
-      html += renderBrand(k, data.brands[k]);
-    });
-    document.getElementById('brands-container').innerHTML = html || '<div class="no-results">브랜드 데이터가 없습니다.</div>';
+    // Build brand chips (and set default selection = all)
+    buildBrandChips();
+    wireFilterBar();
 
     // Footer
     if (data.generated_at) {
       document.getElementById('footer-time').textContent = '생성: ' + data.generated_at;
     }
-  }
 
-  // Search
-  document.getElementById('search-input').addEventListener('input', function() {
-    var q = this.value.toLowerCase().trim();
-    var cards = document.querySelectorAll('.video-card');
-    var brandSections = document.querySelectorAll('.brand-section');
-    if (!q) {
-      cards.forEach(function(c) { c.style.display = ''; });
-      brandSections.forEach(function(s) { s.style.display = ''; });
-      return;
-    }
-    var visibleBrands = {};
-    cards.forEach(function(c) {
-      var text = c.getAttribute('data-search') || '';
-      var match = text.indexOf(q) !== -1;
-      c.style.display = match ? '' : 'none';
-      if (match) {
-        var sec = c.closest('.brand-section');
-        if (sec) visibleBrands[sec.getAttribute('data-brand')] = true;
-      }
-    });
-    brandSections.forEach(function(s) {
-      s.style.display = visibleBrands[s.getAttribute('data-brand')] ? '' : 'none';
-    });
-  });
+    // Initial render
+    renderBrands();
+  }
 
   // Load data
   fetch('./data/latest.json')
@@ -698,6 +1343,12 @@ a:hover { text-decoration: underline; }
         '<div class="error-msg">⚠️ 데이터 로딩 실패: ' + escapeHtml(err.message) + '<br><small>data/latest.json 파일을 확인하세요.</small></div>';
     });
 
+  // Expose for global onclick handlers
+  window._ytmon_expand = function(key) {
+    expanded[key] = true;
+    renderBrands();
+  };
+
 })();
 
 // Global toggle function for comments
@@ -706,6 +1357,11 @@ function toggleComments(id, btn) {
   if (!el) return;
   var open = el.classList.toggle('open');
   btn.textContent = open ? '💬 댓글 접기' : '💬 댓글 ' + el.children.length + '개 보기';
+}
+
+// Global load-more: expand the brand section (re-renders from filtered list)
+function loadMore(brandKey, btn) {
+  if (window._ytmon_expand) window._ytmon_expand(brandKey);
 }
 </script>
 </body>
