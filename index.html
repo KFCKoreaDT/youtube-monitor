@@ -619,6 +619,43 @@ a:hover { text-decoration: underline; }
 .sentiment-inline.mid { background: #fef3c7; color: #b45309; border-color: #fcd34d; }
 .sentiment-inline.pos { background: #d1fae5; color: #065f46; border-color: #86efac; }
 .sentiment-inline.none { background: #f3f4f6; color: #9ca3af; border-color: #e5e7eb; font-weight: 500; }
+/* 영상 메타 기반 감성 (댓글 없을 때 fallback) — 점선 테두리로 신뢰도 낮음을 표시 */
+.sentiment-inline.meta {
+  border-style: dashed;
+  opacity: 0.85;
+  font-weight: 600;
+}
+
+/* 멀티-브랜드 비교 콘텐츠 칩 */
+.multi-brand-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 6px 0 4px;
+  align-items: center;
+}
+.multi-badge {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 10px;
+  letter-spacing: 0.3px;
+  box-shadow: 0 1px 3px rgba(139, 92, 246, 0.3);
+}
+.brand-chip {
+  display: inline-block;
+  background: #ede9fe;
+  color: #5b21b6;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 1px solid #ddd6fe;
+}
 .sentiment-bar {
   display: flex;
   height: 6px;
@@ -1087,6 +1124,23 @@ a:hover { text-decoration: underline; }
     return div.innerHTML;
   }
 
+  // 브랜드 키 → 짧은 한글 라벨 (multi_brand_tags 칩 표시용)
+  var BRAND_SHORT_LABELS = {
+    kfc: 'KFC',
+    burgerking: '버거킹',
+    mcdonalds: '맥도날드',
+    lotteria: '롯데리아',
+    momstouch: '맘스터치',
+    popeyes: '파파이스',
+    subway: '서브웨이',
+    bbq: 'BBQ',
+    bhc: 'BHC',
+    kyochon: '교촌',
+  };
+  function brandShortLabel(key) {
+    return BRAND_SHORT_LABELS[key] || key;
+  }
+
   // Parse YYYY.MM.DD → Date object (local time, midnight)
   function parseDotDate(s) {
     if (!s) return null;
@@ -1132,7 +1186,8 @@ a:hover { text-decoration: underline; }
     subway: '서브웨이',
     bbq: 'BBQ치킨',
     bhc: 'BHC치킨',
-    kyochon: '교촌치킨'
+    kyochon: '교촌치킨',
+    multi: '🔀 멀티-브랜드 비교'
   };
   var ALL_TIERS = ['Official', 'Mega', 'Macro', 'Mid', 'Micro', 'Nano'];
 
@@ -1334,14 +1389,30 @@ a:hover { text-decoration: underline; }
     var warnLevel = effectiveWarnLevel(v);
     var cardCls = 'video-card' + (warnLevel ? ' warn-' + warnLevel : '');
 
-    // Buzz 옆 인라인 감성 점수
+    // Buzz 옆 인라인 감성 점수 — 댓글 기반 우선, 없으면 영상 메타 기반 fallback
     var inlineSent = '';
     if (sTotal > 0) {
       var sCls = negRatio >= 0.5 ? 'neg' : (negRatio >= 0.3 ? 'mid' : 'pos');
       var sIcon = sCls === 'neg' ? '😠' : (sCls === 'mid' ? '😐' : '😊');
-      inlineSent = '<span class="sentiment-inline ' + sCls + '" title="부정 ' + sc.neg + ' / 중립 ' + sc.neu + ' / 긍정 ' + sc.pos + '">' + sIcon + ' ' + Math.round(negRatio * 100) + '%</span>';
+      inlineSent = '<span class="sentiment-inline ' + sCls + '" title="댓글 기반 — 부정 ' + sc.neg + ' / 중립 ' + sc.neu + ' / 긍정 ' + sc.pos + '">' + sIcon + ' ' + Math.round(negRatio * 100) + '%</span>';
+    } else if (v.video_meta_sentiment) {
+      // 댓글 0개일 때 제목+설명 기반 감성 (📝 마크로 구분 · 신뢰도 낮음)
+      var ms = v.video_meta_sentiment;
+      var mCls = ms === '부정' ? 'neg' : (ms === '중립' ? 'mid' : 'pos');
+      var mIcon = ms === '부정' ? '😠' : (ms === '중립' ? '😐' : '😊');
+      inlineSent = '<span class="sentiment-inline meta ' + mCls + '" title="영상 제목+설명 기반 (댓글 없음) · 신뢰도 낮음">📝 ' + mIcon + ' ' + escapeHtml(ms) + '</span>';
     } else {
       inlineSent = '<span class="sentiment-inline none" title="댓글 없음">· –</span>';
+    }
+
+    // 멀티-브랜드 비교 콘텐츠 칩 (2개 이상 브랜드 감지 시)
+    var multiChipsHtml = '';
+    if (v.multi_brand_tags && v.multi_brand_tags.length >= 2) {
+      var labels = v.multi_brand_tags.map(function(k) { return brandShortLabel(k); });
+      multiChipsHtml = '<div class="multi-brand-row">' +
+        '<span class="multi-badge" title="2개 이상 브랜드가 함께 등장하는 비교 콘텐츠">🔀 비교</span>' +
+        labels.map(function(lbl) { return '<span class="brand-chip">' + escapeHtml(lbl) + '</span>'; }).join('') +
+        '</div>';
     }
 
     var sentimentHtml = '';
@@ -1409,6 +1480,7 @@ a:hover { text-decoration: underline; }
       '<div class="video-info">' +
         '<div class="video-title">' + warnBadgeHtml(warnLevel) +
           '<a href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener">' + escapeHtml(v.title) + '</a></div>' +
+        multiChipsHtml +
         '<div class="video-channel">' +
           escapeHtml(v.channel) +
           (v.is_verified ? ' <span class="verified-icon" title="인증됨">✓</span>' : '') +
@@ -1841,10 +1913,12 @@ a:hover { text-decoration: underline; }
     document.getElementById('s-views').textContent = formatNumber(totalViews);
     document.getElementById('s-period').innerHTML = (windowDays != null ? windowDays : '?') + '<span class="unit">일</span>';
 
-    // Brand order: KFC first, then by total_views desc
+    // Brand order: KFC first, then 🔀 멀티-브랜드 비교 (경쟁 맥락 중요), then by total_views desc
     var order = BRAND_KEYS_IN_DATA.slice().sort(function(a, b) {
       if (a === 'kfc') return -1;
       if (b === 'kfc') return 1;
+      if (a === 'multi') return -1;
+      if (b === 'multi') return 1;
       return (data.brands[b].total_views || 0) - (data.brands[a].total_views || 0);
     });
     BRAND_KEYS_ORDER = order;
