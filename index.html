@@ -52,9 +52,10 @@ a:hover { text-decoration: underline; }
 
 /* Header */
 .header {
+  position: relative;
   background: linear-gradient(135deg, var(--bg-secondary) 0%, #1e1225 100%);
   border-bottom: 1px solid var(--border);
-  padding: 28px 24px 22px;
+  padding: 22px 24px 16px;
   text-align: center;
 }
 .header h1 {
@@ -66,6 +67,34 @@ a:hover { text-decoration: underline; }
   color: var(--text-secondary);
   font-size: 0.92rem;
   margin-top: 6px;
+}
+.header .data-notice-pin {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: rgba(228, 0, 43, 0.14);
+  border: 1px solid rgba(228, 0, 43, 0.45);
+  color: #ff4d6d;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.3;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  max-width: 360px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.header .data-notice-pin strong { color: #ff6b86; font-weight: 700; }
+@media (max-width: 720px) {
+  .header .data-notice-pin {
+    position: static;
+    margin-top: 8px;
+    max-width: 100%;
+  }
 }
 
 /* Container */
@@ -79,30 +108,36 @@ a:hover { text-decoration: underline; }
 .summary-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 14px;
-  margin-bottom: 22px;
+  gap: 10px;
+  margin-bottom: 14px;
 }
 .summary-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 18px 16px;
+  padding: 8px 14px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 0;
 }
 .summary-card .label {
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  margin-bottom: 6px;
+  margin-bottom: 2px;
+  line-height: 1.2;
 }
 .summary-card .value {
-  font-size: 1.55rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-primary);
+  line-height: 1.2;
 }
 .summary-card .value .unit {
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   font-weight: 400;
   color: var(--text-secondary);
   margin-left: 2px;
@@ -275,6 +310,12 @@ a:hover { text-decoration: underline; }
   padding-top: 10px;
   margin-top: 4px;
   border-top: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.filter-actions-left {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   flex-wrap: wrap;
 }
 .filter-reset-btn {
@@ -468,9 +509,30 @@ a:hover { text-decoration: underline; }
 
 /* ===== 감성 워닝 ===== */
 .video-card.warn-critical {
-  border-left: 5px solid #991b1b;
-  background: #fef2f2;
-  box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.25);
+  border-left: 6px solid #991b1b;
+  background: linear-gradient(180deg, #fef2f2 0%, #fee2e2 100%);
+  box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.35), 0 4px 14px rgba(220, 38, 38, 0.18);
+  position: relative;
+  animation: card-critical-pulse 2.2s ease-in-out infinite;
+}
+.video-card.warn-critical::before {
+  content: '⚠️ 치명 콘텐츠';
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #991b1b;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 10px;
+  letter-spacing: 0.02em;
+  z-index: 3;
+  box-shadow: 0 2px 6px rgba(153, 27, 27, 0.35);
+}
+@keyframes card-critical-pulse {
+  0%, 100% { box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.35), 0 4px 14px rgba(220, 38, 38, 0.18); }
+  50% { box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.55), 0 6px 18px rgba(220, 38, 38, 0.3); }
 }
 .video-card.warn-red {
   border-left: 4px solid #dc2626;
@@ -527,16 +589,18 @@ a:hover { text-decoration: underline; }
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 2px 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 3px 10px;
   border-radius: 10px;
-  margin-left: 8px;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  white-space: nowrap;
 }
-.sentiment-inline.neg { background: #fee2e2; color: #991b1b; }
-.sentiment-inline.mid { background: #fef3c7; color: #b45309; }
-.sentiment-inline.pos { background: #d1fae5; color: #065f46; }
-.sentiment-inline.none { background: #f3f4f6; color: #6b7280; }
+.sentiment-inline.neg { background: #fee2e2; color: #991b1b; border-color: #fca5a5; }
+.sentiment-inline.mid { background: #fef3c7; color: #b45309; border-color: #fcd34d; }
+.sentiment-inline.pos { background: #d1fae5; color: #065f46; border-color: #86efac; }
+.sentiment-inline.none { background: #f3f4f6; color: #9ca3af; border-color: #e5e7eb; font-weight: 500; }
 .sentiment-bar {
   display: flex;
   height: 6px;
@@ -858,14 +922,12 @@ a:hover { text-decoration: underline; }
 <div class="header">
   <h1>📺 유튜브 브랜드 모니터링</h1>
   <div class="subtitle" id="header-subtitle">데이터 로딩 중...</div>
+  <div class="data-notice-pin" id="data-notice" title="안내">
+    <span>📌 <strong id="notice-from-date">...</strong>부터</span>
+  </div>
 </div>
 
 <div class="container">
-  <div class="data-notice" id="data-notice">
-    <span class="icon">📌</span>
-    <span id="data-notice-text">안내: 현재 데이터는 <strong id="notice-from-date">...</strong>부터 수집되었습니다.</span>
-  </div>
-
   <div class="summary-row" id="summary-row">
     <div class="summary-card"><div class="label">총 브랜드수</div><div class="value" id="s-brands">-</div></div>
     <div class="summary-card"><div class="label">총 영상수</div><div class="value" id="s-videos">-</div></div>
@@ -896,13 +958,6 @@ a:hover { text-decoration: underline; }
       <div class="filter-group-label"><span class="icon">🏷️</span> 브랜드</div>
       <button class="chip master active" data-brand-master>모두</button>
       <!-- Brand chips injected here -->
-    </div>
-
-    <!-- Advanced toggle -->
-    <div class="filter-group" id="fg-toggle">
-      <button class="filter-advanced-toggle" id="filter-advanced-toggle" aria-expanded="false">
-        <span class="toggle-icon">▼</span> <span class="toggle-label">고급 필터</span>
-      </button>
     </div>
 
     <!-- Advanced (collapsed by default) -->
@@ -947,7 +1002,12 @@ a:hover { text-decoration: underline; }
 
     <!-- Actions -->
     <div class="filter-actions">
-      <button class="filter-reset-btn" id="filter-reset">↺ 필터 초기화</button>
+      <div class="filter-actions-left">
+        <button class="filter-advanced-toggle" id="filter-advanced-toggle" aria-expanded="false">
+          <span class="toggle-icon">▼</span> <span class="toggle-label">고급 필터</span>
+        </button>
+        <button class="filter-reset-btn" id="filter-reset">↺ 필터 초기화</button>
+      </div>
       <div class="filter-result-count" id="filter-result-count">
         <strong>0</strong>개 영상 / <strong>0</strong>개 브랜드 표시 중
       </div>
