@@ -763,6 +763,16 @@ a:hover { text-decoration: underline; }
       <button class="chip active" data-tier="Nano">Nano <span class="chip-count">(&lt;1K)</span></button>
     </div>
 
+    <!-- Sort -->
+    <div class="filter-group" id="fg-sort">
+      <div class="filter-group-label"><span class="icon">↕️</span> 정렬</div>
+      <button class="chip active" data-sort="upload">📅 최신순</button>
+      <button class="chip" data-sort="buzz">🔥 스코어순</button>
+      <button class="chip" data-sort="views">👁 조회순</button>
+      <button class="chip" data-sort="comments">💬 댓글순</button>
+      <button class="chip" data-sort="likes">👍 좋아요순</button>
+    </div>
+
     <!-- Search -->
     <div class="filter-group" id="fg-search">
       <div class="filter-group-label"><span class="icon">🔍</span> 검색</div>
@@ -894,7 +904,8 @@ a:hover { text-decoration: underline; }
     brands: new Set(),                // selected brand keys
     formats: new Set(['long', 'short']),
     tiers: new Set(ALL_TIERS),
-    search: ''
+    search: '',
+    sort: 'upload'                    // 'upload' | 'buzz' | 'views' | 'comments' | 'likes' (default 최신순)
   };
   // per-brand pagination state: key -> true (expanded) | false (collapsed)
   var expanded = {};
@@ -950,8 +961,30 @@ a:hover { text-decoration: underline; }
   function filterVideosForBrand(key) {
     if (!DATA || !DATA.brands || !DATA.brands[key]) return [];
     var videos = (DATA.brands[key].videos || []).filter(videoPassesNonBrandFilters);
-    videos.sort(function(a, b) { return (b.buzz_score || 0) - (a.buzz_score || 0); });
+    videos.sort(getSortComparator(filters.sort));
     return videos;
+  }
+
+  function getSortComparator(mode) {
+    switch (mode) {
+      case 'upload':
+        // 최신순: upload_date 내림차순 (YYYY.MM.DD 문자열 비교 OK)
+        return function(a, b) {
+          var da = String(a.upload_date || '');
+          var db = String(b.upload_date || '');
+          if (db !== da) return db < da ? -1 : 1;
+          return (b.buzz_score || 0) - (a.buzz_score || 0); // tiebreak
+        };
+      case 'views':
+        return function(a, b) { return (b.views || 0) - (a.views || 0); };
+      case 'comments':
+        return function(a, b) { return (b.comment_count || 0) - (a.comment_count || 0); };
+      case 'likes':
+        return function(a, b) { return (b.likes || 0) - (a.likes || 0); };
+      case 'buzz':
+      default:
+        return function(a, b) { return (b.buzz_score || 0) - (a.buzz_score || 0); };
+    }
   }
 
   // ===== Render =====
@@ -1254,6 +1287,17 @@ a:hover { text-decoration: underline; }
     renderBrands();
   }
 
+  function setSort(mode) {
+    // radio-like: only one active
+    if (!mode) return;
+    filters.sort = mode;
+    document.querySelectorAll('.chip[data-sort]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-sort') === mode);
+    });
+    resetPagination();
+    renderBrands();
+  }
+
   function resetFilters() {
     filters.period = '7';
     filters.customFrom = null;
@@ -1261,6 +1305,7 @@ a:hover { text-decoration: underline; }
     filters.formats = new Set(['long', 'short']);
     filters.tiers = new Set(ALL_TIERS);
     filters.search = '';
+    filters.sort = 'upload';
     // re-select all brands
     var chips = document.querySelectorAll('.chip[data-brand-key]');
     filters.brands = new Set();
@@ -1276,6 +1321,10 @@ a:hover { text-decoration: underline; }
     document.querySelectorAll('.chip[data-format]').forEach(function(b) { b.classList.add('active'); });
     // tier chips
     document.querySelectorAll('.chip[data-tier]').forEach(function(b) { b.classList.add('active'); });
+    // sort chips
+    document.querySelectorAll('.chip[data-sort]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-sort') === 'upload');
+    });
     // search
     document.getElementById('search-input').value = '';
     // date range
@@ -1302,6 +1351,10 @@ a:hover { text-decoration: underline; }
 
     document.querySelectorAll('.chip[data-tier]').forEach(function(b) {
       b.addEventListener('click', function() { toggleTier(b.getAttribute('data-tier')); });
+    });
+
+    document.querySelectorAll('.chip[data-sort]').forEach(function(b) {
+      b.addEventListener('click', function() { setSort(b.getAttribute('data-sort')); });
     });
 
     document.getElementById('filter-reset').addEventListener('click', resetFilters);
