@@ -70,9 +70,9 @@ a:hover { text-decoration: underline; }
 
 /* Container */
 .container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 24px 16px 40px;
+  padding: 24px 24px 40px;
 }
 
 /* Summary cards */
@@ -303,6 +303,46 @@ a:hover { text-decoration: underline; }
   font-weight: 700;
 }
 
+/* ===== 고급필터 토글 ===== */
+.filter-advanced-toggle {
+  background: transparent;
+  border: 1px dashed var(--border-light);
+  color: var(--text-secondary);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  transition: all 0.15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.filter-advanced-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent-light);
+  border-style: solid;
+}
+.filter-advanced-toggle .toggle-icon {
+  transition: transform 0.15s;
+  font-size: 0.7rem;
+}
+.filter-advanced-toggle[aria-expanded="true"] .toggle-icon {
+  transform: rotate(180deg);
+}
+.filter-advanced {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0 0 0;
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
+}
+.filter-advanced[hidden] {
+  display: none;
+}
+
 /* Brand section */
 .brand-section {
   margin-bottom: 36px;
@@ -310,23 +350,28 @@ a:hover { text-decoration: underline; }
 .brand-header {
   display: flex;
   align-items: center;
-  gap: 14px;
-  flex-wrap: wrap;
+  gap: 8px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-bottom: 2px solid var(--accent);
 }
 .brand-name {
-  font-size: 1.35rem;
+  font-size: 1.05rem;
   font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .brand-stat {
   background: var(--accent-bg);
   color: var(--accent-light);
-  padding: 3px 10px;
-  border-radius: 20px;
-  font-size: 0.8rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.72rem;
   font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .brand-tier-badges {
   display: flex;
@@ -422,6 +467,11 @@ a:hover { text-decoration: underline; }
 }
 
 /* ===== 감성 워닝 ===== */
+.video-card.warn-critical {
+  border-left: 5px solid #991b1b;
+  background: #fef2f2;
+  box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.25);
+}
 .video-card.warn-red {
   border-left: 4px solid #dc2626;
   background: #fef2f2;
@@ -441,6 +491,15 @@ a:hover { text-decoration: underline; }
   margin-left: 6px;
   vertical-align: middle;
 }
+.warn-badge.critical {
+  background: #991b1b;
+  color: #fff;
+  animation: pulse-critical 1.8s ease-in-out infinite;
+}
+@keyframes pulse-critical {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
 .warn-badge.red {
   background: #dc2626;
   color: #fff;
@@ -449,6 +508,35 @@ a:hover { text-decoration: underline; }
   background: #f59e0b;
   color: #fff;
 }
+.brand-critical-alert {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: #991b1b;
+  color: #fff;
+  white-space: nowrap;
+  flex-shrink: 0;
+  animation: pulse-critical 1.8s ease-in-out infinite;
+}
+/* Inline 감성 점수 (Buzz 옆) */
+.sentiment-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+.sentiment-inline.neg { background: #fee2e2; color: #991b1b; }
+.sentiment-inline.mid { background: #fef3c7; color: #b45309; }
+.sentiment-inline.pos { background: #d1fae5; color: #065f46; }
+.sentiment-inline.none { background: #f3f4f6; color: #6b7280; }
 .sentiment-bar {
   display: flex;
   height: 6px;
@@ -810,40 +898,50 @@ a:hover { text-decoration: underline; }
       <!-- Brand chips injected here -->
     </div>
 
-    <!-- Format -->
-    <div class="filter-group" id="fg-format">
-      <div class="filter-group-label"><span class="icon">🎬</span> 형식</div>
-      <button class="chip active" data-format="long">Long</button>
-      <button class="chip active" data-format="short">Short</button>
+    <!-- Advanced toggle -->
+    <div class="filter-group" id="fg-toggle">
+      <button class="filter-advanced-toggle" id="filter-advanced-toggle" aria-expanded="false">
+        <span class="toggle-icon">▼</span> <span class="toggle-label">고급 필터</span>
+      </button>
     </div>
 
-    <!-- Tier -->
-    <div class="filter-group" id="fg-tier">
-      <div class="filter-group-label"><span class="icon">👤</span> 크리에이터 티어</div>
-      <button class="chip active" data-tier="Official">Official</button>
-      <button class="chip active" data-tier="Mega">Mega <span class="chip-count">(1M+)</span></button>
-      <button class="chip active" data-tier="Macro">Macro <span class="chip-count">(100K-1M)</span></button>
-      <button class="chip active" data-tier="Mid">Mid <span class="chip-count">(10K-100K)</span></button>
-      <button class="chip active" data-tier="Micro">Micro <span class="chip-count">(1K-10K)</span></button>
-      <button class="chip active" data-tier="Nano">Nano <span class="chip-count">(&lt;1K)</span></button>
-    </div>
+    <!-- Advanced (collapsed by default) -->
+    <div class="filter-advanced" id="filter-advanced" hidden>
+      <!-- Format -->
+      <div class="filter-group" id="fg-format">
+        <div class="filter-group-label"><span class="icon">🎬</span> 형식</div>
+        <button class="chip active" data-format="long">Long</button>
+        <button class="chip active" data-format="short">Short</button>
+      </div>
 
-    <!-- Sort -->
-    <div class="filter-group" id="fg-sort">
-      <div class="filter-group-label"><span class="icon">↕️</span> 정렬</div>
-      <button class="chip active" data-sort="upload">📅 최신순</button>
-      <button class="chip" data-sort="buzz">🔥 스코어순</button>
-      <button class="chip" data-sort="views">👁 조회순</button>
-      <button class="chip" data-sort="comments">💬 댓글순</button>
-      <button class="chip" data-sort="likes">👍 좋아요순</button>
-      <button class="chip" data-sort="negative">⚠️ 부정률순</button>
-    </div>
+      <!-- Tier -->
+      <div class="filter-group" id="fg-tier">
+        <div class="filter-group-label"><span class="icon">👤</span> 크리에이터 티어</div>
+        <button class="chip active" data-tier="Official">Official</button>
+        <button class="chip active" data-tier="Mega">Mega <span class="chip-count">(1M+)</span></button>
+        <button class="chip active" data-tier="Macro">Macro <span class="chip-count">(100K-1M)</span></button>
+        <button class="chip active" data-tier="Mid">Mid <span class="chip-count">(10K-100K)</span></button>
+        <button class="chip active" data-tier="Micro">Micro <span class="chip-count">(1K-10K)</span></button>
+        <button class="chip active" data-tier="Nano">Nano <span class="chip-count">(&lt;1K)</span></button>
+      </div>
 
-    <!-- Search -->
-    <div class="filter-group" id="fg-search">
-      <div class="filter-group-label"><span class="icon">🔍</span> 검색</div>
-      <div class="filter-search">
-        <input type="text" id="search-input" placeholder="영상 제목, 채널명, 설명으로 검색...">
+      <!-- Sort -->
+      <div class="filter-group" id="fg-sort">
+        <div class="filter-group-label"><span class="icon">↕️</span> 정렬</div>
+        <button class="chip active" data-sort="upload">📅 최신순</button>
+        <button class="chip" data-sort="buzz">🔥 스코어순</button>
+        <button class="chip" data-sort="views">👁 조회순</button>
+        <button class="chip" data-sort="comments">💬 댓글순</button>
+        <button class="chip" data-sort="likes">👍 좋아요순</button>
+        <button class="chip" data-sort="negative">⚠️ 부정률순</button>
+      </div>
+
+      <!-- Search -->
+      <div class="filter-group" id="fg-search">
+        <div class="filter-group-label"><span class="icon">🔍</span> 검색</div>
+        <div class="filter-search">
+          <input type="text" id="search-input" placeholder="영상 제목, 채널명, 설명으로 검색...">
+        </div>
       </div>
     </div>
 
@@ -1048,14 +1146,17 @@ a:hover { text-decoration: underline; }
       case 'likes':
         return function(a, b) { return (b.likes || 0) - (a.likes || 0); };
       case 'negative':
-        // 부정률순: 감성 없으면 뒤로, 같으면 댓글 총량 많은 순
+        // 치명 영상 → 워닝 → 일반 → 없음
         return function(a, b) {
+          var aOrder = isCriticalVideo(a) ? 0 : (a.warning_level === 'red' ? 1 : (a.warning_level === 'yellow' ? 2 : 3));
+          var bOrder = isCriticalVideo(b) ? 0 : (b.warning_level === 'red' ? 1 : (b.warning_level === 'yellow' ? 2 : 3));
+          if (aOrder !== bOrder) return aOrder - bOrder;
           var at = (a.sentiment_counts && (a.sentiment_counts.neg + a.sentiment_counts.neu + a.sentiment_counts.pos)) || 0;
           var bt = (b.sentiment_counts && (b.sentiment_counts.neg + b.sentiment_counts.neu + b.sentiment_counts.pos)) || 0;
           var ar = at > 0 ? (a.negative_ratio || 0) : -1;
           var br = bt > 0 ? (b.negative_ratio || 0) : -1;
           if (br !== ar) return br - ar;
-          return bt - at;
+          return (b.views || 0) - (a.views || 0);
         };
       case 'buzz':
       default:
@@ -1078,9 +1179,33 @@ a:hover { text-decoration: underline; }
   }
 
   function warnBadgeHtml(level) {
+    if (level === 'critical') return '<span class="warn-badge critical">🔴 치명</span>';
     if (level === 'red') return '<span class="warn-badge red">🚨 위험</span>';
     if (level === 'yellow') return '<span class="warn-badge yellow">⚠️ 주의</span>';
     return '';
+  }
+
+  // ===== 치명 레벨 감지 =====
+  // 기준 (AND): 조회수 ≥ 10,000 & 부정률 ≥ 40% & 부정 댓글 ≥ 3개
+  // OR: 조회수 ≥ 50,000 & 부정률 ≥ 30% & 부정 댓글 ≥ 3개
+  // OR: 제목에 리스크 키워드 & 부정률 ≥ 40% & 부정 댓글 ≥ 3개
+  var RISK_KEYWORDS = ['논란','분노','꼼수','가격 인상','가격인상','사과문','리콜','실망','무너진','폭발','비판','반품','불매','최악','기만','거짓','허위','품절 사기','왜 이리'];
+  function isCriticalVideo(v) {
+    var sc = v.sentiment_counts || {};
+    var neg = sc.neg || 0;
+    if (neg < 3) return false;
+    var ratio = v.negative_ratio || 0;
+    var views = v.views || 0;
+    var title = (v.title || '') + ' ' + (v.description_excerpt || '');
+    var hasRisk = RISK_KEYWORDS.some(function(k) { return title.indexOf(k) !== -1; });
+    if (views >= 10000 && ratio >= 0.4) return true;
+    if (views >= 50000 && ratio >= 0.3) return true;
+    if (hasRisk && ratio >= 0.4) return true;
+    return false;
+  }
+  function effectiveWarnLevel(v) {
+    if (isCriticalVideo(v)) return 'critical';
+    return v.warning_level || '';
   }
 
   function sentimentMarker(s) {
@@ -1099,8 +1224,18 @@ a:hover { text-decoration: underline; }
     var sc = v.sentiment_counts || {neg: 0, neu: 0, pos: 0};
     var sTotal = (sc.neg || 0) + (sc.neu || 0) + (sc.pos || 0);
     var negRatio = v.negative_ratio || 0;
-    var warnLevel = v.warning_level || '';
+    var warnLevel = effectiveWarnLevel(v);
     var cardCls = 'video-card' + (warnLevel ? ' warn-' + warnLevel : '');
+
+    // Buzz 옆 인라인 감성 점수
+    var inlineSent = '';
+    if (sTotal > 0) {
+      var sCls = negRatio >= 0.5 ? 'neg' : (negRatio >= 0.3 ? 'mid' : 'pos');
+      var sIcon = sCls === 'neg' ? '😠' : (sCls === 'mid' ? '😐' : '😊');
+      inlineSent = '<span class="sentiment-inline ' + sCls + '" title="부정 ' + sc.neg + ' / 중립 ' + sc.neu + ' / 긍정 ' + sc.pos + '">' + sIcon + ' ' + Math.round(negRatio * 100) + '%</span>';
+    } else {
+      inlineSent = '<span class="sentiment-inline none" title="댓글 없음">· –</span>';
+    }
 
     var sentimentHtml = '';
     if (sTotal > 0) {
@@ -1157,6 +1292,7 @@ a:hover { text-decoration: underline; }
           '<span class="buzz-label">Buzz</span>' +
           '<div class="buzz-bar-bg"><div class="buzz-bar" style="width:' + pct + '%;background:' + bc + '"></div></div>' +
           '<span class="buzz-value" style="color:' + bc + '">' + (v.buzz_score != null ? v.buzz_score.toFixed(1) : '-') + '</span>' +
+          inlineSent +
         '</div>' +
         sentimentHtml +
         '<div class="video-date">📅 ' + escapeHtml(v.upload_date || '') + '</div>' +
@@ -1201,19 +1337,33 @@ a:hover { text-decoration: underline; }
         '</div>';
     }
 
-    // 브랜드 레벨 감성 (원본 JSON 값 사용 — 필터와 무관한 전체)
-    var bSc = brand.sentiment_counts || {neg:0,neu:0,pos:0};
-    var bTotal = (bSc.neg||0) + (bSc.neu||0) + (bSc.pos||0);
-    var bRatio = brand.negative_ratio || 0;
-    var bWarn = brand.warning_level || '';
+    // 브랜드 레벨 감성 (필터 적용된 영상들 기준으로 재집계)
+    var bSc = {neg: 0, neu: 0, pos: 0};
+    var criticalCount = 0;
+    filteredVideos.forEach(function(v) {
+      var s = v.sentiment_counts || {};
+      bSc.neg += (s.neg || 0); bSc.neu += (s.neu || 0); bSc.pos += (s.pos || 0);
+      if (isCriticalVideo(v)) criticalCount++;
+    });
+    var bTotal = bSc.neg + bSc.neu + bSc.pos;
+    var bRatio = bTotal > 0 ? bSc.neg / bTotal : 0;
+    var bWarn = '';
+    if (bTotal >= 5 && bRatio >= 0.5) bWarn = 'red';
+    else if (bTotal >= 3 && bRatio >= 0.3) bWarn = 'yellow';
+
     var brandSentHtml = '';
     if (bTotal > 0) {
       brandSentHtml = '<span class="brand-stat">부정 ' + Math.round(bRatio * 100) + '% (' + bSc.neg + '/' + bTotal + ')</span>' + warnBadgeHtml(bWarn);
+    }
+    var criticalHtml = '';
+    if (criticalCount > 0) {
+      criticalHtml = '<span class="brand-critical-alert">🔴 치명 콘텐츠 ' + criticalCount + '건</span>';
     }
 
     return '<div class="brand-section" data-brand="' + escapeHtml(key) + '">' +
       '<div class="brand-header">' +
         '<span class="brand-name">' + escapeHtml(brand.display || BRAND_DISPLAY_KOR[key] || key) + '</span>' +
+        criticalHtml +
         '<span class="brand-stat">영상 ' + filteredVideos.length + '개</span>' +
         '<span class="brand-stat">조회수 ' + formatNumber(totalViews) + '</span>' +
         '<span class="brand-stat">Short ' + nShort + ' / Long ' + nLong + '</span>' +
@@ -1492,6 +1642,23 @@ a:hover { text-decoration: underline; }
     });
 
     document.getElementById('filter-reset').addEventListener('click', resetFilters);
+
+    // 고급 필터 토글 (기본 접힘)
+    var advToggle = document.getElementById('filter-advanced-toggle');
+    var advPanel = document.getElementById('filter-advanced');
+    var advLabel = advToggle.querySelector('.toggle-label');
+    advToggle.addEventListener('click', function() {
+      var open = advPanel.hasAttribute('hidden') ? false : true;
+      if (open) {
+        advPanel.setAttribute('hidden', '');
+        advToggle.setAttribute('aria-expanded', 'false');
+        advLabel.textContent = '고급 필터';
+      } else {
+        advPanel.removeAttribute('hidden');
+        advToggle.setAttribute('aria-expanded', 'true');
+        advLabel.textContent = '접기';
+      }
+    });
 
     var searchInput = document.getElementById('search-input');
     var searchTimer = null;
