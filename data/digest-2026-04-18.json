@@ -20,34 +20,34 @@
     },
     "burgerking": {
       "display": "버거킹",
-      "video_count": 1,
-      "total_views": 2,
-      "total_likes": 0,
+      "video_count": 2,
+      "total_views": 288,
+      "total_likes": 1,
       "total_comments": 0,
-      "n_short": 0,
+      "n_short": 1,
       "n_long": 1,
       "tier_counts": {
-        "Nano": 1
+        "Nano": 2
       },
-      "summary": "버거킹의 스모크 베이컨 와퍼와 스모크 비프립 와퍼가 인기 있는 먹방 영상으로 소개되었으며, 고소한 맛에 만족감을 표현했다. 이 메뉴는 흡연자들에게 어필할 수 있을 것으로 보인다.\n  📌 스모크 베이컨 와퍼 · 스모크 비프립 와퍼 · 흡연자",
+      "summary": "버거킹의 신메뉴 스모크버거가 유튜버 KDW를 통해 소개되었으나, 특별한 긍정적 반응이나 이슈는 나타나지 않았다. 주요 키워드로는 '스모크버거', '뒷광고' 등이 있으며, KFC는 신제품 출시 시 소비자 피드백을 적극 수렴하는 것이 중요하다.\n  📌 스모크버거 · 뒷광고 · 신메뉴",
       "videos": [
         {
-          "video_id": "QNn1ldJoagk",
-          "title": "Burger King Smoke Whopper Mukbang 🔥🍔 | 버거킹 스모크 베이컨 와퍼 & 스모크 비프립 와퍼 & 버거킹 스모크 비프립 샌드위치 버거 먹방",
-          "channel": "eggboong(에그붕)",
-          "subscribers": 142,
+          "video_id": "tyxGSBJOj24",
+          "title": "(뒷광고)겐지장인 버거킹 스모크버거 리뷰 #faker #genji #맛집 #버거킹",
+          "channel": "KDW",
+          "subscribers": 54,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 2,
+          "views": 283,
           "likes": 0,
           "comment_count": 0,
           "engagement_rate": 0.0,
-          "duration": 604,
-          "is_short": false,
-          "buzz_score": 8.2,
+          "duration": 34,
+          "is_short": true,
+          "buzz_score": 11.8,
           "upload_date": "2026.04.18",
-          "url": "https://www.youtube.com/watch?v=QNn1ldJoagk",
-          "description_excerpt": "Burger King Smoke Bacon Whopper and Smoke Beef Rib Whopper mukbang 🍔🔥\n\nThe smoky flavor was strong and really satisfying 🤤\nBoth burgers had their own style, but they were both really good\n\n|\n\n버거킹\n스모크 베이컨 와퍼\n스모크 비프립 와퍼\n스모크 비프랩 샌드위치 버거\n갈릭불고기 원파운더 먹방입니다\n\n훈연향이 강해서 전체적으로 만족스러웠고\n각각 매력이 있어서 다 맛있게 먹었습니다 🤤\n갈",
+          "url": "https://www.youtube.com/watch?v=tyxGSBJOj24",
+          "description_excerpt": "nan",
           "top_comments": []
         }
       ]
@@ -55,292 +55,47 @@
     "mcdonalds": {
       "display": "맥도날드",
       "video_count": 1,
-      "total_views": 1389,
-      "total_likes": 49,
+      "total_views": 1501,
+      "total_likes": 50,
       "total_comments": 20,
       "n_short": 0,
       "n_long": 1,
       "tier_counts": {
         "Mega": 1
       },
-      "summary": "맥도날드의 4월 해피밀은 슈퍼마리오 피규어 변신 키링이 포함된 것으로, 소비자들은 특히 키노피오 피규어를 좋아하는 반응을 보였다. 그러나 파워레인저 넘버원포스와 미니특공대 티라노 썬더 SD에 대한 요구가 있었으며, 이는 고객들의 수집품 선호도가 높음을 시사한다.\n  📌 슈퍼마리오 피규어 · 키노피오 · 수집품 선호",
-      "videos": [
-        {
-          "video_id": "vlGMRL5ReI4",
-          "title": "맥도날드 4월 해피밀! 슈퍼마리오 피규어 변신 키링 (로봇하다 변경)",
-          "channel": "Deokdae 장덕대",
-          "subscribers": 2350000,
-          "creator_tier": "Mega",
-          "is_verified": false,
-          "views": 1389,
-          "likes": 49,
-          "comment_count": 20,
-          "engagement_rate": 0.0497,
-          "duration": 510,
-          "is_short": false,
-          "buzz_score": 64.5,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=vlGMRL5ReI4",
-          "description_excerpt": "맥도날드 4월 해피밀! 슈퍼마리오 피규어 변신 키링 (로봇하다 변경)\n\n========================================================\n🎵Music provided by 브금대통령\n🎵Track : 갸우뚱 - https://www.youtube.com/watch?v=w1qbEToZXNg\n\n🎵Music provided by 브금대통령 \n🎵Track : 댕청댕청 - https://youtu.be/5qEI_xTPa-Q \n\n🎵Music provided by 브금대통령\n🎵Track : Tom's Plan ",
-          "top_comments": [
-            {
-              "author": "@몰루-b6k",
-              "text": "저는 개인적으로 키노피오가 퀼티티좋고,너무 귀엽네요",
-              "likes": 2
-            },
-            {
-              "author": "@프리큐어팬-l9p",
-              "text": "장덕대 님반물 넘버원피스트 넘버원건 출시됬어요 파워레인저넘버원포스",
-              "likes": 1
-            },
-            {
-              "author": "@또봇장난감",
-              "text": "장덕대님 미니특공대 티라노 썬더 SD  해주세요 😊😊😊",
-              "likes": 1
-            },
-            {
-              "author": "@dd_film",
-              "text": "오 그러게요 퀄리티 좋던데요",
-              "likes": 1
-            },
-            {
-              "author": "@썬더-g1o",
-              "text": "우마무스메에 출연한 1번 인기 '대한 장덕대', 팬들의 환호성이 끊이질 않습니다!",
-              "likes": 1
-            }
-          ]
-        }
-      ]
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
     },
     "lotteria": {
       "display": "롯데리아",
-      "video_count": 12,
-      "total_views": 843961,
-      "total_likes": 1859,
-      "total_comments": 69,
+      "video_count": 13,
+      "total_views": 1053514,
+      "total_likes": 1922,
+      "total_comments": 72,
       "n_short": 2,
-      "n_long": 10,
+      "n_long": 11,
       "tier_counts": {
-        "Nano": 8,
+        "Nano": 9,
         "Official": 2,
         "Macro": 1,
         "Micro": 1
       },
-      "summary": "롯데리아의 신메뉴 '번트 비프버거'가 소비자들 사이에서 논란이 되고 있다. 일부는 제품 디자인과 가격에 대해 부정적인 반응을 보였지만, 다른 이들은 맛과 재료 구성에 긍정적 평가를 내렸다. KFC도 유사한 신제품 출시 시 소비자 피드백을 주의 깊게 모니터링해야 한다.\n  📌 번트 비프버거 · 디자인 논란 · 가격",
+      "summary": "롯데리아의 신메뉴 '디진다 돈까스'와 '번트비프버거'에 대한 소비자들의 반응이 긍정적이고 부정적인 평가가 혼재되어 있으며, 특히 매운맛을 강조하는 키워드들이 많이 사용되었다. 디진다 돈까스는 맵기로 유명한 메뉴로 인해 많은 이슈를 얻었으나, 일부 소비자들은 맛이 없다고 평가했다.\n  📌 디진다돈까스 · 맵다 · 번트비프버거",
       "videos": [
-        {
-          "video_id": "qXP1InXqU1w",
-          "title": "이렇게 못생긴 햄버거는 처음봅니다. 오늘나온 롯데리아 번트 미트버거",
-          "channel": "맛상무",
-          "subscribers": 638000,
-          "creator_tier": "Macro",
-          "is_verified": true,
-          "views": 74782,
-          "likes": 1523,
-          "comment_count": 20,
-          "engagement_rate": 0.0206,
-          "duration": 249,
-          "is_short": false,
-          "buzz_score": 60.9,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=qXP1InXqU1w",
-          "description_excerpt": "오늘나온 롯데리아 번트미트버거\n단품 : 8,800원 세트 : 10,700원\n\n\n맛상무 인스타그램▶ https://www.instagram.com/matsangmu/\n광고 및 문의▶ matsangmu@gmail.com \n이 영상에는 협찬/광고가 없습니다.\n해당 영상의 저작권은 맛상무 채널에 있으며 \n영상을 영리 목적으로 사용 시 제재 받을 수 있습니다. \n비영리 목적 사용 시 반드시 출처를 남겨주시기 바랍니다.",
-          "top_comments": [
-            {
-              "author": "@sazi2239",
-              "text": "역대급 표지사기 같은데",
-              "likes": 377
-            },
-            {
-              "author": "@git3834",
-              "text": "내용량 개 섭섭하게 생겼네ㅋㅋ",
-              "likes": 192
-            },
-            {
-              "author": "@양c갱",
-              "text": "진짜 다르네 ㅋㅋㅋ 웬만해선 법적으로 막아야한다 안하는데 이건 ㄹㅇ 너무 다름",
-              "likes": 77
-            },
-            {
-              "author": "@zldzhdahs",
-              "text": "그 가격에 생긴게 이게 말이되나....섭섭할정도네",
-              "likes": 67
-            },
-            {
-              "author": "@천망-y7f",
-              "text": "AV 표지사기급이네..",
-              "likes": 45
-            }
-          ]
-        },
-        {
-          "video_id": "0ZAehufJoIg",
-          "title": "롯데리아 삐딱한 천재의 수상한 신상 햄버거 문 열자마자 먹어봤더니?",
-          "channel": "TasteReviewMan",
-          "subscribers": 10100,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 299,
-          "likes": 8,
-          "comment_count": 6,
-          "engagement_rate": 0.0468,
-          "duration": 146,
-          "is_short": false,
-          "buzz_score": 48.0,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=0ZAehufJoIg",
-          "description_excerpt": "속보! 롯데리아 신상 삐딱한 버거 번트 비프버거 밀착취재\n\n롯데리아가 야심 차게 내놓은 \n프리미엄 햄버거 '번트 비프버거'를 긴급 입수해 취재했습니다. \n오징어 먹물 번과 \n이찬양 셰프 콜라보레이션이라는 화려한 타이틀 뒤에 숨겨진 \n냉정한 맛과 가성비를 맛기자가 직접 리포팅합니다!\n\n#롯데리아 #햄버거 #리뷰 \n\n🍽제품명 : 롯데리아 번트 비프버거\n🍽가격 : 8,800원(단품 기준)\n🍽특이사항 : 버터 오일 처음부터 X! 먹다가 뿌리기!\n🍽촬영일자 : 26년 4월 17일\n\n[광고&협찬 문의]\n인스타 : food_gija\nE-mail",
-          "top_comments": [
-            {
-              "author": "@foodgogogo",
-              "text": "속보! 롯데리아 신상 삐딱한 버거 번트 비프버거 밀착취재\r\n\r\n롯데리아가 야심 차게 내놓은 \r\n프리미엄 햄버거 '번트 비프버거'를 긴급 입수해 취재했습니다. \r\n오징어 먹물 번과 \r\n이찬양 셰프 콜라보레이션이라는 화려한 타이틀 뒤에 숨겨진 \r\n냉정한 맛과 가성비를 맛기자가 직접 리포팅합니다!\r\n\r\n#롯데리아 #햄버거 #리뷰 \r\n\r\n🍽제품명 : 롯데리아 번트",
-              "likes": 2
-            },
-            {
-              "author": "@까꿍-g1p-v3q",
-              "text": "묵직한 쇠고기 버거 맛이에요, 토마토 추가해서 드시면 발렌스가 좋아집니다.",
-              "likes": 1
-            },
-            {
-              "author": "@가라키켓",
-              "text": "다이어트 포기했어요?",
-              "likes": 0
-            },
-            {
-              "author": "@지니-d8e9m",
-              "text": "0:05 맛있는건 맛기자에게맡기자 먼가 입에 착감기네",
-              "likes": 0
-            },
-            {
-              "author": "@marukan7469",
-              "text": "오호홍 조아요 😂",
-              "likes": 0
-            }
-          ]
-        },
-        {
-          "video_id": "yO8D99ei90Q",
-          "title": "타기 직전까지 끌어올린 반전의 맛! #번트비프버거 (30s)",
-          "channel": "리아버거가게",
-          "subscribers": 293000,
-          "creator_tier": "Official",
-          "is_verified": false,
-          "views": 473833,
-          "likes": 44,
-          "comment_count": 17,
-          "engagement_rate": 0.0001,
-          "duration": 30,
-          "is_short": true,
-          "buzz_score": 41.0,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=yO8D99ei90Q",
-          "description_excerpt": "롯데리아와 삐딱한 천재가 만났다🧑‍🍳\n\n“탄 줄 알았는데 더 맛있네?”\n\n타기 직전까지 끌어올린 반전의 맛🔥\n삐딱한 생각이 버거를 맛있게🍔\n\n지금 롯데리아에서 번트비프버거를 즐겨보세요! \n\n#롯데리아 #삐딱한천재 #이찬양셰프 #번트비프버거",
-          "top_comments": [
-            {
-              "author": "@dane_kim",
-              "text": "선발대 다녀왔습니다!!! 오일 꼭 뿌려드세요! 맛있습니당",
-              "likes": 16
-            },
-            {
-              "author": "@매일5분책읽기",
-              "text": "진짜 맛잇어보인다…",
-              "likes": 9
-            },
-            {
-              "author": "@COCO_HODOO",
-              "text": "오늘 저녁은 너다!!",
-              "likes": 6
-            },
-            {
-              "author": "@sabakero_23",
-              "text": "조금 전에 주문해서 먹었어요! 처음엔 오일없이 먹어봤는데 발사믹소스맛이 훅 느껴지다가  중간부터 오일뿌렸더니 그맛이 중화되면서 훨씬 맛있어졌어요~ 양파도 식감있게 볶아서 무른 식감이아니었고 자칫 베이컨이 너무짜면 다른 재료맛이 가려졌을건데 그렇지않아서 만족했습니다❤",
-              "likes": 5
-            },
-            {
-              "author": "@SHSH0309",
-              "text": "후기 보고왔는데 너무 표지사기가 심함",
-              "likes": 5
-            }
-          ]
-        },
-        {
-          "video_id": "JiF628OllSQ",
-          "title": "탄 줄 알았다고? 삐딱한 생각이 버거를 맛있게! #번트비프버거 (FULL)",
-          "channel": "리아버거가게",
-          "subscribers": 293000,
-          "creator_tier": "Official",
-          "is_verified": false,
-          "views": 294236,
-          "likes": 250,
-          "comment_count": 20,
-          "engagement_rate": 0.0009,
-          "duration": 57,
-          "is_short": true,
-          "buzz_score": 40.1,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=JiF628OllSQ",
-          "description_excerpt": "[롯데리아X삐딱한 천재] \n\n삐딱하게 보면 세상이 달라져요\n버거도 마찬가지!\n\n타기 직전까지 끌어올린 반전의 맛🔥\n삐딱한 생각이 버거를 맛있게🍔\n\n태운 듯한 번트치즈번에\n캐러멜라이즈드 어니언\n스모크 비프패티와 구운 베이컨\n브라운 버터오일까지\n\n지금 롯데리아에서 번트비프버거를 즐겨보세요! \n\n#롯데리아 #삐딱한천재 #이찬양셰프 #번트비프버거",
-          "top_comments": [
-            {
-              "author": "@연세세브란스13층",
-              "text": "비주얼이 진짜 특이하다",
-              "likes": 55
-            },
-            {
-              "author": "@COCO_HODOO",
-              "text": "삐딱해진다는 이유가 삐딱한 천재였네 ㅎㅎ 기발하다~ 롯스럽다요!!",
-              "likes": 46
-            },
-            {
-              "author": "@dkfemsk",
-              "text": "ai 쓴 부분 표시해주는 거 좋네",
-              "likes": 36
-            },
-            {
-              "author": "@키다리-r9d",
-              "text": "저거 만드는 알바생이 ㅈㄴ고생하겠다는 직감이 온다 ㅋㅋ",
-              "likes": 31
-            },
-            {
-              "author": "@HoneyMoMee",
-              "text": "롯데리아 직원 \" ㅅㅣㅂ!!!\"",
-              "likes": 26
-            }
-          ]
-        },
-        {
-          "video_id": "2_rdg1KeAS4",
-          "title": "[브이로그] 평생 놀 수는 없을까요?｜오류동 야장 꿀돼지솥뚜껑삼겹살｜롯데리아 디진다돈까스｜안양중앙시장｜두바이붕어빵｜잠깐의 러닝｜잠깐의 벚꽃",
-          "channel": "간단로그",
-          "subscribers": 160,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 83,
-          "likes": 4,
-          "comment_count": 0,
-          "engagement_rate": 0.0482,
-          "duration": 362,
-          "is_short": false,
-          "buzz_score": 34.8,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=2_rdg1KeAS4",
-          "description_excerpt": "세상에 맛있는게 너무 많아요!!!\n다들 마음껏 드시고 행복하세요💜\n\n\n\n\n\n\n\n\n\n#브이로그 #야장맛집 #오류동맛집 #구로맛집 #술먹방 #솥뚜껑삼겹살 #롯데리아 #디진다돈까스 #안양중앙시장 #벚꽃 #안양천 #부부 #부부일상 #회사원 #러닝 #잠원동 #헤더먼트 #ootd #출근룩",
-          "top_comments": []
-        },
         {
           "video_id": "bDTtvZcDUgQ",
           "title": "욕 나오게 매운 롯데리아 디진다 돈까스",
           "channel": "Kumujo and friends",
-          "subscribers": 668,
+          "subscribers": 669,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 5,
-          "likes": 2,
+          "views": 12,
+          "likes": 4,
           "comment_count": 1,
-          "engagement_rate": 0.6,
+          "engagement_rate": 0.4167,
           "duration": 389,
           "is_short": false,
-          "buzz_score": 30.2,
+          "buzz_score": 29.9,
           "upload_date": "2026.04.18",
           "url": "https://www.youtube.com/watch?v=bDTtvZcDUgQ",
           "description_excerpt": "욕 나오게 매운 롯데리아 디진다 돈까스 - 크무죠와 친구들 148화\n매운맛 10배!!!\n(자막 오타가 있을 수 있습니다 양해 부탁드립니다)\n\n - 순서 -\n1. 욕 나오게 매운 롯데리아 디진다 돈까스\n#hot #매운음식 #롯데리아 \n\n- 정보 -\n크무죠 친구들 방문해주셔서 감사합니다.\n다양한 사람들과 모여 만든 다양한 미디어 문화 예술 콘텐츠\n크무죠의 친구를 만들어 주기 위해 만든 콘텐츠\n크무죠의 현실적 밀당 토크!!\n\n- 소개 -\n크무죠(금종협)\n고등학교 졸업 경기도 안산 출신, 경기도 시흥 거주\n현재: 크무죠 대표자\n\n- 비즈니",
@@ -353,13 +108,13 @@
           "subscribers": 688,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 9,
-          "likes": 5,
-          "comment_count": 2,
-          "engagement_rate": 0.7778,
+          "views": 20,
+          "likes": 6,
+          "comment_count": 5,
+          "engagement_rate": 0.55,
           "duration": 387,
           "is_short": false,
-          "buzz_score": 28.5,
+          "buzz_score": 25.5,
           "upload_date": "2026.04.17",
           "url": "https://www.youtube.com/watch?v=2TyheR7mG4U",
           "description_excerpt": "#먹방#디진다돈까스#롯테리아#버튜버\n\n🩵아프리카TV 생방송 : https://bj.afreecatv.com/sabellin\n\n🩵팬카페 : https://cafe.naver.com/unet2202",
@@ -370,8 +125,23 @@
               "likes": 1
             },
             {
+              "author": "@Virtuber-t6k",
+              "text": "디진다보다 매운건 어머니의 등짝.....\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n사벨린님 화이팅!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉",
+              "likes": 1
+            },
+            {
               "author": "@리베리베-f5i",
               "text": "어머니 귀여우시네요 ㅋㅋㅋㅋㅋ 이거 맛도 없는데 맵기만함..ㅠㅠ",
+              "likes": 0
+            },
+            {
+              "author": "@Unet_SABELLIN",
+              "text": "맵기만 할까요?!😂",
+              "likes": 0
+            },
+            {
+              "author": "@Unet_SABELLIN",
+              "text": "맞아요 ㅠㅠ😂",
               "likes": 0
             }
           ]
@@ -383,23 +153,42 @@
           "subscribers": 499,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 117,
+          "views": 166,
           "likes": 1,
           "comment_count": 0,
-          "engagement_rate": 0.0085,
+          "engagement_rate": 0.006,
           "duration": 137,
           "is_short": false,
-          "buzz_score": 10.0,
+          "buzz_score": 8.5,
           "upload_date": "2026.04.17",
           "url": "https://www.youtube.com/watch?v=sznPqXnQR9I",
           "description_excerpt": "인스타그램 moonroof2\n네이버 블로그 칼로리 미식가\n#햄버거 #버거",
           "top_comments": []
         },
         {
+          "video_id": "Wf6qbr5snyo",
+          "title": "내돈내산💸 롯데리아신상 번트비프버거 디지게 매운돈까스 솔직후기",
+          "channel": "밍또먹",
+          "subscribers": 584,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 2,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.5,
+          "duration": 220,
+          "is_short": false,
+          "buzz_score": 8.4,
+          "upload_date": "2026.04.18",
+          "url": "https://www.youtube.com/watch?v=Wf6qbr5snyo",
+          "description_excerpt": "#롯데리아 #롯데리아신상 #번트비프버거 #디진다돈까스 #온정 #내돈내산 #롯데리아신상버거 #뒤지게매운돈까스",
+          "top_comments": []
+        },
+        {
           "video_id": "8YCwbl3VPY8",
           "title": "롯데리아 디지게 매운 돈까스 리뷰 먹방",
           "channel": "잉숭빙읭잉생",
-          "subscribers": 5,
+          "subscribers": 6,
           "creator_tier": "Nano",
           "is_verified": false,
           "views": 3,
@@ -408,7 +197,7 @@
           "engagement_rate": 0.0,
           "duration": 75,
           "is_short": false,
-          "buzz_score": 6.6,
+          "buzz_score": 5.3,
           "upload_date": "2026.04.17",
           "url": "https://www.youtube.com/watch?v=8YCwbl3VPY8",
           "description_excerpt": "nan",
@@ -419,92 +208,17 @@
     "momstouch": {
       "display": "맘스터치",
       "video_count": 7,
-      "total_views": 2638,
-      "total_likes": 65,
-      "total_comments": 29,
+      "total_views": 2974,
+      "total_likes": 69,
+      "total_comments": 32,
       "n_short": 0,
       "n_long": 7,
       "tier_counts": {
         "Nano": 5,
         "Micro": 2
       },
-      "summary": "맘스터치의 성장 비결로 제휴 및 물류 시스템 강화와 골목상권 전략을 주요 요인으로 꼽았으며, 소비자들은 싸이버거와 치킨 세트에 대한 긍정적인 반응을 보였음. KFC는 이러한 성공 사례를 통해 로컬 파트너십과 디지털 마케팅 전략 강화의 필요성을 인식해야 함.\n  📌 성장 비결 · 싸이버거 · 골목상권",
-      "videos": [
-        {
-          "video_id": "-MXbF67J4Mc",
-          "title": "맥도날드 꺾은 맘스터치? 빚 3억으로 시작해 1조 원대 거인이 된 진짜 이유",
-          "channel": "MoneyDolla머니달라",
-          "subscribers": 22400,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 398,
-          "likes": 19,
-          "comment_count": 2,
-          "engagement_rate": 0.0528,
-          "duration": 611,
-          "is_short": false,
-          "buzz_score": 54.0,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=-MXbF67J4Mc",
-          "description_excerpt": "제휴/광고문의 : moneydolla00@gmail.com \n\n맥도날드를 꺾은 맘스터치의 성장 비결을 이번 영상에서 다룹니다.\n적자 브랜드였던 맘스터치가 어떻게 1위 버거 브랜드가 됐는지 짚어봅니다.\n싸이버거와 골목상권 전략, 물류 시스템의 힘도 함께 살펴봅니다.\n화려한 성장 뒤에 숨은 사모펀드와 리캡 논란도 들여다봅니다.\n맘스터치의 1조 원 가치가 계속 이어질지도 분석해봅니다.\n\n디스클레이머 \n\n이 영상은 특정 브랜드나 인물에 대한 비방이나 추천이 아닌,\n브랜드, 창업, 프랜차이즈 등 산업 전반에 대한 정보 제공 콘텐츠입니다.\n\n",
-          "top_comments": [
-            {
-              "author": "@아이린-x5b",
-              "text": "맘스터치 졸리비 에서 매입 하면 시너지 제대로 날거 같은데 말이죠!! 한때 싸이버거 하고 감자튀김 참 많이도 사 먹었다",
-              "likes": 1
-            },
-            {
-              "author": "@carrot0204",
-              "text": "머니달러님~ 미세먼지 많네요 건강 조심하세요",
-              "likes": 0
-            }
-          ]
-        },
-        {
-          "video_id": "hS0lu5f_S-U",
-          "title": "맘스터치X김풍작가님 매직 야매세트 솔직리뷰🤔",
-          "channel": "먀루",
-          "subscribers": 225,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 77,
-          "likes": 5,
-          "comment_count": 2,
-          "engagement_rate": 0.0909,
-          "duration": 1556,
-          "is_short": false,
-          "buzz_score": 34.4,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=hS0lu5f_S-U",
-          "description_excerpt": "👀 먀루가 궁금하다면?\n치지직으로 놀러오세요!  (  치지직 먀루 검색 & 프로필링크 타고오기!! )\n\n📧이메일:\ndearlunav0618@naver.com\n\n💬 즐겁게 시청해주셔서 감사합니다\n 구독과 좋아요도 같이 해주시면 감사하겠습니다!!!!!!!!!!!!! ㅎㅎ",
-          "top_comments": []
-        },
-        {
-          "video_id": "7RON8IIlTdE",
-          "title": "유행 다 끝나고 올리는 맘스터치 후덕죽 치킨과 싸이버거",
-          "channel": "수건도둑의 삶은 감자",
-          "subscribers": 22,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 30,
-          "likes": 3,
-          "comment_count": 1,
-          "engagement_rate": 0.1333,
-          "duration": 571,
-          "is_short": false,
-          "buzz_score": 28.3,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=7RON8IIlTdE",
-          "description_excerpt": "nan",
-          "top_comments": [
-            {
-              "author": "@Loadhaxx",
-              "text": "야르",
-              "likes": 0
-            }
-          ]
-        }
-      ]
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
     },
     "popeyes": {
       "display": "파파이스",
@@ -532,59 +246,43 @@
     },
     "bbq": {
       "display": "BBQ치킨",
-      "video_count": 2,
-      "total_views": 2263,
-      "total_likes": 7,
+      "video_count": 3,
+      "total_views": 2459,
+      "total_likes": 9,
       "total_comments": 22,
       "n_short": 0,
-      "n_long": 2,
+      "n_long": 3,
       "tier_counts": {
-        "Nano": 1,
+        "Nano": 2,
         "Micro": 1
       },
-      "summary": "BBQ 황금올리브치킨과 비교되는 가성비 높은 갓튀긴 후라이드치킨에 대한 긍정적인 소문이 있지만, 일부 소비자들은 제품의 상태와 가격에 대해 의구심을 나타내고 있다.\n  📌 갓튀긴 후라이드치킨 · 가성비 · BBQ 황금올리브",
+      "summary": "BBQ치킨이 최근 인기 채널 '두지하하의 하루'에서 언급되며 소비자들 사이에서 주목받고 있으며, 아직 구체적인 신메뉴나 프로모션 내용은 없으나 BBQ 치킨을 먹어본 후 긍정적 반응이 나타났다. 이는 KFC가 마케팅 콘텐츠 제작 시 유명 인플루언서와의 협업을 고려할 수 있는 좋은 사례를 제공한다.\n  📌 두지하하의 하루 · BBQ 치킨 · 인플루언서 마케팅",
       "videos": [
         {
-          "video_id": "KCUiRPplyEM",
-          "title": "\"BBQ보다 맛있더라 레알\" 소문의 5000원저렴한 갓 후라이드, 황올 싸대기 때린다고? 직접 확인해봤습니다",
-          "channel": "치킨스쿨",
-          "subscribers": 13100,
-          "creator_tier": "Micro",
+          "video_id": "pr3mEoVUuIU",
+          "title": "Fri 집보러 첫손님 오다!는 못찍고 비비큐 치킨먹은날",
+          "channel": "두지하하의 하루 / Duji family",
+          "subscribers": 196,
+          "creator_tier": "Nano",
           "is_verified": false,
-          "views": 295,
-          "likes": 7,
-          "comment_count": 3,
-          "engagement_rate": 0.0339,
-          "duration": 1072,
+          "views": 8,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.25,
+          "duration": 539,
           "is_short": false,
-          "buzz_score": 45.0,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=KCUiRPplyEM",
-          "description_excerpt": "BBQ 황금올리브치킨 vs 갓튀긴 후라이드치킨 🔥\n\n\"여기 후라이드 진짜 개맛있음, BBQ 황올 싸대기 때리는 맛\"\n\"BBQ보다 맛있더라 레알\"\n\n온라인에서 화제가 된 갓튀긴 후라이드치킨.\n가성비 황금올리브라는 소문, 사실일까요?\n\n직접 사서 먹어봤더니 바로 그 결과는 어떻게 될까\n\n✅ 이 영상에서 확인할 수 있는 것\n- BBQ 황금올리브치킨 vs 갓튀긴 후라이드 맛 비교\n- 가격 대비 만족도 차이\n- 진짜 가성비 치킨은 어디?\n\n👇 여러분의 생각도 댓글로 알려주세요!\n\n-----------------------------\n🐔 치킨",
-          "top_comments": [
-            {
-              "author": "@쿠리만쥬-q7n",
-              "text": "꼬끼오 박사님 흰머리보니 세월이 야속하네요",
-              "likes": 0
-            },
-            {
-              "author": "@Hanullullu",
-              "text": "뭐지 점바점인가 우리동네 갓튀후보다 오버쿡 됐고 컬도 적고 눅눅해보이네여..?",
-              "likes": 0
-            },
-            {
-              "author": "@쿠리만쥬-q7n",
-              "text": "지금 닭값이 얼만데 공급가가 오천원이겠습니까ㅋㅋㅋ 프차가",
-              "likes": 0
-            }
-          ]
+          "buzz_score": 8.6,
+          "upload_date": "2026.04.18",
+          "url": "https://www.youtube.com/watch?v=pr3mEoVUuIU",
+          "description_excerpt": "nan",
+          "top_comments": []
         }
       ]
     },
     "bhc": {
       "display": "BHC치킨",
       "video_count": 3,
-      "total_views": 1592,
+      "total_views": 1623,
       "total_likes": 37,
       "total_comments": 8,
       "n_short": 1,
@@ -592,53 +290,14 @@
       "tier_counts": {
         "Nano": 3
       },
-      "summary": "BHC 치킨은 최근 낚시 관련 영상에서 먹방으로 등장하며 노출을 얻었으며, 한소희의 광고가 TVCF로 방영되었다. 소비자 반응은 주로 BHC 치킨의 맛과 품질에 대한 긍정적인 의견이었다.\n  📌 먹방 · 광고 · 긍정적 반응",
-      "videos": [
-        {
-          "video_id": "M7HH6nuIUhw",
-          "title": "기장권 갯바'위👍볼락&농어낚시👍😭수중전😭ft.bhc치킨먹방 #볼락낚시 #fishing #농어낚시",
-          "channel": "부산마린보이",
-          "subscribers": 7880,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 1356,
-          "likes": 27,
-          "comment_count": 0,
-          "engagement_rate": 0.0199,
-          "duration": 14880,
-          "is_short": false,
-          "buzz_score": 48.0,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=M7HH6nuIUhw",
-          "description_excerpt": "#농어 #벵에돔 #숙성크릴 #연제구지게차 #영빈낚시 #전갱이 #루어낚시 #This stream is created with #PRISMLiveStudio #볼락낚시 #바다낚시 #Fishing #bhc",
-          "top_comments": []
-        },
-        {
-          "video_id": "rfdjZEf6Rsk",
-          "title": "한소희 / bhc치킨 / 손 쉴 틈 없는 쏘이의 출현! 쏘이갈릭킹 (30s) TVCF 2026",
-          "channel": "ads.archive",
-          "subscribers": 218,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 3,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 30,
-          "is_short": true,
-          "buzz_score": 8.4,
-          "upload_date": "2026.04.18",
-          "url": "https://www.youtube.com/watch?v=rfdjZEf6Rsk",
-          "description_excerpt": "nan",
-          "top_comments": []
-        }
-      ]
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
     },
     "kyochon": {
       "display": "교촌치킨",
       "video_count": 6,
-      "total_views": 15698,
-      "total_likes": 223,
+      "total_views": 20476,
+      "total_likes": 252,
       "total_comments": 21,
       "n_short": 2,
       "n_long": 4,
@@ -646,117 +305,8 @@
         "Nano": 4,
         "Mega": 2
       },
-      "summary": "교촌치킨이 치킨 튀김 기름 공급사에 대한 갑질로 억대 과징금을 부과받고 법적 처벌을 받게 되어 소비자들의 불매 운동이 확산되고 있다. 이와 관련된 영상들이 많은 조회수를 기록하며 교촌치킨의 도덕성 문제에 대해 비판적인 의견이 주를 이루고 있어, KFC는 윤리경영과 공정한 거래 관계 유지가 중요함을 인식해야 한다.\n  📌 교촌치킨 갑질 · 불매 운동 · 윤리 경영",
-      "videos": [
-        {
-          "video_id": "fHyLXU0WoQQ",
-          "title": "기름 주고 '7억' 손실...공급사에 인상분 떠넘긴 교촌치킨, 결국 [지금이뉴스] / YTN",
-          "channel": " YTN",
-          "subscribers": 5320000,
-          "creator_tier": "Mega",
-          "is_verified": true,
-          "views": 9806,
-          "likes": 57,
-          "comment_count": 20,
-          "engagement_rate": 0.0079,
-          "duration": 88,
-          "is_short": false,
-          "buzz_score": 51.7,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=fHyLXU0WoQQ",
-          "description_excerpt": "치킨 튀김 전용 기름 공급사의 유통마진을 일방적으로 인하하는 '갑질'로 공정거래위원회로부터 억대의 과징금을 부과받은 교촌에프앤비가 재판에 넘겨졌습니다.\n\n17일 수원지검 성남지청 형사3부(엄영욱 부장검사)는 공정거래법 위반 혐의로 '교촌치킨' 프랜차이즈 본부인 교촌에프앤비를 불구속 기소했습니다.\n\n교촌에프앤비는 2021년 5∼12월 거래상의 지위를 부당하게 이용해 치킨을 튀기는 전용 기름(전용유)을 유통하는 협력업체 두 곳의 유통마진을 캔당 1천350원에서 0원으로 일방적으로 인하한 혐의를 받습니다.\n\n당시 교촌에프앤비는 2021년",
-          "top_comments": [
-            {
-              "author": "@치킨맛새벽",
-              "text": "이 정도 도덕성이 결여된 기업은 퇴출 시켜야 되는 거 아닌가?",
-              "likes": 43
-            },
-            {
-              "author": "@mcdonalds1115",
-              "text": "배달비도 얘네가 만든거잖아 ㅋㅋ 사회악임",
-              "likes": 39
-            },
-            {
-              "author": "@sweedgood",
-              "text": "악질 기업!! 나혼자 불매운동 6년째중...",
-              "likes": 11
-            },
-            {
-              "author": "@jeff-j6y4f",
-              "text": "과징금을 백억단위로 때려봐라 저러나",
-              "likes": 10
-            },
-            {
-              "author": "@Sun_1976",
-              "text": "응?? 0원??? 뭐야?? 강도야???",
-              "likes": 9
-            }
-          ]
-        },
-        {
-          "video_id": "2creq-3QQbs",
-          "title": "검찰, 치킨기름 공급사에 '갑질' 교촌 기소 / 연합뉴스TV (YonhapnewsTV)",
-          "channel": "연합뉴스TV",
-          "subscribers": 2230000,
-          "creator_tier": "Mega",
-          "is_verified": true,
-          "views": 597,
-          "likes": 8,
-          "comment_count": 1,
-          "engagement_rate": 0.0151,
-          "duration": 42,
-          "is_short": true,
-          "buzz_score": 49.0,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=2creq-3QQbs",
-          "description_excerpt": "치킨 튀김 전용 기름 공급사의 유통마진을 일방적으로 인하하는 '갑질'을 해 공정거래위원회로부터 억대 과징금을 부과받은 교촌에프앤비가 재판에 넘겨졌습니다.\n\n수원지검 성남지청은 오늘(17일) 공정거래법 위반 혐의로 '교촌치킨' 프랜차이즈 본부인 교촌에프앤비을 불구속 기소했습니다.\n\n교촌에프앤비는 2021년 5월부터 12월 거래상 지위를 부당하게 이용해 치킨을 튀기는 전용 기름을 유통하는 협력업체 두 곳의 유통마진을 캔당 1천350원에서 0원으로 일방적으로 인하해 7억원 상당의 손실을 입힌 혐의를 받습니다.\n\n▣ 연합뉴스TV 다큐멘터리",
-          "top_comments": [
-            {
-              "author": "@juhee7135",
-              "text": "교촌 먹지말자",
-              "likes": 2
-            }
-          ]
-        },
-        {
-          "video_id": "cBveqfMD1sE",
-          "title": "옥수수심자#교촌치킨#허니콤보#레드윙#약식#food#귀촌생활#시골여자",
-          "channel": "송애교",
-          "subscribers": 8310,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 195,
-          "likes": 7,
-          "comment_count": 0,
-          "engagement_rate": 0.0359,
-          "duration": 27,
-          "is_short": true,
-          "buzz_score": 41.3,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=cBveqfMD1sE",
-          "description_excerpt": "nan",
-          "top_comments": []
-        },
-        {
-          "video_id": "KhD2WOhQBOw",
-          "title": "교촌치킨 먹방",
-          "channel": "급중 데일리",
-          "subscribers": 111,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 97,
-          "likes": 1,
-          "comment_count": 0,
-          "engagement_rate": 0.0103,
-          "duration": 863,
-          "is_short": false,
-          "buzz_score": 11.0,
-          "upload_date": "2026.04.18",
-          "url": "https://www.youtube.com/watch?v=KhD2WOhQBOw",
-          "description_excerpt": "nan",
-          "top_comments": []
-        }
-      ]
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
     }
   }
 }
