@@ -1,127 +1,151 @@
 {
-  "date": "2026-04-17",
-  "generated_at": "2026-04-17 07:01:17",
+  "date": "2026-04-18",
+  "generated_at": "2026-04-18 09:25:15",
   "window_days": 30,
   "brands": {
     "kfc": {
       "display": "KFC 한국",
-      "video_count": 12,
-      "total_views": 218896,
-      "total_likes": 30,
-      "total_comments": 1,
-      "n_short": 2,
-      "n_long": 10,
+      "video_count": 15,
+      "total_views": 250548,
+      "total_likes": 151,
+      "total_comments": 32,
+      "n_short": 3,
+      "n_long": 12,
       "tier_counts": {
-        "Nano": 10,
-        "Macro": 2
+        "Nano": 11,
+        "Macro": 3,
+        "Official": 1
       },
-      "summary": "(요약 대기 중)",
+      "summary": "KFC가 새로운 '빵치짜'와 '켄치ża' 메뉴를 출시했으며, BJ 마빡이 먹방 영상을 통해 소개되었다. 이외에도 커넬 샌더스 할아버지의 인생 역전 스토리가 공유되어 KFC의 브랜드 역사에 대한 관심을 불러일으켰다.\n  📌 신메뉴 · 빵치짜 · 켄치ża",
       "videos": [
         {
-          "video_id": "8qGtu7Q1P2Y",
-          "title": "24시간동안 8개 햄버거 브랜드 싹 다 먹은 날 | 맥도날드,롯데리아,버거킹,맘스터치,왓더버거,프랭크버거,노브랜드버거,KFC,불고기버거,새우버거,치킨버거,감자튀김,오징어링,치즈스틱",
-          "channel": "김복순",
-          "subscribers": 371000,
+          "video_id": "Ub7LZknZFV8",
+          "title": "KFC 신메뉴 치킨 위 피자! 살라미 빵치짜 버거, 살라미 켄치짜 먹방!! [ KFC Mukbang ]",
+          "channel": "마빡",
+          "subscribers": 169000,
           "creator_tier": "Macro",
           "is_verified": true,
-          "views": 216776,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 3850,
+          "views": 4559,
+          "likes": 101,
+          "comment_count": 31,
+          "engagement_rate": 0.029,
+          "duration": 536,
           "is_short": false,
-          "buzz_score": 54.1,
-          "upload_date": "2026.04.12",
-          "url": "https://www.youtube.com/watch?v=8qGtu7Q1P2Y",
-          "description_excerpt": "00:00 [맥도날드]불고기버거+슈슈버거+맥스파이시상하이버거+1955버거+빅맥+사이드:골든모짜렐라치즈스틱4조각+맥너겟4조각(+스위트앤사워소스)+고구마후라이+감자튀김L+케이준디핑소스+코카콜라L\n08:14 [롯데리아]불고기버거+새우버거+핫크리스피치킨버거+모짜렐라인더버거+한우불고기버거+사이드:양념감자(+치즈시즈닝+어니언시즈닝추가)+통오징어링(+잠발라야소스)+치즈스틱2조각+치킨너겟+코카콜라\n16:36 [버거킹]불고기와퍼+통새우와퍼+치킨킹버거+몬스터와퍼+와퍼+사이드:리얼어니언링L+감자튀김L+코코넛슈림프6조각(+스위트칠리소스)+코카콜라L\n25",
+          "buzz_score": 57.7,
+          "upload_date": "2026.04.17",
+          "url": "https://www.youtube.com/watch?v=Ub7LZknZFV8",
+          "description_excerpt": "[BJ마빡] \n\n* 2026. 4 영상 입니다.\n\n#kfc #치킨 #신메뉴\n#빵치짜 #켄치짜 #살라미빵치짜\n#살라미켄치짜 #버거 #햄버거\n#음식 #먹방\n#MUKBANG #BJ마빡 #마빡 #피파4\n#피파온라인4 #FIFAONLINE4 #피온   \n\n▶ YouTube https://bit.ly/2D1xnN1\n▶ Facebook https://www.facebook.com/mappak1230\n▶ Instagram https://www.instagram.com/mappak1230\n▶ AfreecaTV http://bj.afreecatv.c",
           "top_comments": [
             {
-              "author": "@boribwab",
-              "text": "떠오르는 신성임 오래활동한 먹방러 몇몇분도 이분이 이길 수 있을거 같음 24시간내에 햄버거만 40개 먹는데 사이드도 몇십개씩 먹으면서 물리지도 않고 소화력도 좋음",
-              "likes": 769,
+              "author": "@가로가로1",
+              "text": "마빡이 요리해서 먹방하는 것도 보고싶어!!!",
+              "likes": 9,
               "sentiment": "긍정",
               "rating": 5
             },
             {
-              "author": "@이르밈-u3f",
-              "text": "타임라인 경이롭다진짜",
-              "likes": 534,
+              "author": "@shin-q2f6k",
+              "text": "유니폼도 kfc 같네 ㅋㅋ",
+              "likes": 6,
               "sentiment": "긍정",
               "rating": 5
             },
             {
-              "author": "@돌돌이-j4j",
-              "text": "그.. 복순님.. 팔 아프게 시간 인증 안 해주셔도 될 거 같아여.... 이제 믿는 정도를 넘어 경이로움에 도달했거등요",
-              "likes": 438,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@maps-j1k",
-              "text": "제목 보고 배부르긴 또 처음이네",
-              "likes": 360,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@영-j9k",
-              "text": "챗지피티한테 정리만 도와달라고 하고 직접 브랜드 영양표보면서 작성했습니다 \n\n총칼로리 36,748kcal\n\n🍔1.맥도날드\n버거\n불고기버거:409kcal\n슈슈버거:424kcal\n맥스파이시상하이버거:464kcal\n1955버거:530kcal\n빅맥:548kcal\n사이드+음료\n모짜렐라치즈스틱4:330kcal\n너겟4:163kcal\n스위트앤샤워소스:40kcal\n케이준디핑소스:98kcal\n고구마후라이:295kcal\n감자튀김L:397kcal\n콜라L:185kcal\n\n🍔2.롯데리아\n버거\n불고기버거:390kcal\n새우버거:421kcal\n핫크리스피:503",
-              "likes": 210,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@youjinchoi3430",
-              "text": "내가 뚱뚱해봐서 아는데 100키로 넘어도 햄버거 하루 5개 이상 힘듦 저정도면 초고도 비만도 아닌데 진짜 대단한 소화력임 그것도 모잘라 배달내역 시간 모든걸 증명하는게 찐중에 찐임. 먹뱉 먹토논란 자자한 먹방계에서 레알 찐 먹방러는 이분하나일듯",
-              "likes": 190,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@moonvii127",
-              "text": "이분한테는 감히 햄최몇을 물을 수가 없을 거 같음...",
-              "likes": 186,
+              "author": "@포매-p1z",
+              "text": "롯데리아 삐딱한 버거~\n해주세여 ㅋㅋㅋㅋㅋ",
+              "likes": 2,
               "sentiment": "긍정",
               "rating": 5
             },
             {
-              "author": "@aeongnyang38",
-              "text": "4시간만에 햄버거 20개를 먹었다는거쟌아......... 경이로우면서 복순님 행복해보여서 귀여움 ㅋㅋㅋㅋㅋ",
-              "likes": 166,
+              "author": "@고봉-t1n",
+              "text": "먹은다음에 하늘 쳐다보는게 웃겨서 매번 봅니다",
+              "likes": 1,
               "sentiment": "긍정",
               "rating": 5
             },
             {
-              "author": "@kimboksoon222",
-              "text": "00:01 [맥도날드]불고기버거(₩4,700)+슈슈버거(₩5,600)+맥스파이시상하이버거(₩6,800)+1955버거(₩7,600)+빅맥(₩6,600)+사이드:골든모짜렐라치즈스틱4조각(₩5,400)+맥너겟4조각(+스위트앤사워소스₩3,700)+고구마후라이(₩3,600)+감자튀김L(₩4,100)+케이준디핑소스2개(1개₩300)+코카콜라L(₩3,200)\n08:14 [롯데리아]불고기버거(₩5,800)+새우버거(₩5,800)+핫크리스피치킨버거(₩7,000)+모짜렐라인더버거(₩8,800)+한우불고기버거(₩9,800)+사이드:양념감자(+치즈시즈닝",
-              "likes": 122,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@나무-i2p",
-              "text": "어디 햄버거든 전메뉴 소개해주는 채널은 여기뿐이니 얼른 광고 줄서시길.. 찐으로 다 먹어주심..ㄷㄷ",
-              "likes": 116,
+              "author": "@Emancipist",
+              "text": "빵치짜는 걍 생긴 거 부터 맛있어보이네",
+              "likes": 1,
               "sentiment": "긍정",
               "rating": 5
+            },
+            {
+              "author": "@김주현123",
+              "text": "안문숙 폼 미쳤다",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@솜사탕-n8e",
+              "text": "빵치짜 채소 하나없이 개맛잇어 보이네",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@잘봐이렇게",
+              "text": "라면 ㅋㅋ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@kimjunwoo-w4p",
+              "text": "야무z게 잘먹네 진짜ㅋㅋㅋ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@광종-w9q",
+              "text": "옹",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
             }
           ],
           "sentiment_counts": {
-            "neg": 5,
-            "neu": 0,
-            "pos": 5
+            "neg": 0,
+            "neu": 1,
+            "pos": 9
           },
-          "negative_ratio": 0.5,
-          "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
-          "multi_brand_tags": [
-            "kfc",
-            "burgerking",
-            "mcdonalds",
-            "lotteria",
-            "momstouch"
-          ]
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "ThI80YpiDlQ",
+          "title": "[KFC 할아버지] “1,008번 거절… 1,009번이 만든 세계 최대 치킨 브랜드\", 65세에 시작한 인생 역전 포기 직전의 기적!",
+          "channel": "K-Storytelling",
+          "subscribers": 1120,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1193,
+          "likes": 19,
+          "comment_count": 0,
+          "engagement_rate": 0.0159,
+          "duration": 62,
+          "is_short": false,
+          "buzz_score": 47.3,
+          "upload_date": "2026.04.17",
+          "url": "https://www.youtube.com/watch?v=ThI80YpiDlQ",
+          "description_excerpt": "65세, 수중에 남은 건 단돈 105달러. 커넬 샌더스는 낡은 차에서 잠을 자며 2년간 1,008번의 거절을 당했습니다. \"이딴 요리 안 사요\"라는 조롱 속에 눈물을 삼켰지만, 포기 대신 1,009번째 문을 두드렸습니다. 마침내 일어난 기적, KFC의 신화. 당신이 포기하지 않는 한 실패는 없습니다. 인생에 너무 늦은 때란 없습니다. 당신의 도전은 이제 시작입니다.\n[KFC Grandpa] \"1,008 rejected... World's Biggest Chicken Brand Created by No. 1,009\" Miracle J",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
         },
         {
           "video_id": "KRNefjLqooQ",
@@ -130,13 +154,13 @@
           "subscribers": 307000,
           "creator_tier": "Macro",
           "is_verified": true,
-          "views": 1111,
+          "views": 1118,
           "likes": 7,
           "comment_count": 0,
           "engagement_rate": 0.0063,
           "duration": 32,
           "is_short": true,
-          "buzz_score": 46.4,
+          "buzz_score": 36.7,
           "upload_date": "2026.04.14",
           "url": "https://www.youtube.com/watch?v=KRNefjLqooQ",
           "description_excerpt": "nan",
@@ -148,41 +172,9 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
           "multi_brand_tags": []
-        },
-        {
-          "video_id": "pEJpwGiKayc",
-          "title": "KFC마저 무릎 꿇린 K 치킨의 소름 돋는 침투 전략",
-          "channel": "옛날이야기 한국사",
-          "subscribers": 2570,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 2,
-          "likes": 1,
-          "comment_count": 0,
-          "engagement_rate": 0.5,
-          "duration": 1187,
-          "is_short": false,
-          "buzz_score": 38.5,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=pEJpwGiKayc",
-          "description_excerpt": "전 세계 맥도날드 매장 수보다 한국의 치킨집이 더 많다는 사실, 알고 계셨나요? 60년 전통의 미국 치킨 시장을 단숨에 ‘K-크리스피’의 열풍으로 몰아넣은 한국 치킨만의 치밀한 비즈니스 공학을 분석합니다. 단순히 맛있는 것을 넘어, 미국인의 라이프스타일을 바꾼 K-치킨의 성공 방정식을 여러분의 비즈니스에 대입해 보세요! \n\n🎯 핵심 포인트 요약\n*식감의 신세계: 'Crunchy'를 넘어선 극강의 'Crispy', 더블 프라이 공법의 비밀\n*시스템의 역발상: 효율을 버리고 '주문 즉시 조리'라는 프리미엄 가치 선택\n*문화적 트로이 목",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": [
-            "kfc",
-            "mcdonalds"
-          ]
         },
         {
           "video_id": "R3zfTO6LvFM",
@@ -191,13 +183,13 @@
           "subscribers": 499,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 220,
-          "likes": 2,
+          "views": 524,
+          "likes": 3,
           "comment_count": 0,
-          "engagement_rate": 0.0091,
+          "engagement_rate": 0.0057,
           "duration": 130,
           "is_short": false,
-          "buzz_score": 38.2,
+          "buzz_score": 36.1,
           "upload_date": "2026.04.15",
           "url": "https://www.youtube.com/watch?v=R3zfTO6LvFM",
           "description_excerpt": "인스타그램 moonroof2\n네이버 블로그 칼로리 미식가",
@@ -208,41 +200,26 @@
               "likes": 0,
               "sentiment": "긍정",
               "rating": 5
+            },
+            {
+              "author": "@정명건-h5q",
+              "text": "햄버거는 언제 만드시나요?",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
+            },
+            {
+              "author": "@moonroof2",
+              "text": "만들고 싶을 때요",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 4
             }
           ],
           "sentiment_counts": {
             "neg": 0,
-            "neu": 0,
-            "pos": 1
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "ltGcJmD5XNI",
-          "title": "[KFC] 최현석 셰프 X 툼켄치밥",
-          "channel": "KFC Korea",
-          "subscribers": 5110,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 247,
-          "likes": 10,
-          "comment_count": 0,
-          "engagement_rate": 0.0405,
-          "duration": 15,
-          "is_short": true,
-          "buzz_score": 35.1,
-          "upload_date": "2026.04.14",
-          "url": "https://www.youtube.com/watch?v=ltGcJmD5XNI",
-          "description_excerpt": "최현석 셰프 PICK! KFC 툼켄치밥🔥\n풍미 가득한 버터 갈릭 라이스 위에\n크리스피하게 튀겨낸 핸드메이드 텐더,\n그리고 매콤 크리미한 소스까지!\n\n풍미 예술이네~👀\n\n#KFC #핸드메이드 #케이에프씨 #KFC치킨 #KFC켄치밥 #치밥 #툼켄치밥 #갈릭라이스 #핸드메이드 #치킨텐더 #치킨밥 #밥맛집 #한끼뚝딱 #든든런치 #야식제격",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
+            "neu": 1,
+            "pos": 2
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -267,6 +244,35 @@
           "upload_date": "2026.04.10",
           "url": "https://www.youtube.com/watch?v=r00Zp9vcKQ4",
           "description_excerpt": "치킨 텐더는 감동이 있다",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "ltGcJmD5XNI",
+          "title": "[KFC] 최현석 셰프 X 툼켄치밥",
+          "channel": "KFC Korea",
+          "subscribers": 5110,
+          "creator_tier": "Official",
+          "is_verified": false,
+          "views": 260,
+          "likes": 10,
+          "comment_count": 0,
+          "engagement_rate": 0.0385,
+          "duration": 15,
+          "is_short": true,
+          "buzz_score": 27.6,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=ltGcJmD5XNI",
+          "description_excerpt": "최현석 셰프 PICK! KFC 툼켄치밥🔥\n풍미 가득한 버터 갈릭 라이스 위에\n크리스피하게 튀겨낸 핸드메이드 텐더,\n그리고 매콤 크리미한 소스까지!\n\n풍미 예술이네~👀\n\n#KFC #핸드메이드 #케이에프씨 #KFC치킨 #KFC켄치밥 #치밥 #툼켄치밥 #갈릭라이스 #핸드메이드 #치킨텐더 #치킨밥 #밥맛집 #한끼뚝딱 #든든런치 #야식제격",
           "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
@@ -305,93 +311,6 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "WTWuhQJUmhc",
-          "title": "KFC보다 맛있다고? 영국 여성 여행자가 한국에서 치킨 먹고 충격받은 진짜 이유. 밤마다 치킨 시키는 한국 사람들, 직접 살아보니 완전히 달랐다",
-          "channel": "Stranger in Korea",
-          "subscribers": 10,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 1,
-          "likes": 1,
-          "comment_count": 0,
-          "engagement_rate": 1.0,
-          "duration": 1863,
-          "is_short": false,
-          "buzz_score": 27.2,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=WTWuhQJUmhc",
-          "description_excerpt": "한국에 처음 온 영국 여성 여행자가 던진 질문. 한국 치킨은 정말 KFC보다 맛있을까. 골목 치킨집부터 한강 배달 치킨, 지역마다 다른 양념과 마늘 치킨까지 직접 경험하며 느낀 한국 치킨 문화의 진짜 매력. 단순한 음식이 아닌 사람들을 모이게 하는 한국만의 밤 문화와 일상 속 치킨 이야기. 영국에서 온 시선으로 바라본 한국인의 생활, 분위기, 그리고 치킨이 특별한 이유를 담은 리얼 체험 스토리.\n#한국치킨 #KFC비교 #한국치킨문화 #치킨먹방 #한국여행 #외국인반응 #영국여행자 #한국문화 #치맥 #한국야식 #한강치킨 #양념치킨 #후",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "KgFKNcalkTE",
-          "title": "4/11 오늘 KFC 치킨 하루내내 1+1이라며??",
-          "channel": "파란주의보",
-          "subscribers": 101,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 14,
-          "likes": 1,
-          "comment_count": 0,
-          "engagement_rate": 0.0714,
-          "duration": 8065,
-          "is_short": false,
-          "buzz_score": 24.1,
-          "upload_date": "2026.04.11",
-          "url": "https://www.youtube.com/watch?v=KgFKNcalkTE",
-          "description_excerpt": "nan",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "OMA8m_8bTGI",
-          "title": "KFC 매일밤 치킨나이트 1+1 이벤트 정보 공유",
-          "channel": "소비다이어트(SpendingDiet)",
-          "subscribers": 15,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 44,
-          "likes": 2,
-          "comment_count": 0,
-          "engagement_rate": 0.0455,
-          "duration": 65,
-          "is_short": false,
-          "buzz_score": 23.7,
-          "upload_date": "2026.04.12",
-          "url": "https://www.youtube.com/watch?v=OMA8m_8bTGI",
-          "description_excerpt": "KFC 매일 밤 치킨나이트 이벤트로 일부 치킨 메뉴 1+1 제공되는 이벤트 정보를 공유드립니다.\n\n#KFC매일밤치킨나이트 #KFC원플러스원이벤트 #KFC치킨나이트 #KFC할인 #케이에프씨할인 #케이에프씨치킨나이트",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": []
         },
@@ -421,7 +340,7 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_rating": 5,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -429,10 +348,290 @@
           ]
         },
         {
+          "video_id": "pEJpwGiKayc",
+          "title": "KFC마저 무릎 꿇린 K 치킨의 소름 돋는 침투 전략",
+          "channel": "옛날이야기 한국사",
+          "subscribers": 2570,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 25,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.04,
+          "duration": 1187,
+          "is_short": false,
+          "buzz_score": 9.1,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=pEJpwGiKayc",
+          "description_excerpt": "전 세계 맥도날드 매장 수보다 한국의 치킨집이 더 많다는 사실, 알고 계셨나요? 60년 전통의 미국 치킨 시장을 단숨에 ‘K-크리스피’의 열풍으로 몰아넣은 한국 치킨만의 치밀한 비즈니스 공학을 분석합니다. 단순히 맛있는 것을 넘어, 미국인의 라이프스타일을 바꾼 K-치킨의 성공 방정식을 여러분의 비즈니스에 대입해 보세요! \n\n🎯 핵심 포인트 요약\n*식감의 신세계: 'Crunchy'를 넘어선 극강의 'Crispy', 더블 프라이 공법의 비밀\n*시스템의 역발상: 효율을 버리고 '주문 즉시 조리'라는 프리미엄 가치 선택\n*문화적 트로이 목",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [
+            "kfc",
+            "mcdonalds"
+          ]
+        },
+        {
+          "video_id": "8qGtu7Q1P2Y",
+          "title": "24시간동안 8개 햄버거 브랜드 싹 다 먹은 날 | 맥도날드,롯데리아,버거킹,맘스터치,왓더버거,프랭크버거,노브랜드버거,KFC,불고기버거,새우버거,치킨버거,감자튀김,오징어링,치즈스틱",
+          "channel": "김복순",
+          "subscribers": 372000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 242313,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 3850,
+          "is_short": false,
+          "buzz_score": 8.8,
+          "upload_date": "2026.04.12",
+          "url": "https://www.youtube.com/watch?v=8qGtu7Q1P2Y",
+          "description_excerpt": "00:00 [맥도날드]불고기버거+슈슈버거+맥스파이시상하이버거+1955버거+빅맥+사이드:골든모짜렐라치즈스틱4조각+맥너겟4조각(+스위트앤사워소스)+고구마후라이+감자튀김L+케이준디핑소스+코카콜라L\n08:14 [롯데리아]불고기버거+새우버거+핫크리스피치킨버거+모짜렐라인더버거+한우불고기버거+사이드:양념감자(+치즈시즈닝+어니언시즈닝추가)+통오징어링(+잠발라야소스)+치즈스틱2조각+치킨너겟+코카콜라\n16:36 [버거킹]불고기와퍼+통새우와퍼+치킨킹버거+몬스터와퍼+와퍼+사이드:리얼어니언링L+감자튀김L+코코넛슈림프6조각(+스위트칠리소스)+코카콜라L\n25",
+          "top_comments": [
+            {
+              "author": "@boribwab",
+              "text": "떠오르는 신성임 오래활동한 먹방러 몇몇분도 이분이 이길 수 있을거 같음 24시간내에 햄버거만 40개 먹는데 사이드도 몇십개씩 먹으면서 물리지도 않고 소화력도 좋음",
+              "likes": 769,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@이르밈-u3f",
+              "text": "타임라인 경이롭다진짜",
+              "likes": 534,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@돌돌이-j4j",
+              "text": "그.. 복순님.. 팔 아프게 시간 인증 안 해주셔도 될 거 같아여.... 이제 믿는 정도를 넘어 경이로움에 도달했거등요",
+              "likes": 438,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@maps-j1k",
+              "text": "제목 보고 배부르긴 또 처음이네",
+              "likes": 360,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@영-j9k",
+              "text": "챗지피티한테 정리만 도와달라고 하고 직접 브랜드 영양표보면서 작성했습니다 \n\n총칼로리 36,748kcal\n\n🍔1.맥도날드\n버거\n불고기버거:409kcal\n슈슈버거:424kcal\n맥스파이시상하이버거:464kcal\n1955버거:530kcal\n빅맥:548kcal\n사이드+음료\n모짜렐라치즈스틱4:330kcal\n너겟4:163kcal\n스위트앤샤워소스:40kcal\n케이준디핑소스:98kcal\n고구마후라이:295kcal\n감자튀김L:397kcal\n콜라L:185kcal\n\n🍔2.롯데리아\n버거\n불고기버거:390kcal\n새우버거:421kcal\n핫크리스피:503",
+              "likes": 210,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@youjinchoi3430",
+              "text": "내가 뚱뚱해봐서 아는데 100키로 넘어도 햄버거 하루 5개 이상 힘듦 저정도면 초고도 비만도 아닌데 진짜 대단한 소화력임 그것도 모잘라 배달내역 시간 모든걸 증명하는게 찐중에 찐임. 먹뱉 먹토논란 자자한 먹방계에서 레알 찐 먹방러는 이분하나일듯",
+              "likes": 190,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@moonvii127",
+              "text": "이분한테는 감히 햄최몇을 물을 수가 없을 거 같음...",
+              "likes": 186,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@aeongnyang38",
+              "text": "4시간만에 햄버거 20개를 먹었다는거쟌아......... 경이로우면서 복순님 행복해보여서 귀여움 ㅋㅋㅋㅋㅋ",
+              "likes": 166,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@kimboksoon222",
+              "text": "00:01 [맥도날드]불고기버거(₩4,700)+슈슈버거(₩5,600)+맥스파이시상하이버거(₩6,800)+1955버거(₩7,600)+빅맥(₩6,600)+사이드:골든모짜렐라치즈스틱4조각(₩5,400)+맥너겟4조각(+스위트앤사워소스₩3,700)+고구마후라이(₩3,600)+감자튀김L(₩4,100)+케이준디핑소스2개(1개₩300)+코카콜라L(₩3,200)\n08:14 [롯데리아]불고기버거(₩5,800)+새우버거(₩5,800)+핫크리스피치킨버거(₩7,000)+모짜렐라인더버거(₩8,800)+한우불고기버거(₩9,800)+사이드:양념감자(+치즈시즈닝",
+              "likes": 122,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@나무-i2p",
+              "text": "어디 햄버거든 전메뉴 소개해주는 채널은 여기뿐이니 얼른 광고 줄서시길.. 찐으로 다 먹어주심..ㄷㄷ",
+              "likes": 116,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 0,
+            "pos": 8
+          },
+          "negative_ratio": 0.2,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [
+            "kfc",
+            "burgerking",
+            "mcdonalds",
+            "lotteria",
+            "momstouch"
+          ]
+        },
+        {
+          "video_id": "znkik70wwNk",
+          "title": "#이스라엘쿠팡미국일본제품국민의힘불매가세계평화다 나이키 노스페이스 아이폰애플 스타벅스 맥도날드 KFC버거킹 테슬라 포드 캐딜락링컨 트럼프탄핵 엡스틴 롯데 혼다토요타 친일매국노천벌을",
+          "channel": "파란하늘파란세상",
+          "subscribers": 5220,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 15,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 56,
+          "is_short": true,
+          "buzz_score": 7.6,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=znkik70wwNk",
+          "description_excerpt": "nan",
+          "top_comments": [
+            {
+              "author": "@파란하늘파란세상",
+              "text": "#이스라엘쿠팡미국일본제품불매가세계평화다 나이키 노스페이스 아이폰애플 스타벅스 맥도날드 KFC버거킹 테슬라 포드 캐딜락 링컨 트럼프탄핵 엡스타인 쿠팡 롯데혼다 토요타 친일매국노천벌을\n\n\n쿠팡 3,370만명개인정보유출 고리대금대출18.9% 국민을 개돼지취급 구매노예로취급 쿠팡은 국내잘나가는 중소기업제품 갈취악질기업이 쿠팡임\n\n\n이란이여 승리하라  미국 편드는놈들도 쑥대밭으로 쳐단하라 이스라엘땅 초토화 미국군사무기 모조리 전부박살내라\n\n  다시는 전 세계로 전쟁못하게 세계평화 지구땅 평화를 위하여 쑥대밭으로  주변 미군주둔지도 쑥대밭으로",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@파란하늘파란세상",
+              "text": "문명파괴 광기발언 민간인거주 다리폭격 집단학살전쟁범죄자 미국트럼프 이스라엘네타냐후 법정심판을\n#미국제품불매가세계평화다 나이키 아이폰애플 스타벅스 맥도날드KFC 테슬라 포드캐딜락 링컨\n\n미국 트럼프 탄핵 성스캔들 엡스타인 쿠팡3,370만명개인정보유출 고리대금대출18.9% 국민을 개돼지취급 구매노예로취급 쿠팡은 국내잘나가는 중소기업제품 갈취악질기업이 쿠팡임",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@파란하늘파란세상",
+              "text": "코스피지수 6220 트럼프전쟁이후최고치 \n세계군사강국 5위 세계영향력 7위 문화강국1위 세계민주주의지수 41위 에서 ㅡ 22위대로하향 감동입니다 더불어사람이 먼저인세상 조국\n26년3월1일 월요일 대한민국 코스피 역대사상최고치6347💙 코스닥1180 감동입니다\n국민연금한해수익 1천540조원 😮돌파 감동입니다 이광수#진보를위한주식투자 이재명대통령은합니다ㅏ\n\n\n 국민연금한해수익 1천540조원 돌파 세계역사상최고기록 국민연금개혁 33년늦추어졌습니다 #이대남2대남 이제 지방정부 세상이열립니다\n\n\n 국무회의 기관공사 업무보고생중계 대한민국 최",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 3
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [
+            "kfc",
+            "burgerking",
+            "mcdonalds"
+          ]
+        },
+        {
+          "video_id": "OMA8m_8bTGI",
+          "title": "KFC 매일밤 치킨나이트 1+1 이벤트 정보 공유",
+          "channel": "소비다이어트(SpendingDiet)",
+          "subscribers": 15,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 46,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.0435,
+          "duration": 65,
+          "is_short": false,
+          "buzz_score": 5.3,
+          "upload_date": "2026.04.12",
+          "url": "https://www.youtube.com/watch?v=OMA8m_8bTGI",
+          "description_excerpt": "KFC 매일 밤 치킨나이트 이벤트로 일부 치킨 메뉴 1+1 제공되는 이벤트 정보를 공유드립니다.\n\n#KFC매일밤치킨나이트 #KFC원플러스원이벤트 #KFC치킨나이트 #KFC할인 #케이에프씨할인 #케이에프씨치킨나이트",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "KgFKNcalkTE",
+          "title": "4/11 오늘 KFC 치킨 하루내내 1+1이라며??",
+          "channel": "파란주의보",
+          "subscribers": 101,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 14,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.0714,
+          "duration": 8065,
+          "is_short": false,
+          "buzz_score": 4.9,
+          "upload_date": "2026.04.11",
+          "url": "https://www.youtube.com/watch?v=KgFKNcalkTE",
+          "description_excerpt": "nan",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "WTWuhQJUmhc",
+          "title": "KFC보다 맛있다고? 영국 여성 여행자가 한국에서 치킨 먹고 충격받은 진짜 이유. 밤마다 치킨 시키는 한국 사람들, 직접 살아보니 완전히 달랐다",
+          "channel": "Stranger in Korea",
+          "subscribers": 10,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 0,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 1863,
+          "is_short": false,
+          "buzz_score": 0.0,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=WTWuhQJUmhc",
+          "description_excerpt": "한국에 처음 온 영국 여성 여행자가 던진 질문. 한국 치킨은 정말 KFC보다 맛있을까. 골목 치킨집부터 한강 배달 치킨, 지역마다 다른 양념과 마늘 치킨까지 직접 경험하며 느낀 한국 치킨 문화의 진짜 매력. 단순한 음식이 아닌 사람들을 모이게 하는 한국만의 밤 문화와 일상 속 치킨 이야기. 영국에서 온 시선으로 바라본 한국인의 생활, 분위기, 그리고 치킨이 특별한 이유를 담은 리얼 체험 스토리.\n#한국치킨 #KFC비교 #한국치킨문화 #치킨먹방 #한국여행 #외국인반응 #영국여행자 #한국문화 #치맥 #한국야식 #한강치킨 #양념치킨 #후",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
           "video_id": "AWlJvgrnb90",
           "title": "65세에 “인생 끝”이라고 생각한 치킨 할아버지가 KFC 제국 세운 충격 실화 | 커널 샌더스 숨겨진 기원",
           "channel": "숨겨진 기원",
-          "subscribers": 75,
+          "subscribers": 77,
           "creator_tier": "Nano",
           "is_verified": false,
           "views": 0,
@@ -459,19 +658,19 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 5,
-        "neu": 0,
-        "pos": 6
+        "neg": 2,
+        "neu": 2,
+        "pos": 22
       },
-      "negative_ratio": 0.455,
-      "warning_level": "yellow"
+      "negative_ratio": 0.077,
+      "warning_level": ""
     },
     "burgerking": {
       "display": "버거킹",
       "video_count": 16,
-      "total_views": 6690912,
-      "total_likes": 3120,
-      "total_comments": 173,
+      "total_views": 6691098,
+      "total_likes": 3121,
+      "total_comments": 153,
       "n_short": 2,
       "n_long": 14,
       "tier_counts": {
@@ -481,7 +680,7 @@
         "Official": 2,
         "Mega": 1
       },
-      "summary": "(요약 대기 중)",
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
       "videos": [
         {
           "video_id": "iBRoR2hYuJo",
@@ -505,8 +704,8 @@
               "author": "@choonsik460",
               "text": "0:20 로다주닮았음 테무산 로다주",
               "likes": 36,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@준팍7",
@@ -526,15 +725,15 @@
               "author": "@구에에엑",
               "text": "맛있겠다.. 버거킹 알림 울리길래 보러왔습니다",
               "likes": 6,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@구르미-c1s",
               "text": "김병만 닮았는데",
               "likes": 4,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@jasonkim.1207",
@@ -554,8 +753,8 @@
               "author": "@sinsarokorean6866",
               "text": "맛있을까? 먹은 사람 후기좀",
               "likes": 3,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@코노오모",
@@ -568,16 +767,16 @@
               "author": "@user-dp9sl3if1k",
               "text": "두가지 먹어봤는데 맛있음요 ㅋㅋ",
               "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             }
           ],
           "sentiment_counts": {
-            "neg": 0,
-            "neu": 3,
-            "pos": 7
+            "neg": 2,
+            "neu": 0,
+            "pos": 8
           },
-          "negative_ratio": 0.0,
+          "negative_ratio": 0.2,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -612,15 +811,15 @@
               "author": "@tngus-j7i",
               "text": "통모짜와퍼",
               "likes": 5,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@proames1933",
               "text": "몬스터x 출시하셈..",
               "likes": 4,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@nokchaduk",
@@ -648,7 +847,7 @@
               "text": "고추장불고기 재출시",
               "likes": 2,
               "sentiment": "긍정",
-              "rating": 4
+              "rating": 5
             },
             {
               "author": "@rennylee1315",
@@ -661,8 +860,8 @@
               "author": "@세이코-c6g",
               "text": "이거 브금 알려주실분 ㅠ",
               "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@Ronaldiuuuuu",
@@ -673,12 +872,12 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
+            "neg": 3,
             "neu": 2,
-            "pos": 6
+            "pos": 5
           },
-          "negative_ratio": 0.2,
-          "warning_level": "",
+          "negative_ratio": 0.3,
+          "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": []
@@ -726,15 +925,15 @@
               "author": "@maps-j1k",
               "text": "제목 보고 배부르긴 또 처음이네",
               "likes": 360,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@youjinchoi3430",
               "text": "내가 뚱뚱해봐서 아는데 100키로 넘어도 햄버거 하루 5개 이상 힘듦 저정도면 초고도 비만도 아닌데 진짜 대단한 소화력임 그것도 모잘라 배달내역 시간 모든걸 증명하는게 찐중에 찐임. 먹뱉 먹토논란 자자한 먹방계에서 레알 찐 먹방러는 이분하나일듯",
               "likes": 190,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@moonvii127",
@@ -747,15 +946,15 @@
               "author": "@aeongnyang38",
               "text": "4시간만에 햄버거 20개를 먹었다는거쟌아......... 경이로우면서 복순님 행복해보여서 귀여움 ㅋㅋㅋㅋㅋ",
               "likes": 166,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@kimboksoon222",
               "text": "00:01 [맥도날드]불고기버거(₩4,700)+슈슈버거(₩5,600)+맥스파이시상하이버거(₩6,800)+1955버거(₩7,600)+빅맥(₩6,600)+사이드:골든모짜렐라치즈스틱4조각(₩5,400)+맥너겟4조각(+스위트앤사워소스₩3,700)+고구마후라이(₩3,600)+감자튀김L(₩4,100)+케이준디핑소스2개(1개₩300)+코카콜라L(₩3,200)\n08:14 [롯데리아]불고기버거(₩5,800)+새우버거(₩5,800)+핫크리스피치킨버거(₩7,000)+모짜렐라인더버거(₩8,800)+한우불고기버거(₩9,800)+사이드:양념감자(+치즈시즈닝",
               "likes": 122,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@나무-i2p",
@@ -773,14 +972,14 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 4,
-            "neu": 0,
-            "pos": 6
+            "neg": 1,
+            "neu": 1,
+            "pos": 8
           },
-          "negative_ratio": 0.4,
-          "warning_level": "yellow",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "negative_ratio": 0.1,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -885,108 +1084,8 @@
           },
           "negative_ratio": 0.3,
           "warning_level": "yellow",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "rUb2QPFaaZM",
-          "title": "쌍베가 극찬한 유용욱 버거  [버거킹x유용욱 스모크 비프립 와퍼]",
-          "channel": "쌍튜브",
-          "subscribers": 157000,
-          "creator_tier": "Macro",
-          "is_verified": false,
-          "views": 11360,
-          "likes": 155,
-          "comment_count": 20,
-          "engagement_rate": 0.0154,
-          "duration": 484,
-          "is_short": false,
-          "buzz_score": 51.3,
-          "upload_date": "2026.04.14",
-          "url": "https://www.youtube.com/watch?v=rUb2QPFaaZM",
-          "description_excerpt": "#쌍베 #유용욱 #스모크비프립와퍼 #버거킹\n\n치지직 라이브 : https://chzzk.naver.com/dcd75ef0f2c664e3270de18696ad43bf\n쌍튜브 풀영상 https://www.youtube.com/@쌍튜브2호점\n\n비지니스 광고문의 pacific8815@naver.com",
-          "top_comments": [
-            {
-              "author": "@arla-m5v",
-              "text": "04:08 눈을 감으라고 해놓고 사진 보여줘버리기",
-              "likes": 16,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@theorycuisine5897",
-              "text": "아니 쌍배님 이거보고 냅다 버거킹 뛰어가서 샌드위치 시켜먹었는데 안에 고기 쌍창렬인데 쌍튜브 과대광고 실화인가여",
-              "likes": 14,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@9mimimi-f7j",
-              "text": "자 눈을 함 감아보세요",
-              "likes": 9,
-              "sentiment": "중립",
-              "rating": 3
-            },
-            {
-              "author": "@wogns357357",
-              "text": "양정 버거의 왕을 뵙습니다",
-              "likes": 6,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@Cute_Weasel",
-              "text": "점바점 아님? 우리동네는 고기 채소 넘치도록 넣어주는데",
-              "likes": 5,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@찜씅",
-              "text": "소스맛으로 버거먹는갑네 ㅋㅋ",
-              "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@mire_____4773",
-              "text": "내돈주고 절대먹을일없을듯",
-              "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@렇렇-q2n",
-              "text": "스모크 비프립 중에서는 샌드위치가 제일 맛있음. 근데 가격대비 양이 아쉬워서 또 사먹을 생각은 안 듦",
-              "likes": 1,
-              "sentiment": "중립",
-              "rating": 3
-            },
-            {
-              "author": "@kinsidest",
-              "text": "나도 맛잇엇음.. BBQ소스가 많은데 맛이 괜찮았음. 아이러니 하게도 파이브가이즈는 생각이 안나는데 얘는 또 먹고 싶은 생각이 듬ㅋㅋ 매장에서 먹는걸 추천. 햄버거는 배달 해 먹기엔 안 좋은 음식임. 오는 동안 빵이 소스에 젓고 패티는 팍 식음..",
-              "likes": 1,
-              "sentiment": "긍정",
-              "rating": 4
-            },
-            {
-              "author": "@징징이-t3y",
-              "text": "테무테무버린",
-              "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 4,
-            "neu": 2,
-            "pos": 4
-          },
-          "negative_ratio": 0.4,
-          "warning_level": "yellow",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
           "multi_brand_tags": []
         },
         {
@@ -1054,7 +1153,7 @@
               "text": "늘 빠른 편의점 신상정보 넘~ 감사한데 건강도 챙기며 적당히 드세요~~ 찌콩뉨~~ 나이들어 고생할까봐...😢",
               "likes": 4,
               "sentiment": "긍정",
-              "rating": 4
+              "rating": 5
             },
             {
               "author": "@풍선껌-x3b",
@@ -1074,16 +1173,16 @@
               "author": "@꺄르르zz",
               "text": "당장 하입 갈겨 ✨️",
               "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             }
           ],
           "sentiment_counts": {
-            "neg": 0,
+            "neg": 1,
             "neu": 0,
-            "pos": 10
+            "pos": 9
           },
-          "negative_ratio": 0.0,
+          "negative_ratio": 0.1,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -1111,15 +1210,15 @@
               "author": "@김성준-j5v",
               "text": "빨라빨라 역시 맛성무가 리뷰는 끝판왕임",
               "likes": 136,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@eugeney11",
               "text": "할인할때 먹으면 맛있게 먹을 수 있다.\n= 그 돈 주고 먹을 정도는 안된다",
               "likes": 53,
               "sentiment": "긍정",
-              "rating": 4
+              "rating": 5
             },
             {
               "author": "@한교동짬뽕-h4k",
@@ -1161,7 +1260,7 @@
               "text": "할인해봤자 7프로라 겨우 900원 할인",
               "likes": 12,
               "sentiment": "긍정",
-              "rating": 4
+              "rating": 5
             },
             {
               "author": "@MangNine",
@@ -1179,55 +1278,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 2,
             "neu": 2,
-            "pos": 7
+            "pos": 6
           },
-          "negative_ratio": 0.1,
-          "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "AJKPLnAuUrg",
-          "title": "버거킹 스모크 비프립와퍼 feat:유용욱쉐프",
-          "channel": "크리스리studio",
-          "subscribers": 20000,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 117,
-          "likes": 8,
-          "comment_count": 2,
-          "engagement_rate": 0.0855,
-          "duration": 467,
-          "is_short": false,
-          "buzz_score": 44.5,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=AJKPLnAuUrg",
-          "description_excerpt": "문의/협력(dku8730@naver.com)",
-          "top_comments": [
-            {
-              "author": "@새봄이와콩이",
-              "text": "신사동 이목 간지너무오래되서 향도까먹었네요 ㅠㅠ 안경이 너무잘어울리십니다😂",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@lemmy8284",
-              "text": "만원짜리가 든게 너무 없네요. 와퍼는 몬스터가 최고인듯.",
-              "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 1,
-            "neu": 0,
-            "pos": 1
-          },
-          "negative_ratio": 0.5,
+          "negative_ratio": 0.2,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -1329,6 +1384,150 @@
           },
           "negative_ratio": 0.4,
           "warning_level": "yellow",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "rUb2QPFaaZM",
+          "title": "쌍베가 극찬한 유용욱 버거  [버거킹x유용욱 스모크 비프립 와퍼]",
+          "channel": "쌍튜브",
+          "subscribers": 157000,
+          "creator_tier": "Macro",
+          "is_verified": false,
+          "views": 11533,
+          "likes": 156,
+          "comment_count": 0,
+          "engagement_rate": 0.0135,
+          "duration": 484,
+          "is_short": false,
+          "buzz_score": 41.5,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=rUb2QPFaaZM",
+          "description_excerpt": "#쌍베 #유용욱 #스모크비프립와퍼 #버거킹\n\n치지직 라이브 : https://chzzk.naver.com/dcd75ef0f2c664e3270de18696ad43bf\n쌍튜브 풀영상 https://www.youtube.com/@쌍튜브2호점\n\n비지니스 광고문의 pacific8815@naver.com",
+          "top_comments": [
+            {
+              "author": "@arla-m5v",
+              "text": "04:08 눈을 감으라고 해놓고 사진 보여줘버리기",
+              "likes": 16,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@theorycuisine5897",
+              "text": "아니 쌍배님 이거보고 냅다 버거킹 뛰어가서 샌드위치 시켜먹었는데 안에 고기 쌍창렬인데 쌍튜브 과대광고 실화인가여",
+              "likes": 14,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@9mimimi-f7j",
+              "text": "자 눈을 함 감아보세요",
+              "likes": 9,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@wogns357357",
+              "text": "양정 버거의 왕을 뵙습니다",
+              "likes": 6,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@Cute_Weasel",
+              "text": "점바점 아님? 우리동네는 고기 채소 넘치도록 넣어주는데",
+              "likes": 5,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@찜씅",
+              "text": "소스맛으로 버거먹는갑네 ㅋㅋ",
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@mire_____4773",
+              "text": "내돈주고 절대먹을일없을듯",
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@렇렇-q2n",
+              "text": "스모크 비프립 중에서는 샌드위치가 제일 맛있음. 근데 가격대비 양이 아쉬워서 또 사먹을 생각은 안 듦",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@kinsidest",
+              "text": "나도 맛잇엇음.. BBQ소스가 많은데 맛이 괜찮았음. 아이러니 하게도 파이브가이즈는 생각이 안나는데 얘는 또 먹고 싶은 생각이 듬ㅋㅋ 매장에서 먹는걸 추천. 햄버거는 배달 해 먹기엔 안 좋은 음식임. 오는 동안 빵이 소스에 젓고 패티는 팍 식음..",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
+            },
+            {
+              "author": "@징징이-t3y",
+              "text": "테무테무버린",
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 5,
+            "neu": 0,
+            "pos": 5
+          },
+          "negative_ratio": 0.5,
+          "warning_level": "red",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "AJKPLnAuUrg",
+          "title": "버거킹 스모크 비프립와퍼 feat:유용욱쉐프",
+          "channel": "크리스리studio",
+          "subscribers": 20000,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 130,
+          "likes": 8,
+          "comment_count": 2,
+          "engagement_rate": 0.0769,
+          "duration": 467,
+          "is_short": false,
+          "buzz_score": 37.1,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=AJKPLnAuUrg",
+          "description_excerpt": "문의/협력(dku8730@naver.com)",
+          "top_comments": [
+            {
+              "author": "@새봄이와콩이",
+              "text": "신사동 이목 간지너무오래되서 향도까먹었네요 ㅠㅠ 안경이 너무잘어울리십니다😂",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@lemmy8284",
+              "text": "만원짜리가 든게 너무 없네요. 와퍼는 몬스터가 최고인듯.",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.5,
+          "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": []
@@ -1355,8 +1554,8 @@
               "author": "@eina_holic",
               "text": "ㅋㅋㅋㅋ 하지만 양파가 짱맛인걸😝",
               "likes": 1,
-              "sentiment": "긍정",
-              "rating": 4
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@김범준-w2k",
@@ -1370,37 +1569,37 @@
               "text": "동그란 엥나가 동그란 햄버거에서 동그란(?)바베큐를 쏙쏙 빼 먹는다....  냠냠냠~",
               "likes": 0,
               "sentiment": "긍정",
-              "rating": 4
+              "rating": 5
             },
             {
               "author": "@eina_holic",
               "text": "하필 햄버거가 동그랗다니... ㅂㄷㅂㄷ",
               "likes": 0,
               "sentiment": "부정",
-              "rating": 2
+              "rating": 1
             },
             {
               "author": "@zerokim3626",
               "text": "나도 오늘 먹었는데...뒷말은 생략한다",
               "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@eina_holic",
               "text": "앜ㅋㅋㅋㅋ 궁금하군여",
               "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "중립",
+              "rating": 3
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
-            "neu": 0,
-            "pos": 5
+            "neg": 3,
+            "neu": 1,
+            "pos": 2
           },
-          "negative_ratio": 0.167,
-          "warning_level": "",
+          "negative_ratio": 0.5,
+          "warning_level": "red",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": []
@@ -1445,8 +1644,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -1482,8 +1681,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -1511,8 +1710,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -1569,8 +1768,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -1598,8 +1797,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds"
@@ -1607,11 +1806,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 20,
-        "neu": 12,
-        "pos": 59
+        "neg": 25,
+        "neu": 9,
+        "pos": 57
       },
-      "negative_ratio": 0.22,
+      "negative_ratio": 0.275,
       "warning_level": ""
     },
     "mcdonalds": {
@@ -1627,7 +1826,7 @@
         "Official": 3,
         "Macro": 1
       },
-      "summary": "(요약 대기 중)",
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
       "videos": [
         {
           "video_id": "WY2QWLROhsI",
@@ -1654,8 +1853,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": []
         },
         {
@@ -1683,8 +1882,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": []
         },
         {
@@ -1783,8 +1982,8 @@
           },
           "negative_ratio": 0.4,
           "warning_level": "yellow",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -1877,7 +2076,7 @@
           "negative_ratio": 0.25,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -1934,8 +2133,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds"
@@ -1952,20 +2151,20 @@
     },
     "lotteria": {
       "display": "롯데리아",
-      "video_count": 35,
-      "total_views": 2984991,
-      "total_likes": 7074,
+      "video_count": 36,
+      "total_views": 2985323,
+      "total_likes": 7084,
       "total_comments": 219,
       "n_short": 1,
-      "n_long": 34,
+      "n_long": 35,
       "tier_counts": {
-        "Nano": 26,
+        "Nano": 27,
         "Micro": 5,
         "Macro": 2,
         "Mega": 1,
         "Official": 1
       },
-      "summary": "(요약 대기 중)",
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
       "videos": [
         {
           "video_id": "4XFxpGJhjBg",
@@ -2063,8 +2262,8 @@
           },
           "negative_ratio": 0.6,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -2089,8 +2288,8 @@
               "author": "@이으-s5o",
               "text": "77777 칼로리 조회수 매일 체크하는 삼붕이는 개추 ❤",
               "likes": 525,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@박현지-f4e",
@@ -2103,8 +2302,8 @@
               "author": "@dhooh4730",
               "text": "​ @부리부리-h2f  또 해주는건 너무 힘들거같고..고생했으니 잘 나왔으면하는 바램에ㅋㅋ",
               "likes": 35,
-              "sentiment": "부정",
-              "rating": 2
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@부리부리-h2f",
@@ -2117,8 +2316,8 @@
               "author": "@나난난다",
               "text": "솔직히 이번꺼 노잼이었어 감스트가 너무 감성에 안맞기도 하고 찡찡대는거 듣기도 싫더라 지피티랑 4명이서 실패한 그림이 훨 재밌었을듯",
               "likes": 16,
-              "sentiment": "부정",
-              "rating": 2
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@wieucjxkwo",
@@ -2131,15 +2330,15 @@
               "author": "@Dixicjdj.codmmd",
               "text": "소신발언 셋이 할때가 제일재밌음..",
               "likes": 10,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@민우입니당",
               "text": "다음은 9만?",
               "likes": 4,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@SunwooBae-t5j",
@@ -2157,12 +2356,12 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
+            "neg": 3,
             "neu": 0,
-            "pos": 8
+            "pos": 7
           },
-          "negative_ratio": 0.2,
-          "warning_level": "",
+          "negative_ratio": 0.3,
+          "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": []
@@ -2174,13 +2373,13 @@
           "subscribers": 23600,
           "creator_tier": "Micro",
           "is_verified": false,
-          "views": 1105,
-          "likes": 66,
+          "views": 1265,
+          "likes": 71,
           "comment_count": 13,
-          "engagement_rate": 0.0715,
+          "engagement_rate": 0.0664,
           "duration": 11333,
           "is_short": false,
-          "buzz_score": 58.4,
+          "buzz_score": 57.6,
           "upload_date": "2026.04.15",
           "url": "https://www.youtube.com/watch?v=duJiwIGdBUA",
           "description_excerpt": "빙하유 생방송 : https://chzzk.me/binghayu\n빙하유 유튜브 : https://www.youtube.com/@binghayu\n오버더월 팬카페 : https://cafe.naver.com/otwoffical\n빙하유 트위터 : https://twitter.com/binghayu\nASMR : https://www.youtube.com/@HayuASMR",
@@ -2363,8 +2562,8 @@
           },
           "negative_ratio": 0.4,
           "warning_level": "yellow",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -2474,35 +2673,6 @@
           "multi_brand_tags": []
         },
         {
-          "video_id": "0TL6VAmSc98",
-          "title": "롯데리아 디진다매운돈까스 미션 지금 경기도 광주 미션방송 #가영사랑해하치",
-          "channel": "나락간복순이TV",
-          "subscribers": 322,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 239,
-          "likes": 12,
-          "comment_count": 0,
-          "engagement_rate": 0.0502,
-          "duration": 10653,
-          "is_short": false,
-          "buzz_score": 48.3,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=0TL6VAmSc98",
-          "description_excerpt": "This stream is created with #PRISMLiveStudio",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
           "video_id": "pSof8RygONc",
           "title": "롯데리아 디진다돈까스 10단계 한번 더(눈물주의)ft.둘기 초록",
           "channel": "김태길 KIMTAEGIL",
@@ -2598,8 +2768,8 @@
           },
           "negative_ratio": 0.2,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 2,
           "multi_brand_tags": []
         },
         {
@@ -2698,37 +2868,8 @@
           },
           "negative_ratio": 0.2,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "O9_YSUvF-Lg",
-          "title": "듀파구 구구덕 합방 못 웃기면 롯데리아 디진다 돈까스 먹음(이미 시킴) 2026-04-16 23:02",
-          "channel": "최도비 Choidobby",
-          "subscribers": 34700,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 102,
-          "likes": 5,
-          "comment_count": 0,
-          "engagement_rate": 0.049,
-          "duration": 0,
-          "is_short": false,
-          "buzz_score": 46.7,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=O9_YSUvF-Lg",
-          "description_excerpt": "#valorant #valorantclips #fps #meme #valorantmemes #치지직 #최도비\n\n● 최도비 유튜브 멤버십 가입하기●\n월 990원으로 즐기는 최도비의 시크릿 영상!\nhttps://www.youtube.com/channel/UC3bV_nQqIntJnqXUEOkLQcQ/join \n\n● 치지직 생방송 \nhttps://chzzk.naver.com/7c63fb69fb989...\n생방송에서는 발로란트와 다양한 종합 게임들을 볼 수 있습니다.\n-----------------------------------------",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
           "multi_brand_tags": []
         },
         {
@@ -2753,15 +2894,15 @@
               "author": "@아무것도_묻지마",
               "text": "ㅠㅠ 방금 배달시켜 먹었는데 울었어요  너무 매워요 이건 남편꺼!!",
               "likes": 2,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@좋은날-s1x",
               "text": "맵찔이라 2단계 양념맛 시켜 먹었는데도 맵더라고요 😅",
               "likes": 1,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@뚠뚠이의일상-t6o",
@@ -2774,19 +2915,19 @@
               "author": "@뚠뚠이의일상-t6o",
               "text": "앗ㅎㅎ네 맵찔이분들우 매우실거에요 그래도 도전해보셨으니 그걸로 된거죠😊",
               "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             }
           ],
           "sentiment_counts": {
             "neg": 1,
-            "neu": 1,
-            "pos": 2
+            "neu": 0,
+            "pos": 3
           },
           "negative_ratio": 0.25,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": []
         },
         {
@@ -2811,8 +2952,8 @@
               "author": "@음밥이",
               "text": "점점 빅현배랑 비슷해지고있음 ㅜㅜ 살빼요",
               "likes": 6,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@페코얌",
@@ -2825,8 +2966,8 @@
               "author": "@마초-j3s",
               "text": "전혀 안매워 보이는데",
               "likes": 4,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@koreanflag조하요",
@@ -2846,47 +2987,47 @@
               "author": "@아누카",
               "text": "체격  봐선  디진다   3빡스는  먹을꺼  같은데  의외내 :face-purple-wide-eyes:",
               "likes": 2,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@신이쁨-o5h",
               "text": "로데리아에도 저걸 판다고?",
               "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@hahahata7",
               "text": "저도 맵찔이긴한데..10단계 먹을만하던데🤔",
               "likes": 1,
               "sentiment": "긍정",
-              "rating": 4
+              "rating": 5
             },
             {
               "author": "@존목슬리-j7j",
               "text": "엄청 맵다는데",
               "likes": 1,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@풍이-f1r",
               "text": "푸파x 식사 o",
               "likes": 1,
               "sentiment": "긍정",
-              "rating": 4
+              "rating": 5
             }
           ],
           "sentiment_counts": {
             "neg": 1,
-            "neu": 4,
-            "pos": 5
+            "neu": 0,
+            "pos": 9
           },
           "negative_ratio": 0.1,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
           "multi_brand_tags": []
         },
         {
@@ -2993,45 +3134,8 @@
           },
           "negative_ratio": 0.429,
           "warning_level": "yellow",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "c_8YXfXEoZM",
-          "title": "2026.04.06. 롯데리아 디진다 돈까스 먹방 / 오버워치 (W. 루시, 아즈, 마무)",
-          "channel": "레비얀 다시보기",
-          "subscribers": 387,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 56,
-          "likes": 7,
-          "comment_count": 1,
-          "engagement_rate": 0.1429,
-          "duration": 25954,
-          "is_short": false,
-          "buzz_score": 36.4,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=c_8YXfXEoZM",
-          "description_excerpt": "Youtube ::  ‪@H_Leviyan \nChzzk :: https://chzzk.me/HGDQX",
-          "top_comments": [
-            {
-              "author": "@튀슬",
-              "text": "밥까지 ㄷㄷ 대상공",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 1
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -3130,37 +3234,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "W6ODQPs-K7I",
-          "title": "[디진다돈까스 먹방] 뒤틀린 위장,, 롯데리아 신메뉴 디지게 매운 돈까스를 먹어봤습니다.",
-          "channel": "저당초코볼",
-          "subscribers": 231,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 5,
-          "likes": 3,
-          "comment_count": 0,
-          "engagement_rate": 0.6,
-          "duration": 483,
-          "is_short": false,
-          "buzz_score": 35.2,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=W6ODQPs-K7I",
-          "description_excerpt": "롯데리아 신메뉴 디지게 매운 디진다 돈까스 먹방\n#치지직 #치지직스트리머 #먹방 #매운음식 #롯데리아 #매운맛 \n\n\n\n브금\nBrahms - Hungarian Dance No. 5 in G Minor, WoO 1\nhttp://www.kkacl.com/\nFree Download: http://www.kkacl.com/mdp/21197  1번곡\n𝑴𝒖𝒔𝒊𝒄 𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕 :   \n￼\n • [무료브금]🎧 편집할 때 많이 쓰는🕶클래식 깨알 모음. Classic BGM...  \n\nBeethoven - Fur Elise\nFree Download",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
           "multi_brand_tags": []
         },
         {
@@ -3249,8 +3324,8 @@
               "author": "@지크하트-k7v",
               "text": "이야...제목부터 폭력적이네...염라대왕이랑 사귀시나요",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@strong_hada",
@@ -3270,24 +3345,119 @@
               "author": "@strong_hada",
               "text": "구라지？구라지？이정도잖아요 보통👼🏻",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@아니메케",
               "text": "이분 어라 좀 버티네 했는데 결국 디진다 2트에 뚫릴뻔 하고 3트도 버티다 4트에 함락당하네요\n\n그래도 좀 하시는군요\n\n제가 본 분중 제일 최약체는 혀에 대기만 해도 즉을뻔 랬다가 그냥 버리던데",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             }
           ],
           "sentiment_counts": {
-            "neg": 4,
+            "neg": 1,
             "neu": 0,
-            "pos": 6
+            "pos": 9
           },
-          "negative_ratio": 0.4,
-          "warning_level": "yellow",
+          "negative_ratio": 0.1,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "0TL6VAmSc98",
+          "title": "롯데리아 디진다매운돈까스 미션 지금 경기도 광주 미션방송 #가영사랑해하치",
+          "channel": "나락간복순이TV",
+          "subscribers": 321,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 282,
+          "likes": 12,
+          "comment_count": 0,
+          "engagement_rate": 0.0426,
+          "duration": 10653,
+          "is_short": false,
+          "buzz_score": 34.0,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=0TL6VAmSc98",
+          "description_excerpt": "This stream is created with #PRISMLiveStudio",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "O9_YSUvF-Lg",
+          "title": "듀파구 구구덕 합방 못 웃기면 롯데리아 디진다 돈까스 먹음(이미 시킴) 2026-04-16 23:02",
+          "channel": "최도비 Choidobby",
+          "subscribers": 34700,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 194,
+          "likes": 6,
+          "comment_count": 0,
+          "engagement_rate": 0.0309,
+          "duration": 17699,
+          "is_short": false,
+          "buzz_score": 32.8,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=O9_YSUvF-Lg",
+          "description_excerpt": "#valorant #valorantclips #fps #meme #valorantmemes #치지직 #최도비\n\n● 최도비 유튜브 멤버십 가입하기●\n월 990원으로 즐기는 최도비의 시크릿 영상!\nhttps://www.youtube.com/channel/UC3bV_nQqIntJnqXUEOkLQcQ/join \n\n● 치지직 생방송 \nhttps://chzzk.naver.com/7c63fb69fb989...\n생방송에서는 발로란트와 다양한 종합 게임들을 볼 수 있습니다.\n-----------------------------------------",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "c_8YXfXEoZM",
+          "title": "2026.04.06. 롯데리아 디진다 돈까스 먹방 / 오버워치 (W. 루시, 아즈, 마무)",
+          "channel": "레비얀 다시보기",
+          "subscribers": 386,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 64,
+          "likes": 7,
+          "comment_count": 1,
+          "engagement_rate": 0.125,
+          "duration": 25954,
+          "is_short": false,
+          "buzz_score": 31.9,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=c_8YXfXEoZM",
+          "description_excerpt": "Youtube ::  ‪@H_Leviyan \nChzzk :: https://chzzk.me/HGDQX",
+          "top_comments": [
+            {
+              "author": "@튀슬",
+              "text": "밥까지 ㄷㄷ 대상공",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": []
@@ -3318,7 +3488,7 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -3343,8 +3513,8 @@
               "author": "@나쁜팬더",
               "text": "먹는소리 진짜 웃기네ㅋㅋㅋㅋㅋㅋ",
               "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@naver324",
@@ -3355,11 +3525,40 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 0,
             "neu": 0,
-            "pos": 1
+            "pos": 2
           },
-          "negative_ratio": 0.5,
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "W6ODQPs-K7I",
+          "title": "[디진다돈까스 먹방] 뒤틀린 위장,, 롯데리아 신메뉴 디지게 매운 돈까스를 먹어봤습니다.",
+          "channel": "저당초코볼",
+          "subscribers": 231,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 23,
+          "likes": 7,
+          "comment_count": 0,
+          "engagement_rate": 0.3043,
+          "duration": 483,
+          "is_short": false,
+          "buzz_score": 29.5,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=W6ODQPs-K7I",
+          "description_excerpt": "롯데리아 신메뉴 디지게 매운 디진다 돈까스 먹방\n#치지직 #치지직스트리머 #먹방 #매운음식 #롯데리아 #매운맛 \n\n\n\n브금\nBrahms - Hungarian Dance No. 5 in G Minor, WoO 1\nhttp://www.kkacl.com/\nFree Download: http://www.kkacl.com/mdp/21197  1번곡\n𝑴𝒖𝒔𝒊𝒄 𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕 :   \n￼\n • [무료브금]🎧 편집할 때 많이 쓰는🕶클래식 깨알 모음. Classic BGM...  \n\nBeethoven - Fur Elise\nFree Download",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -3387,8 +3586,8 @@
               "author": "@리뷰주이보",
               "text": "디진다 돈까스 안매운사람 있음?...",
               "likes": 1,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@코스타맨",
@@ -3407,8 +3606,8 @@
           ],
           "sentiment_counts": {
             "neg": 0,
-            "neu": 1,
-            "pos": 2
+            "neu": 0,
+            "pos": 3
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -3512,8 +3711,8 @@
           },
           "negative_ratio": 0.4,
           "warning_level": "yellow",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
           "multi_brand_tags": []
         },
         {
@@ -3556,66 +3755,8 @@
           },
           "negative_ratio": 0.5,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "opgVATwtAlw",
-          "title": "롯데리아 디진다 돈까스 그거 먹을만하던데?!",
-          "channel": "찰론",
-          "subscribers": 38,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 51,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 300,
-          "is_short": false,
-          "buzz_score": 24.4,
-          "upload_date": "2026.04.14",
-          "url": "https://www.youtube.com/watch?v=opgVATwtAlw",
-          "description_excerpt": "☾ 찰론 생방송 : https://chzzk.naver.com/eb06db445400e0f75c3ec06ec6ca8c55\n ☾ 생방송에서 팔로우를 눌러주신 뒤에 알람설정을 해주세요! \n☾ 즐겁게 보셨다면 구독 과 좋아요 눌러주세요 \n☾ 생방송은 치지직과 SOOP에서 진행하고 있습니다.\n\n---------------------------------------------------------------------------------------------------------\n☾ 개인 문의 : charlon6622@gmail.com\n\n",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "KnIfI4ZEC8c",
-          "title": "30대 아재의 롯데리아 디진다 돈까스 리뷰",
-          "channel": "파동쟁이 안경태",
-          "subscribers": 2,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 13,
-          "likes": 1,
-          "comment_count": 0,
-          "engagement_rate": 0.0769,
-          "duration": 305,
-          "is_short": false,
-          "buzz_score": 23.5,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=KnIfI4ZEC8c",
-          "description_excerpt": "nan",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": []
         },
         {
@@ -3651,8 +3792,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
           "multi_brand_tags": []
         },
         {
@@ -3680,8 +3821,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -3753,8 +3894,8 @@
           },
           "negative_ratio": 0.5,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
           "multi_brand_tags": []
         },
         {
@@ -3856,7 +3997,7 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -3914,7 +4055,7 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -3960,31 +4101,118 @@
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": []
+        },
+        {
+          "video_id": "niTCeVlBsuY",
+          "title": "[260413] 롯데리아 디진다돈까스 먹방 및 청소방송",
+          "channel": "amock82",
+          "subscribers": 19,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 3,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 3935,
+          "is_short": false,
+          "buzz_score": 7.1,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=niTCeVlBsuY",
+          "description_excerpt": "260413 방송분",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "opgVATwtAlw",
+          "title": "롯데리아 디진다 돈까스 그거 먹을만하던데?!",
+          "channel": "찰론",
+          "subscribers": 38,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 59,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 300,
+          "is_short": false,
+          "buzz_score": 6.8,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=opgVATwtAlw",
+          "description_excerpt": "☾ 찰론 생방송 : https://chzzk.naver.com/eb06db445400e0f75c3ec06ec6ca8c55\n ☾ 생방송에서 팔로우를 눌러주신 뒤에 알람설정을 해주세요! \n☾ 즐겁게 보셨다면 구독 과 좋아요 눌러주세요 \n☾ 생방송은 치지직과 SOOP에서 진행하고 있습니다.\n\n---------------------------------------------------------------------------------------------------------\n☾ 개인 문의 : charlon6622@gmail.com\n\n",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "KnIfI4ZEC8c",
+          "title": "30대 아재의 롯데리아 디진다 돈까스 리뷰",
+          "channel": "파동쟁이 안경태",
+          "subscribers": 2,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 13,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.0769,
+          "duration": 305,
+          "is_short": false,
+          "buzz_score": 6.7,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=KnIfI4ZEC8c",
+          "description_excerpt": "nan",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
         }
       ],
       "sentiment_counts": {
-        "neg": 39,
-        "neu": 17,
-        "pos": 80
+        "neg": 36,
+        "neu": 11,
+        "pos": 89
       },
-      "negative_ratio": 0.287,
+      "negative_ratio": 0.265,
       "warning_level": ""
     },
     "momstouch": {
       "display": "맘스터치",
-      "video_count": 30,
-      "total_views": 10949067,
-      "total_likes": 3450,
-      "total_comments": 216,
+      "video_count": 31,
+      "total_views": 10949507,
+      "total_likes": 3467,
+      "total_comments": 208,
       "n_short": 4,
-      "n_long": 26,
+      "n_long": 27,
       "tier_counts": {
-        "Nano": 22,
+        "Nano": 23,
         "Macro": 5,
         "Official": 2,
         "Micro": 1
       },
-      "summary": "(요약 대기 중)",
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
       "videos": [
         {
           "video_id": "KnPpW66ccbg",
@@ -4257,8 +4485,8 @@
               "author": "@kimboksoon222",
               "text": "00:01 [맥도날드]불고기버거(₩4,700)+슈슈버거(₩5,600)+맥스파이시상하이버거(₩6,800)+1955버거(₩7,600)+빅맥(₩6,600)+사이드:골든모짜렐라치즈스틱4조각(₩5,400)+맥너겟4조각(+스위트앤사워소스₩3,700)+고구마후라이(₩3,600)+감자튀김L(₩4,100)+케이준디핑소스2개(1개₩300)+코카콜라L(₩3,200)\n08:14 [롯데리아]불고기버거(₩5,800)+새우버거(₩5,800)+핫크리스피치킨버거(₩7,000)+모짜렐라인더버거(₩8,800)+한우불고기버거(₩9,800)+사이드:양념감자(+치즈시즈닝",
               "likes": 122,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@나무-i2p",
@@ -4276,14 +4504,14 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 4,
+            "neg": 3,
             "neu": 0,
-            "pos": 6
+            "pos": 7
           },
-          "negative_ratio": 0.4,
+          "negative_ratio": 0.3,
           "warning_level": "yellow",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -4429,7 +4657,7 @@
               "text": "마살라 치킨버거 맛있겠다 ~",
               "likes": 22,
               "sentiment": "긍정",
-              "rating": 4
+              "rating": 5
             },
             {
               "author": "@WonseobLEE-t8o",
@@ -4488,8 +4716,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -4549,8 +4777,8 @@
               "author": "@JinHaeSoo.",
               "text": "1004t 개웃기넼ㅋㅋ😂😂",
               "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@Awesome-im1sf",
@@ -4582,14 +4810,14 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 2,
             "neu": 2,
-            "pos": 7
+            "pos": 6
           },
-          "negative_ratio": 0.1,
+          "negative_ratio": 0.2,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -4693,22 +4921,51 @@
           "multi_brand_tags": []
         },
         {
-          "video_id": "Y_bh7DvRlVM",
-          "title": "맘스터치가 미쳤습니다, 김풍과 후덕죽 명장의 정면승부! 1시간을 9분으로 압축했습니다",
-          "channel": "범진뭐해",
-          "subscribers": 13700,
-          "creator_tier": "Micro",
+          "video_id": "vOHEMaO3mJ0",
+          "title": "맘스터치 신제품 매직풍 싸이버거 빅싸이순살 먹방 ASMR",
+          "channel": "옥돌이okdol",
+          "subscribers": 220,
+          "creator_tier": "Nano",
           "is_verified": false,
-          "views": 8,
-          "likes": 1,
+          "views": 322,
+          "likes": 12,
           "comment_count": 0,
-          "engagement_rate": 0.125,
-          "duration": 540,
+          "engagement_rate": 0.0373,
+          "duration": 291,
           "is_short": false,
-          "buzz_score": 43.3,
+          "buzz_score": 43.5,
           "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=Y_bh7DvRlVM",
-          "description_excerpt": "#맘스터치 #김풍후추슈 #후덕죽싸이버거 #범진뭐해 #리얼사운드 #mukbang #신상버거리뷰 #압축먹방",
+          "url": "https://www.youtube.com/watch?v=vOHEMaO3mJ0",
+          "description_excerpt": "왜 매직인지 알것 같기도..",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "i31EvPmYPC0",
+          "title": "맘스터치 꼬소한 싸이버거2개와 매콤한 불닭볶음면 최고의 조합 먹방",
+          "channel": "꿀얌 KkulYum",
+          "subscribers": 1230,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 934,
+          "likes": 14,
+          "comment_count": 0,
+          "engagement_rate": 0.015,
+          "duration": 60,
+          "is_short": true,
+          "buzz_score": 43.2,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=i31EvPmYPC0",
+          "description_excerpt": "맘스터치 꼬소한 싸이버거와 매콤한 불닭볶음면 최고의 조합 먹방이에요.",
           "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
@@ -4725,16 +4982,16 @@
           "video_id": "L4YOs0bWzok",
           "title": "맘스터치 김풍 후덕죽 / 맥날 베토디 바질크림치즈 과연 어떨까",
           "channel": "김경식",
-          "subscribers": 703,
+          "subscribers": 705,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 36,
-          "likes": 1,
-          "comment_count": 8,
-          "engagement_rate": 0.25,
+          "views": 168,
+          "likes": 7,
+          "comment_count": 13,
+          "engagement_rate": 0.119,
           "duration": 1009,
           "is_short": false,
-          "buzz_score": 41.8,
+          "buzz_score": 40.2,
           "upload_date": "2026.04.16",
           "url": "https://www.youtube.com/watch?v=L4YOs0bWzok",
           "description_excerpt": "맘터 김풍이랑 후덕죽이랑 핫치즈싸이랑 맥날 베토디 신상먹음\n버거는 그저 그랬음 기대보단… 치킨 goat\n각이당 여기 맛있음 굿",
@@ -4794,50 +5051,35 @@
               "likes": 0,
               "sentiment": "부정",
               "rating": 1
+            },
+            {
+              "author": "@도라온노씨",
+              "text": "ㅅㅂㅜ 김풍 여기서도 선방하네",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@Yuyezin",
+              "text": "4:36 얼공",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
             }
           ],
           "sentiment_counts": {
             "neg": 4,
-            "neu": 0,
-            "pos": 4
+            "neu": 1,
+            "pos": 5
           },
-          "negative_ratio": 0.5,
-          "warning_level": "red",
+          "negative_ratio": 0.4,
+          "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_rating": 5,
           "multi_brand_tags": [
             "mcdonalds",
             "momstouch"
           ]
-        },
-        {
-          "video_id": "vOHEMaO3mJ0",
-          "title": "맘스터치 신제품 매직풍 싸이버거 빅싸이순살 먹방 ASMR",
-          "channel": "옥돌이okdol",
-          "subscribers": 216,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 66,
-          "likes": 5,
-          "comment_count": 0,
-          "engagement_rate": 0.0758,
-          "duration": 291,
-          "is_short": false,
-          "buzz_score": 41.6,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=vOHEMaO3mJ0",
-          "description_excerpt": "왜 매직인지 알것 같기도..",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
-          "multi_brand_tags": []
         },
         {
           "video_id": "AHHW-uMdZhU",
@@ -4890,8 +5132,8 @@
               "author": "@daily-hanel",
               "text": "[🍻타임라인]\n00:21 [1차 : 석쇳집] 한우 뭉티기+갑오징어 구이\n00:49 [2차 혼술] 편의점도시락\n03:28 [1차 : 한센] 대방어숙성회\n03:31 [2차 혼술 : 맘스터치] 핫치즈 빅싸이순살, 화이트갈릭 싸이버거, 렌치소스\n06:29 [1차 : 심야식당중도] 숙성회(전복, 삼치, 참숭어, 도미, 광어, 뿔돔, 단새우), 트러플 아나 타마고\n11:43 [2차 혼술 : 엽떡] 엽기 닭볶음탕(매운맛) \n14:17 [1차 : 경성상회] 가지완자튀김과 아라비아따소스, 후토마키 반줄\n17:17 [2차 : 로쿠지] 스키야키+우동면",
               "likes": 2,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@서우엄마미",
@@ -4905,7 +5147,7 @@
               "text": "운동하면서 봐야겠다💪🏻",
               "likes": 1,
               "sentiment": "긍정",
-              "rating": 4
+              "rating": 5
             },
             {
               "author": "@껨온SON153",
@@ -4918,8 +5160,8 @@
               "author": "@망이-m2s",
               "text": "한얼하루님 먹는모습이 아주예쁘군요.\n1빠~",
               "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@안보미-t3l",
@@ -4953,45 +5195,16 @@
               "author": "@daily-hanel",
               "text": "앜ㅋㅋㅋㅋㅋ 저도 운동하묜서 브이로그나 넷플릭스 많이 보거든요\n특히 런닝할 때 시간 완전 호록호록 가요!!!",
               "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 2,
             "neu": 0,
-            "pos": 9
+            "pos": 8
           },
-          "negative_ratio": 0.1,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "i31EvPmYPC0",
-          "title": "맘스터치 꼬소한 싸이버거2개와 매콤한 불닭볶음면 최고의 조합 먹방",
-          "channel": "꿀얌 KkulYum",
-          "subscribers": 1230,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 922,
-          "likes": 13,
-          "comment_count": 0,
-          "engagement_rate": 0.0141,
-          "duration": 60,
-          "is_short": true,
-          "buzz_score": 37.9,
-          "upload_date": "2026.04.14",
-          "url": "https://www.youtube.com/watch?v=i31EvPmYPC0",
-          "description_excerpt": "맘스터치 꼬소한 싸이버거와 매콤한 불닭볶음면 최고의 조합 먹방이에요.",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
+          "negative_ratio": 0.2,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -5093,8 +5306,8 @@
           },
           "negative_ratio": 0.1,
           "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -5147,8 +5360,8 @@
               "author": "@버거덕",
               "text": "입에 맞으신듯 해서 다행입니다... ㅎㅎ 딱 냉부 초청받은 그 느낌이어서 재미있더라구요.. 맛도 괜찮구요..!",
               "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@user-qwerrrr",
@@ -5187,14 +5400,14 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 0,
+            "neg": 1,
             "neu": 0,
-            "pos": 10
+            "pos": 9
           },
-          "negative_ratio": 0.0,
+          "negative_ratio": 0.1,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 2,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -5266,43 +5479,6 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "QaGBLieg2f8",
-          "title": "맘스터치 매직풍 신메뉴 먹어봤는데… 피자가 생각보다 존맛😯",
-          "channel": "혜삐Jenny🫶🏻 ",
-          "subscribers": 339,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 207,
-          "likes": 5,
-          "comment_count": 1,
-          "engagement_rate": 0.029,
-          "duration": 499,
-          "is_short": false,
-          "buzz_score": 28.6,
-          "upload_date": "2026.04.13",
-          "url": "https://www.youtube.com/watch?v=QaGBLieg2f8",
-          "description_excerpt": "맘스터치 매직풍 신메뉴 피자랑 빅싸이순살 같이 먹어봤습니다  \n\n피자는 시래기, 치킨은 코코넛…  \n둘 다 독특한데 생각보다 취향 많이 타는 맛  \n\n솔직하게 느낀 그대로 리뷰했습니다",
-          "top_comments": [
-            {
-              "author": "@itsmetheluckiestgirl",
-              "text": "또 궁금한 신메뉴가 있으신가요?❤",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 1
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": []
@@ -5359,161 +5535,77 @@
           "multi_brand_tags": []
         },
         {
-          "video_id": "UBV1Zc69r5E",
-          "title": "맘스터치 매직풍 싸이버거",
-          "channel": "dashima",
-          "subscribers": 756,
+          "video_id": "QaGBLieg2f8",
+          "title": "맘스터치 매직풍 신메뉴 먹어봤는데… 피자가 생각보다 존맛😯",
+          "channel": "혜삐Jenny🫶🏻 ",
+          "subscribers": 339,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 13,
-          "likes": 1,
-          "comment_count": 0,
-          "engagement_rate": 0.0769,
-          "duration": 79,
-          "is_short": false,
-          "buzz_score": 28.2,
-          "upload_date": "2026.04.14",
-          "url": "https://www.youtube.com/watch?v=UBV1Zc69r5E",
-          "description_excerpt": "진의 일지 / 맘스터치 매직풍 싸이버거\n\n본 일지는 맘스터치 사의 신규 메뉴(판매가 6,900원)를 대상으로, \n실험체(코드네임 :스칼렛)에게 급여한 후\n나타난 주관적 미각 반응 및 성분 간 상호작용을 분석한 결과임\n\n주요 성분 배합 특성 - 피넛 버터(Peanut Butter) 기반의 고소함 및 식감 부여\n오이 쏨땀(Cucumber Som Tam)을 통한 청량감 및 아삭한 식감 구성\n고추기름의 향이 선행적으로 감지되어 자극적인 향미를 보정함\n\n자극도 - 일반적인 패스트푸드 대비 자극이 낮은 'Low-Intensity' 특성을 보임",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "WFnchhY7vyk",
-          "title": "2026 04 14 (풀 다시보기_ 저챗 / 맘스터치 김풍버거 (싸이버거, 비프버거) 먹방 / (애니 같이보기) 4월은 너의 거짓말 12화 - 완)",
-          "channel": "또! 이치순",
-          "subscribers": 104,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 45,
+          "views": 207,
           "likes": 5,
-          "comment_count": 12,
-          "engagement_rate": 0.3778,
-          "duration": 23678,
+          "comment_count": 1,
+          "engagement_rate": 0.029,
+          "duration": 499,
           "is_short": false,
-          "buzz_score": 27.5,
-          "upload_date": "2026.04.14",
-          "url": "https://www.youtube.com/watch?v=WFnchhY7vyk",
-          "description_excerpt": "2026 04 14 (풀 다시보기_ 저챗 / 맘스터치 김풍버거 (싸이버거, 비프버거) 먹방 / (애니 같이보기) 4월은 너의 거짓말 12화 - 완)",
+          "buzz_score": 28.6,
+          "upload_date": "2026.04.13",
+          "url": "https://www.youtube.com/watch?v=QaGBLieg2f8",
+          "description_excerpt": "맘스터치 매직풍 신메뉴 피자랑 빅싸이순살 같이 먹어봤습니다  \n\n피자는 시래기, 치킨은 코코넛…  \n둘 다 독특한데 생각보다 취향 많이 타는 맛  \n\n솔직하게 느낀 그대로 리뷰했습니다",
           "top_comments": [
             {
-              "author": "@진짜혼모노-toy",
-              "text": "고생 많이 했어 그리고 너무 울지마 예쁜 얼굴에 눈 엄청 붓는다능🩵",
-              "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@k김태우",
-              "text": "다시보기 보기 ㅎ\n\n오랜만에 같이보기 봣는데\n\n결국은 치순님은 울엇다고합니다ㅎ\n\n치방에서 같이볼수있어서 좋았다요 👍👍",
-              "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@또이치순",
-              "text": "ㅎㅎ 그래도 후련해요오오",
-              "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@참새짹짹-e3m",
-              "text": "6:06:49 여기부터 보세요 ㅋㅋㅋ",
-              "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@또이치순",
-              "text": "짜식이",
-              "likes": 1,
-              "sentiment": "중립",
-              "rating": 3
-            },
-            {
-              "author": "@또이치순",
-              "text": "벌금어젠 못냄 ^.^헷",
-              "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@또이치순",
-              "text": "아침에 ... 벌레에물린줄",
-              "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@뽀양-r4w",
-              "text": "치사장은 F가 맞았습니다!! 👏👏👏👏",
-              "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@또이치순",
-              "text": "난 F가맞댜구!!",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@커피는콜롬비아",
-              "text": "다시보기는 언제나 옳다!!🫰",
+              "author": "@itsmetheluckiestgirl",
+              "text": "또 궁금한 신메뉴가 있으신가요?❤",
               "likes": 0,
               "sentiment": "긍정",
               "rating": 5
             }
           ],
           "sentiment_counts": {
-            "neg": 3,
-            "neu": 1,
-            "pos": 6
-          },
-          "negative_ratio": 0.3,
-          "warning_level": "yellow",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "SAkForZtBBw",
-          "title": "맘스터치 공략법, 완벽한 치킨 패티를 찾아서! #맘스터치 #치킨 #패티",
-          "channel": "도파민폭발彡",
-          "subscribers": 21,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 5,
-          "likes": 1,
-          "comment_count": 0,
-          "engagement_rate": 0.2,
-          "duration": 237,
-          "is_short": false,
-          "buzz_score": 26.2,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=SAkForZtBBw",
-          "description_excerpt": "📺 채널 설명 (About Section)\n\"당신의 미각은 지금까지 속아왔습니다.\"\n\n세상의 모든 지루한 음식 리뷰는 끝났습니다. '도파민폭발彡'은 단순한 먹방을 넘어, 당신의 뇌파를 흔드는 가장 자극적이고 금기된 식문화를 탐험합니다.\n\n🌱 [선 넘는 미식] \"이게 왜 맛있지?\" 괴식과 미식 사이, 뇌가 찌릿해지는 미친 조합의 향연.\n💰 [자본주의의 맛] 상위 0.1% 명품 식재료 vs 밑바닥 가성비, 계급장 떼고 붙는 극단적 비교.\n🚫 [미식 잔혹사] 건강한 줄 알았지? 마케팅 뒤에 숨겨진 음식의 추악한 진실과 폭로.\n\n우리는 건",
-          "top_comments": [],
-          "sentiment_counts": {
             "neg": 0,
             "neu": 0,
-            "pos": 0
+            "pos": 1
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "CORvR0sz_OQ",
+          "title": "260416 맘스터치 김풍매직 야메세트 솔직리뷰 맘스터치 김풍매직 야메세트 솔직리뷰 & 저챗",
+          "channel": "먀루 다시보기",
+          "subscribers": 632,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 7,
+          "likes": 2,
+          "comment_count": 1,
+          "engagement_rate": 0.4286,
+          "duration": 7248,
+          "is_short": false,
+          "buzz_score": 28.5,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=CORvR0sz_OQ",
+          "description_excerpt": "🎮 치지직 방송 전체 다시보기 🎮\n\n👀 먀루가 궁금하다면?\n치지직으로 놀러오세요!  ( 치지직 먀루 검색 & 프로필링크 타고오기!! )\n\n📧이메일:\ndearlunav0618@naver.com\n\n⚠️ 안내 사항\n이 영상은 전체 다시보기 영상입니다.\n\n일부 음원 및 저작권 문제로 인해 영상 \n일부 구간에 소리가 없거나 삭제될 수 있습니다.\n\n💬 즐겁게 시청하시고, 구독과 좋아요 도 같이 해주시면 \n감사하겠습니다!!!!!!!!!!!!! ㅎㅎ",
+          "top_comments": [
+            {
+              "author": "@Fear-oo",
+              "text": "김풍매직..🤣",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -5541,8 +5633,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -5567,17 +5659,117 @@
               "author": "@마실나간_고촌댁",
               "text": "리뷰 완전 별루  ...역시 초짜",
               "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "WFnchhY7vyk",
+          "title": "2026 04 14 (풀 다시보기_ 저챗 / 맘스터치 김풍버거 (싸이버거, 비프버거) 먹방 / (애니 같이보기) 4월은 너의 거짓말 12화 - 완)",
+          "channel": "또! 이치순",
+          "subscribers": 105,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 46,
+          "likes": 5,
+          "comment_count": 0,
+          "engagement_rate": 0.1087,
+          "duration": 23678,
+          "is_short": false,
+          "buzz_score": 24.4,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=WFnchhY7vyk",
+          "description_excerpt": "2026 04 14 (풀 다시보기_ 저챗 / 맘스터치 김풍버거 (싸이버거, 비프버거) 먹방 / (애니 같이보기) 4월은 너의 거짓말 12화 - 완)",
+          "top_comments": [
+            {
+              "author": "@진짜혼모노-toy",
+              "text": "고생 많이 했어 그리고 너무 울지마 예쁜 얼굴에 눈 엄청 붓는다능🩵",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@k김태우",
+              "text": "다시보기 보기 ㅎ\n\n오랜만에 같이보기 봣는데\n\n결국은 치순님은 울엇다고합니다ㅎ\n\n치방에서 같이볼수있어서 좋았다요 👍👍",
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@또이치순",
+              "text": "ㅎㅎ 그래도 후련해요오오",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@참새짹짹-e3m",
+              "text": "6:06:49 여기부터 보세요 ㅋㅋㅋ",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@또이치순",
+              "text": "짜식이",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@또이치순",
+              "text": "벌금어젠 못냄 ^.^헷",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@또이치순",
+              "text": "아침에 ... 벌레에물린줄",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@뽀양-r4w",
+              "text": "치사장은 F가 맞았습니다!! 👏👏👏👏",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@또이치순",
+              "text": "난 F가맞댜구!!",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@커피는콜롬비아",
+              "text": "다시보기는 언제나 옳다!!🫰",
+              "likes": 0,
               "sentiment": "부정",
               "rating": 1
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 3,
             "neu": 0,
-            "pos": 0
+            "pos": 7
           },
-          "negative_ratio": 1.0,
-          "warning_level": "",
+          "negative_ratio": 0.3,
+          "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": []
@@ -5604,80 +5796,6 @@
             "neg": 0,
             "neu": 0,
             "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "-dxBT2Ur-po",
-          "title": "맘스터치 모짜렐라 치즈볼, 에어프라이어 8분 완성! 겉바속쫀 역대급 간식 등장",
-          "channel": "리뷰몬",
-          "subscribers": 16,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 11,
-          "likes": 0,
-          "comment_count": 1,
-          "engagement_rate": 0.0909,
-          "duration": 62,
-          "is_short": false,
-          "buzz_score": 21.1,
-          "upload_date": "2026.04.14",
-          "url": "https://www.youtube.com/watch?v=-dxBT2Ur-po",
-          "description_excerpt": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.\n(구매하시는 가격은 동일 합니다)\n\n겉바속쫀 끝판왕! 맘스터치 모짜렐라 치즈볼을 에어프라이어로 8분 만에 즐겨보세요!\n바삭한 튀김옷 속에 쭉 늘어나는 모짜렐라 치즈가 가득! 맘스터치 모짜렐라 치즈볼은 자연 모짜렐라 치즈가 듬뿍 들어있어 풍부한 치즈 맛을 느낄 수 있습니다. 에어프라이어 160도에서 8분만 조리하면 겉은 바삭하고 속은 쫄깃한 최고의 치즈볼이 완성됩니다. 간식으로도, 술안주로도 정말 완벽해요! 한 입 베어 물면 끊을 수 없는 매력에 ",
-          "top_comments": [
-            {
-              "author": "@reviewmontv",
-              "text": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.\n(구매하시는 가격은 동일 합니다)\n\n겉바속쫀 끝판왕! 맘스터치 모짜렐라 치즈볼을 에어프라이어로 8분 만에 즐겨보세요!\n바삭한 튀김옷 속에 쭉 늘어나는 모짜렐라 치즈가 가득! 맘스터치 모짜렐라 치즈볼은 자연 모짜렐라 치즈가 듬뿍 들어있어 풍부한 치즈 맛을 느낄 수 있습니다. 에어프라이어 160도에서 8분만 조리하면 겉은 바삭하고 속은 쫄깃한 최고의 치즈볼이 완성됩니다. 간식으로도, 술안주로도 정말 완벽해요! 한 입 베어 물면 끊을 수 없는 매력에 ",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 1
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "ARebzed0j5o",
-          "title": "맘스터치 치즈스틱 1kg 에어프라이어 간편 요리",
-          "channel": "리뷰몬",
-          "subscribers": 16,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 6,
-          "likes": 0,
-          "comment_count": 1,
-          "engagement_rate": 0.1667,
-          "duration": 52,
-          "is_short": true,
-          "buzz_score": 20.4,
-          "upload_date": "2026.04.14",
-          "url": "https://www.youtube.com/watch?v=ARebzed0j5o",
-          "description_excerpt": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.\n(구매하시는 가격은 동일 합니다)\n\n오늘 간식은 이걸로 정했다! 겉바속쫀 맘스터치 치즈스틱!\n맘스터치 치즈스틱 1kg은 에어프라이어로 간편하게 조리할 수 있습니다. 바삭한 튀김옷과 쫄깃한 자연 치즈의 조화가 일품입니다. 냉동 보관하여 언제든 맛있게 즐길 수 있고, 매장 맛 그대로 집에서 느낄 수 있습니다. 치킨 텐더, 치즈볼, 감자튀김 등 다양한 맘스터치 냉동 간편식도 함께 즐겨보세요.\n지금 바로 맘스터치 치즈스틱으로 맛있는 간식 시간을 즐겨보세",
-          "top_comments": [
-            {
-              "author": "@reviewmontv",
-              "text": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.\n(구매하시는 가격은 동일 합니다)\n\n오늘 간식은 이걸로 정했다! 겉바속쫀 맘스터치 치즈스틱!\n맘스터치 치즈스틱 1kg은 에어프라이어로 간편하게 조리할 수 있습니다. 바삭한 튀김옷과 쫄깃한 자연 치즈의 조화가 일품입니다. 냉동 보관하여 언제든 맛있게 즐길 수 있고, 매장 맛 그대로 집에서 느낄 수 있습니다. 치킨 텐더, 치즈볼, 감자튀김 등 다양한 맘스터치 냉동 간편식도 함께 즐겨보세요.\n지금 바로 맘스터치 치즈스틱으로 맛있는 간식 시간을 즐겨보세",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 1
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -5747,8 +5865,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
           "multi_brand_tags": []
         },
         {
@@ -5779,14 +5897,175 @@
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": []
+        },
+        {
+          "video_id": "Y_bh7DvRlVM",
+          "title": "맘스터치가 미쳤습니다, 김풍과 후덕죽 명장의 정면승부! 1시간을 9분으로 압축했습니다",
+          "channel": "범진뭐해",
+          "subscribers": 13700,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 35,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.0571,
+          "duration": 540,
+          "is_short": false,
+          "buzz_score": 10.4,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=Y_bh7DvRlVM",
+          "description_excerpt": "#맘스터치 #김풍후추슈 #후덕죽싸이버거 #범진뭐해 #리얼사운드 #mukbang #신상버거리뷰 #압축먹방",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "SAkForZtBBw",
+          "title": "맘스터치 공략법, 완벽한 치킨 패티를 찾아서! #맘스터치 #치킨 #패티",
+          "channel": "도파민폭발彡",
+          "subscribers": 22,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 6,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.1667,
+          "duration": 237,
+          "is_short": false,
+          "buzz_score": 7.0,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=SAkForZtBBw",
+          "description_excerpt": "📺 채널 설명 (About Section)\n\"당신의 미각은 지금까지 속아왔습니다.\"\n\n세상의 모든 지루한 음식 리뷰는 끝났습니다. '도파민폭발彡'은 단순한 먹방을 넘어, 당신의 뇌파를 흔드는 가장 자극적이고 금기된 식문화를 탐험합니다.\n\n🌱 [선 넘는 미식] \"이게 왜 맛있지?\" 괴식과 미식 사이, 뇌가 찌릿해지는 미친 조합의 향연.\n💰 [자본주의의 맛] 상위 0.1% 명품 식재료 vs 밑바닥 가성비, 계급장 떼고 붙는 극단적 비교.\n🚫 [미식 잔혹사] 건강한 줄 알았지? 마케팅 뒤에 숨겨진 음식의 추악한 진실과 폭로.\n\n우리는 건",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "UBV1Zc69r5E",
+          "title": "맘스터치 매직풍 싸이버거",
+          "channel": "dashima",
+          "subscribers": 756,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 17,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.0588,
+          "duration": 79,
+          "is_short": false,
+          "buzz_score": 6.9,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=UBV1Zc69r5E",
+          "description_excerpt": "진의 일지 / 맘스터치 매직풍 싸이버거\n\n본 일지는 맘스터치 사의 신규 메뉴(판매가 6,900원)를 대상으로, \n실험체(코드네임 :스칼렛)에게 급여한 후\n나타난 주관적 미각 반응 및 성분 간 상호작용을 분석한 결과임\n\n주요 성분 배합 특성 - 피넛 버터(Peanut Butter) 기반의 고소함 및 식감 부여\n오이 쏨땀(Cucumber Som Tam)을 통한 청량감 및 아삭한 식감 구성\n고추기름의 향이 선행적으로 감지되어 자극적인 향미를 보정함\n\n자극도 - 일반적인 패스트푸드 대비 자극이 낮은 'Low-Intensity' 특성을 보임",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "-dxBT2Ur-po",
+          "title": "맘스터치 모짜렐라 치즈볼, 에어프라이어 8분 완성! 겉바속쫀 역대급 간식 등장",
+          "channel": "리뷰몬",
+          "subscribers": 16,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 11,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 62,
+          "is_short": false,
+          "buzz_score": 5.4,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=-dxBT2Ur-po",
+          "description_excerpt": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.\n(구매하시는 가격은 동일 합니다)\n\n겉바속쫀 끝판왕! 맘스터치 모짜렐라 치즈볼을 에어프라이어로 8분 만에 즐겨보세요!\n바삭한 튀김옷 속에 쭉 늘어나는 모짜렐라 치즈가 가득! 맘스터치 모짜렐라 치즈볼은 자연 모짜렐라 치즈가 듬뿍 들어있어 풍부한 치즈 맛을 느낄 수 있습니다. 에어프라이어 160도에서 8분만 조리하면 겉은 바삭하고 속은 쫄깃한 최고의 치즈볼이 완성됩니다. 간식으로도, 술안주로도 정말 완벽해요! 한 입 베어 물면 끊을 수 없는 매력에 ",
+          "top_comments": [
+            {
+              "author": "@reviewmontv",
+              "text": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.\n(구매하시는 가격은 동일 합니다)\n\n겉바속쫀 끝판왕! 맘스터치 모짜렐라 치즈볼을 에어프라이어로 8분 만에 즐겨보세요!\n바삭한 튀김옷 속에 쭉 늘어나는 모짜렐라 치즈가 가득! 맘스터치 모짜렐라 치즈볼은 자연 모짜렐라 치즈가 듬뿍 들어있어 풍부한 치즈 맛을 느낄 수 있습니다. 에어프라이어 160도에서 8분만 조리하면 겉은 바삭하고 속은 쫄깃한 최고의 치즈볼이 완성됩니다. 간식으로도, 술안주로도 정말 완벽해요! 한 입 베어 물면 끊을 수 없는 매력에 ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "ARebzed0j5o",
+          "title": "맘스터치 치즈스틱 1kg 에어프라이어 간편 요리",
+          "channel": "리뷰몬",
+          "subscribers": 16,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 6,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 52,
+          "is_short": true,
+          "buzz_score": 5.2,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=ARebzed0j5o",
+          "description_excerpt": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.\n(구매하시는 가격은 동일 합니다)\n\n오늘 간식은 이걸로 정했다! 겉바속쫀 맘스터치 치즈스틱!\n맘스터치 치즈스틱 1kg은 에어프라이어로 간편하게 조리할 수 있습니다. 바삭한 튀김옷과 쫄깃한 자연 치즈의 조화가 일품입니다. 냉동 보관하여 언제든 맛있게 즐길 수 있고, 매장 맛 그대로 집에서 느낄 수 있습니다. 치킨 텐더, 치즈볼, 감자튀김 등 다양한 맘스터치 냉동 간편식도 함께 즐겨보세요.\n지금 바로 맘스터치 치즈스틱으로 맛있는 간식 시간을 즐겨보세",
+          "top_comments": [
+            {
+              "author": "@reviewmontv",
+              "text": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.\n(구매하시는 가격은 동일 합니다)\n\n오늘 간식은 이걸로 정했다! 겉바속쫀 맘스터치 치즈스틱!\n맘스터치 치즈스틱 1kg은 에어프라이어로 간편하게 조리할 수 있습니다. 바삭한 튀김옷과 쫄깃한 자연 치즈의 조화가 일품입니다. 냉동 보관하여 언제든 맛있게 즐길 수 있고, 매장 맛 그대로 집에서 느낄 수 있습니다. 치킨 텐더, 치즈볼, 감자튀김 등 다양한 맘스터치 냉동 간편식도 함께 즐겨보세요.\n지금 바로 맘스터치 치즈스틱으로 맛있는 간식 시간을 즐겨보세",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
+          "multi_brand_tags": []
         }
       ],
       "sentiment_counts": {
-        "neg": 28,
+        "neg": 29,
         "neu": 12,
-        "pos": 88
+        "pos": 90
       },
-      "negative_ratio": 0.219,
+      "negative_ratio": 0.221,
       "warning_level": ""
     },
     "popeyes": {
@@ -5812,7 +6091,7 @@
       "tier_counts": {
         "Official": 2
       },
-      "summary": "(요약 대기 중)",
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
       "videos": [
         {
           "video_id": "F_EYCs5aQl4",
@@ -5920,7 +6199,7 @@
     "bbq": {
       "display": "BBQ치킨",
       "video_count": 10,
-      "total_views": 61889,
+      "total_views": 62576,
       "total_likes": 1387,
       "total_comments": 60,
       "n_short": 2,
@@ -5930,52 +6209,8 @@
         "Micro": 3,
         "Macro": 1
       },
-      "summary": "(요약 대기 중)",
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
       "videos": [
-        {
-          "video_id": "_ojACUioK9Y",
-          "title": "와꾸짱쭈늬시즌2 트랜스젠더 26. 4.14 제주도 .bbq치킨 먹방 낼은 제주  함덕으로",
-          "channel": "와꾸짱쭈늬시즌2",
-          "subscribers": 20400,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 32937,
-          "likes": 0,
-          "comment_count": 2,
-          "engagement_rate": 0.0001,
-          "duration": 15219,
-          "is_short": false,
-          "buzz_score": 51.0,
-          "upload_date": "2026.04.14",
-          "url": "https://www.youtube.com/watch?v=_ojACUioK9Y",
-          "description_excerpt": "nan",
-          "top_comments": [
-            {
-              "author": "@제니-h9i",
-              "text": "안녕하세요 \n매력적이셔요~~\n뭘 그렇게 좋은거를 바르시나요\n알려줘 보셔요\n피부도 반짝 반짝..",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@제니-h9i",
-              "text": "여기는 오전11시50분\n어제 녹화된거군요~~\n예쁘고 귀여운 자태에 반해서 보고있다가 두꺼운 목소리가 나오면 뒤집어 지게 재밌어요\n머리도 미용사처럼 잘도 만지시네요\n\n끼가 넘치시나봅니다",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 2
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
         {
           "video_id": "xnxIjEhT72c",
           "title": "오늘 역대급으로 빨리 먹었어요⏰전기구이 통닭+목삼겹 바베큐 먹방 BBQ eating show",
@@ -5998,8 +6233,8 @@
               "author": "@_mukgang7234",
               "text": "💌 오늘의 식당 : [닭살부부] 인천 미추홀구 용현1.4동 186-17\r\n💜 좋아요와 구독은 먹갱에게 큰 힘이됩니다! 💜",
               "likes": 31,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@johnnybae9953",
@@ -6026,8 +6261,8 @@
               "author": "@남자윤굉인",
               "text": "와우🎉🎉🎉근래에본 먹방메뉴중에 최고인거같아용^^😮..정말먹고싶어요..여긴부산이라ㅠㅠ😂..암튼 맛나게 잘봤어요..담방송 기대할게요..❤❤❤",
               "likes": 3,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@_mukgang7234",
@@ -6054,8 +6289,8 @@
               "author": "@서영진-d6d",
               "text": "1:02 싫어하는 표정 빵터졌다ㅋㅋㅋㅋ",
               "likes": 2,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@한석주-k3j",
@@ -6066,83 +6301,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 2,
             "neu": 0,
-            "pos": 9
+            "pos": 8
           },
-          "negative_ratio": 0.1,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "rTkAm8TqClU",
-          "title": "먹방vlog_금주 어떻게 하는건데요...🍶 매일 술에 쩔어사는 30대 노처녀 먹부림 일상 | BBQ 황금올리브 양념치킨 홍치즈라면 쭈삼 냉면 항정살 돼지껍데기 삼김 먹방 🔥",
-          "channel": "츄으니",
-          "subscribers": 880,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 333,
-          "likes": 0,
-          "comment_count": 7,
-          "engagement_rate": 0.021,
-          "duration": 713,
-          "is_short": false,
-          "buzz_score": 48.8,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=rTkAm8TqClU",
-          "description_excerpt": "💜시청해주셔서 감사합니다🙇🏻‍♀️💜\n💛구독과 좋아요는 사랑입니다💛\n\n🎁츄으니 채널 멤버쉽 가입🎁\nhttps://www.youtube.com/channel/UCXsT0DgSg_JNZUz04NwUX0g/join\n\n💌 이메일 : chueni0919@gmail.com\n💌 인스타그램 : chueni_\n\n🔥악의적인 댓글은 삭제 및 차단될 수 있습니다\n\n#먹방 #집밥 #혼밥 #브이로그 #고기 #고기먹방\n#BBQ치킨 #치킨먹방 #황금올리브 #양념치킨\n#홍치즈라면 #삼각김밥 #참치마요 #폭식\n#취중먹방 #삼겹살 #항정살 #냉면 #물냉\n#껍데기 #쭈",
-          "top_comments": [
-            {
-              "author": "@츄으니chu",
-              "text": "안녕하세요 츄으니예요 🙆🏻‍♀\r\n저 다이어트 성공했어요!!!\r\n1일 1식하면서 건강하게 빼진 못했지만\r\n이제는 먹고싶은거 먹으면서 (술도 물론🍶)\r\n유지해보려구요! 🥹\r\n\r\n요즘 날이 급 더워져서 반팔 필수...\r\n건강 잘챙기시고 항상 늘\r\n행복한일만 가득하시길 🙏🏻\r\n오늘도 고생 많으셨습니다!\r\n늘 행복하세요 🙇🏻‍♀💜\r\n\r\n- 츄으니 드림\r\n\r\n\r\n\r\n🌸 타임라인\r\n00:00 항정살+껍데기+물냉\r\n00:40 BBQ 황올양념치킨\r\n05:16 편의점 털\r\n05:54 매운 홍치즈라면+삼김\r\n08:20 삼겹살+항정살+물냉\r\n09:22 ",
-              "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@yyy_rb",
-              "text": "갈수록 재밌네ㅋㅋ 근데 7키로 단기간에 진짜 훅 빼셨네요 대박 주량도 어마어마 한것 .. 난 원래 1병반인데 나이드니 훅가서 소주도 못먹겠어요.. 😢",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@jungeunlee4890",
-              "text": "다욧도 금방 성공하구 역시 대단해!!",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@남민섭-p1p",
-              "text": "츄으니님 안녕하세요 많이 보고 싶었어요 츄으니님 오늘도 알림 뜨자마자 왔습니다 🌸🌸🌸🌸치킨 맛있게 드세요",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@잠만보도토잠보",
-              "text": "어떻게 빼신건가요?",
-              "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@남민섭-p1p",
-              "text": "츄으니님 안녕하세요 많이 보고 싶었어요 츄으니님 오늘도 알림 뜨자마자 왔습니다 🌸🌸🌸🌸치킨 맛있게 드세요",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 1,
-            "neu": 0,
-            "pos": 5
-          },
-          "negative_ratio": 0.167,
+          "negative_ratio": 0.2,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -6199,32 +6362,32 @@
               "text": "치킨순삭",
               "likes": 1,
               "sentiment": "긍정",
-              "rating": 4
+              "rating": 5
             },
             {
               "author": "@블루블루밍",
               "text": "아 맛있게 드시는데..다음엔 양좀 더 늘려주시면 안되나요?",
               "likes": 1,
               "sentiment": "긍정",
-              "rating": 4
+              "rating": 5
             },
             {
               "author": "@조조조-g5j",
               "text": "요즘 뜸하시네요 ㅎ",
               "likes": 1,
-              "sentiment": "긍정",
-              "rating": 4
+              "sentiment": "부정",
+              "rating": 1
             }
           ],
           "sentiment_counts": {
-            "neg": 0,
+            "neg": 1,
             "neu": 0,
-            "pos": 7
+            "pos": 6
           },
-          "negative_ratio": 0.0,
+          "negative_ratio": 0.143,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -6256,8 +6419,8 @@
               "author": "@부침개-ifree1999",
               "text": "와... 영상내용이 섬네일과 제목이 다야 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ🤣🤣🤣🤣",
               "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@따끔OI",
@@ -6291,8 +6454,8 @@
               "author": "@리얼민트초코",
               "text": "아...또 밤에 이 맛있는 걸...😅\n11시 20분에 이걸 보고 있자니 침이 줄줄 나옵니다. ㅋ",
               "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@WhiskeyBankKorea",
@@ -6305,8 +6468,8 @@
               "author": "@에어링",
               "text": "ㅋㅋㅋㅋㅋ 현실이랑 방송이랑 차이가 없는 느낌인데요ㅋㅋㅋㅋ",
               "likes": 0,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@따끔OI",
@@ -6317,12 +6480,98 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 3,
-            "neu": 1,
-            "pos": 6
+            "neg": 1,
+            "neu": 0,
+            "pos": 9
           },
-          "negative_ratio": 0.3,
-          "warning_level": "yellow",
+          "negative_ratio": 0.1,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "rTkAm8TqClU",
+          "title": "먹방vlog_금주 어떻게 하는건데요...🍶 매일 술에 쩔어사는 30대 노처녀 먹부림 일상 | BBQ 황금올리브 양념치킨 홍치즈라면 쭈삼 냉면 항정살 돼지껍데기 삼김 먹방 🔥",
+          "channel": "츄으니",
+          "subscribers": 883,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1008,
+          "likes": 0,
+          "comment_count": 9,
+          "engagement_rate": 0.0089,
+          "duration": 713,
+          "is_short": false,
+          "buzz_score": 40.6,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=rTkAm8TqClU",
+          "description_excerpt": "💜시청해주셔서 감사합니다🙇🏻‍♀️💜\n💛구독과 좋아요는 사랑입니다💛\n\n🎁츄으니 채널 멤버쉽 가입🎁\nhttps://www.youtube.com/channel/UCXsT0DgSg_JNZUz04NwUX0g/join\n\n💌 이메일 : chueni0919@gmail.com\n💌 인스타그램 : chueni_\n\n🔥악의적인 댓글은 삭제 및 차단될 수 있습니다\n\n#먹방 #집밥 #혼밥 #브이로그 #고기 #고기먹방\n#BBQ치킨 #치킨먹방 #황금올리브 #양념치킨\n#홍치즈라면 #삼각김밥 #참치마요 #폭식\n#취중먹방 #삼겹살 #항정살 #냉면 #물냉\n#껍데기 #쭈",
+          "top_comments": [
+            {
+              "author": "@츄으니chu",
+              "text": "안녕하세요 츄으니예요 🙆🏻‍♀\r\n저 다이어트 성공했어요!!!\r\n1일 1식하면서 건강하게 빼진 못했지만\r\n이제는 먹고싶은거 먹으면서 (술도 물론🍶)\r\n유지해보려구요! 🥹\r\n\r\n요즘 날이 급 더워져서 반팔 필수...\r\n건강 잘챙기시고 항상 늘\r\n행복한일만 가득하시길 🙏🏻\r\n오늘도 고생 많으셨습니다!\r\n늘 행복하세요 🙇🏻‍♀💜\r\n\r\n- 츄으니 드림\r\n\r\n\r\n\r\n🌸 타임라인\r\n00:00 항정살+껍데기+물냉\r\n00:40 BBQ 황올양념치킨\r\n05:16 편의점 털\r\n05:54 매운 홍치즈라면+삼김\r\n08:20 삼겹살+항정살+물냉\r\n09:22 ",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@박하parkhaha",
+              "text": "알고리즘에 떠서 보는데..\n진짜 잘 드시네요!\n부러워요😮",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
+            },
+            {
+              "author": "@yyy_rb",
+              "text": "갈수록 재밌네ㅋㅋ 근데 7키로 단기간에 진짜 훅 빼셨네요 대박 주량도 어마어마 한것 .. 난 원래 1병반인데 나이드니 훅가서 소주도 못먹겠어요.. 😢",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@jungeunlee4890",
+              "text": "다욧도 금방 성공하구 역시 대단해!!",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@남민섭-p1p",
+              "text": "츄으니님 안녕하세요 많이 보고 싶었어요 츄으니님 오늘도 알림 뜨자마자 왔습니다 🌸🌸🌸🌸치킨 맛있게 드세요",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@잠만보도토잠보",
+              "text": "어떻게 빼신건가요?",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@남민섭-p1p",
+              "text": "츄으니님 안녕하세요 많이 보고 싶었어요 츄으니님 오늘도 알림 뜨자마자 왔습니다 🌸🌸🌸🌸치킨 맛있게 드세요",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@냠냠랜드-l5l",
+              "text": "츄님츄님!!  단기간에 어떻게 그렇게 빼셨어여  안드시면 쭉쭉 빠지는 체질인가봐요.  성공하셨다니 축하드리구!!  건강에 무리가지않게 조심하면서 하세여!!   이왕드시는 술도 즐겁게 즐기시구 항상 응원해요 화이팅!!!!  아 ! 사진봤는데 너무 예쁘세요 연예인같으세요 👍👍",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 7
+          },
+          "negative_ratio": 0.125,
+          "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": []
@@ -6382,7 +6631,7 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -6414,31 +6663,31 @@
               "author": "@김민석-k9b3g",
               "text": "교촌은 망해야댐",
               "likes": 2,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@힝키랩",
               "text": "그렇더라구요! 😮",
               "likes": 1,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@헤일메어리",
               "text": "안돼요 ㅠㅜ 오ㅑ요왜요~~",
               "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             }
           ],
           "sentiment_counts": {
-            "neg": 3,
-            "neu": 1,
-            "pos": 0
+            "neg": 1,
+            "neu": 0,
+            "pos": 3
           },
-          "negative_ratio": 0.75,
-          "warning_level": "yellow",
+          "negative_ratio": 0.25,
+          "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": [
@@ -6501,25 +6750,69 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "_ojACUioK9Y",
+          "title": "와꾸짱쭈늬시즌2 트랜스젠더 26. 4.14 제주도 .bbq치킨 먹방 낼은 제주  함덕으로",
+          "channel": "와꾸짱쭈늬시즌2",
+          "subscribers": 20400,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 32949,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 15219,
+          "is_short": false,
+          "buzz_score": 9.1,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=_ojACUioK9Y",
+          "description_excerpt": "nan",
+          "top_comments": [
+            {
+              "author": "@제니-h9i",
+              "text": "안녕하세요 \n매력적이셔요~~\n뭘 그렇게 좋은거를 바르시나요\n알려줘 보셔요\n피부도 반짝 반짝..",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@제니-h9i",
+              "text": "여기는 오전11시50분\n어제 녹화된거군요~~\n예쁘고 귀여운 자태에 반해서 보고있다가 두꺼운 목소리가 나오면 뒤집어 지게 재밌어요\n머리도 미용사처럼 잘도 만지시네요\n\n끼가 넘치시나봅니다",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.5,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         }
       ],
       "sentiment_counts": {
-        "neg": 8,
-        "neu": 2,
-        "pos": 29
+        "neg": 7,
+        "neu": 0,
+        "pos": 34
       },
-      "negative_ratio": 0.205,
+      "negative_ratio": 0.171,
       "warning_level": ""
     },
     "bhc": {
       "display": "BHC치킨",
       "video_count": 13,
-      "total_views": 169470,
-      "total_likes": 918,
-      "total_comments": 82,
+      "total_views": 169842,
+      "total_likes": 921,
+      "total_comments": 78,
       "n_short": 3,
       "n_long": 10,
       "tier_counts": {
@@ -6527,7 +6820,7 @@
         "Official": 3,
         "Macro": 1
       },
-      "summary": "(요약 대기 중)",
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
       "videos": [
         {
           "video_id": "I6y1SCaQFNU",
@@ -6725,8 +7018,8 @@
           },
           "negative_ratio": 0.4,
           "warning_level": "yellow",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -6736,13 +7029,13 @@
           "subscribers": 2520,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 1300,
-          "likes": 17,
-          "comment_count": 8,
-          "engagement_rate": 0.0192,
+          "views": 1561,
+          "likes": 18,
+          "comment_count": 9,
+          "engagement_rate": 0.0173,
           "duration": 2208,
           "is_short": false,
-          "buzz_score": 47.6,
+          "buzz_score": 43.7,
           "upload_date": "2026.04.15",
           "url": "https://www.youtube.com/watch?v=xwikl7B4bRo",
           "description_excerpt": "안녕하세요! 한얼하루입니다 :)\n2월 3주차의 브이로그에요!\n진짜 맨날 술 먹었던 한주간 같은데🙄\n사실상 2월은 술 안먹은 날이 더 적었었거든요\n\n술독에 빠져 살았던 2월이지만,,,,\n그래도 저때의 제가 행복했으면 되었따⭐️\n그럼 이번 영상도 재미있게 봐 주시길 바래요!♥️\n\n\n\n------------------------------------\n\n[🍻타임라인]\n00:00 [고모표 잔치국수]\n01:27 [할머니 생신🎂] 성심당 딸기시루 케이크\n02:32 [1차 : 창도수산] 신선 모듬 활어회, 물회\n04:41 [2차 : 명절푸드] 오",
@@ -6758,8 +7051,8 @@
               "author": "@daily-hanel",
               "text": "머리 자르니까 넘 가볍고 편하고><ㅋㅋㅋㅋㅋ\n지금은 또 점점 길어지고 있어용!!!\n머리 컬러도 빠져가지구 다시 까만색으로 염색하고 싶기두 해용🥺",
               "likes": 1,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@공주-e6f",
@@ -6793,8 +7086,8 @@
               "author": "@daily-hanel",
               "text": "껨온님 오늘도 출석체크 감사드립니당><ㅋㅋㅋㅋㅋ",
               "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
+              "sentiment": "부정",
+              "rating": 1
             },
             {
               "author": "@망이-m2s",
@@ -6802,72 +7095,21 @@
               "likes": 0,
               "sentiment": "긍정",
               "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 1,
-            "pos": 7
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "25AVZbyRX5Y",
-          "title": "eng|독남이 한국 탐방 day2|한독커플|롤러장 데이트|한국 미용실|bhc 치킨 먹기|국제연애",
-          "channel": "행구핑구",
-          "subscribers": 1020,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 73,
-          "likes": 5,
-          "comment_count": 4,
-          "engagement_rate": 0.1233,
-          "duration": 942,
-          "is_short": false,
-          "buzz_score": 45.5,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=25AVZbyRX5Y",
-          "description_excerpt": "저희가 사운드 조작이 미숙해서 보신다면 에어팟은 빼고 보시길😵\nday2 체력 충전하자마자 한국 미용실...그것도 갔던 곳으로 ㅋㅋㅋ\n롤러장 데이트💕뒤로 탈 수 있는 분❔❕",
-          "top_comments": [
-            {
-              "author": "@jiniddong",
-              "text": "스몰토크 장인 행구씨..",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
             },
             {
-              "author": "@행구핑구",
-              "text": "ㅋ.ㅋ.ㅋ.ㅋ두번째 방문이라..",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@jiniddong",
-              "text": "이곳이 퓌니가 그렇게 고집하던..미용실이군 확실히 다르긴해",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@행구핑구",
-              "text": "ㅋㅋㅋㅋㅋㅋㅋ수원에 숙소잡아놓고..동탄까지 가기..",
+              "author": "@서우엄마미",
+              "text": "❤생❤일❤축❤하❤해❤\n❤예❤쁜❤한❤얼❤\n🎉🎉🎉🎉🎉🎉🎉",
               "likes": 0,
               "sentiment": "긍정",
               "rating": 5
             }
           ],
           "sentiment_counts": {
-            "neg": 0,
+            "neg": 1,
             "neu": 0,
-            "pos": 4
+            "pos": 8
           },
-          "negative_ratio": 0.0,
+          "negative_ratio": 0.111,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -6898,8 +7140,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -6927,66 +7169,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "DuhOd3vKGaA",
-          "title": "BHC치킨 골드킹 격노 후기",
-          "channel": "Mr. Story",
-          "subscribers": 3320,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 297,
-          "likes": 6,
-          "comment_count": 5,
-          "engagement_rate": 0.037,
-          "duration": 47,
-          "is_short": true,
-          "buzz_score": 37.2,
-          "upload_date": "2026.04.14",
-          "url": "https://www.youtube.com/watch?v=DuhOd3vKGaA",
-          "description_excerpt": "#bhc치킨 #골드킹 #양념치킨 #koreanchicken #chicken #치킨",
-          "top_comments": [
-            {
-              "author": "@joykim21-z9q",
-              "text": "닭에는 염지안해서 소스 덜뿌려주면 ㄹㅇ 니맛도내맛도 아닐듯",
-              "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@reversal2460",
-              "text": "거기 지점이 맛없는듯?",
-              "likes": 0,
-              "sentiment": "부정",
-              "rating": 2
-            },
-            {
-              "author": "@Officialmisterstory",
-              "text": "다른 메뉴는 맛있는데 골드킹에... 조리과정 실수라고 생각하고 있긴 합니다만 ㅠ.ㅠ",
-              "likes": 0,
-              "sentiment": "중립",
-              "rating": 3
-            },
-            {
-              "author": "@sunggyusim7728",
-              "text": "잘보고갑니다",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 2,
-            "neu": 1,
-            "pos": 1
-          },
-          "negative_ratio": 0.5,
-          "warning_level": "yellow",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": []
         },
         {
@@ -7062,6 +7246,64 @@
           "multi_brand_tags": []
         },
         {
+          "video_id": "25AVZbyRX5Y",
+          "title": "eng|독남이 한국 탐방 day2|한독커플|롤러장 데이트|한국 미용실|bhc 치킨 먹기|국제연애",
+          "channel": "행구핑구",
+          "subscribers": 1020,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 125,
+          "likes": 7,
+          "comment_count": 4,
+          "engagement_rate": 0.088,
+          "duration": 942,
+          "is_short": false,
+          "buzz_score": 36.2,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=25AVZbyRX5Y",
+          "description_excerpt": "저희가 사운드 조작이 미숙해서 보신다면 에어팟은 빼고 보시길😵\nday2 체력 충전하자마자 한국 미용실...그것도 갔던 곳으로 ㅋㅋㅋ\n롤러장 데이트💕뒤로 탈 수 있는 분❔❕",
+          "top_comments": [
+            {
+              "author": "@jiniddong",
+              "text": "스몰토크 장인 행구씨..",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@행구핑구",
+              "text": "ㅋ.ㅋ.ㅋ.ㅋ두번째 방문이라..",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@jiniddong",
+              "text": "이곳이 퓌니가 그렇게 고집하던..미용실이군 확실히 다르긴해",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@행구핑구",
+              "text": "ㅋㅋㅋㅋㅋㅋㅋ수원에 숙소잡아놓고..동탄까지 가기..",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 4
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "multi_brand_tags": []
+        },
+        {
           "video_id": "RGxYOcRF_CU",
           "title": "저녁 bhc 맛초킹 치킨 먹어보자! 먹방 후 후식먹방 소통방송",
           "channel": "뚠뚠이의일상",
@@ -7087,7 +7329,7 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -7188,6 +7430,64 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "DuhOd3vKGaA",
+          "title": "BHC치킨 골드킹 격노 후기",
+          "channel": "Mr. Story",
+          "subscribers": 3320,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 356,
+          "likes": 6,
+          "comment_count": 0,
+          "engagement_rate": 0.0169,
+          "duration": 47,
+          "is_short": true,
+          "buzz_score": 29.8,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=DuhOd3vKGaA",
+          "description_excerpt": "#bhc치킨 #골드킹 #양념치킨 #koreanchicken #chicken #치킨",
+          "top_comments": [
+            {
+              "author": "@joykim21-z9q",
+              "text": "닭에는 염지안해서 소스 덜뿌려주면 ㄹㅇ 니맛도내맛도 아닐듯",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@reversal2460",
+              "text": "거기 지점이 맛없는듯?",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 2
+            },
+            {
+              "author": "@Officialmisterstory",
+              "text": "다른 메뉴는 맛있는데 골드킹에... 조리과정 실수라고 생각하고 있긴 합니다만 ㅠ.ㅠ",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
+            },
+            {
+              "author": "@sunggyusim7728",
+              "text": "잘보고갑니다",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 1,
+            "pos": 1
+          },
+          "negative_ratio": 0.5,
+          "warning_level": "yellow",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": []
         },
         {
@@ -7312,26 +7612,26 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 9,
-        "neu": 4,
-        "pos": 43
+        "neg": 10,
+        "neu": 3,
+        "pos": 44
       },
-      "negative_ratio": 0.161,
+      "negative_ratio": 0.175,
       "warning_level": ""
     },
     "kyochon": {
       "display": "교촌치킨",
-      "video_count": 22,
-      "total_views": 18875,
-      "total_likes": 523,
-      "total_comments": 38,
+      "video_count": 23,
+      "total_views": 19066,
+      "total_likes": 527,
+      "total_comments": 21,
       "n_short": 1,
-      "n_long": 21,
+      "n_long": 22,
       "tier_counts": {
-        "Nano": 20,
+        "Nano": 21,
         "Micro": 2
       },
-      "summary": "(요약 대기 중)",
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
       "videos": [
         {
           "video_id": "at9XWx6VgXA",
@@ -7363,19 +7663,77 @@
           "multi_brand_tags": []
         },
         {
+          "video_id": "kHZ4948fzkY",
+          "title": "교촌 치킨 찾아서 삼만리#치킨 먹방#치킨왕???#야장#술방 자리 사수 가능",
+          "channel": "전은아TV",
+          "subscribers": 1860,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 2762,
+          "likes": 50,
+          "comment_count": 0,
+          "engagement_rate": 0.0181,
+          "duration": 24374,
+          "is_short": false,
+          "buzz_score": 42.8,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=kHZ4948fzkY",
+          "description_excerpt": "오햇동안 참은 치킨 먹방 신난다",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "lOIjDX2eUF8",
+          "title": "치킨집에 햇반 가져 가는 아빠 I MUKBANG EP.57 아빠랑 남매만 교촌치킨편",
+          "channel": "비쥬비다TV Bijou Vida Family ",
+          "subscribers": 11800,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 420,
+          "likes": 34,
+          "comment_count": 0,
+          "engagement_rate": 0.081,
+          "duration": 523,
+          "is_short": false,
+          "buzz_score": 40.9,
+          "upload_date": "2026.04.12",
+          "url": "https://www.youtube.com/watch?v=lOIjDX2eUF8",
+          "description_excerpt": "오늘은 비쥬비다와 함께 치킨을 먹고 왔습니다.\n\n근데 비쥬비다 둘다 한식파라 햇반을 들고 갔어요...\n\n과연 직원은 먹도록 허락해줬을까요?\n\n이번주도 비쥬비다 귀엽게 봐주시구요,\n\n구독! 좋아요! 알림설정 필수인거 아시죠??:)\n\n#비쥬비다tv #아빠육아 #치킨 #먹방 #mukbang",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
           "video_id": "R-CwnDWxaJE",
           "title": "진돗개 텐 패밀리,실시간 방송! 교촌 치킨 반반(레드,허니 갈릭)",
           "channel": "진돗개 텐 패밀리",
           "subscribers": 36500,
           "creator_tier": "Micro",
           "is_verified": false,
-          "views": 2786,
+          "views": 2812,
           "likes": 185,
-          "comment_count": 5,
-          "engagement_rate": 0.0682,
+          "comment_count": 0,
+          "engagement_rate": 0.0658,
           "duration": 10521,
           "is_short": false,
-          "buzz_score": 45.0,
+          "buzz_score": 38.0,
           "upload_date": "2026.04.14",
           "url": "https://www.youtube.com/watch?v=R-CwnDWxaJE",
           "description_excerpt": "채널에 가입하여 혜택을 누려보세요.\nhttps://www.youtube.com/channel/UCpPB86qoRiFwpGkqRUpzNxA/join\n\n구독자 3만명빠박채널https://www.youtube.com/channel/UCu74W4fdcbxGXg2FnCCG_-Q",
@@ -7421,48 +7779,19 @@
           "multi_brand_tags": []
         },
         {
-          "video_id": "kHZ4948fzkY",
-          "title": "교촌 치킨 찾아서 삼만리#치킨 먹방#치킨왕???#야장#술방 자리 사수 가능",
-          "channel": "전은아TV",
-          "subscribers": 1870,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 2762,
-          "likes": 50,
-          "comment_count": 0,
-          "engagement_rate": 0.0181,
-          "duration": 24374,
-          "is_short": false,
-          "buzz_score": 44.0,
-          "upload_date": "2026.04.14",
-          "url": "https://www.youtube.com/watch?v=kHZ4948fzkY",
-          "description_excerpt": "오햇동안 참은 치킨 먹방 신난다",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
           "video_id": "xxOQ9kNNHNU",
           "title": "“가격 꼼수에 분노 폭발” 교촌치킨이 무너진 이유, 소비자들이 등을 돌린 결정적 순간",
           "channel": "사려깊은머니",
-          "subscribers": 2470,
+          "subscribers": 2480,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 2291,
-          "likes": 23,
-          "comment_count": 11,
-          "engagement_rate": 0.0148,
+          "views": 2437,
+          "likes": 25,
+          "comment_count": 0,
+          "engagement_rate": 0.0103,
           "duration": 5911,
           "is_short": false,
-          "buzz_score": 42.9,
+          "buzz_score": 37.1,
           "upload_date": "2026.04.14",
           "url": "https://www.youtube.com/watch?v=xxOQ9kNNHNU",
           "description_excerpt": "“가격 꼼수에 분노 폭발”\n\n한때 프리미엄 치킨의 대표 브랜드였던 교촌치킨,  \n하지만 지금 소비자들의 반응은 완전히 달라졌습니다.\n\n끊임없는 가격 인상,  \n이해하기 어려운 구성 변화,  \n그리고 쌓여가는 소비자 불만.\n\n왜 사람들은 등을 돌리기 시작했을까요?\n\n이번 영상에서는  \n✔ 교촌치킨이 성장할 수 있었던 이유  \n✔ 반복된 가격 인상의 구조  \n✔ 소비자들이 느낀 ‘가격 꼼수’의 실체  \n✔ 브랜드 신뢰가 무너진 과정  \n✔ 시장 점유율 변화와 경쟁 상황  \n\n을 중심으로  \n지금 벌어지고 있는  \n프랜차이즈 시장의 현실",
@@ -7520,8 +7849,8 @@
               "author": "@Apieceofcake-ca",
               "text": "교촌 안먹은지 오래 되었네",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@seouk-v7y",
@@ -7539,14 +7868,14 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 7,
+            "neg": 6,
             "neu": 1,
-            "pos": 2
+            "pos": 3
           },
-          "negative_ratio": 0.7,
+          "negative_ratio": 0.6,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -7556,13 +7885,13 @@
           "subscribers": 5980,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 2908,
+          "views": 2890,
           "likes": 28,
           "comment_count": 0,
-          "engagement_rate": 0.0096,
+          "engagement_rate": 0.0097,
           "duration": 7705,
           "is_short": false,
-          "buzz_score": 41.4,
+          "buzz_score": 36.1,
           "upload_date": "2026.04.15",
           "url": "https://www.youtube.com/watch?v=LWKr18Y_fs4",
           "description_excerpt": "nan",
@@ -7576,35 +7905,6 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
-          "multi_brand_tags": []
-        },
-        {
-          "video_id": "lOIjDX2eUF8",
-          "title": "치킨집에 햇반 가져 가는 아빠 I MUKBANG EP.57 아빠랑 남매만 교촌치킨편",
-          "channel": "비쥬비다TV Bijou Vida Family ",
-          "subscribers": 11800,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 420,
-          "likes": 34,
-          "comment_count": 0,
-          "engagement_rate": 0.081,
-          "duration": 523,
-          "is_short": false,
-          "buzz_score": 40.9,
-          "upload_date": "2026.04.12",
-          "url": "https://www.youtube.com/watch?v=lOIjDX2eUF8",
-          "description_excerpt": "오늘은 비쥬비다와 함께 치킨을 먹고 왔습니다.\n\n근데 비쥬비다 둘다 한식파라 햇반을 들고 갔어요...\n\n과연 직원은 먹도록 허락해줬을까요?\n\n이번주도 비쥬비다 귀엽게 봐주시구요,\n\n구독! 좋아요! 알림설정 필수인거 아시죠??:)\n\n#비쥬비다tv #아빠육아 #치킨 #먹방 #mukbang",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -7711,8 +8011,8 @@
           },
           "negative_ratio": 0.143,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -7741,7 +8041,7 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -7885,8 +8185,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -8006,7 +8306,7 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         },
         {
@@ -8097,43 +8397,6 @@
           "multi_brand_tags": []
         },
         {
-          "video_id": "yh6HudrmzYs",
-          "title": "26.4.첫째주 ) 경산 꽃놀이 / 경산시청 소상공인 상담 / 영대 장군제육 / 포테토칩 교촌간장치킨맛 / 꼬북칩 말차초코",
-          "channel": "요가즈세시",
-          "subscribers": 28,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 14,
-          "likes": 3,
-          "comment_count": 1,
-          "engagement_rate": 0.2857,
-          "duration": 527,
-          "is_short": false,
-          "buzz_score": 22.4,
-          "upload_date": "2026.04.14",
-          "url": "https://www.youtube.com/watch?v=yh6HudrmzYs",
-          "description_excerpt": "#일상브이로그 #먹방브이로그 #요가 #요가수련#운동브이로그#시츄#닐라요가",
-          "top_comments": [
-            {
-              "author": "@콩짱아-q3i",
-              "text": "05:36 아니 나랑 실컷 싸워서 한마디도 안해너커 신상 과자도 사묵고 \n06:14 아침부텀 산책도 가뿟노 완전 앙큼재이",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 1
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": []
-        },
-        {
           "video_id": "qaC1vTNyXq0",
           "title": "배달맛집 교촌치킨 정자점 2604",
           "channel": "Tastesong",
@@ -8155,6 +8418,43 @@
             "neg": 0,
             "neu": 0,
             "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "yh6HudrmzYs",
+          "title": "26.4.첫째주 ) 경산 꽃놀이 / 경산시청 소상공인 상담 / 영대 장군제육 / 포테토칩 교촌간장치킨맛 / 꼬북칩 말차초코",
+          "channel": "요가즈세시",
+          "subscribers": 28,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 17,
+          "likes": 3,
+          "comment_count": 0,
+          "engagement_rate": 0.1765,
+          "duration": 527,
+          "is_short": false,
+          "buzz_score": 19.9,
+          "upload_date": "2026.04.14",
+          "url": "https://www.youtube.com/watch?v=yh6HudrmzYs",
+          "description_excerpt": "#일상브이로그 #먹방브이로그 #요가 #요가수련#운동브이로그#시츄#닐라요가",
+          "top_comments": [
+            {
+              "author": "@콩짱아-q3i",
+              "text": "05:36 아니 나랑 실컷 싸워서 한마디도 안해너커 신상 과자도 사묵고 \n06:14 아침부텀 산책도 가뿟노 완전 앙큼재이",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -8195,154 +8495,76 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": []
+        },
+        {
+          "video_id": "y90gWzhzfcA",
+          "title": "[먹음의기록] [포테토칩] 교촌간장치킷만, [펩시] 피치향, [꼬북칩] 말차초코맛",
+          "channel": "MuHanOTa",
+          "subscribers": 1070,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 34,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.0588,
+          "duration": 2741,
+          "is_short": false,
+          "buzz_score": 9.7,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=y90gWzhzfcA",
+          "description_excerpt": "[먹음의기록] [포테토칩] 교촌간장치킷만, [펩시] 피치향, [꼬북칩] 말차초코맛",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": []
         }
       ],
       "sentiment_counts": {
-        "neg": 11,
+        "neg": 10,
         "neu": 4,
-        "pos": 16
+        "pos": 17
       },
-      "negative_ratio": 0.355,
+      "negative_ratio": 0.323,
       "warning_level": "yellow"
     },
     "multi": {
       "display": "🔀 멀티-브랜드 비교",
-      "video_count": 6,
-      "total_views": 216903,
-      "total_likes": 8,
-      "total_comments": 12,
-      "n_short": 0,
+      "video_count": 7,
+      "total_views": 242610,
+      "total_likes": 14,
+      "total_comments": 17,
+      "n_short": 1,
       "n_long": 6,
       "tier_counts": {
-        "Macro": 1,
-        "Nano": 5
+        "Nano": 6,
+        "Macro": 1
       },
-      "summary": "경쟁사 2개 이상이 함께 등장하는 비교 콘텐츠 6개. KFC IT/디지털 입장에서 타사 대비 KFC 평가가 드러나는 핵심 관찰 구간.",
+      "summary": "경쟁사 2개 이상이 함께 등장하는 비교 콘텐츠 7개. KFC IT/디지털 입장에서 타사 대비 KFC 평가가 드러나는 핵심 관찰 구간.",
       "videos": [
-        {
-          "video_id": "8qGtu7Q1P2Y",
-          "title": "24시간동안 8개 햄버거 브랜드 싹 다 먹은 날 | 맥도날드,롯데리아,버거킹,맘스터치,왓더버거,프랭크버거,노브랜드버거,KFC,불고기버거,새우버거,치킨버거,감자튀김,오징어링,치즈스틱",
-          "channel": "김복순",
-          "subscribers": 371000,
-          "creator_tier": "Macro",
-          "is_verified": true,
-          "views": 216776,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 3850,
-          "is_short": false,
-          "buzz_score": 54.1,
-          "upload_date": "2026.04.12",
-          "url": "https://www.youtube.com/watch?v=8qGtu7Q1P2Y",
-          "description_excerpt": "00:00 [맥도날드]불고기버거+슈슈버거+맥스파이시상하이버거+1955버거+빅맥+사이드:골든모짜렐라치즈스틱4조각+맥너겟4조각(+스위트앤사워소스)+고구마후라이+감자튀김L+케이준디핑소스+코카콜라L\n08:14 [롯데리아]불고기버거+새우버거+핫크리스피치킨버거+모짜렐라인더버거+한우불고기버거+사이드:양념감자(+치즈시즈닝+어니언시즈닝추가)+통오징어링(+잠발라야소스)+치즈스틱2조각+치킨너겟+코카콜라\n16:36 [버거킹]불고기와퍼+통새우와퍼+치킨킹버거+몬스터와퍼+와퍼+사이드:리얼어니언링L+감자튀김L+코코넛슈림프6조각(+스위트칠리소스)+코카콜라L\n25",
-          "top_comments": [
-            {
-              "author": "@boribwab",
-              "text": "떠오르는 신성임 오래활동한 먹방러 몇몇분도 이분이 이길 수 있을거 같음 24시간내에 햄버거만 40개 먹는데 사이드도 몇십개씩 먹으면서 물리지도 않고 소화력도 좋음",
-              "likes": 769,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@이르밈-u3f",
-              "text": "타임라인 경이롭다진짜",
-              "likes": 534,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@돌돌이-j4j",
-              "text": "그.. 복순님.. 팔 아프게 시간 인증 안 해주셔도 될 거 같아여.... 이제 믿는 정도를 넘어 경이로움에 도달했거등요",
-              "likes": 438,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@maps-j1k",
-              "text": "제목 보고 배부르긴 또 처음이네",
-              "likes": 360,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@영-j9k",
-              "text": "챗지피티한테 정리만 도와달라고 하고 직접 브랜드 영양표보면서 작성했습니다 \n\n총칼로리 36,748kcal\n\n🍔1.맥도날드\n버거\n불고기버거:409kcal\n슈슈버거:424kcal\n맥스파이시상하이버거:464kcal\n1955버거:530kcal\n빅맥:548kcal\n사이드+음료\n모짜렐라치즈스틱4:330kcal\n너겟4:163kcal\n스위트앤샤워소스:40kcal\n케이준디핑소스:98kcal\n고구마후라이:295kcal\n감자튀김L:397kcal\n콜라L:185kcal\n\n🍔2.롯데리아\n버거\n불고기버거:390kcal\n새우버거:421kcal\n핫크리스피:503",
-              "likes": 210,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@youjinchoi3430",
-              "text": "내가 뚱뚱해봐서 아는데 100키로 넘어도 햄버거 하루 5개 이상 힘듦 저정도면 초고도 비만도 아닌데 진짜 대단한 소화력임 그것도 모잘라 배달내역 시간 모든걸 증명하는게 찐중에 찐임. 먹뱉 먹토논란 자자한 먹방계에서 레알 찐 먹방러는 이분하나일듯",
-              "likes": 190,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@moonvii127",
-              "text": "이분한테는 감히 햄최몇을 물을 수가 없을 거 같음...",
-              "likes": 186,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@aeongnyang38",
-              "text": "4시간만에 햄버거 20개를 먹었다는거쟌아......... 경이로우면서 복순님 행복해보여서 귀여움 ㅋㅋㅋㅋㅋ",
-              "likes": 166,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@kimboksoon222",
-              "text": "00:01 [맥도날드]불고기버거(₩4,700)+슈슈버거(₩5,600)+맥스파이시상하이버거(₩6,800)+1955버거(₩7,600)+빅맥(₩6,600)+사이드:골든모짜렐라치즈스틱4조각(₩5,400)+맥너겟4조각(+스위트앤사워소스₩3,700)+고구마후라이(₩3,600)+감자튀김L(₩4,100)+케이준디핑소스2개(1개₩300)+코카콜라L(₩3,200)\n08:14 [롯데리아]불고기버거(₩5,800)+새우버거(₩5,800)+핫크리스피치킨버거(₩7,000)+모짜렐라인더버거(₩8,800)+한우불고기버거(₩9,800)+사이드:양념감자(+치즈시즈닝",
-              "likes": 122,
-              "sentiment": "부정",
-              "rating": 1
-            },
-            {
-              "author": "@나무-i2p",
-              "text": "어디 햄버거든 전메뉴 소개해주는 채널은 여기뿐이니 얼른 광고 줄서시길.. 찐으로 다 먹어주심..ㄷㄷ",
-              "likes": 116,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 5,
-            "neu": 0,
-            "pos": 5
-          },
-          "negative_ratio": 0.5,
-          "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
-          "multi_brand_tags": [
-            "kfc",
-            "burgerking",
-            "mcdonalds",
-            "lotteria",
-            "momstouch"
-          ],
-          "primary_brand": "kfc"
-        },
         {
           "video_id": "L4YOs0bWzok",
           "title": "맘스터치 김풍 후덕죽 / 맥날 베토디 바질크림치즈 과연 어떨까",
           "channel": "김경식",
-          "subscribers": 703,
+          "subscribers": 705,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 36,
-          "likes": 1,
-          "comment_count": 8,
-          "engagement_rate": 0.25,
+          "views": 168,
+          "likes": 7,
+          "comment_count": 13,
+          "engagement_rate": 0.119,
           "duration": 1009,
           "is_short": false,
-          "buzz_score": 41.8,
+          "buzz_score": 40.2,
           "upload_date": "2026.04.16",
           "url": "https://www.youtube.com/watch?v=L4YOs0bWzok",
           "description_excerpt": "맘터 김풍이랑 후덕죽이랑 핫치즈싸이랑 맥날 베토디 신상먹음\n버거는 그저 그랬음 기대보단… 치킨 goat\n각이당 여기 맛있음 굿",
@@ -8402,55 +8624,36 @@
               "likes": 0,
               "sentiment": "부정",
               "rating": 1
+            },
+            {
+              "author": "@도라온노씨",
+              "text": "ㅅㅂㅜ 김풍 여기서도 선방하네",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@Yuyezin",
+              "text": "4:36 얼공",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
             }
           ],
           "sentiment_counts": {
             "neg": 4,
-            "neu": 0,
-            "pos": 4
+            "neu": 1,
+            "pos": 5
           },
-          "negative_ratio": 0.5,
-          "warning_level": "red",
+          "negative_ratio": 0.4,
+          "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_rating": 5,
           "multi_brand_tags": [
             "mcdonalds",
             "momstouch"
           ],
           "primary_brand": "momstouch"
-        },
-        {
-          "video_id": "pEJpwGiKayc",
-          "title": "KFC마저 무릎 꿇린 K 치킨의 소름 돋는 침투 전략",
-          "channel": "옛날이야기 한국사",
-          "subscribers": 2570,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 2,
-          "likes": 1,
-          "comment_count": 0,
-          "engagement_rate": 0.5,
-          "duration": 1187,
-          "is_short": false,
-          "buzz_score": 38.5,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=pEJpwGiKayc",
-          "description_excerpt": "전 세계 맥도날드 매장 수보다 한국의 치킨집이 더 많다는 사실, 알고 계셨나요? 60년 전통의 미국 치킨 시장을 단숨에 ‘K-크리스피’의 열풍으로 몰아넣은 한국 치킨만의 치밀한 비즈니스 공학을 분석합니다. 단순히 맛있는 것을 넘어, 미국인의 라이프스타일을 바꾼 K-치킨의 성공 방정식을 여러분의 비즈니스에 대입해 보세요! \n\n🎯 핵심 포인트 요약\n*식감의 신세계: 'Crunchy'를 넘어선 극강의 'Crispy', 더블 프라이 공법의 비밀\n*시스템의 역발상: 효율을 버리고 '주문 즉시 조리'라는 프리미엄 가치 선택\n*문화적 트로이 목",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "multi_brand_tags": [
-            "kfc",
-            "mcdonalds"
-          ],
-          "primary_brand": "kfc"
         },
         {
           "video_id": "SlFGfbNTky4",
@@ -8481,31 +8684,31 @@
               "author": "@김민석-k9b3g",
               "text": "교촌은 망해야댐",
               "likes": 2,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@힝키랩",
               "text": "그렇더라구요! 😮",
               "likes": 1,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@헤일메어리",
               "text": "안돼요 ㅠㅜ 오ㅑ요왜요~~",
               "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 5
             }
           ],
           "sentiment_counts": {
-            "neg": 3,
-            "neu": 1,
-            "pos": 0
+            "neg": 1,
+            "neu": 0,
+            "pos": 3
           },
-          "negative_ratio": 0.75,
-          "warning_level": "yellow",
+          "negative_ratio": 0.25,
+          "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": [
@@ -8541,7 +8744,7 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_rating": 5,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -8574,22 +8777,218 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds"
           ],
           "primary_brand": "burgerking"
+        },
+        {
+          "video_id": "pEJpwGiKayc",
+          "title": "KFC마저 무릎 꿇린 K 치킨의 소름 돋는 침투 전략",
+          "channel": "옛날이야기 한국사",
+          "subscribers": 2570,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 25,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.04,
+          "duration": 1187,
+          "is_short": false,
+          "buzz_score": 9.1,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=pEJpwGiKayc",
+          "description_excerpt": "전 세계 맥도날드 매장 수보다 한국의 치킨집이 더 많다는 사실, 알고 계셨나요? 60년 전통의 미국 치킨 시장을 단숨에 ‘K-크리스피’의 열풍으로 몰아넣은 한국 치킨만의 치밀한 비즈니스 공학을 분석합니다. 단순히 맛있는 것을 넘어, 미국인의 라이프스타일을 바꾼 K-치킨의 성공 방정식을 여러분의 비즈니스에 대입해 보세요! \n\n🎯 핵심 포인트 요약\n*식감의 신세계: 'Crunchy'를 넘어선 극강의 'Crispy', 더블 프라이 공법의 비밀\n*시스템의 역발상: 효율을 버리고 '주문 즉시 조리'라는 프리미엄 가치 선택\n*문화적 트로이 목",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [
+            "kfc",
+            "mcdonalds"
+          ],
+          "primary_brand": "kfc"
+        },
+        {
+          "video_id": "8qGtu7Q1P2Y",
+          "title": "24시간동안 8개 햄버거 브랜드 싹 다 먹은 날 | 맥도날드,롯데리아,버거킹,맘스터치,왓더버거,프랭크버거,노브랜드버거,KFC,불고기버거,새우버거,치킨버거,감자튀김,오징어링,치즈스틱",
+          "channel": "김복순",
+          "subscribers": 372000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 242313,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 3850,
+          "is_short": false,
+          "buzz_score": 8.8,
+          "upload_date": "2026.04.12",
+          "url": "https://www.youtube.com/watch?v=8qGtu7Q1P2Y",
+          "description_excerpt": "00:00 [맥도날드]불고기버거+슈슈버거+맥스파이시상하이버거+1955버거+빅맥+사이드:골든모짜렐라치즈스틱4조각+맥너겟4조각(+스위트앤사워소스)+고구마후라이+감자튀김L+케이준디핑소스+코카콜라L\n08:14 [롯데리아]불고기버거+새우버거+핫크리스피치킨버거+모짜렐라인더버거+한우불고기버거+사이드:양념감자(+치즈시즈닝+어니언시즈닝추가)+통오징어링(+잠발라야소스)+치즈스틱2조각+치킨너겟+코카콜라\n16:36 [버거킹]불고기와퍼+통새우와퍼+치킨킹버거+몬스터와퍼+와퍼+사이드:리얼어니언링L+감자튀김L+코코넛슈림프6조각(+스위트칠리소스)+코카콜라L\n25",
+          "top_comments": [
+            {
+              "author": "@boribwab",
+              "text": "떠오르는 신성임 오래활동한 먹방러 몇몇분도 이분이 이길 수 있을거 같음 24시간내에 햄버거만 40개 먹는데 사이드도 몇십개씩 먹으면서 물리지도 않고 소화력도 좋음",
+              "likes": 769,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@이르밈-u3f",
+              "text": "타임라인 경이롭다진짜",
+              "likes": 534,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@돌돌이-j4j",
+              "text": "그.. 복순님.. 팔 아프게 시간 인증 안 해주셔도 될 거 같아여.... 이제 믿는 정도를 넘어 경이로움에 도달했거등요",
+              "likes": 438,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@maps-j1k",
+              "text": "제목 보고 배부르긴 또 처음이네",
+              "likes": 360,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@영-j9k",
+              "text": "챗지피티한테 정리만 도와달라고 하고 직접 브랜드 영양표보면서 작성했습니다 \n\n총칼로리 36,748kcal\n\n🍔1.맥도날드\n버거\n불고기버거:409kcal\n슈슈버거:424kcal\n맥스파이시상하이버거:464kcal\n1955버거:530kcal\n빅맥:548kcal\n사이드+음료\n모짜렐라치즈스틱4:330kcal\n너겟4:163kcal\n스위트앤샤워소스:40kcal\n케이준디핑소스:98kcal\n고구마후라이:295kcal\n감자튀김L:397kcal\n콜라L:185kcal\n\n🍔2.롯데리아\n버거\n불고기버거:390kcal\n새우버거:421kcal\n핫크리스피:503",
+              "likes": 210,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@youjinchoi3430",
+              "text": "내가 뚱뚱해봐서 아는데 100키로 넘어도 햄버거 하루 5개 이상 힘듦 저정도면 초고도 비만도 아닌데 진짜 대단한 소화력임 그것도 모잘라 배달내역 시간 모든걸 증명하는게 찐중에 찐임. 먹뱉 먹토논란 자자한 먹방계에서 레알 찐 먹방러는 이분하나일듯",
+              "likes": 190,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@moonvii127",
+              "text": "이분한테는 감히 햄최몇을 물을 수가 없을 거 같음...",
+              "likes": 186,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@aeongnyang38",
+              "text": "4시간만에 햄버거 20개를 먹었다는거쟌아......... 경이로우면서 복순님 행복해보여서 귀여움 ㅋㅋㅋㅋㅋ",
+              "likes": 166,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@kimboksoon222",
+              "text": "00:01 [맥도날드]불고기버거(₩4,700)+슈슈버거(₩5,600)+맥스파이시상하이버거(₩6,800)+1955버거(₩7,600)+빅맥(₩6,600)+사이드:골든모짜렐라치즈스틱4조각(₩5,400)+맥너겟4조각(+스위트앤사워소스₩3,700)+고구마후라이(₩3,600)+감자튀김L(₩4,100)+케이준디핑소스2개(1개₩300)+코카콜라L(₩3,200)\n08:14 [롯데리아]불고기버거(₩5,800)+새우버거(₩5,800)+핫크리스피치킨버거(₩7,000)+모짜렐라인더버거(₩8,800)+한우불고기버거(₩9,800)+사이드:양념감자(+치즈시즈닝",
+              "likes": 122,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@나무-i2p",
+              "text": "어디 햄버거든 전메뉴 소개해주는 채널은 여기뿐이니 얼른 광고 줄서시길.. 찐으로 다 먹어주심..ㄷㄷ",
+              "likes": 116,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 0,
+            "pos": 8
+          },
+          "negative_ratio": 0.2,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [
+            "kfc",
+            "burgerking",
+            "mcdonalds",
+            "lotteria",
+            "momstouch"
+          ],
+          "primary_brand": "kfc"
+        },
+        {
+          "video_id": "znkik70wwNk",
+          "title": "#이스라엘쿠팡미국일본제품국민의힘불매가세계평화다 나이키 노스페이스 아이폰애플 스타벅스 맥도날드 KFC버거킹 테슬라 포드 캐딜락링컨 트럼프탄핵 엡스틴 롯데 혼다토요타 친일매국노천벌을",
+          "channel": "파란하늘파란세상",
+          "subscribers": 5220,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 15,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 56,
+          "is_short": true,
+          "buzz_score": 7.6,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=znkik70wwNk",
+          "description_excerpt": "nan",
+          "top_comments": [
+            {
+              "author": "@파란하늘파란세상",
+              "text": "#이스라엘쿠팡미국일본제품불매가세계평화다 나이키 노스페이스 아이폰애플 스타벅스 맥도날드 KFC버거킹 테슬라 포드 캐딜락 링컨 트럼프탄핵 엡스타인 쿠팡 롯데혼다 토요타 친일매국노천벌을\n\n\n쿠팡 3,370만명개인정보유출 고리대금대출18.9% 국민을 개돼지취급 구매노예로취급 쿠팡은 국내잘나가는 중소기업제품 갈취악질기업이 쿠팡임\n\n\n이란이여 승리하라  미국 편드는놈들도 쑥대밭으로 쳐단하라 이스라엘땅 초토화 미국군사무기 모조리 전부박살내라\n\n  다시는 전 세계로 전쟁못하게 세계평화 지구땅 평화를 위하여 쑥대밭으로  주변 미군주둔지도 쑥대밭으로",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@파란하늘파란세상",
+              "text": "문명파괴 광기발언 민간인거주 다리폭격 집단학살전쟁범죄자 미국트럼프 이스라엘네타냐후 법정심판을\n#미국제품불매가세계평화다 나이키 아이폰애플 스타벅스 맥도날드KFC 테슬라 포드캐딜락 링컨\n\n미국 트럼프 탄핵 성스캔들 엡스타인 쿠팡3,370만명개인정보유출 고리대금대출18.9% 국민을 개돼지취급 구매노예로취급 쿠팡은 국내잘나가는 중소기업제품 갈취악질기업이 쿠팡임",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@파란하늘파란세상",
+              "text": "코스피지수 6220 트럼프전쟁이후최고치 \n세계군사강국 5위 세계영향력 7위 문화강국1위 세계민주주의지수 41위 에서 ㅡ 22위대로하향 감동입니다 더불어사람이 먼저인세상 조국\n26년3월1일 월요일 대한민국 코스피 역대사상최고치6347💙 코스닥1180 감동입니다\n국민연금한해수익 1천540조원 😮돌파 감동입니다 이광수#진보를위한주식투자 이재명대통령은합니다ㅏ\n\n\n 국민연금한해수익 1천540조원 돌파 세계역사상최고기록 국민연금개혁 33년늦추어졌습니다 #이대남2대남 이제 지방정부 세상이열립니다\n\n\n 국무회의 기관공사 업무보고생중계 대한민국 최",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 3
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [
+            "kfc",
+            "burgerking",
+            "mcdonalds"
+          ],
+          "primary_brand": "kfc"
         }
       ],
       "sentiment_counts": {
-        "neg": 12,
+        "neg": 7,
         "neu": 1,
-        "pos": 9
+        "pos": 19
       },
-      "negative_ratio": 0.545,
-      "warning_level": "red",
+      "negative_ratio": 0.259,
+      "warning_level": "",
       "is_multi_section": true
     }
   }

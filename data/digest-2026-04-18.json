@@ -1,0 +1,206 @@
+{
+  "date": "2026-04-18",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "kfc": {
+      "display": "KFC 한국",
+      "video_count": 5,
+      "total_views": 5792,
+      "total_likes": 122,
+      "total_comments": 31,
+      "n_short": 1,
+      "n_long": 4,
+      "tier_counts": {
+        "Nano": 4,
+        "Macro": 1
+      },
+      "summary": "KFC가 새로운 '빵치짜'와 '켄치ża' 메뉴를 출시했으며, BJ 마빡이 먹방 영상을 통해 소개되었다. 이외에도 커넬 샌더스 할아버지의 인생 역전 스토리가 공유되어 KFC의 브랜드 역사에 대한 관심을 불러일으켰다.\n  📌 신메뉴 · 빵치짜 · 켄치ża",
+      "videos": [
+        {
+          "video_id": "Ub7LZknZFV8",
+          "title": "KFC 신메뉴 치킨 위 피자! 살라미 빵치짜 버거, 살라미 켄치짜 먹방!! [ KFC Mukbang ]",
+          "channel": "마빡",
+          "subscribers": 169000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 4559,
+          "likes": 101,
+          "comment_count": 31,
+          "engagement_rate": 0.029,
+          "duration": 536,
+          "is_short": false,
+          "buzz_score": 57.7,
+          "upload_date": "2026.04.17",
+          "url": "https://www.youtube.com/watch?v=Ub7LZknZFV8",
+          "description_excerpt": "[BJ마빡] \n\n* 2026. 4 영상 입니다.\n\n#kfc #치킨 #신메뉴\n#빵치짜 #켄치짜 #살라미빵치짜\n#살라미켄치짜 #버거 #햄버거\n#음식 #먹방\n#MUKBANG #BJ마빡 #마빡 #피파4\n#피파온라인4 #FIFAONLINE4 #피온   \n\n▶ YouTube https://bit.ly/2D1xnN1\n▶ Facebook https://www.facebook.com/mappak1230\n▶ Instagram https://www.instagram.com/mappak1230\n▶ AfreecaTV http://bj.afreecatv.c",
+          "top_comments": [
+            {
+              "author": "@가로가로1",
+              "text": "마빡이 요리해서 먹방하는 것도 보고싶어!!!",
+              "likes": 9
+            },
+            {
+              "author": "@shin-q2f6k",
+              "text": "유니폼도 kfc 같네 ㅋㅋ",
+              "likes": 6
+            },
+            {
+              "author": "@포매-p1z",
+              "text": "롯데리아 삐딱한 버거~\n해주세여 ㅋㅋㅋㅋㅋ",
+              "likes": 2
+            },
+            {
+              "author": "@고봉-t1n",
+              "text": "먹은다음에 하늘 쳐다보는게 웃겨서 매번 봅니다",
+              "likes": 1
+            },
+            {
+              "author": "@Emancipist",
+              "text": "빵치짜는 걍 생긴 거 부터 맛있어보이네",
+              "likes": 1
+            }
+          ]
+        },
+        {
+          "video_id": "ThI80YpiDlQ",
+          "title": "[KFC 할아버지] “1,008번 거절… 1,009번이 만든 세계 최대 치킨 브랜드\", 65세에 시작한 인생 역전 포기 직전의 기적!",
+          "channel": "K-Storytelling",
+          "subscribers": 1120,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1193,
+          "likes": 19,
+          "comment_count": 0,
+          "engagement_rate": 0.0159,
+          "duration": 62,
+          "is_short": false,
+          "buzz_score": 47.3,
+          "upload_date": "2026.04.17",
+          "url": "https://www.youtube.com/watch?v=ThI80YpiDlQ",
+          "description_excerpt": "65세, 수중에 남은 건 단돈 105달러. 커넬 샌더스는 낡은 차에서 잠을 자며 2년간 1,008번의 거절을 당했습니다. \"이딴 요리 안 사요\"라는 조롱 속에 눈물을 삼켰지만, 포기 대신 1,009번째 문을 두드렸습니다. 마침내 일어난 기적, KFC의 신화. 당신이 포기하지 않는 한 실패는 없습니다. 인생에 너무 늦은 때란 없습니다. 당신의 도전은 이제 시작입니다.\n[KFC Grandpa] \"1,008 rejected... World's Biggest Chicken Brand Created by No. 1,009\" Miracle J",
+          "top_comments": []
+        }
+      ]
+    },
+    "burgerking": {
+      "display": "버거킹",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "mcdonalds": {
+      "display": "맥도날드",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "lotteria": {
+      "display": "롯데리아",
+      "video_count": 3,
+      "total_views": 308,
+      "total_likes": 19,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 3,
+      "tier_counts": {
+        "Nano": 3
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "momstouch": {
+      "display": "맘스터치",
+      "video_count": 4,
+      "total_views": 532,
+      "total_likes": 23,
+      "total_comments": 14,
+      "n_short": 0,
+      "n_long": 4,
+      "tier_counts": {
+        "Nano": 3,
+        "Micro": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "popeyes": {
+      "display": "파파이스",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "subway": {
+      "display": "서브웨이",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "bbq": {
+      "display": "BBQ치킨",
+      "video_count": 1,
+      "total_views": 1008,
+      "total_likes": 0,
+      "total_comments": 9,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "bhc": {
+      "display": "BHC치킨",
+      "video_count": 1,
+      "total_views": 125,
+      "total_likes": 7,
+      "total_comments": 4,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "kyochon": {
+      "display": "교촌치킨",
+      "video_count": 2,
+      "total_views": 4980,
+      "total_likes": 150,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 2,
+      "tier_counts": {
+        "Nano": 2
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    }
+  }
+}
