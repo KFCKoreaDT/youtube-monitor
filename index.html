@@ -1646,28 +1646,25 @@ body.mode-detail .view-executive { display: none; }
       <div class="exec-sub" id="k-rank-sub">순수 자발 크리에이터 조회수 기준</div>
     </div>
     <div class="exec-card peso-owned">
-      <div class="exec-label">🏛 Owned SOV</div>
-      <div class="exec-value" id="k-owned-sov">-<span class="small">%</span></div>
+      <div class="exec-label">🏛 Owned (KFC 내 비중)</div>
+      <div class="exec-value" id="k-owned-mix-v">-<span class="small">%</span></div>
       <div class="exec-gauge owned"><div class="exec-gauge-fill owned" id="k-owned-gauge" style="width:0%"></div></div>
-      <div class="exec-delta flat" id="k-owned-delta">—</div>
-      <div class="mix-badge" id="k-owned-mix" title="KFC 콘텐츠 전체 중 Owned가 차지하는 비중">KFC 내 —</div>
-      <div class="exec-sub">자사 공식 채널 점유 (브랜드 자체 발신)</div>
+      <div class="mix-badge" id="k-owned-rank" title="전체 Owned 시장에서 KFC 점유율 (경쟁 기준)">시장 —</div>
+      <div class="exec-sub">자사 공식 채널 (브랜드 자체 발신)</div>
     </div>
     <div class="exec-card peso-sponsored">
-      <div class="exec-label">🤝 Sponsored SOV</div>
-      <div class="exec-value" id="k-sponsored-sov">-<span class="small">%</span></div>
+      <div class="exec-label">🤝 Sponsored (KFC 내 비중)</div>
+      <div class="exec-value" id="k-sponsored-mix-v">-<span class="small">%</span></div>
       <div class="exec-gauge sponsored"><div class="exec-gauge-fill sponsored" id="k-sponsored-gauge" style="width:0%"></div></div>
-      <div class="exec-delta flat" id="k-sponsored-delta">—</div>
-      <div class="mix-badge" id="k-sponsored-mix" title="KFC 콘텐츠 전체 중 Sponsored가 차지하는 비중">KFC 내 —</div>
-      <div class="exec-sub">크리에이터 협찬 영상 (Paid Partnership)</div>
+      <div class="mix-badge" id="k-sponsored-rank" title="전체 Sponsored 시장에서 KFC 점유율 (경쟁 기준)">시장 —</div>
+      <div class="exec-sub">크리에이터 협찬 (Paid Partnership)</div>
     </div>
     <div class="exec-card peso-earned">
-      <div class="exec-label">🎤 Earned SOV <span class="tier-tag">⭐ Primary</span></div>
-      <div class="exec-value" id="k-earned-sov">-<span class="small">%</span></div>
+      <div class="exec-label">🎤 Earned (KFC 내 비중) <span class="tier-tag">⭐ Primary</span></div>
+      <div class="exec-value" id="k-earned-mix-v">-<span class="small">%</span></div>
       <div class="exec-gauge earned"><div class="exec-gauge-fill earned" id="k-earned-gauge" style="width:0%"></div></div>
-      <div class="exec-delta flat" id="k-earned-delta">—</div>
-      <div class="mix-badge" id="k-earned-mix" title="KFC 콘텐츠 전체 중 Earned가 차지하는 비중">KFC 내 —</div>
-      <div class="exec-sub">순수 자발 크리에이터 — KFC가 움직일 수 있는 레버</div>
+      <div class="mix-badge" id="k-earned-rank" title="전체 Earned 시장에서 KFC 점유율 (경쟁 기준)">시장 —</div>
+      <div class="exec-sub">순수 자발 크리에이터 — 움직일 수 있는 레버</div>
     </div>
     <div class="exec-card engagement">
       <div class="exec-label">💬 Engagement SOV</div>
@@ -2979,48 +2976,46 @@ body.mode-detail .view-executive { display: none; }
 
     document.getElementById('k-rank').innerHTML = (rank || '—') + '<span class="small">/' + COMP_KEYS.length + '</span>';
 
-    // Owned SOV
-    if (cur.totals.owned > 0) {
-      document.getElementById('k-owned-sov').innerHTML = ownedSov.toFixed(1) + '<span class="small">%</span>';
-      document.getElementById('k-owned-gauge').style.width = Math.min(ownedSov, 100) + '%';
-    } else {
-      document.getElementById('k-owned-sov').innerHTML = '—';
-      document.getElementById('k-owned-gauge').style.width = '0%';
+    // === 메인 지표 = KFC 내 믹스 % (3개 합 = 100%) ===
+    // 이유: KFC 대시보드 첫 해석은 "우리는 어떤 유형에 집중하는가". 경쟁 비교는 보조.
+    var kTotal = kSp.owned + kSp.sponsored + kSp.earned;
+    var kMixO = kTotal > 0 ? (kSp.owned     / kTotal * 100) : 0;
+    var kMixS = kTotal > 0 ? (kSp.sponsored / kTotal * 100) : 0;
+    var kMixE = kTotal > 0 ? (kSp.earned    / kTotal * 100) : 0;
+
+    function _setMixValue(id, gaugeId, pct) {
+      var el = document.getElementById(id);
+      if (!el) return;
+      if (kTotal > 0) {
+        el.innerHTML = pct.toFixed(1) + '<span class="small">%</span>';
+      } else {
+        el.innerHTML = '—';
+      }
+      var g = document.getElementById(gaugeId);
+      if (g) g.style.width = Math.min(pct, 100) + '%';
     }
+    _setMixValue('k-owned-mix-v',     'k-owned-gauge',     kMixO);
+    _setMixValue('k-sponsored-mix-v', 'k-sponsored-gauge', kMixS);
+    _setMixValue('k-earned-mix-v',    'k-earned-gauge',    kMixE);
 
-    // Sponsored SOV
-    if (cur.totals.sponsored > 0) {
-      document.getElementById('k-sponsored-sov').innerHTML = sponsoredSov.toFixed(1) + '<span class="small">%</span>';
-      document.getElementById('k-sponsored-gauge').style.width = Math.min(sponsoredSov, 100) + '%';
-    } else {
-      document.getElementById('k-sponsored-sov').innerHTML = '<span style="font-size:0.9rem; color:var(--text-muted)">집계 없음</span>';
-      document.getElementById('k-sponsored-gauge').style.width = '0%';
-    }
-
-    // Earned SOV (primary KPI)
-    document.getElementById('k-earned-sov').innerHTML = earnedSov.toFixed(1) + '<span class="small">%</span>';
-    document.getElementById('k-earned-gauge').style.width = Math.min(earnedSov, 100) + '%';
-
-    // Engagement SOV
+    // Engagement (순수 카테고리 SOV — 분모 구조가 다르므로 별개 지표)
     document.getElementById('k-eng-sov').innerHTML = engSov.toFixed(1) + '<span class="small">%</span>';
     document.getElementById('k-eng-gauge').style.width = Math.min(engSov, 100) + '%';
 
-    // --- KFC 콘텐츠 믹스 배지 (A SOV 보조 지표) ---
-    // 해석: KFC 전체 조회수 중 Owned/Sponsored/Earned 비중 (3 합 = 100%)
-    var kTotal = kSp.owned + kSp.sponsored + kSp.earned;
-    function _mixBadge(id, val, pri) {
+    // === 보조 배지 = 경쟁 SOV (시장 내 KFC 점유율) ===
+    function _rankBadge(id, marketSov, pri, marketTotal) {
       var el = document.getElementById(id);
       if (!el) return;
       el.className = 'mix-badge ' + (pri ? 'pri-' + pri : '');
-      if (kTotal > 0) {
-        el.textContent = 'KFC 내 ' + (val / kTotal * 100).toFixed(0) + '% 비중';
+      if (marketTotal > 0) {
+        el.textContent = '시장 ' + marketSov.toFixed(1) + '% 점유';
       } else {
-        el.textContent = 'KFC 데이터 없음';
+        el.textContent = '시장 집계 없음';
       }
     }
-    _mixBadge('k-owned-mix',     kSp.owned,     'owned');
-    _mixBadge('k-sponsored-mix', kSp.sponsored, 'sponsored');
-    _mixBadge('k-earned-mix',    kSp.earned,    'earned');
+    _rankBadge('k-owned-rank',     ownedSov,     'owned',     cur.totals.owned);
+    _rankBadge('k-sponsored-rank', sponsoredSov, 'sponsored', cur.totals.sponsored);
+    _rankBadge('k-earned-rank',    earnedSov,    'earned',    cur.totals.earned);
 
     // --- Baseline deltas (4일 전 기준) ---
     if (EXEC.baseline && EXEC.baseline.brands && EXEC.baseline.brands.kfc) {
