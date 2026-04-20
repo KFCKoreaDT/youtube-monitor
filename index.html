@@ -1692,7 +1692,7 @@ body.mode-detail .view-executive { display: none; }
         <button type="button" data-period="14">14일</button>
         <button type="button" data-period="30" class="active">30일</button>
       </span>
-      <button type="button" id="btn-reset-brand" class="reset-brand-btn" style="display:none;" onclick="selectBrand('kfc')">← KFC로 되돌리기</button>
+      <button type="button" id="btn-reset-brand" class="reset-brand-btn" style="display:none;">← KFC로 되돌리기</button>
     </div>
     <div class="exec-actions">
       <button class="exec-btn" id="btn-copy-summary" title="클립보드에 한줄 요약 복사">📋 한줄 요약 복사</button>
@@ -2951,7 +2951,18 @@ body.mode-detail .view-executive { display: none; }
         renderExecutiveView();
       });
     });
+
+    // ← KFC로 되돌리기 버튼 (IIFE 내부라 전역 onclick 불가, 이벤트 리스너 사용)
+    var resetBtn = document.getElementById('btn-reset-brand');
+    if (resetBtn) {
+      resetBtn.addEventListener('click', function() {
+        selectBrand('kfc');
+      });
+    }
   }
+
+  // 전역 노출 — 혹시 다른 곳에서 브랜드 선택 필요할 경우 (Slack 링크 등)
+  window.selectBrand = function(code) { selectBrand(code); };
 
   function computeSentimentScore(sc) {
     if (!sc) return null;
