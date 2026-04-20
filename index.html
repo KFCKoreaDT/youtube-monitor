@@ -2229,11 +2229,25 @@ body.mode-detail .view-executive { display: none; }
     var cardCls = 'video-card' + (warnLevel ? ' warn-' + warnLevel : '');
 
     // Buzz 옆 인라인 감성 점수 — 댓글 기반 우선, 없으면 영상 메타 기반 fallback
+    // 이모지와 숫자 일관성: 😠=부정% / 😐=중립% / 😊=긍정% (건수 포함)
     var inlineSent = '';
     if (sTotal > 0) {
-      var sCls = negRatio >= 0.5 ? 'neg' : (negRatio >= 0.3 ? 'mid' : 'pos');
-      var sIcon = sCls === 'neg' ? '😠' : (sCls === 'mid' ? '😐' : '😊');
-      inlineSent = '<span class="sentiment-inline ' + sCls + '" title="댓글 기반 — 부정 ' + sc.neg + ' / 중립 ' + sc.neu + ' / 긍정 ' + sc.pos + '">' + sIcon + ' ' + Math.round(negRatio * 100) + '%</span>';
+      var posRatio = (sc.pos || 0) / sTotal;
+      var neuRatio = (sc.neu || 0) / sTotal;
+      // 지배 감정 결정: 부정률이 높으면 부정, 아니면 긍정/중립 중 우위
+      var sCls, sIcon, sLabel, sPct, sCnt;
+      if (negRatio >= 0.5) {
+        sCls = 'neg'; sIcon = '😠'; sLabel = '부정'; sPct = negRatio; sCnt = sc.neg;
+      } else if (negRatio >= 0.3) {
+        sCls = 'mid'; sIcon = '😐'; sLabel = '부정'; sPct = negRatio; sCnt = sc.neg;
+      } else if (posRatio >= neuRatio) {
+        sCls = 'pos'; sIcon = '😊'; sLabel = '긍정'; sPct = posRatio; sCnt = sc.pos;
+      } else {
+        sCls = 'mid'; sIcon = '😐'; sLabel = '중립'; sPct = neuRatio; sCnt = sc.neu;
+      }
+      inlineSent = '<span class="sentiment-inline ' + sCls +
+        '" title="댓글 ' + sTotal + '개 기반 — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0) + '">' +
+        sIcon + ' ' + sLabel + ' ' + Math.round(sPct * 100) + '% <span style="opacity:0.7">(' + sCnt + '/' + sTotal + ')</span></span>';
     } else if (v.video_meta_sentiment) {
       // 댓글 0개일 때 제목+설명 기반 감성 (📝 마크로 구분 · 신뢰도 낮음)
       var ms = v.video_meta_sentiment;
