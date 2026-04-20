@@ -1221,6 +1221,42 @@ body.mode-detail .view-executive { display: none; }
   border-radius: 6px;
   border-left: 2px solid var(--text-muted);
 }
+
+/* KPI 카드 건수 라인 (% 아래) */
+.count-line {
+  margin-top: 4px;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+.count-line strong { color: var(--text-primary); font-weight: 700; }
+.count-line .count-denom { color: var(--text-muted); font-size: 0.72rem; }
+
+/* 기간 선택 토글 */
+.period-toggle {
+  display: inline-flex;
+  gap: 2px;
+  margin-left: 10px;
+  background: var(--bg-card-hover);
+  border-radius: 8px;
+  padding: 2px;
+}
+.period-toggle button {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 3px 10px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.period-toggle button:hover { color: var(--text-primary); }
+.period-toggle button.active {
+  background: var(--accent);
+  color: white;
+  font-weight: 600;
+}
 .mix-badge.pri-owned     { border-left-color: var(--peso-owned); }
 .mix-badge.pri-sponsored { border-left-color: var(--peso-sponsored); }
 .mix-badge.pri-earned    { border-left-color: var(--peso-earned); }
@@ -1651,6 +1687,11 @@ body.mode-detail .view-executive { display: none; }
   <div class="exec-toolbar">
     <div class="exec-meta">
       <strong id="exec-date">-</strong> 기준 · 최근 <strong id="exec-window">-</strong>일 모니터링 · 비교 기준 <strong id="exec-baseline">4일 전</strong>
+      <span class="period-toggle" id="period-toggle" role="group" aria-label="기간 필터">
+        <button type="button" data-period="7">최근 7일</button>
+        <button type="button" data-period="14">14일</button>
+        <button type="button" data-period="30" class="active">30일</button>
+      </span>
       <button type="button" id="btn-reset-brand" class="reset-brand-btn" style="display:none;" onclick="selectBrand('kfc')">← KFC로 되돌리기</button>
     </div>
     <div class="exec-actions">
@@ -1678,24 +1719,24 @@ body.mode-detail .view-executive { display: none; }
       <div class="exec-label">🏛 Owned SOV</div>
       <div class="exec-value" id="k-owned-sov">-<span class="small">%</span></div>
       <div class="exec-gauge owned"><div class="exec-gauge-fill owned" id="k-owned-gauge" style="width:0%"></div></div>
-      <div class="exec-delta flat" id="k-owned-delta">—</div>
-      <div class="mix-badge" id="k-owned-mix" title="KFC 콘텐츠 전체 중 Owned가 차지하는 비중">KFC 내 —</div>
-      <div class="exec-sub">자사 공식 채널 점유 (브랜드 자체 발신)</div>
+      <div class="count-line" id="k-owned-count">영상 —</div>
+      <div class="mix-badge" id="k-owned-mix" title="전체 Owned 시장에서 선택 브랜드 점유율">시장 —</div>
+      <div class="exec-sub">자사 공식 채널 (브랜드 자체 발신)</div>
     </div>
     <div class="exec-card peso-sponsored">
       <div class="exec-label">🤝 Sponsored SOV</div>
       <div class="exec-value" id="k-sponsored-sov">-<span class="small">%</span></div>
       <div class="exec-gauge sponsored"><div class="exec-gauge-fill sponsored" id="k-sponsored-gauge" style="width:0%"></div></div>
-      <div class="exec-delta flat" id="k-sponsored-delta">—</div>
-      <div class="mix-badge" id="k-sponsored-mix" title="KFC 콘텐츠 전체 중 Sponsored가 차지하는 비중">KFC 내 —</div>
-      <div class="exec-sub">크리에이터 협찬 영상 (Paid Partnership)</div>
+      <div class="count-line" id="k-sponsored-count">영상 —</div>
+      <div class="mix-badge" id="k-sponsored-mix" title="전체 Sponsored 시장에서 선택 브랜드 점유율">시장 —</div>
+      <div class="exec-sub">크리에이터 협찬 (Paid Partnership)</div>
     </div>
     <div class="exec-card peso-earned">
       <div class="exec-label">🎤 Earned SOV <span class="tier-tag">⭐ Primary</span></div>
       <div class="exec-value" id="k-earned-sov">-<span class="small">%</span></div>
       <div class="exec-gauge earned"><div class="exec-gauge-fill earned" id="k-earned-gauge" style="width:0%"></div></div>
-      <div class="exec-delta flat" id="k-earned-delta">—</div>
-      <div class="mix-badge" id="k-earned-mix" title="KFC 콘텐츠 전체 중 Earned가 차지하는 비중">KFC 내 —</div>
+      <div class="count-line" id="k-earned-count">영상 —</div>
+      <div class="mix-badge" id="k-earned-mix" title="전체 Earned 시장에서 선택 브랜드 점유율">시장 —</div>
       <div class="exec-sub">순수 자발 크리에이터 — KFC가 움직일 수 있는 레버</div>
     </div>
     <div class="exec-card engagement">
@@ -1745,14 +1786,14 @@ body.mode-detail .view-executive { display: none; }
           <div class="chart-legend xs" id="owned-legend"></div>
         </div>
         <div class="peso-donut-cell">
-          <div class="peso-donut-title">🤝 Sponsored 점유</div>
-          <div class="chart-wrap xs"><canvas id="chart-sponsored"></canvas><div id="chart-sponsored-empty" class="chart-empty" style="display:none;">집계된 협찬 영상 없음</div></div>
-          <div class="chart-legend xs" id="sponsored-legend"></div>
-        </div>
-        <div class="peso-donut-cell">
           <div class="peso-donut-title">🎤 Earned 점유 <span class="primary-hint">⭐ 주요 지표</span></div>
           <div class="chart-wrap xs"><canvas id="chart-earned"></canvas><div id="chart-earned-empty" class="chart-empty" style="display:none;">집계된 Earned 영상 없음</div></div>
           <div class="chart-legend xs" id="earned-legend"></div>
+        </div>
+        <div class="peso-donut-cell">
+          <div class="peso-donut-title">💬 Engagement 점유</div>
+          <div class="chart-wrap xs"><canvas id="chart-engagement"></canvas><div id="chart-engagement-empty" class="chart-empty" style="display:none;">집계된 좋아요/댓글 없음</div></div>
+          <div class="chart-legend xs" id="engagement-legend"></div>
         </div>
       </div>
 
@@ -2761,8 +2802,59 @@ body.mode-detail .view-executive { display: none; }
     sortKey: 'earnedSov', // v2: Paid/Earned/Engagement 3층으로 분해하면서 기본 정렬 변경
     sortDir: 'desc',
     splits: {},           // { brand_code: {paid, earned, engagement} } — computeTierSplit 캐시
-    selectedBrand: 'kfc'  // v4: 클릭으로 KPI Strip 기준 브랜드 전환
+    selectedBrand: 'kfc', // v4: 클릭으로 KPI Strip 기준 브랜드 전환
+    period: 30            // v5: 기간 필터 (7/14/30일) — upload_date 기반 client-side 필터
   };
+
+  // 기간 필터링된 data 뷰 반환 (원본 latest 수정 없이 브랜드별 videos 만 필터)
+  function getFilteredLatest() {
+    if (!EXEC.latest) return null;
+    if (!EXEC.period || EXEC.period >= 30) return EXEC.latest;  // 30일 = 전체
+    var cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - EXEC.period);
+    // upload_date 포맷 "2026.04.14" → Date
+    function parseUp(s) {
+      if (!s) return null;
+      var p = String(s).split('.');
+      if (p.length !== 3) return null;
+      return new Date(+p[0], +p[1] - 1, +p[2]);
+    }
+    var filtered = { date: EXEC.latest.date, generated_at: EXEC.latest.generated_at,
+                     window_days: EXEC.period, brands: {} };
+    Object.keys(EXEC.latest.brands || {}).forEach(function(k) {
+      var b = EXEC.latest.brands[k];
+      var fvids = (b.videos || []).filter(function(v) {
+        var d = parseUp(v.upload_date);
+        return d && d >= cutoff;
+      });
+      var sumV = 0, sumL = 0, sumC = 0, nS = 0, nL = 0;
+      fvids.forEach(function(v) {
+        sumV += v.views || 0; sumL += v.likes || 0; sumC += v.comment_count || 0;
+        if (v.is_short) nS++; else nL++;
+      });
+      // sentiment_counts 도 videos 의 comments 기반이므로 일부 값만 필터 반영
+      var senC = { pos: 0, neu: 0, neg: 0 };
+      fvids.forEach(function(v) {
+        var sc = v.sentiment_counts || {};
+        senC.pos += sc.pos || 0;
+        senC.neu += sc.neu || 0;
+        senC.neg += sc.neg || 0;
+      });
+      var senTot = senC.pos + senC.neu + senC.neg;
+      filtered.brands[k] = Object.assign({}, b, {
+        videos: fvids,
+        video_count: fvids.length,
+        total_views: sumV,
+        total_likes: sumL,
+        total_comments: sumC,
+        n_short: nS,
+        n_long: nL,
+        sentiment_counts: senC,
+        negative_ratio: senTot > 0 ? senC.neg / senTot : 0,
+      });
+    });
+    return filtered;
+  }
 
   var COMP_KEYS = ['kfc','burgerking','mcdonalds','lotteria','momstouch','popeyes','subway','bbq','bhc','kyochon'];
 
@@ -2844,6 +2936,19 @@ body.mode-detail .view-executive { display: none; }
           EXEC.sortDir = 'desc';
         }
         renderBenchTable();
+      });
+    });
+
+    // 기간 필터 토글 (7/14/30일)
+    document.querySelectorAll('#period-toggle button').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var p = parseInt(btn.getAttribute('data-period'), 10);
+        if (!p || p === EXEC.period) return;
+        EXEC.period = p;
+        document.querySelectorAll('#period-toggle button').forEach(function(b) {
+          b.classList.toggle('active', b === btn);
+        });
+        renderExecutiveView();
       });
     });
   }
@@ -2944,17 +3049,20 @@ body.mode-detail .view-executive { display: none; }
   // 브랜드 단위 PESO 집계. multi 섹션은 제외 (KFC 포함 중복).
   function computePesoSplit(brand, brandCode) {
     var owned = 0, sponsored = 0, earned = 0, engagement = 0;
+    var cnt = { owned: 0, sponsored: 0, earned: 0, total: 0 };
     (brand && brand.videos || []).forEach(function(v) {
       var views = v.views || 0;
       var e = (v.likes || 0) + (v.comment_count || 0);
       var cat = classifyPeso(v, brandCode);
-      if (cat === "owned") owned += views;
-      else if (cat === "sponsored") sponsored += views;
-      else earned += views;
+      if (cat === "owned") { owned += views; cnt.owned++; }
+      else if (cat === "sponsored") { sponsored += views; cnt.sponsored++; }
+      else { earned += views; cnt.earned++; }
       engagement += e;
+      cnt.total++;
     });
     return { owned: owned, sponsored: sponsored, earned: earned,
-             engagement: engagement, total: owned + sponsored + earned };
+             engagement: engagement, total: owned + sponsored + earned,
+             counts: cnt };
   }
 
   // 전 브랜드 캐시 + 총합
@@ -2989,7 +3097,7 @@ body.mode-detail .view-executive { display: none; }
   }
 
   function renderExecutiveView() {
-    var data = EXEC.latest;
+    var data = getFilteredLatest();
     if (!data) return;
     var selCode = EXEC.selectedBrand || 'kfc';
     var sel = data.brands[selCode] || {};
@@ -2997,7 +3105,7 @@ body.mode-detail .view-executive { display: none; }
 
     // Meta
     document.getElementById('exec-date').textContent = data.date || '-';
-    document.getElementById('exec-window').textContent = data.window_days != null ? data.window_days : '30';
+    document.getElementById('exec-window').textContent = EXEC.period;
 
     // 선택된 브랜드 라벨 스왑 — KFC 이외 브랜드 선택시 상단에 "← KFC로" 버튼 표시
     updateKpiLabels(selName, selCode);
@@ -3016,15 +3124,17 @@ body.mode-detail .view-executive { display: none; }
 
     document.getElementById('k-rank').innerHTML = (rank || '—') + '<span class="small">/' + COMP_KEYS.length + '</span>';
 
-    // === KPI 값 = 선택 브랜드 내 믹스 % (O+S+E 합 = 100%) ===
+    // === KPI 값 = 선택 브랜드 내 믹스 % (O+S+E 합 = 100%) + 영상 건수 ===
     var brandTotal = kSp.owned + kSp.sponsored + kSp.earned;
     var mixO = brandTotal > 0 ? (kSp.owned     / brandTotal * 100) : 0;
     var mixS = brandTotal > 0 ? (kSp.sponsored / brandTotal * 100) : 0;
     var mixE = brandTotal > 0 ? (kSp.earned    / brandTotal * 100) : 0;
+    var kCnt = (kSp.counts) || { owned:0, sponsored:0, earned:0, total:0 };
 
-    function _setCardValue(id, gaugeId, pct, hasData) {
+    function _setCardValue(id, gaugeId, countElId, pct, hasData, cat_cnt, total_cnt) {
       var el = document.getElementById(id);
       var g = document.getElementById(gaugeId);
+      var cel = document.getElementById(countElId);
       if (!el) return;
       if (hasData) {
         el.innerHTML = pct.toFixed(1) + '<span class="small">%</span>';
@@ -3032,10 +3142,17 @@ body.mode-detail .view-executive { display: none; }
         el.innerHTML = '—';
       }
       if (g) g.style.width = Math.min(pct, 100) + '%';
+      if (cel) {
+        if (total_cnt > 0) {
+          cel.innerHTML = '영상 <strong>' + cat_cnt + '</strong>건 <span class="count-denom">(전체 ' + total_cnt + '개 중)</span>';
+        } else {
+          cel.innerHTML = '영상 없음';
+        }
+      }
     }
-    _setCardValue('k-owned-sov',     'k-owned-gauge',     mixO, brandTotal > 0);
-    _setCardValue('k-sponsored-sov', 'k-sponsored-gauge', mixS, brandTotal > 0);
-    _setCardValue('k-earned-sov',    'k-earned-gauge',    mixE, brandTotal > 0);
+    _setCardValue('k-owned-sov',     'k-owned-gauge',     'k-owned-count',     mixO, brandTotal > 0, kCnt.owned,     kCnt.total);
+    _setCardValue('k-sponsored-sov', 'k-sponsored-gauge', 'k-sponsored-count', mixS, brandTotal > 0, kCnt.sponsored, kCnt.total);
+    _setCardValue('k-earned-sov',    'k-earned-gauge',    'k-earned-count',    mixE, brandTotal > 0, kCnt.earned,    kCnt.total);
 
     // Engagement는 별개 (다른 분모) — 선택 브랜드의 시장 점유율 유지
     document.getElementById('k-eng-sov').innerHTML = engSov.toFixed(1) + '<span class="small">%</span>';
@@ -3447,10 +3564,10 @@ body.mode-detail .view-executive { display: none; }
       }
     }
 
-    // PESO 3-donut 렌더링 (Owned / Sponsored / Earned)
-    buildDonut('chart-owned',     'owned',     'owned-legend',     'chart-owned-empty');
-    buildDonut('chart-sponsored', 'sponsored', 'sponsored-legend', 'chart-sponsored-empty');
-    buildDonut('chart-earned',    'earned',    'earned-legend',    'chart-earned-empty');
+    // 3-donut 렌더링 (Owned / Earned / Engagement — Sponsored는 데이터 희소해서 제외)
+    buildDonut('chart-owned',      'owned',      'owned-legend',      'chart-owned-empty');
+    buildDonut('chart-earned',     'earned',     'earned-legend',     'chart-earned-empty');
+    buildDonut('chart-engagement', 'engagement', 'engagement-legend', 'chart-engagement-empty');
 
     // Sentiment stacked
     if (CHART_INSTANCES.sent) CHART_INSTANCES.sent.destroy();

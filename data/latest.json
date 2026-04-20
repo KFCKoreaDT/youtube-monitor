@@ -1,6 +1,6 @@
 {
   "date": "2026-04-21",
-  "generated_at": "2026-04-21 00:03:03",
+  "generated_at": "2026-04-21 00:33:01",
   "window_days": 30,
   "brands": {
     "kfc": {
@@ -745,8 +745,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 4,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -831,8 +831,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1689,8 +1689,8 @@
           },
           "negative_ratio": 0.1,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2339,8 +2339,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3330,8 +3330,8 @@
           },
           "negative_ratio": 1.0,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3963,8 +3963,8 @@
           },
           "negative_ratio": 1.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4528,8 +4528,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6499,8 +6499,8 @@
           },
           "negative_ratio": 0.1,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6701,8 +6701,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7508,8 +7508,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 4,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7775,8 +7775,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9113,8 +9113,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         }
