@@ -1761,10 +1761,10 @@ body.mode-detail .view-executive { display: none; }
             <tr>
               <th data-sort="brand">브랜드</th>
               <th data-sort="videos">영상수</th>
+              <th data-sort="views">조회수</th>
               <th data-sort="ownedSov" data-col="owned" class="col-owned">🏛 Owned</th>
               <th data-sort="sponsoredSov" data-col="sponsored" class="col-sponsored">🤝 Sponsored</th>
               <th data-sort="earnedSov" class="sort-active">🎤 Earned<span class="sort-arrow">▼</span></th>
-              <th data-sort="delta">Δ 4일전<span class="th-sub">Earned</span></th>
               <th data-sort="engSov">💬 ER</th>
               <th data-sort="neg">부정률</th>
             </tr>
@@ -3407,6 +3407,7 @@ body.mode-detail .view-executive { display: none; }
         key: k,
         brand: b.display || k,
         videos: b.video_count || 0,
+        views: b.total_views || 0,
         ownedSov:     totals.owned > 0     ? (sp.owned     / totals.owned     * 100) : null,
         sponsoredSov: totals.sponsored > 0 ? (sp.sponsored / totals.sponsored * 100) : null,
         earnedSov:    totals.earned > 0    ? (sp.earned    / totals.earned    * 100) : 0,
@@ -3449,18 +3450,16 @@ body.mode-detail .view-executive { display: none; }
       var negClass = r.neg == null ? '' : (r.neg > 30 ? 'danger' : (r.neg > 20 ? 'warn' : 'safe'));
       var negCell = r.neg == null ? '<span style="color:var(--text-muted)">—</span>'
                     : '<span class="neg-chip ' + negClass + '">' + r.neg.toFixed(1) + '%</span>';
-      var deltaCell = r.delta == null ? '<span style="color:var(--text-muted)">—</span>'
-                    : '<span class="delta-chip ' + deltaClass(r.delta) + '">' + deltaArrow(r.delta) + ' ' + formatPct(r.delta) + '</span>';
       var ownedCell     = r.ownedSov     == null ? '<span style="color:var(--text-muted)">—</span>' : r.ownedSov.toFixed(1) + '%';
       var sponsoredCell = r.sponsoredSov == null ? '<span style="color:var(--text-muted)">—</span>' : r.sponsoredSov.toFixed(1) + '%';
       var rowClasses = (r.key === 'kfc' ? 'kfc-row ' : '') + (r.key === selected ? 'selected-brand' : '');
       return '<tr class="' + rowClasses + '" data-brand="' + r.key + '" title="클릭 → 상단 KPI를 ' + escapeHtml(r.brand) + ' 기준으로">' +
         '<td><span class="bench-rank">' + (idx + 1) + '</span>' + escapeHtml(r.brand) + '</td>' +
         '<td>' + r.videos + '</td>' +
+        '<td>' + formatNumber(r.views) + '</td>' +
         '<td class="col-owned">' + ownedCell + '</td>' +
         '<td class="col-sponsored">' + sponsoredCell + '</td>' +
         '<td><strong>' + r.earnedSov.toFixed(1) + '%</strong></td>' +
-        '<td>' + deltaCell + '</td>' +
         '<td>' + r.engSov.toFixed(1) + '%</td>' +
         '<td>' + negCell + '</td>' +
       '</tr>';
