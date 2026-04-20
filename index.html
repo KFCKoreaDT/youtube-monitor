@@ -1137,6 +1137,34 @@ body.mode-detail .view-executive { display: none; }
   background: linear-gradient(135deg, rgba(239,68,68,0.10) 0%, var(--bg-card) 60%);
 }
 
+/* 브랜드 선택 — 테이블 / 스택바 행 클릭 가능 표시 + 리셋 버튼 */
+.bench-table tbody tr { cursor: pointer; }
+.mix-row { cursor: pointer; }
+.bench-table tbody tr.selected-brand {
+  outline: 2px solid var(--accent-light);
+  outline-offset: -2px;
+  background: rgba(228,0,43,0.06);
+}
+.mix-row.selected-brand .mix-brand::after {
+  content: ' 📍';
+  font-size: 0.85em;
+}
+.reset-brand-btn {
+  background: rgba(228,0,43,0.15);
+  color: var(--accent-light);
+  border: 1px solid rgba(228,0,43,0.4);
+  padding: 3px 10px;
+  margin-left: 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.reset-brand-btn:hover {
+  background: rgba(228,0,43,0.3);
+}
+
 /* PESO 3색 팔레트 (Owned/Sponsored/Earned) */
 :root {
   --peso-owned: #6b7280;       /* 중립 회색 */
@@ -1623,6 +1651,7 @@ body.mode-detail .view-executive { display: none; }
   <div class="exec-toolbar">
     <div class="exec-meta">
       <strong id="exec-date">-</strong> 기준 · 최근 <strong id="exec-window">-</strong>일 모니터링 · 비교 기준 <strong id="exec-baseline">4일 전</strong>
+      <button type="button" id="btn-reset-brand" class="reset-brand-btn" style="display:none;" onclick="selectBrand('kfc')">← KFC로 되돌리기</button>
     </div>
     <div class="exec-actions">
       <button class="exec-btn" id="btn-copy-summary" title="클립보드에 한줄 요약 복사">📋 한줄 요약 복사</button>
@@ -2731,7 +2760,8 @@ body.mode-detail .view-executive { display: none; }
     trend: [],            // digest-2026-04-17 ~ -20 arrays of brand snapshots
     sortKey: 'earnedSov', // v2: Paid/Earned/Engagement 3층으로 분해하면서 기본 정렬 변경
     sortDir: 'desc',
-    splits: {}            // { brand_code: {paid, earned, engagement} } — computeTierSplit 캐시
+    splits: {},           // { brand_code: {paid, earned, engagement} } — computeTierSplit 캐시
+    selectedBrand: 'kfc'  // v4: 클릭으로 KPI Strip 기준 브랜드 전환
   };
 
   var COMP_KEYS = ['kfc','burgerking','mcdonalds','lotteria','momstouch','popeyes','subway','bbq','bhc','kyochon'];
@@ -2844,34 +2874,36 @@ body.mode-detail .view-executive { display: none; }
     return '■';
   }
 
-  function computeAlerts(data) {
+  function computeAlerts(data, brandCode) {
+    var code = brandCode || 'kfc';
     var alerts = [];
-    var kfc = data.brands.kfc;
-    if (!kfc) return alerts;
+    var brand = data.brands[code];
+    if (!brand) return alerts;
+    var brandLabel = brand.display || code;
 
     // 1. 부정률 > 0.4
-    if ((kfc.negative_ratio || 0) > 0.4) {
-      alerts.push({ level: 'high', msg: 'KFC 부정 댓글 비율이 40% 초과 (' + (kfc.negative_ratio * 100).toFixed(1) + '%)' });
-    } else if ((kfc.negative_ratio || 0) > 0.3) {
-      alerts.push({ level: 'mid', msg: 'KFC 부정 댓글 비율 상승 (' + (kfc.negative_ratio * 100).toFixed(1) + '%)' });
+    if ((brand.negative_ratio || 0) > 0.4) {
+      alerts.push({ level: 'high', msg: brandLabel + ' 부정 댓글 비율이 40% 초과 (' + (brand.negative_ratio * 100).toFixed(1) + '%)' });
+    } else if ((brand.negative_ratio || 0) > 0.3) {
+      alerts.push({ level: 'mid', msg: brandLabel + ' 부정 댓글 비율 상승 (' + (brand.negative_ratio * 100).toFixed(1) + '%)' });
     }
-    if (kfc.warning_level === 'yellow' || kfc.warning_level === 'red') {
-      alerts.push({ level: kfc.warning_level === 'red' ? 'high' : 'mid', msg: 'KFC 브랜드 경고 등급: ' + kfc.warning_level });
+    if (brand.warning_level === 'yellow' || brand.warning_level === 'red') {
+      alerts.push({ level: brand.warning_level === 'red' ? 'high' : 'mid', msg: brandLabel + ' 브랜드 경고 등급: ' + brand.warning_level });
     }
 
-    // 2. 영상 단위 경고 (KFC 상위 영상 중 yellow/red)
-    (kfc.videos || []).forEach(function(v) {
+    // 2. 영상 단위 경고 (상위 영상 중 yellow/red)
+    (brand.videos || []).forEach(function(v) {
       if (v.warning_level === 'red') {
         alerts.push({ level: 'high', msg: '🚨 위험 영상: ' + (v.title || '').slice(0, 40), url: v.url });
       }
     });
 
     // 3. 경쟁사 대비 순위 하락 (if baseline available)
-    if (EXEC.baseline && EXEC.baseline.brands && EXEC.baseline.brands.kfc) {
-      var rankNow = brandRank(data, 'kfc');
-      var rankPrev = brandRank(EXEC.baseline, 'kfc');
+    if (EXEC.baseline && EXEC.baseline.brands && EXEC.baseline.brands[code]) {
+      var rankNow = brandRank(data, code);
+      var rankPrev = brandRank(EXEC.baseline, code);
       if (rankPrev && rankNow && rankNow > rankPrev) {
-        alerts.push({ level: 'mid', msg: 'KFC 순위 하락: ' + rankPrev + '위 → ' + rankNow + '위' });
+        alerts.push({ level: 'mid', msg: brandLabel + ' 순위 하락: ' + rankPrev + '위 → ' + rankNow + '위' });
       }
     }
 
@@ -2959,23 +2991,28 @@ body.mode-detail .view-executive { display: none; }
   function renderExecutiveView() {
     var data = EXEC.latest;
     if (!data) return;
-    var kfc = data.brands.kfc || {};
+    var selCode = EXEC.selectedBrand || 'kfc';
+    var sel = data.brands[selCode] || {};
+    var selName = (sel.display) || selCode;
 
     // Meta
     document.getElementById('exec-date').textContent = data.date || '-';
     document.getElementById('exec-window').textContent = data.window_days != null ? data.window_days : '30';
 
+    // 선택된 브랜드 라벨 스왑 — KFC 이외 브랜드 선택시 상단에 "← KFC로" 버튼 표시
+    updateKpiLabels(selName, selCode);
+
     // --- PESO 3분류 계산 (Owned / Sponsored / Earned / Engagement) ---
     var cur = preparePesoSplits(data);
     EXEC.splits = cur.splits;
     EXEC.totals = cur.totals;
-    var kSp = cur.splits.kfc || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
+    var kSp = cur.splits[selCode] || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
 
     var ownedSov     = pct(kSp.owned, cur.totals.owned);
     var sponsoredSov = pct(kSp.sponsored, cur.totals.sponsored);
     var earnedSov    = pct(kSp.earned, cur.totals.earned);
     var engSov       = pct(kSp.engagement, cur.totals.engagement);
-    var rank = earnedRank(cur.splits, 'kfc');
+    var rank = earnedRank(cur.splits, selCode);
 
     document.getElementById('k-rank').innerHTML = (rank || '—') + '<span class="small">/' + COMP_KEYS.length + '</span>';
 
@@ -3005,17 +3042,16 @@ body.mode-detail .view-executive { display: none; }
     document.getElementById('k-eng-sov').innerHTML = engSov.toFixed(1) + '<span class="small">%</span>';
     document.getElementById('k-eng-gauge').style.width = Math.min(engSov, 100) + '%';
 
-    // --- KFC 콘텐츠 믹스 배지 (A SOV 보조 지표) ---
-    // 해석: KFC 전체 조회수 중 Owned/Sponsored/Earned 비중 (3 합 = 100%)
+    // --- 선택 브랜드 콘텐츠 믹스 배지 ---
     var kTotal = kSp.owned + kSp.sponsored + kSp.earned;
     function _mixBadge(id, val, pri) {
       var el = document.getElementById(id);
       if (!el) return;
       el.className = 'mix-badge ' + (pri ? 'pri-' + pri : '');
       if (kTotal > 0) {
-        el.textContent = 'KFC 내 ' + (val / kTotal * 100).toFixed(0) + '% 비중';
+        el.textContent = selName + ' 내 ' + (val / kTotal * 100).toFixed(0) + '% 비중';
       } else {
-        el.textContent = 'KFC 데이터 없음';
+        el.textContent = selName + ' 데이터 없음';
       }
     }
     _mixBadge('k-owned-mix',     kSp.owned,     'owned');
@@ -3023,15 +3059,15 @@ body.mode-detail .view-executive { display: none; }
     _mixBadge('k-earned-mix',    kSp.earned,    'earned');
 
     // --- Baseline deltas (4일 전 기준) ---
-    if (EXEC.baseline && EXEC.baseline.brands && EXEC.baseline.brands.kfc) {
+    if (EXEC.baseline && EXEC.baseline.brands && EXEC.baseline.brands[selCode]) {
       var prev = preparePesoSplits(EXEC.baseline);
-      var prevKfc = prev.splits.kfc || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
-      var prevRank = earnedRank(prev.splits, 'kfc');
+      var prevSel = prev.splits[selCode] || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
+      var prevRank = earnedRank(prev.splits, selCode);
 
-      var ownedDelta     = prevKfc.owned     ? ((kSp.owned     - prevKfc.owned)     / prevKfc.owned)     * 100 : null;
-      var sponsoredDelta = prevKfc.sponsored ? ((kSp.sponsored - prevKfc.sponsored) / prevKfc.sponsored) * 100 : null;
-      var earnedDelta    = prevKfc.earned    ? ((kSp.earned    - prevKfc.earned)    / prevKfc.earned)    * 100 : null;
-      var engDelta       = prevKfc.engagement? ((kSp.engagement- prevKfc.engagement)/ prevKfc.engagement)* 100 : null;
+      var ownedDelta     = prevSel.owned     ? ((kSp.owned     - prevSel.owned)     / prevSel.owned)     * 100 : null;
+      var sponsoredDelta = prevSel.sponsored ? ((kSp.sponsored - prevSel.sponsored) / prevSel.sponsored) * 100 : null;
+      var earnedDelta    = prevSel.earned    ? ((kSp.earned    - prevSel.earned)    / prevSel.earned)    * 100 : null;
+      var engDelta       = prevSel.engagement? ((kSp.engagement- prevSel.engagement)/ prevSel.engagement)* 100 : null;
       setDelta('k-owned-delta',     ownedDelta);
       setDelta('k-sponsored-delta', sponsoredDelta);
       setDelta('k-earned-delta',    earnedDelta);
@@ -3045,9 +3081,9 @@ body.mode-detail .view-executive { display: none; }
       }
     }
 
-    // --- Sentiment + Alerts 를 상단 알림 스트립에 통합 ---
-    var s = computeSentimentScore(kfc.sentiment_counts);
-    var alerts = computeAlerts(data);
+    // --- 선택 브랜드 Sentiment + Alerts 를 상단 알림 스트립에 통합 ---
+    var s = computeSentimentScore(sel.sentiment_counts);
+    var alerts = computeAlerts(data, selCode);
 
     var strip = document.getElementById('alert-strip');
     var badge = document.getElementById('alert-badge');
@@ -3058,7 +3094,7 @@ body.mode-detail .view-executive { display: none; }
     var sentText = s != null
       ? ('감정 점수 ' + (s * 100).toFixed(0) + ' (' + sentLabel + ')')
       : '감정 점수 —';
-    var negRatioText = '부정률 ' + ((kfc.negative_ratio || 0) * 100).toFixed(1) + '%';
+    var negRatioText = '부정률 ' + ((sel.negative_ratio || 0) * 100).toFixed(1) + '%';
     var alertText = '위험 신호 ' + alerts.length + '건';
 
     if (alerts.length === 0) {
@@ -3081,6 +3117,67 @@ body.mode-detail .view-executive { display: none; }
   }
 
   // 🧩 브랜드 콘텐츠 믹스 — 각 브랜드 100% 스택바 (Owned/Sponsored/Earned)
+  // KPI 카드 라벨을 선택 브랜드명으로 스왑 (HTML 구조는 그대로, 텍스트만 변경)
+  function updateKpiLabels(brandName, brandCode) {
+    var labels = {
+      'k-rank-label':     '🏆 ' + brandName + ' 순위 (조회수 기준)',
+      'k-owned-label':    '🏛 ' + brandName + ' Owned SOV',
+      'k-sponsored-label':'🤝 ' + brandName + ' Sponsored SOV',
+      'k-earned-label':   '🎤 ' + brandName + ' Earned SOV ⭐ Primary',
+      'k-eng-label':      '💬 ' + brandName + ' Engagement SOV',
+    };
+    // 라벨 요소에 각각 text 설정 (없으면 무시)
+    // 여기선 exec-label 직접 선택 — id 없는 카드도 있으므로 data-kpi-label 속성 활용
+    var cards = document.querySelectorAll('.exec-strip .exec-card');
+    if (cards.length) {
+      // 5장 카드 순서: 순위 / Owned / Sponsored / Earned / Engagement
+      var labelTexts = [
+        '🏆 ' + brandName + ' 순위 (조회수 기준)',
+        '🏛 ' + brandName + ' Owned SOV',
+        '🤝 ' + brandName + ' Sponsored SOV',
+        '🎤 ' + brandName + ' Earned SOV',
+        '💬 ' + brandName + ' Engagement SOV',
+      ];
+      cards.forEach(function(card, i) {
+        if (i >= labelTexts.length) return;
+        var labelEl = card.querySelector('.exec-label');
+        if (!labelEl) return;
+        // Earned 카드는 ⭐ Primary 태그 유지
+        if (i === 3) {
+          labelEl.innerHTML = labelTexts[i] + ' <span class="tier-tag">⭐ Primary</span>';
+        } else {
+          labelEl.textContent = labelTexts[i];
+        }
+      });
+    }
+
+    // "← KFC로 돌아가기" 버튼 토글
+    var btn = document.getElementById('btn-reset-brand');
+    if (btn) {
+      if (brandCode !== 'kfc') {
+        btn.style.display = 'inline-flex';
+        btn.innerHTML = '← KFC로 되돌리기';
+      } else {
+        btn.style.display = 'none';
+      }
+    }
+
+    // 선택 브랜드 행 하이라이트 (스택바 + 벤치마크 테이블)
+    document.querySelectorAll('.mix-row, .bench-table tbody tr').forEach(function(row) {
+      row.classList.remove('selected-brand');
+    });
+  }
+
+  // 브랜드 선택 + 재렌더
+  function selectBrand(code) {
+    if (!code || !COMP_KEYS.indexOf || COMP_KEYS.indexOf(code) < 0) return;
+    EXEC.selectedBrand = code;
+    renderExecutiveView();
+    // 대시보드 상단으로 스크롤 (모바일 고려)
+    var target = document.querySelector('.exec-strip');
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   function renderContentMix() {
     var splits = EXEC.splits || {};
     var container = document.getElementById('mix-bars');
@@ -3094,10 +3191,14 @@ body.mode-detail .view-executive { display: none; }
     rows.sort(function(a, b) { return b.sp.earned - a.sp.earned; });
 
     var data = EXEC.latest;
+    var selected = EXEC.selectedBrand || 'kfc';
     container.innerHTML = rows.map(function(r) {
       var display = (data.brands[r.key] && data.brands[r.key].display) || r.key;
+      var classes = 'mix-row' +
+        (r.key === 'kfc' ? ' kfc-row' : '') +
+        (r.key === selected ? ' selected-brand' : '');
       if (r.total <= 0) {
-        return '<div class="mix-row empty ' + (r.key==='kfc'?'kfc-row':'') + '">' +
+        return '<div class="' + classes + ' empty" data-brand="' + r.key + '" title="클릭 → 상단 KPI를 ' + display + ' 기준으로">' +
           '<div class="mix-brand">' + escapeHtml(display) + '</div>' +
           '<div class="mix-stack"></div>' +
           '<div class="mix-labels">데이터 없음</div>' +
@@ -3115,7 +3216,7 @@ body.mode-detail .view-executive { display: none; }
       if (oP > 0.5) labelParts.push('🏛<strong>' + oP.toFixed(0) + '%</strong>');
       if (sP > 0.5) labelParts.push('🤝<strong>' + sP.toFixed(0) + '%</strong>');
       if (eP > 0.5) labelParts.push('🎤<strong>' + eP.toFixed(0) + '%</strong>');
-      return '<div class="mix-row ' + (r.key==='kfc'?'kfc-row':'') + '">' +
+      return '<div class="' + classes + '" data-brand="' + r.key + '" title="클릭 → 상단 KPI를 ' + display + ' 기준으로">' +
         '<div class="mix-brand">' + escapeHtml(display) + '</div>' +
         '<div class="mix-stack">' +
           _seg('owned',     oP, '🏛 Owned',     r.sp.owned) +
@@ -3125,6 +3226,13 @@ body.mode-detail .view-executive { display: none; }
         '<div class="mix-labels">' + labelParts.join(' · ') + '</div>' +
       '</div>';
     }).join('');
+    // 행 클릭 → 브랜드 선택
+    container.querySelectorAll('.mix-row').forEach(function(row) {
+      row.addEventListener('click', function() {
+        var b = row.getAttribute('data-brand');
+        if (b) selectBrand(b);
+      });
+    });
   }
 
   function setDelta(id, v) {
@@ -3193,6 +3301,7 @@ body.mode-detail .view-executive { display: none; }
     }
 
     var tbody = document.getElementById('bench-tbody');
+    var selected = EXEC.selectedBrand || 'kfc';
     tbody.innerHTML = rows.map(function(r, idx) {
       var negClass = r.neg == null ? '' : (r.neg > 30 ? 'danger' : (r.neg > 20 ? 'warn' : 'safe'));
       var negCell = r.neg == null ? '<span style="color:var(--text-muted)">—</span>'
@@ -3201,7 +3310,8 @@ body.mode-detail .view-executive { display: none; }
                     : '<span class="delta-chip ' + deltaClass(r.delta) + '">' + deltaArrow(r.delta) + ' ' + formatPct(r.delta) + '</span>';
       var ownedCell     = r.ownedSov     == null ? '<span style="color:var(--text-muted)">—</span>' : r.ownedSov.toFixed(1) + '%';
       var sponsoredCell = r.sponsoredSov == null ? '<span style="color:var(--text-muted)">—</span>' : r.sponsoredSov.toFixed(1) + '%';
-      return '<tr class="' + (r.key === 'kfc' ? 'kfc-row' : '') + '">' +
+      var rowClasses = (r.key === 'kfc' ? 'kfc-row ' : '') + (r.key === selected ? 'selected-brand' : '');
+      return '<tr class="' + rowClasses + '" data-brand="' + r.key + '" title="클릭 → 상단 KPI를 ' + escapeHtml(r.brand) + ' 기준으로">' +
         '<td><span class="bench-rank">' + (idx + 1) + '</span>' + escapeHtml(r.brand) + '</td>' +
         '<td>' + r.videos + '</td>' +
         '<td class="col-owned">' + ownedCell + '</td>' +
@@ -3213,6 +3323,13 @@ body.mode-detail .view-executive { display: none; }
         '<td><canvas class="bench-spark" data-spark=\'' + JSON.stringify(r.spark) + '\' data-key="' + r.key + '"></canvas></td>' +
       '</tr>';
     }).join('');
+    // 행 클릭 → 브랜드 선택 (헤더 정렬 버튼과 충돌 없음 — th에는 event 없음)
+    tbody.querySelectorAll('tr[data-brand]').forEach(function(tr) {
+      tr.addEventListener('click', function() {
+        var b = tr.getAttribute('data-brand');
+        if (b) selectBrand(b);
+      });
+    });
 
     // Sparkline render
     document.querySelectorAll('.bench-spark').forEach(function(cv) {
