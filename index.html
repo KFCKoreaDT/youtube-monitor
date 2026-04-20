@@ -1137,24 +1137,37 @@ body.mode-detail .view-executive { display: none; }
   background: linear-gradient(135deg, rgba(239,68,68,0.10) 0%, var(--bg-card) 60%);
 }
 
-/* Paid/Earned/Engagement 3층 SOV 카드 컬러링 */
-.exec-card.earned {
-  background: linear-gradient(135deg, rgba(228,0,43,0.12) 0%, var(--bg-card) 60%);
-  border-color: rgba(228,0,43,0.35);
+/* PESO 3색 팔레트 (Owned/Sponsored/Earned) */
+:root {
+  --peso-owned: #6b7280;       /* 중립 회색 */
+  --peso-sponsored: #f59e0b;   /* 주황 — 중간 강조 */
+  --peso-earned: var(--accent); /* KFC 레드 (primary) */
 }
-.exec-card.paid {
-  background: linear-gradient(135deg, rgba(148,163,184,0.10) 0%, var(--bg-card) 60%);
-  border-color: rgba(148,163,184,0.30);
+
+.exec-card.peso-owned {
+  background: linear-gradient(135deg, rgba(107,114,128,0.10) 0%, var(--bg-card) 60%);
+  border-color: rgba(107,114,128,0.30);
+}
+.exec-card.peso-sponsored {
+  background: linear-gradient(135deg, rgba(245,158,11,0.12) 0%, var(--bg-card) 60%);
+  border-color: rgba(245,158,11,0.35);
+}
+.exec-card.peso-earned {
+  background: linear-gradient(135deg, rgba(228,0,43,0.14) 0%, var(--bg-card) 60%);
+  border-color: rgba(228,0,43,0.40);
 }
 .exec-card.engagement {
   background: linear-gradient(135deg, rgba(99,102,241,0.10) 0%, var(--bg-card) 60%);
   border-color: rgba(99,102,241,0.30);
 }
+.exec-gauge-fill.owned {
+  background: linear-gradient(90deg, #6b7280, #9ca3af);
+}
+.exec-gauge-fill.sponsored {
+  background: linear-gradient(90deg, #f59e0b, #fbbf24);
+}
 .exec-gauge-fill.earned {
   background: linear-gradient(90deg, #E4002B, #F04060);
-}
-.exec-gauge-fill.paid {
-  background: linear-gradient(90deg, #94a3b8, #cbd5e1);
 }
 .tier-tag {
   display: inline-block;
@@ -1167,34 +1180,36 @@ body.mode-detail .view-executive { display: none; }
   margin-left: 4px;
   vertical-align: middle;
 }
-.tier-tag.muted {
-  background: rgba(148,163,184,0.18);
-  color: #94a3b8;
-}
 
-/* 2-col SOV 도넛 (Earned + Paid 나란히) */
-.sov-donut-row {
-  display: flex;
+/* PESO 3-donut grid */
+.peso-donuts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  align-items: stretch;
+  align-items: start;
 }
-.sov-donut-col {
-  flex: 1;
+.peso-donut-cell {
   min-width: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
-.sov-donut-title {
-  font-size: 0.78rem;
+.peso-donut-title {
+  font-size: 0.82rem;
   font-weight: 600;
   color: var(--text-secondary);
   margin-bottom: 4px;
 }
+.primary-hint {
+  color: var(--accent-light);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
 .chart-wrap.xs {
   position: relative;
   width: 100%;
-  height: 150px;
+  height: 140px;
+}
+@media (max-width: 720px) {
+  .peso-donuts { grid-template-columns: 1fr; }
 }
 .chart-empty {
   position: absolute;
@@ -1222,10 +1237,13 @@ body.mode-detail .view-executive { display: none; }
   font-weight: 400;
   margin-top: 1px;
 }
+@media (max-width: 1100px) {
+  .bench-table .col-owned,
+  .bench-table tbody td.col-owned { display: none; }
+}
 @media (max-width: 900px) {
-  .bench-table .col-paid,
-  .bench-table tbody td.col-paid { display: none; }
-  .sov-donut-row { flex-direction: column; }
+  .bench-table .col-sponsored,
+  .bench-table tbody td.col-sponsored { display: none; }
 }
 
 /* Section title */
@@ -1529,37 +1547,41 @@ body.mode-detail .view-executive { display: none; }
   </div>
 
   <!-- KPI Strip — Paid/Earned/Engagement 3층 SOV + 순위 + 감정·위험 통합 -->
+  <!-- KPI Strip — PESO 3분류 (Owned / Sponsored / Earned) + Engagement -->
   <div class="exec-strip">
     <div class="exec-card primary">
       <div class="exec-label">🏆 KFC 순위 (Earned 기준)</div>
       <div class="exec-value" id="k-rank">-<span class="small">/10</span></div>
       <div class="exec-delta flat" id="k-rank-delta">—</div>
-      <div class="exec-sub" id="k-rank-sub">크리에이터 조회수 기준</div>
+      <div class="exec-sub" id="k-rank-sub">순수 자발 크리에이터 조회수 기준</div>
     </div>
-    <div class="exec-card earned">
-      <div class="exec-label">🎤 Earned SOV <span class="tier-tag">크리에이터</span></div>
+    <div class="exec-card peso-owned">
+      <div class="exec-label">🏛 Owned SOV</div>
+      <div class="exec-value" id="k-owned-sov">-<span class="small">%</span></div>
+      <div class="exec-gauge owned"><div class="exec-gauge-fill owned" id="k-owned-gauge" style="width:0%"></div></div>
+      <div class="exec-delta flat" id="k-owned-delta">—</div>
+      <div class="exec-sub">자사 공식 채널 점유 (브랜드 자체 발신)</div>
+    </div>
+    <div class="exec-card peso-sponsored">
+      <div class="exec-label">🤝 Sponsored SOV</div>
+      <div class="exec-value" id="k-sponsored-sov">-<span class="small">%</span></div>
+      <div class="exec-gauge sponsored"><div class="exec-gauge-fill sponsored" id="k-sponsored-gauge" style="width:0%"></div></div>
+      <div class="exec-delta flat" id="k-sponsored-delta">—</div>
+      <div class="exec-sub">크리에이터 협찬 영상 (Paid Partnership)</div>
+    </div>
+    <div class="exec-card peso-earned">
+      <div class="exec-label">🎤 Earned SOV <span class="tier-tag">⭐ Primary</span></div>
       <div class="exec-value" id="k-earned-sov">-<span class="small">%</span></div>
       <div class="exec-gauge earned"><div class="exec-gauge-fill earned" id="k-earned-gauge" style="width:0%"></div></div>
       <div class="exec-delta flat" id="k-earned-delta">—</div>
-      <div class="exec-sub">KFC가 움직일 수 있는 레버</div>
-    </div>
-    <div class="exec-card paid">
-      <div class="exec-label">🏛 Paid SOV <span class="tier-tag muted">공식·광고</span></div>
-      <div class="exec-value" id="k-paid-sov">-<span class="small">%</span></div>
-      <div class="exec-gauge paid"><div class="exec-gauge-fill paid" id="k-paid-gauge" style="width:0%"></div></div>
-      <div class="exec-sub">경쟁사 광고 공세 규모 참고</div>
+      <div class="exec-sub">순수 자발 크리에이터 — KFC가 움직일 수 있는 레버</div>
     </div>
     <div class="exec-card engagement">
       <div class="exec-label">💬 Engagement SOV</div>
       <div class="exec-value" id="k-eng-sov">-<span class="small">%</span></div>
       <div class="exec-gauge"><div class="exec-gauge-fill" id="k-eng-gauge" style="width:0%"></div></div>
-      <div class="exec-sub">좋아요+댓글 기반 실질 관심</div>
-    </div>
-    <div class="exec-card" id="card-alert">
-      <div class="exec-label">🎭 감정 / 🚨 위험</div>
-      <div class="exec-value"><span id="k-sent">-</span><span class="small" id="k-alerts-inline">· 이슈 0건</span></div>
-      <div class="exec-delta flat" id="k-sent-delta">—</div>
-      <div class="exec-sub" id="k-sent-sub">(긍정 - 부정) / 전체</div>
+      <div class="exec-delta flat" id="k-eng-delta">—</div>
+      <div class="exec-sub">실질 관심 강도 (좋아요+댓글 점유)</div>
     </div>
   </div>
 
@@ -1576,33 +1598,39 @@ body.mode-detail .view-executive { display: none; }
             <tr>
               <th data-sort="brand">브랜드</th>
               <th data-sort="videos">영상수</th>
-              <th data-sort="paidSov" class="col-paid">🏛 Paid</th>
+              <th data-sort="ownedSov" data-col="owned" class="col-owned">🏛 Owned</th>
+              <th data-sort="sponsoredSov" data-col="sponsored" class="col-sponsored">🤝 Sponsored</th>
               <th data-sort="earnedSov" class="sort-active">🎤 Earned<span class="sort-arrow">▼</span></th>
-              <th data-sort="engSov">💬 Eng.</th>
               <th data-sort="delta">Δ 4일전<span class="th-sub">Earned</span></th>
+              <th data-sort="engSov">💬 ER</th>
               <th data-sort="neg">부정률</th>
               <th data-sort="spark">추이(4일)</th>
             </tr>
           </thead>
           <tbody id="bench-tbody">
-            <tr><td colspan="8" style="text-align:center; color: var(--text-muted); padding: 30px;">로딩 중…</td></tr>
+            <tr><td colspan="9" style="text-align:center; color: var(--text-muted); padding: 30px;">로딩 중…</td></tr>
           </tbody>
         </table>
       </div>
     </div>
 
     <div class="exec-panel">
-      <div class="exec-section-title"><h3>🥧 SOV 분포</h3><span class="hint">Earned · Paid 분리</span></div>
-      <div class="sov-donut-row">
-        <div class="sov-donut-col">
-          <div class="sov-donut-title">🎤 Earned</div>
-          <div class="chart-wrap xs"><canvas id="chart-sov-earned"></canvas></div>
-          <div class="chart-legend xs" id="sov-earned-legend"></div>
+      <div class="exec-section-title"><h3>🥧 SOV 분포 (PESO)</h3><span class="hint">Owned · Sponsored · Earned</span></div>
+      <div class="peso-donuts">
+        <div class="peso-donut-cell">
+          <div class="peso-donut-title">🏛 Owned 점유</div>
+          <div class="chart-wrap xs"><canvas id="chart-owned"></canvas><div id="chart-owned-empty" class="chart-empty" style="display:none;">집계된 Owned 영상 없음</div></div>
+          <div class="chart-legend xs" id="owned-legend"></div>
         </div>
-        <div class="sov-donut-col">
-          <div class="sov-donut-title">🏛 Paid</div>
-          <div class="chart-wrap xs"><canvas id="chart-sov-paid"></canvas><div id="chart-sov-paid-empty" class="chart-empty" style="display:none;">Paid 집계 영상 없음</div></div>
-          <div class="chart-legend xs" id="sov-paid-legend"></div>
+        <div class="peso-donut-cell">
+          <div class="peso-donut-title">🤝 Sponsored 점유</div>
+          <div class="chart-wrap xs"><canvas id="chart-sponsored"></canvas><div id="chart-sponsored-empty" class="chart-empty" style="display:none;">집계된 협찬 영상 없음</div></div>
+          <div class="chart-legend xs" id="sponsored-legend"></div>
+        </div>
+        <div class="peso-donut-cell">
+          <div class="peso-donut-title">🎤 Earned 점유 <span class="primary-hint">⭐ 주요 지표</span></div>
+          <div class="chart-wrap xs"><canvas id="chart-earned"></canvas><div id="chart-earned-empty" class="chart-empty" style="display:none;">집계된 Earned 영상 없음</div></div>
+          <div class="chart-legend xs" id="earned-legend"></div>
         </div>
       </div>
 
@@ -2758,41 +2786,69 @@ body.mode-detail .view-executive { display: none; }
     return null;
   }
 
-  // Paid(Official) vs Earned(Creator) 조회수 + Engagement 합산
-  // multi 섹션은 제외 (KFC 포함 중복 — 기존과 동일)
-  function computeTierSplit(brand) {
-    var paid = 0, earned = 0, eng = 0;
+  // PESO 프레임 — 영상 단위 분류
+  //   Owned:     자사 공식 채널 (creator_tier === "Official")
+  //   Sponsored: 크리에이터 협찬 (yt-dlp paid_content 플래그 + title/desc 키워드 + manual override)
+  //   Earned:    나머지 — 순수 자발 크리에이터 (primary KPI, KFC CDTO 레버)
+  var SPONSORED_MARKERS = [
+    "유료광고 포함", "유료 광고 포함", "유료 프로모션", "유료프로모션",
+    "#광고", "#협찬", "#ad", "#sponsored",
+    "협찬받아", "협찬 받아", "제공받아", "제공 받아", "제품을 제공",
+    "paid promotion", "brand partnership", "이 영상은 광고"
+  ];
+  function classifyPeso(v, brandCode) {
+    if (v && v.creator_tier === "Official") return "owned";
+    if (v && (v.paid_content === true || v.paid_content_disclosure === true)) return "sponsored";
+    var hay = ((v && v.title) || "") + " " + ((v && v.description_excerpt) || "");
+    hay = hay.toLowerCase();
+    for (var i = 0; i < SPONSORED_MARKERS.length; i++) {
+      if (hay.indexOf(SPONSORED_MARKERS[i].toLowerCase()) !== -1) return "sponsored";
+    }
+    if (window._KNOWN_SPONSORED && v && window._KNOWN_SPONSORED[v.video_id]) return "sponsored";
+    return "earned";
+  }
+
+  // 브랜드 단위 PESO 집계. multi 섹션은 제외 (KFC 포함 중복).
+  function computePesoSplit(brand, brandCode) {
+    var owned = 0, sponsored = 0, earned = 0, engagement = 0;
     (brand && brand.videos || []).forEach(function(v) {
       var views = v.views || 0;
       var e = (v.likes || 0) + (v.comment_count || 0);
-      if (v.creator_tier === 'Official') paid += views;
+      var cat = classifyPeso(v, brandCode);
+      if (cat === "owned") owned += views;
+      else if (cat === "sponsored") sponsored += views;
       else earned += views;
-      eng += e;
+      engagement += e;
     });
-    return { paid: paid, earned: earned, engagement: eng };
+    return { owned: owned, sponsored: sponsored, earned: earned,
+             engagement: engagement, total: owned + sponsored + earned };
   }
 
-  // 캐시 준비 + 각 레이어 총합 반환
-  function prepareSplits(data) {
+  // 전 브랜드 캐시 + 총합
+  function preparePesoSplits(data) {
     var splits = {};
-    var totals = { paid: 0, earned: 0, engagement: 0 };
+    var totals = { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
     COMP_KEYS.forEach(function(k) {
-      var sp = computeTierSplit(data.brands[k] || {});
+      var sp = computePesoSplit(data.brands[k] || {}, k);
       splits[k] = sp;
-      totals.paid += sp.paid;
+      totals.owned += sp.owned;
+      totals.sponsored += sp.sponsored;
       totals.earned += sp.earned;
       totals.engagement += sp.engagement;
     });
     return { splits: splits, totals: totals };
   }
 
-  // Paid 기반이 아닌 Earned 조회수 기준 순위 (1등 = 최다 earned)
+  // Earned 조회수 기준 순위 (1등 = 최다 earned)
   function earnedRank(splits, code) {
     var arr = COMP_KEYS.map(function(k) { return { k: k, v: (splits[k] && splits[k].earned) || 0 }; });
     arr.sort(function(a, b) { return b.v - a.v; });
     for (var i = 0; i < arr.length; i++) if (arr[i].k === code) return i + 1;
     return null;
   }
+
+  // Backward-compat 래퍼 (기존 함수명 보존)
+  function prepareSplits(data) { return preparePesoSplits(data); }
 
   function formatSovPct(v) {
     if (v == null || !isFinite(v)) return '—';
@@ -2808,42 +2864,60 @@ body.mode-detail .view-executive { display: none; }
     document.getElementById('exec-date').textContent = data.date || '-';
     document.getElementById('exec-window').textContent = data.window_days != null ? data.window_days : '30';
 
-    // --- Tier split 계산 (Paid/Earned/Engagement) ---
-    var cur = prepareSplits(data);
+    // --- PESO 3분류 계산 (Owned / Sponsored / Earned / Engagement) ---
+    var cur = preparePesoSplits(data);
     EXEC.splits = cur.splits;
     EXEC.totals = cur.totals;
-    var kSp = cur.splits.kfc || { paid: 0, earned: 0, engagement: 0 };
+    var kSp = cur.splits.kfc || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
 
-    var earnedSov = pct(kSp.earned, cur.totals.earned);
-    var paidSov   = pct(kSp.paid, cur.totals.paid);
-    var engSov    = pct(kSp.engagement, cur.totals.engagement);
+    var ownedSov     = pct(kSp.owned, cur.totals.owned);
+    var sponsoredSov = pct(kSp.sponsored, cur.totals.sponsored);
+    var earnedSov    = pct(kSp.earned, cur.totals.earned);
+    var engSov       = pct(kSp.engagement, cur.totals.engagement);
     var rank = earnedRank(cur.splits, 'kfc');
 
     document.getElementById('k-rank').innerHTML = (rank || '—') + '<span class="small">/' + COMP_KEYS.length + '</span>';
 
+    // Owned SOV
+    if (cur.totals.owned > 0) {
+      document.getElementById('k-owned-sov').innerHTML = ownedSov.toFixed(1) + '<span class="small">%</span>';
+      document.getElementById('k-owned-gauge').style.width = Math.min(ownedSov, 100) + '%';
+    } else {
+      document.getElementById('k-owned-sov').innerHTML = '—';
+      document.getElementById('k-owned-gauge').style.width = '0%';
+    }
+
+    // Sponsored SOV
+    if (cur.totals.sponsored > 0) {
+      document.getElementById('k-sponsored-sov').innerHTML = sponsoredSov.toFixed(1) + '<span class="small">%</span>';
+      document.getElementById('k-sponsored-gauge').style.width = Math.min(sponsoredSov, 100) + '%';
+    } else {
+      document.getElementById('k-sponsored-sov').innerHTML = '<span style="font-size:0.9rem; color:var(--text-muted)">집계 없음</span>';
+      document.getElementById('k-sponsored-gauge').style.width = '0%';
+    }
+
+    // Earned SOV (primary KPI)
     document.getElementById('k-earned-sov').innerHTML = earnedSov.toFixed(1) + '<span class="small">%</span>';
     document.getElementById('k-earned-gauge').style.width = Math.min(earnedSov, 100) + '%';
 
-    // Paid: total이 0이면 N/A
-    if (cur.totals.paid > 0) {
-      document.getElementById('k-paid-sov').innerHTML = paidSov.toFixed(1) + '<span class="small">%</span>';
-      document.getElementById('k-paid-gauge').style.width = Math.min(paidSov, 100) + '%';
-    } else {
-      document.getElementById('k-paid-sov').innerHTML = '—';
-      document.getElementById('k-paid-gauge').style.width = '0%';
-    }
-
+    // Engagement SOV
     document.getElementById('k-eng-sov').innerHTML = engSov.toFixed(1) + '<span class="small">%</span>';
     document.getElementById('k-eng-gauge').style.width = Math.min(engSov, 100) + '%';
 
-    // --- Baseline delta (Earned 기준) ---
+    // --- Baseline deltas (4일 전 기준) ---
     if (EXEC.baseline && EXEC.baseline.brands && EXEC.baseline.brands.kfc) {
-      var prev = prepareSplits(EXEC.baseline);
-      var prevKfcEarned = (prev.splits.kfc && prev.splits.kfc.earned) || 0;
+      var prev = preparePesoSplits(EXEC.baseline);
+      var prevKfc = prev.splits.kfc || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
       var prevRank = earnedRank(prev.splits, 'kfc');
 
-      var earnedDelta = prevKfcEarned ? ((kSp.earned - prevKfcEarned) / prevKfcEarned) * 100 : null;
-      setDelta('k-earned-delta', earnedDelta);
+      var ownedDelta     = prevKfc.owned     ? ((kSp.owned     - prevKfc.owned)     / prevKfc.owned)     * 100 : null;
+      var sponsoredDelta = prevKfc.sponsored ? ((kSp.sponsored - prevKfc.sponsored) / prevKfc.sponsored) * 100 : null;
+      var earnedDelta    = prevKfc.earned    ? ((kSp.earned    - prevKfc.earned)    / prevKfc.earned)    * 100 : null;
+      var engDelta       = prevKfc.engagement? ((kSp.engagement- prevKfc.engagement)/ prevKfc.engagement)* 100 : null;
+      setDelta('k-owned-delta',     ownedDelta);
+      setDelta('k-sponsored-delta', sponsoredDelta);
+      setDelta('k-earned-delta',    earnedDelta);
+      setDelta('k-eng-delta',       engDelta);
 
       if (prevRank && rank) {
         var rDiff = prevRank - rank;  // positive = improved
@@ -2853,32 +2927,33 @@ body.mode-detail .view-executive { display: none; }
       }
     }
 
-    // --- Sentiment + Alerts 통합 카드 ---
+    // --- Sentiment + Alerts 를 상단 알림 스트립에 통합 ---
     var s = computeSentimentScore(kfc.sentiment_counts);
     var alerts = computeAlerts(data);
-    if (s != null) {
-      var label = s > 0.3 ? '긍정' : (s < -0.1 ? '부정' : '중립');
-      document.getElementById('k-sent').innerHTML = (s * 100).toFixed(0) + ' <span class="small">' + label + '</span>';
-      document.getElementById('k-sent-sub').textContent = '긍정 ' + ((kfc.sentiment_counts.pos||0)) + ' · 부정 ' + ((kfc.sentiment_counts.neg||0)) + ' · 중립 ' + ((kfc.sentiment_counts.neu||0));
-    } else {
-      document.getElementById('k-sent').textContent = '—';
-    }
-    document.getElementById('k-alerts-inline').textContent = '· 이슈 ' + alerts.length + '건';
-    document.getElementById('card-alert').classList.toggle('alert-on', alerts.length > 0);
 
-    // Alert strip
     var strip = document.getElementById('alert-strip');
     var badge = document.getElementById('alert-badge');
     var text = document.getElementById('alert-text');
     badge.textContent = alerts.length;
+
+    var sentLabel = s != null ? (s > 0.3 ? '긍정 우세' : (s < -0.1 ? '부정 우세' : '중립')) : '—';
+    var sentText = s != null
+      ? ('감정 점수 ' + (s * 100).toFixed(0) + ' (' + sentLabel + ')')
+      : '감정 점수 —';
+    var negRatioText = '부정률 ' + ((kfc.negative_ratio || 0) * 100).toFixed(1) + '%';
+    var alertText = '위험 신호 ' + alerts.length + '건';
+
     if (alerts.length === 0) {
       strip.classList.add('empty');
-      text.textContent = '✓ 이상징후 없음 — KFC 관련 부정 급증·위험 영상·순위 하락 모두 정상 범위';
+      text.innerHTML = '✓ ' + sentText + ' · ' + negRatioText + ' · ' + alertText +
+        ' <span style="color: var(--text-muted);">— 이상징후 없음</span>';
     } else {
       strip.classList.remove('empty');
-      text.innerHTML = alerts.slice(0, 3).map(function(a) {
+      var alertLines = alerts.slice(0, 3).map(function(a) {
         return (a.level === 'high' ? '🔴' : '🟡') + ' ' + escapeHtml(a.msg);
-      }).join(' &nbsp;·&nbsp; ') + (alerts.length > 3 ? ' <span style="color: var(--text-muted);">+' + (alerts.length - 3) + '건 더</span>' : '');
+      }).join(' &nbsp;·&nbsp; ');
+      if (alerts.length > 3) alertLines += ' <span style="color: var(--text-muted);">+' + (alerts.length - 3) + '건 더</span>';
+      text.innerHTML = '<strong>' + sentText + ' · ' + negRatioText + ' · ' + alertText + '</strong><br>' + alertLines;
     }
 
     renderBenchTable();
@@ -2897,17 +2972,17 @@ body.mode-detail .view-executive { display: none; }
     var data = EXEC.latest;
     var base = EXEC.baseline;
     var splits = EXEC.splits || {};
-    var totals = EXEC.totals || { paid: 0, earned: 0, engagement: 0 };
+    var totals = EXEC.totals || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
 
     // Baseline split (delta 계산용, Earned 기준)
     var baseSplits = null;
     if (base && base.brands) {
-      baseSplits = prepareSplits(base).splits;
+      baseSplits = preparePesoSplits(base).splits;
     }
 
     var rows = COMP_KEYS.map(function(k) {
       var b = data.brands[k] || {};
-      var sp = splits[k] || { paid: 0, earned: 0, engagement: 0 };
+      var sp = splits[k] || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
       var prevEarned = (baseSplits && baseSplits[k]) ? baseSplits[k].earned : null;
       var delta = (prevEarned && prevEarned > 0) ? ((sp.earned - prevEarned) / prevEarned) * 100 : null;
       var spark = EXEC.trend.map(function(t) { return (t.brands && t.brands[k]) ? (t.brands[k].total_views || 0) : 0; });
@@ -2915,9 +2990,10 @@ body.mode-detail .view-executive { display: none; }
         key: k,
         brand: b.display || k,
         videos: b.video_count || 0,
-        paidSov:   totals.paid > 0 ? (sp.paid / totals.paid * 100) : null,
-        earnedSov: totals.earned > 0 ? (sp.earned / totals.earned * 100) : 0,
-        engSov:    totals.engagement > 0 ? (sp.engagement / totals.engagement * 100) : 0,
+        ownedSov:     totals.owned > 0     ? (sp.owned     / totals.owned     * 100) : null,
+        sponsoredSov: totals.sponsored > 0 ? (sp.sponsored / totals.sponsored * 100) : null,
+        earnedSov:    totals.earned > 0    ? (sp.earned    / totals.earned    * 100) : 0,
+        engSov:       totals.engagement>0  ? (sp.engagement/ totals.engagement* 100) : 0,
         delta: delta,
         neg: b.negative_ratio != null ? b.negative_ratio * 100 : null,
         spark: spark
@@ -2945,6 +3021,11 @@ body.mode-detail .view-executive { display: none; }
       }
     });
 
+    function _cellPct(v) {
+      if (v == null || v === 0) return '<span style="color:var(--text-muted)">—</span>';
+      return v.toFixed(1) + '%';
+    }
+
     var tbody = document.getElementById('bench-tbody');
     tbody.innerHTML = rows.map(function(r, idx) {
       var negClass = r.neg == null ? '' : (r.neg > 30 ? 'danger' : (r.neg > 20 ? 'warn' : 'safe'));
@@ -2952,16 +3033,16 @@ body.mode-detail .view-executive { display: none; }
                     : '<span class="neg-chip ' + negClass + '">' + r.neg.toFixed(1) + '%</span>';
       var deltaCell = r.delta == null ? '<span style="color:var(--text-muted)">—</span>'
                     : '<span class="delta-chip ' + deltaClass(r.delta) + '">' + deltaArrow(r.delta) + ' ' + formatPct(r.delta) + '</span>';
-      var paidCell = r.paidSov == null
-        ? '<span style="color:var(--text-muted)">—</span>'
-        : r.paidSov.toFixed(1) + '%';
+      var ownedCell     = r.ownedSov     == null ? '<span style="color:var(--text-muted)">—</span>' : r.ownedSov.toFixed(1) + '%';
+      var sponsoredCell = r.sponsoredSov == null ? '<span style="color:var(--text-muted)">—</span>' : r.sponsoredSov.toFixed(1) + '%';
       return '<tr class="' + (r.key === 'kfc' ? 'kfc-row' : '') + '">' +
         '<td><span class="bench-rank">' + (idx + 1) + '</span>' + escapeHtml(r.brand) + '</td>' +
         '<td>' + r.videos + '</td>' +
-        '<td class="col-paid">' + paidCell + '</td>' +
+        '<td class="col-owned">' + ownedCell + '</td>' +
+        '<td class="col-sponsored">' + sponsoredCell + '</td>' +
         '<td><strong>' + r.earnedSov.toFixed(1) + '%</strong></td>' +
-        '<td>' + r.engSov.toFixed(1) + '%</td>' +
         '<td>' + deltaCell + '</td>' +
+        '<td>' + r.engSov.toFixed(1) + '%</td>' +
         '<td>' + negCell + '</td>' +
         '<td><canvas class="bench-spark" data-spark=\'' + JSON.stringify(r.spark) + '\' data-key="' + r.key + '"></canvas></td>' +
       '</tr>';
@@ -3077,8 +3158,10 @@ body.mode-detail .view-executive { display: none; }
       }
     }
 
-    buildDonut('chart-sov-earned', 'earned', 'sov-earned-legend', null);
-    buildDonut('chart-sov-paid',   'paid',   'sov-paid-legend',   'chart-sov-paid-empty');
+    // PESO 3-donut 렌더링 (Owned / Sponsored / Earned)
+    buildDonut('chart-owned',     'owned',     'owned-legend',     'chart-owned-empty');
+    buildDonut('chart-sponsored', 'sponsored', 'sponsored-legend', 'chart-sponsored-empty');
+    buildDonut('chart-earned',    'earned',    'earned-legend',    'chart-earned-empty');
 
     // Sentiment stacked
     if (CHART_INSTANCES.sent) CHART_INSTANCES.sent.destroy();
@@ -3192,15 +3275,22 @@ body.mode-detail .view-executive { display: none; }
   function copyOneLiner() {
     var d = EXEC.latest; if (!d) return;
     var kfc = d.brands.kfc || {};
-    var cur = prepareSplits(d);
-    var kSp = cur.splits.kfc || { paid: 0, earned: 0, engagement: 0 };
-    var earnedSov = pct(kSp.earned, cur.totals.earned);
-    var paidSov   = pct(kSp.paid, cur.totals.paid);
-    var engSov    = pct(kSp.engagement, cur.totals.engagement);
+    var cur = preparePesoSplits(d);
+    var kSp = cur.splits.kfc || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
+    var ownedSov     = pct(kSp.owned, cur.totals.owned);
+    var sponsoredSov = pct(kSp.sponsored, cur.totals.sponsored);
+    var earnedSov    = pct(kSp.earned, cur.totals.earned);
+    var engSov       = pct(kSp.engagement, cur.totals.engagement);
     var rank = earnedRank(cur.splits, 'kfc');
     var s = computeSentimentScore(kfc.sentiment_counts);
     var alerts = computeAlerts(d);
-    var line = '[' + (d.date||'-') + ' · 최근 ' + (d.window_days||30) + '일] KFC ' + (rank||'-') + '/' + COMP_KEYS.length + '위 · Earned SOV ' + earnedSov.toFixed(1) + '% · Paid SOV ' + (cur.totals.paid>0?paidSov.toFixed(1)+'%':'N/A') + ' · Engagement SOV ' + engSov.toFixed(1) + '% · 감정 ' + (s!=null?(s*100).toFixed(0):'-') + ' · 부정률 ' + ((kfc.negative_ratio||0)*100).toFixed(1) + '% · 이슈 ' + alerts.length + '건';
+    var line = '[' + (d.date||'-') + ' · 최근 ' + (d.window_days||30) + '일] KFC ' +
+      (rank||'-') + '/' + COMP_KEYS.length + '위 · 🏛 Owned ' +
+      (cur.totals.owned>0 ? ownedSov.toFixed(1)+'%' : 'N/A') + ' · 🤝 Sponsored ' +
+      (cur.totals.sponsored>0 ? sponsoredSov.toFixed(1)+'%' : 'N/A') + ' · 🎤 Earned ' +
+      earnedSov.toFixed(1) + '% (⭐primary) · 💬 Engagement ' + engSov.toFixed(1) +
+      '% · 감정 ' + (s!=null?(s*100).toFixed(0):'-') + ' · 부정률 ' +
+      ((kfc.negative_ratio||0)*100).toFixed(1) + '% · 이슈 ' + alerts.length + '건';
     try {
       navigator.clipboard.writeText(line).then(function() {
         var btn = document.getElementById('btn-copy-summary');
