@@ -1,0 +1,248 @@
+{
+  "date": "2026-04-21",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "kfc": {
+      "display": "KFC 한국",
+      "video_count": 5,
+      "total_views": 42338,
+      "total_likes": 648,
+      "total_comments": 53,
+      "n_short": 0,
+      "n_long": 5,
+      "tier_counts": {
+        "Nano": 4,
+        "Micro": 1
+      },
+      "summary": "KFC 한국 관련 영상은 주로 외국어 학습 및 타 국가의 병맛 광고 소개를 다루며, 소비자들의 관심을 얻고 있지만 직접적인 KFC 프로모션 또는 신제품 정보는 없음.\n  📌 생활영어 · 태국광고 · 굿즈",
+      "videos": [
+        {
+          "video_id": "J5zT5UHk930",
+          "title": "바로 써먹는 생활영어 회화 - 88강 At KFC - 켄터키 프라이 치킨에서 주문 *조아요, 공유 & 많은 시청은 큰힘이 됩니다! *Like, share & Subscribe!!",
+          "channel": "해바영어 Try English",
+          "subscribers": 1500,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 6,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.3333,
+          "duration": 380,
+          "is_short": false,
+          "buzz_score": 8.7,
+          "upload_date": "2026.04.20",
+          "url": "https://www.youtube.com/watch?v=J5zT5UHk930",
+          "description_excerpt": "바로 써먹는 생활영어 듣고 말하기(회화), 표현능력 훈련과정!\n원어민처럼 말하기 위한 필수 기초 훈련과정!\n\n88강 At KFC - 켄터키 프라이 치킨에서 주문 \n*조아요, 공유 & 많은 시청은 큰힘이 됩니다! \n*Like, share & Subscribe, please!!\n\n♧유튜브에서 [해바영어] 검색후\n 구독, 좋아요, 공유 하시어\n 더 많은 분들과 함께 하세요!!!\n   \n*해바영어 (월~토/오전 11:50/업로드)\n\n*문장이해 / 듣기 부족하신분들!!!\n문법(월,화) / 발음규칙(수)\n(지난 기초강의 시청 필수!!!)\nTr",
+          "top_comments": []
+        },
+        {
+          "video_id": "kdSsigtY4Hs",
+          "title": "[태국병맛광고] 병적으로 채워야 직성이 풀리는 남자 — KFC 굿즈 6종 세트 (한·영 자막) /  You Need All 6 to Complete the Set.",
+          "channel": "ADverThais",
+          "subscribers": 9,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 5,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 120,
+          "is_short": false,
+          "buzz_score": 7.0,
+          "upload_date": "2026.04.20",
+          "url": "https://www.youtube.com/watch?v=kdSsigtY4Hs",
+          "description_excerpt": "태국 광고 | KFC 굿즈 광고 | 미스터리 박스 | 컬렉션 강박 | 태국 광고 번역\n이 남자는 빈 자리를 참지 못해요.\n만화책 한 권이 비면 어떻게든 채워요. 컵 한 개가 모자라면 채워 넣어요. 심지어 가게 앞 신발 사이 빈 자리에 자기 신발을 벗어 채워놓고 맨발로 걸어가요.\n그런 그에게 KFC 굿즈 6종 세트가 나왔어요.\n미스터리 박스를 열 때마다 실패. 또 실패. 계속 실패. 6개를 다 모아야 완성인데 번번이 중복만 나와요.\n그리고 마지막 메시지 — \"6개를 다 모아야 완성이야.\"\nKFC가 이 남자를 비웃는 것 같은 결말이 완",
+          "top_comments": []
+        }
+      ]
+    },
+    "burgerking": {
+      "display": "버거킹",
+      "video_count": 3,
+      "total_views": 216,
+      "total_likes": 8,
+      "total_comments": 5,
+      "n_short": 0,
+      "n_long": 3,
+      "tier_counts": {
+        "Nano": 3
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "mcdonalds": {
+      "display": "맥도날드",
+      "video_count": 1,
+      "total_views": 18,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "lotteria": {
+      "display": "롯데리아",
+      "video_count": 9,
+      "total_views": 50252,
+      "total_likes": 858,
+      "total_comments": 61,
+      "n_short": 1,
+      "n_long": 8,
+      "tier_counts": {
+        "Nano": 7,
+        "Micro": 1,
+        "Macro": 1
+      },
+      "summary": "롯데리아의 지점 간 차이에 대한 의문과 신메뉴 리뷰가 주요 콘텐츠로, 소비자들은 새로운 메뉴와 프로모션에 대해 다양한 의견을 제시하고 있다. KFC는 이러한 현상에서 마케팅 전략과 운영 효율성을 점검할 필요성이 제기된다.\n  📌 지점 차이 · 신메뉴 리뷰 · 마케팅 전략",
+      "videos": [
+        {
+          "video_id": "q3g0Bp-H0Gg",
+          "title": "롯데리아는 정말 지점차가 심할까?",
+          "channel": "대 박 살",
+          "subscribers": 0,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 30,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 181,
+          "is_short": false,
+          "buzz_score": 7.8,
+          "upload_date": "2026.04.20",
+          "url": "https://www.youtube.com/watch?v=q3g0Bp-H0Gg",
+          "description_excerpt": "브금 정보 : \n\nhttps://youtube.com/playlist?list=PL08VlnoGE2l-SgnIJwzOp5d4W1IpZvKp4&si=Fk0Dj2tsDVk0RvdU\n\n\n#롯데리아 #신메뉴 #신메뉴리뷰 #비교영상",
+          "top_comments": []
+        },
+        {
+          "video_id": "Y3paqNU8pVA",
+          "title": "미용하는 여자의 퇴근후 ㅋ (feat.연운,롯데리아 신메뉴)",
+          "channel": "디자이든",
+          "subscribers": 28,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 0,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 47,
+          "is_short": true,
+          "buzz_score": 0.0,
+          "upload_date": "2026.04.20",
+          "url": "https://www.youtube.com/watch?v=Y3paqNU8pVA",
+          "description_excerpt": "nan",
+          "top_comments": []
+        }
+      ]
+    },
+    "momstouch": {
+      "display": "맘스터치",
+      "video_count": 5,
+      "total_views": 15279,
+      "total_likes": 240,
+      "total_comments": 42,
+      "n_short": 0,
+      "n_long": 5,
+      "tier_counts": {
+        "Nano": 4,
+        "Micro": 1
+      },
+      "summary": "맘스터치에서 발생한 고객 서비스 관련 이슈가 네트워크를 통해 확산되고 있으며, 이를 통해 소비자들은 기업의 대응 방식에 대해 부정적인 의견을 제기하고 있다. 특히, 리필컵 사용과 관련된 문제는 품질 및 서비스 측면에서 논란이 되고 있다.\n  📌 서비스 이슈 · 품질 문제 · 소비자 불만",
+      "videos": [
+        {
+          "video_id": "G3ADxG5OAfM",
+          "title": "맘스터치 진상녀 결말, 행패전 cctv 포착, 콜라 리필컵 일부러 충격반전",
+          "channel": "나솔리뷰녀",
+          "subscribers": 1640,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 16,
+          "likes": 3,
+          "comment_count": 0,
+          "engagement_rate": 0.1875,
+          "duration": 328,
+          "is_short": false,
+          "buzz_score": 31.0,
+          "upload_date": "2026.04.20",
+          "url": "https://www.youtube.com/watch?v=G3ADxG5OAfM",
+          "description_excerpt": "nan",
+          "top_comments": []
+        }
+      ]
+    },
+    "popeyes": {
+      "display": "파파이스",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "subway": {
+      "display": "서브웨이",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "bbq": {
+      "display": "BBQ치킨",
+      "video_count": 3,
+      "total_views": 55240,
+      "total_likes": 1002,
+      "total_comments": 38,
+      "n_short": 0,
+      "n_long": 3,
+      "tier_counts": {
+        "Nano": 1,
+        "Micro": 1,
+        "Macro": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "bhc": {
+      "display": "BHC치킨",
+      "video_count": 2,
+      "total_views": 291,
+      "total_likes": 29,
+      "total_comments": 8,
+      "n_short": 1,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 2
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "kyochon": {
+      "display": "교촌치킨",
+      "video_count": 5,
+      "total_views": 101116,
+      "total_likes": 2292,
+      "total_comments": 46,
+      "n_short": 0,
+      "n_long": 5,
+      "tier_counts": {
+        "Nano": 3,
+        "Macro": 2
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    }
+  }
+}
