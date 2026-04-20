@@ -3016,47 +3016,46 @@ body.mode-detail .view-executive { display: none; }
 
     document.getElementById('k-rank').innerHTML = (rank || '—') + '<span class="small">/' + COMP_KEYS.length + '</span>';
 
-    // Owned SOV
-    if (cur.totals.owned > 0) {
-      document.getElementById('k-owned-sov').innerHTML = ownedSov.toFixed(1) + '<span class="small">%</span>';
-      document.getElementById('k-owned-gauge').style.width = Math.min(ownedSov, 100) + '%';
-    } else {
-      document.getElementById('k-owned-sov').innerHTML = '—';
-      document.getElementById('k-owned-gauge').style.width = '0%';
+    // === KPI 값 = 선택 브랜드 내 믹스 % (O+S+E 합 = 100%) ===
+    var brandTotal = kSp.owned + kSp.sponsored + kSp.earned;
+    var mixO = brandTotal > 0 ? (kSp.owned     / brandTotal * 100) : 0;
+    var mixS = brandTotal > 0 ? (kSp.sponsored / brandTotal * 100) : 0;
+    var mixE = brandTotal > 0 ? (kSp.earned    / brandTotal * 100) : 0;
+
+    function _setCardValue(id, gaugeId, pct, hasData) {
+      var el = document.getElementById(id);
+      var g = document.getElementById(gaugeId);
+      if (!el) return;
+      if (hasData) {
+        el.innerHTML = pct.toFixed(1) + '<span class="small">%</span>';
+      } else {
+        el.innerHTML = '—';
+      }
+      if (g) g.style.width = Math.min(pct, 100) + '%';
     }
+    _setCardValue('k-owned-sov',     'k-owned-gauge',     mixO, brandTotal > 0);
+    _setCardValue('k-sponsored-sov', 'k-sponsored-gauge', mixS, brandTotal > 0);
+    _setCardValue('k-earned-sov',    'k-earned-gauge',    mixE, brandTotal > 0);
 
-    // Sponsored SOV
-    if (cur.totals.sponsored > 0) {
-      document.getElementById('k-sponsored-sov').innerHTML = sponsoredSov.toFixed(1) + '<span class="small">%</span>';
-      document.getElementById('k-sponsored-gauge').style.width = Math.min(sponsoredSov, 100) + '%';
-    } else {
-      document.getElementById('k-sponsored-sov').innerHTML = '<span style="font-size:0.9rem; color:var(--text-muted)">집계 없음</span>';
-      document.getElementById('k-sponsored-gauge').style.width = '0%';
-    }
-
-    // Earned SOV (primary KPI)
-    document.getElementById('k-earned-sov').innerHTML = earnedSov.toFixed(1) + '<span class="small">%</span>';
-    document.getElementById('k-earned-gauge').style.width = Math.min(earnedSov, 100) + '%';
-
-    // Engagement SOV
+    // Engagement는 별개 (다른 분모) — 선택 브랜드의 시장 점유율 유지
     document.getElementById('k-eng-sov').innerHTML = engSov.toFixed(1) + '<span class="small">%</span>';
     document.getElementById('k-eng-gauge').style.width = Math.min(engSov, 100) + '%';
 
-    // --- 선택 브랜드 콘텐츠 믹스 배지 ---
-    var kTotal = kSp.owned + kSp.sponsored + kSp.earned;
-    function _mixBadge(id, val, pri) {
+    // --- 보조 배지 = 시장 내 점유율 (경쟁 SOV, 세로합 100%) ---
+    function _marketBadge(id, val, cat, pri, marketTotal) {
       var el = document.getElementById(id);
       if (!el) return;
       el.className = 'mix-badge ' + (pri ? 'pri-' + pri : '');
-      if (kTotal > 0) {
-        el.textContent = selName + ' 내 ' + (val / kTotal * 100).toFixed(0) + '% 비중';
+      if (marketTotal > 0) {
+        var share = (val / marketTotal * 100).toFixed(1);
+        el.textContent = '시장 ' + cat + ' 중 ' + share + '% 점유';
       } else {
-        el.textContent = selName + ' 데이터 없음';
+        el.textContent = '시장 집계 없음';
       }
     }
-    _mixBadge('k-owned-mix',     kSp.owned,     'owned');
-    _mixBadge('k-sponsored-mix', kSp.sponsored, 'sponsored');
-    _mixBadge('k-earned-mix',    kSp.earned,    'earned');
+    _marketBadge('k-owned-mix',     kSp.owned,     'Owned',     'owned',     cur.totals.owned);
+    _marketBadge('k-sponsored-mix', kSp.sponsored, 'Sponsored', 'sponsored', cur.totals.sponsored);
+    _marketBadge('k-earned-mix',    kSp.earned,    'Earned',    'earned',    cur.totals.earned);
 
     // --- Baseline deltas (4일 전 기준) ---
     if (EXEC.baseline && EXEC.baseline.brands && EXEC.baseline.brands[selCode]) {
@@ -3131,11 +3130,12 @@ body.mode-detail .view-executive { display: none; }
     var cards = document.querySelectorAll('.exec-strip .exec-card');
     if (cards.length) {
       // 5장 카드 순서: 순위 / Owned / Sponsored / Earned / Engagement
+      // 값의 의미: 순위=시장순위, Owned/Sponsored/Earned=선택 브랜드 내 비중(3합=100%), Engagement=시장 점유
       var labelTexts = [
         '🏆 ' + brandName + ' 순위 (조회수 기준)',
-        '🏛 ' + brandName + ' Owned SOV',
-        '🤝 ' + brandName + ' Sponsored SOV',
-        '🎤 ' + brandName + ' Earned SOV',
+        '🏛 ' + brandName + ' 내 Owned 비중',
+        '🤝 ' + brandName + ' 내 Sponsored 비중',
+        '🎤 ' + brandName + ' 내 Earned 비중',
         '💬 ' + brandName + ' Engagement SOV',
       ];
       cards.forEach(function(card, i) {
@@ -3168,14 +3168,11 @@ body.mode-detail .view-executive { display: none; }
     });
   }
 
-  // 브랜드 선택 + 재렌더
+  // 브랜드 선택 + 재렌더 (스크롤 이동 無 — 사용자가 원하는 위치 유지)
   function selectBrand(code) {
     if (!code || !COMP_KEYS.indexOf || COMP_KEYS.indexOf(code) < 0) return;
     EXEC.selectedBrand = code;
     renderExecutiveView();
-    // 대시보드 상단으로 스크롤 (모바일 고려)
-    var target = document.querySelector('.exec-strip');
-    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   function renderContentMix() {
