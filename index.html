@@ -3350,10 +3350,15 @@ body.mode-detail .view-executive { display: none; }
         var title = label + ' ' + pct.toFixed(1) + '% (' + formatNumber(val) + ' views)';
         return '<div class="mix-seg ' + cls + '" style="width:' + pct + '%" title="' + title + '"></div>';
       }
+      // 소숫점 1자리 + 0.05% 이상만 표시 (0% 노이즈 제거, 반올림으로 100% 되는 경우 방지)
+      function _pctStr(p) {
+        // 99.9% 는 99.9% 로, 100% 는 100% 로 — toFixed(1) 로 정밀도 확보
+        return p.toFixed(1);
+      }
       var labelParts = [];
-      if (oP > 0.5) labelParts.push('🏛<strong>' + oP.toFixed(0) + '%</strong>');
-      if (sP > 0.5) labelParts.push('🤝<strong>' + sP.toFixed(0) + '%</strong>');
-      if (eP > 0.5) labelParts.push('🎤<strong>' + eP.toFixed(0) + '%</strong>');
+      if (oP >= 0.05) labelParts.push('🏛<strong>' + _pctStr(oP) + '%</strong>');
+      if (sP >= 0.05) labelParts.push('🤝<strong>' + _pctStr(sP) + '%</strong>');
+      if (eP >= 0.05) labelParts.push('🎤<strong>' + _pctStr(eP) + '%</strong>');
       return '<div class="' + classes + '" data-brand="' + r.key + '" title="클릭 → 상단 KPI를 ' + display + ' 기준으로">' +
         '<div class="mix-brand">' + escapeHtml(display) + '</div>' +
         '<div class="mix-stack">' +
