@@ -1755,7 +1755,7 @@ body.mode-detail .view-executive { display: none; }
         <h3>🏁 경쟁 벤치마크</h3>
         <span class="hint">컬럼 헤더 클릭 = 정렬 · KFC 행 하이라이트</span>
       </div>
-      <div style="max-height: 440px; overflow: auto;">
+      <div>
         <table class="bench-table" id="bench-table">
           <thead>
             <tr>
@@ -1767,11 +1767,10 @@ body.mode-detail .view-executive { display: none; }
               <th data-sort="delta">Δ 4일전<span class="th-sub">Earned</span></th>
               <th data-sort="engSov">💬 ER</th>
               <th data-sort="neg">부정률</th>
-              <th data-sort="spark">추이(4일)</th>
             </tr>
           </thead>
           <tbody id="bench-tbody">
-            <tr><td colspan="9" style="text-align:center; color: var(--text-muted); padding: 30px;">로딩 중…</td></tr>
+            <tr><td colspan="8" style="text-align:center; color: var(--text-muted); padding: 30px;">로딩 중…</td></tr>
           </tbody>
         </table>
       </div>
@@ -3459,23 +3458,14 @@ body.mode-detail .view-executive { display: none; }
         '<td>' + deltaCell + '</td>' +
         '<td>' + r.engSov.toFixed(1) + '%</td>' +
         '<td>' + negCell + '</td>' +
-        '<td><canvas class="bench-spark" data-spark=\'' + JSON.stringify(r.spark) + '\' data-key="' + r.key + '"></canvas></td>' +
       '</tr>';
     }).join('');
-    // 행 클릭 → 브랜드 선택 (헤더 정렬 버튼과 충돌 없음 — th에는 event 없음)
+    // 행 클릭 → 브랜드 선택
     tbody.querySelectorAll('tr[data-brand]').forEach(function(tr) {
       tr.addEventListener('click', function() {
         var b = tr.getAttribute('data-brand');
         if (b) selectBrand(b);
       });
-    });
-
-    // Sparkline render
-    document.querySelectorAll('.bench-spark').forEach(function(cv) {
-      var pts = [];
-      try { pts = JSON.parse(cv.getAttribute('data-spark') || '[]'); } catch(e) {}
-      if (!pts.length) return;
-      drawSparkline(cv, pts, cv.getAttribute('data-key') === 'kfc' ? '#E4002B' : '#60a5fa');
     });
   }
 
