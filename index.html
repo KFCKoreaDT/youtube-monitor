@@ -1181,6 +1181,96 @@ body.mode-detail .view-executive { display: none; }
   vertical-align: middle;
 }
 
+/* KPI 카드 내부 — KFC 콘텐츠 믹스 보조 배지 */
+.mix-badge {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--bg-card-hover);
+  border-radius: 6px;
+  border-left: 2px solid var(--text-muted);
+}
+.mix-badge.pri-owned     { border-left-color: var(--peso-owned); }
+.mix-badge.pri-sponsored { border-left-color: var(--peso-sponsored); }
+.mix-badge.pri-earned    { border-left-color: var(--peso-earned); }
+
+/* 🧩 브랜드 콘텐츠 믹스 — 100% 스택바 */
+.mix-legend {
+  display: flex;
+  gap: 14px;
+  margin: 4px 0 10px;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+.mix-lg-item { display: inline-flex; align-items: center; gap: 4px; }
+.mix-lg-dot {
+  width: 10px; height: 10px; border-radius: 2px; display: inline-block;
+}
+.mix-lg-dot.owned     { background: #6b7280; }
+.mix-lg-dot.sponsored { background: #f59e0b; }
+.mix-lg-dot.earned    { background: #E4002B; }
+
+.mix-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.mix-row {
+  display: grid;
+  grid-template-columns: 80px 1fr 150px;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+}
+.mix-row.kfc-row .mix-brand {
+  color: var(--accent-light);
+  font-weight: 700;
+}
+.mix-brand {
+  color: var(--text-secondary);
+  text-align: right;
+  white-space: nowrap;
+}
+.mix-stack {
+  position: relative;
+  height: 18px;
+  background: var(--bg-card-hover);
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+}
+.mix-seg {
+  height: 100%;
+  transition: width 0.4s;
+}
+.mix-seg.owned     { background: #6b7280; }
+.mix-seg.sponsored { background: #f59e0b; }
+.mix-seg.earned    { background: #E4002B; }
+.mix-seg[title] { cursor: help; }
+.mix-labels {
+  display: flex;
+  gap: 6px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.mix-labels strong { color: var(--text-secondary); font-weight: 600; }
+.mix-row.empty .mix-stack {
+  background: transparent;
+  border: 1px dashed var(--border);
+}
+.mix-row.empty .mix-labels {
+  color: var(--text-muted);
+  font-style: italic;
+}
+@media (max-width: 720px) {
+  .mix-row { grid-template-columns: 60px 1fr; }
+  .mix-labels { grid-column: 1/-1; padding-left: 68px; }
+}
+
 /* PESO 3-donut grid */
 .peso-donuts {
   display: grid;
@@ -1560,6 +1650,7 @@ body.mode-detail .view-executive { display: none; }
       <div class="exec-value" id="k-owned-sov">-<span class="small">%</span></div>
       <div class="exec-gauge owned"><div class="exec-gauge-fill owned" id="k-owned-gauge" style="width:0%"></div></div>
       <div class="exec-delta flat" id="k-owned-delta">—</div>
+      <div class="mix-badge" id="k-owned-mix" title="KFC 콘텐츠 전체 중 Owned가 차지하는 비중">KFC 내 —</div>
       <div class="exec-sub">자사 공식 채널 점유 (브랜드 자체 발신)</div>
     </div>
     <div class="exec-card peso-sponsored">
@@ -1567,6 +1658,7 @@ body.mode-detail .view-executive { display: none; }
       <div class="exec-value" id="k-sponsored-sov">-<span class="small">%</span></div>
       <div class="exec-gauge sponsored"><div class="exec-gauge-fill sponsored" id="k-sponsored-gauge" style="width:0%"></div></div>
       <div class="exec-delta flat" id="k-sponsored-delta">—</div>
+      <div class="mix-badge" id="k-sponsored-mix" title="KFC 콘텐츠 전체 중 Sponsored가 차지하는 비중">KFC 내 —</div>
       <div class="exec-sub">크리에이터 협찬 영상 (Paid Partnership)</div>
     </div>
     <div class="exec-card peso-earned">
@@ -1574,6 +1666,7 @@ body.mode-detail .view-executive { display: none; }
       <div class="exec-value" id="k-earned-sov">-<span class="small">%</span></div>
       <div class="exec-gauge earned"><div class="exec-gauge-fill earned" id="k-earned-gauge" style="width:0%"></div></div>
       <div class="exec-delta flat" id="k-earned-delta">—</div>
+      <div class="mix-badge" id="k-earned-mix" title="KFC 콘텐츠 전체 중 Earned가 차지하는 비중">KFC 내 —</div>
       <div class="exec-sub">순수 자발 크리에이터 — KFC가 움직일 수 있는 레버</div>
     </div>
     <div class="exec-card engagement">
@@ -1615,7 +1708,7 @@ body.mode-detail .view-executive { display: none; }
     </div>
 
     <div class="exec-panel">
-      <div class="exec-section-title"><h3>🥧 SOV 분포 (PESO)</h3><span class="hint">Owned · Sponsored · Earned</span></div>
+      <div class="exec-section-title"><h3>🥧 SOV 분포 (PESO)</h3><span class="hint">각 유형 시장에서 브랜드별 점유 — 10개 브랜드 합산 100%</span></div>
       <div class="peso-donuts">
         <div class="peso-donut-cell">
           <div class="peso-donut-title">🏛 Owned 점유</div>
@@ -1633,6 +1726,14 @@ body.mode-detail .view-executive { display: none; }
           <div class="chart-legend xs" id="earned-legend"></div>
         </div>
       </div>
+
+      <div class="exec-section-title" style="margin-top: 18px;"><h3>🧩 브랜드 콘텐츠 믹스</h3><span class="hint">각 브랜드가 어디에 투자하나 — 브랜드별 합 100%</span></div>
+      <div class="mix-legend">
+        <span class="mix-lg-item"><span class="mix-lg-dot owned"></span>🏛 Owned</span>
+        <span class="mix-lg-item"><span class="mix-lg-dot sponsored"></span>🤝 Sponsored</span>
+        <span class="mix-lg-item"><span class="mix-lg-dot earned"></span>🎤 Earned</span>
+      </div>
+      <div class="mix-bars" id="mix-bars"></div>
 
       <div class="exec-section-title" style="margin-top: 18px;"><h3>🎭 브랜드별 감정 분포</h3><span class="hint">전체 댓글</span></div>
       <div class="chart-wrap sm"><canvas id="chart-sentiment"></canvas></div>
@@ -2904,6 +3005,23 @@ body.mode-detail .view-executive { display: none; }
     document.getElementById('k-eng-sov').innerHTML = engSov.toFixed(1) + '<span class="small">%</span>';
     document.getElementById('k-eng-gauge').style.width = Math.min(engSov, 100) + '%';
 
+    // --- KFC 콘텐츠 믹스 배지 (A SOV 보조 지표) ---
+    // 해석: KFC 전체 조회수 중 Owned/Sponsored/Earned 비중 (3 합 = 100%)
+    var kTotal = kSp.owned + kSp.sponsored + kSp.earned;
+    function _mixBadge(id, val, pri) {
+      var el = document.getElementById(id);
+      if (!el) return;
+      el.className = 'mix-badge ' + (pri ? 'pri-' + pri : '');
+      if (kTotal > 0) {
+        el.textContent = 'KFC 내 ' + (val / kTotal * 100).toFixed(0) + '% 비중';
+      } else {
+        el.textContent = 'KFC 데이터 없음';
+      }
+    }
+    _mixBadge('k-owned-mix',     kSp.owned,     'owned');
+    _mixBadge('k-sponsored-mix', kSp.sponsored, 'sponsored');
+    _mixBadge('k-earned-mix',    kSp.earned,    'earned');
+
     // --- Baseline deltas (4일 전 기준) ---
     if (EXEC.baseline && EXEC.baseline.brands && EXEC.baseline.brands.kfc) {
       var prev = preparePesoSplits(EXEC.baseline);
@@ -2957,8 +3075,56 @@ body.mode-detail .view-executive { display: none; }
     }
 
     renderBenchTable();
+    renderContentMix();
     buildCharts();
     renderHighlights();
+  }
+
+  // 🧩 브랜드 콘텐츠 믹스 — 각 브랜드 100% 스택바 (Owned/Sponsored/Earned)
+  function renderContentMix() {
+    var splits = EXEC.splits || {};
+    var container = document.getElementById('mix-bars');
+    if (!container) return;
+    // Earned 점유율 내림차순 정렬 (primary KPI 기준)
+    var rows = COMP_KEYS.map(function(k) {
+      var sp = splits[k] || { owned:0, sponsored:0, earned:0 };
+      var total = sp.owned + sp.sponsored + sp.earned;
+      return { key: k, sp: sp, total: total };
+    });
+    rows.sort(function(a, b) { return b.sp.earned - a.sp.earned; });
+
+    var data = EXEC.latest;
+    container.innerHTML = rows.map(function(r) {
+      var display = (data.brands[r.key] && data.brands[r.key].display) || r.key;
+      if (r.total <= 0) {
+        return '<div class="mix-row empty ' + (r.key==='kfc'?'kfc-row':'') + '">' +
+          '<div class="mix-brand">' + escapeHtml(display) + '</div>' +
+          '<div class="mix-stack"></div>' +
+          '<div class="mix-labels">데이터 없음</div>' +
+        '</div>';
+      }
+      var oP = r.sp.owned     / r.total * 100;
+      var sP = r.sp.sponsored / r.total * 100;
+      var eP = r.sp.earned    / r.total * 100;
+      function _seg(cls, pct, label, val) {
+        if (pct <= 0) return '';
+        var title = label + ' ' + pct.toFixed(1) + '% (' + formatNumber(val) + ' views)';
+        return '<div class="mix-seg ' + cls + '" style="width:' + pct + '%" title="' + title + '"></div>';
+      }
+      var labelParts = [];
+      if (oP > 0.5) labelParts.push('🏛<strong>' + oP.toFixed(0) + '%</strong>');
+      if (sP > 0.5) labelParts.push('🤝<strong>' + sP.toFixed(0) + '%</strong>');
+      if (eP > 0.5) labelParts.push('🎤<strong>' + eP.toFixed(0) + '%</strong>');
+      return '<div class="mix-row ' + (r.key==='kfc'?'kfc-row':'') + '">' +
+        '<div class="mix-brand">' + escapeHtml(display) + '</div>' +
+        '<div class="mix-stack">' +
+          _seg('owned',     oP, '🏛 Owned',     r.sp.owned) +
+          _seg('sponsored', sP, '🤝 Sponsored', r.sp.sponsored) +
+          _seg('earned',    eP, '🎤 Earned',    r.sp.earned) +
+        '</div>' +
+        '<div class="mix-labels">' + labelParts.join(' · ') + '</div>' +
+      '</div>';
+    }).join('');
   }
 
   function setDelta(id, v) {
