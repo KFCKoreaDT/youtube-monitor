@@ -3255,10 +3255,19 @@ body.mode-detail .view-executive { display: none; }
     var textColor = getCSS('--text-secondary');
     var gridColor = getCSS('--chart-grid');
 
+    // 10개 브랜드 최대 대비 팔레트 — 색상환 균등 + 브랜드 아이덴티티 반영
+    // kfc=레드, burgerking=주황, mcdonalds=노랑 (사용자 지정), 나머지 고대비
     var palette = {
-      kfc: '#E4002B', burgerking: '#D62300', mcdonalds: '#FFC72C', lotteria: '#EA3E27',
-      momstouch: '#FF7A00', popeyes: '#FF8300', subway: '#008938', bbq: '#FFCB05',
-      bhc: '#FF6B00', kyochon: '#C8102E'
+      kfc:        '#E4002B',  // 레드 (KFC 고유)
+      burgerking: '#F97316',  // 주황 (사용자 지정)
+      mcdonalds:  '#FACC15',  // 노랑 (사용자 지정)
+      lotteria:   '#EC4899',  // 핑크
+      momstouch:  '#22C55E',  // 그린
+      popeyes:    '#3B82F6',  // 블루
+      subway:     '#8B5CF6',  // 퍼플
+      bbq:        '#06B6D4',  // 시안
+      bhc:        '#A855F7',  // 바이올렛
+      kyochon:    '#14B8A6',  // 틸
     };
 
     var splits = EXEC.splits || {};
