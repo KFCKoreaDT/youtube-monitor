@@ -655,6 +655,18 @@ a:hover { text-decoration: underline; }
 }
 
 /* 멀티-브랜드 비교 콘텐츠 칩 */
+.news-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 10px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(90deg, #64748b, #94a3b8);
+  border-radius: 12px;
+  letter-spacing: -0.01em;
+}
 .multi-brand-row {
   display: flex;
   flex-wrap: wrap;
@@ -2764,6 +2776,12 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         labels.map(function(lbl) { return '<span class="brand-chip">' + escapeHtml(lbl) + '</span>'; }).join('') +
         '</div>';
     }
+    // 뉴스·외부 사건 영상 배지 (브랜드 평판 아님 — 고객 난동·사건 보도)
+    if (v.is_news_incident) {
+      multiChipsHtml = '<div class="multi-brand-row">' +
+        '<span class="news-badge" title="고객 난동·사건 보도 — 브랜드 평판에서 분리, 감성 집계 제외">📰 뉴스·외부사건</span>' +
+        '</div>' + multiChipsHtml;
+    }
 
     var sentimentHtml = '';
     if (sTotal > 0) {
@@ -4227,18 +4245,22 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       }
     }
 
-    // ③ 🚨 가장 부정적 — 부정률 높은 순 (최소 3개 댓글)
+    // ③ 🚨 가장 부정적 — 부정률 높은 순 (뉴스·외부사건 영상 제외: 브랜드 부정 아님)
     var negative = all.slice()
-      .filter(function(x) { return x.sTotal >= 3 && x.negRatio > 0.2; })
+      .filter(function(x) {
+        if (x.v.is_news_incident) return false;  // 뉴스 제외
+        return x.sTotal >= 3 && x.negRatio > 0.2;
+      })
       .sort(function(a, b) {
         if (b.negRatio !== a.negRatio) return b.negRatio - a.negRatio;
         return (b.v.views || 0) - (a.v.views || 0);
       }).slice(0, 2).map(function(x) { x.type = 'neg'; return x; });
 
-    // 부정 없으면 메타감성 부정 or warning_level 있는 것
+    // 부정 없으면 메타감성 부정 or warning_level 있는 것 (뉴스 제외)
     if (negative.length < 2) {
       var metaNeg = all.slice()
         .filter(function(x) {
+          if (x.v.is_news_incident) return false;
           return (x.v.video_meta_sentiment === '부정' || x.v.warning_level) &&
                  negative.every(function(n) { return n.v.video_id !== x.v.video_id; });
         })

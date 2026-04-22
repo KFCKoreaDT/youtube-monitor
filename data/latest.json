@@ -1,6 +1,6 @@
 {
   "date": "2026-04-22",
-  "generated_at": "2026-04-22 22:48:19",
+  "generated_at": "2026-04-22 23:18:19",
   "window_days": 30,
   "brands": {
     "kfc": {
@@ -117,6 +117,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -218,6 +219,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "lotteria"
@@ -322,6 +324,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -374,6 +377,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -404,6 +408,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -456,6 +461,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -486,6 +492,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -531,6 +538,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -561,6 +569,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -591,6 +600,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -692,6 +702,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -728,6 +739,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -758,6 +770,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "mcdonalds"
@@ -791,6 +804,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -821,6 +835,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -873,6 +888,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -907,6 +923,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -937,6 +954,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -967,6 +985,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -997,6 +1016,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1027,6 +1047,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -1061,6 +1082,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1091,6 +1113,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         }
@@ -1250,6 +1273,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1295,6 +1319,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1325,6 +1350,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1355,6 +1381,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1456,6 +1483,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1557,6 +1585,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1658,6 +1687,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1759,6 +1789,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1852,14 +1883,15 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
-            "neu": 1,
-            "pos": 7
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
           },
-          "negative_ratio": 0.2,
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1961,6 +1993,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2062,6 +2095,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2163,6 +2197,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2193,6 +2228,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2294,6 +2330,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2395,6 +2432,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2496,6 +2534,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2541,6 +2580,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2642,6 +2682,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2687,6 +2728,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2781,6 +2823,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2811,6 +2854,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2856,6 +2900,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2957,6 +3002,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3009,6 +3055,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3039,6 +3086,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3077,6 +3125,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3122,6 +3171,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3152,6 +3202,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3253,6 +3304,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3283,6 +3335,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3313,6 +3366,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3386,6 +3440,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3424,6 +3479,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3469,6 +3525,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3499,6 +3556,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3529,6 +3587,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3630,6 +3689,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -3666,6 +3726,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3696,6 +3757,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3726,6 +3788,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds"
@@ -3759,6 +3822,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3797,6 +3861,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3827,6 +3892,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3857,6 +3923,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3887,6 +3954,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3917,6 +3985,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds"
@@ -3925,11 +3994,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 37,
-        "neu": 19,
-        "pos": 134
+        "neg": 35,
+        "neu": 18,
+        "pos": 127
       },
-      "negative_ratio": 0.195,
+      "negative_ratio": 0.194,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -4044,6 +4113,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4074,6 +4144,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4104,6 +4175,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4205,6 +4277,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "mcdonalds",
             "momstouch"
@@ -4281,6 +4354,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4375,6 +4449,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "mcdonalds",
             "momstouch"
@@ -4479,6 +4554,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4580,6 +4656,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4632,6 +4709,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4662,6 +4740,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4692,6 +4771,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4730,6 +4810,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4831,6 +4912,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4861,6 +4943,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4891,6 +4974,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4921,6 +5005,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -4951,6 +5036,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5010,6 +5096,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5111,6 +5198,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5198,6 +5286,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5228,6 +5317,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5294,6 +5384,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5346,6 +5437,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5376,6 +5468,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5428,6 +5521,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5473,6 +5567,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5503,6 +5598,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5533,6 +5629,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5563,6 +5660,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5615,6 +5713,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5645,6 +5744,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5675,6 +5775,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5705,6 +5806,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5764,6 +5866,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5830,6 +5933,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5860,6 +5964,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5890,6 +5995,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5928,6 +6034,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5973,6 +6080,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6003,6 +6111,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6033,6 +6142,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6063,6 +6173,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6108,6 +6219,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6153,6 +6265,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6198,6 +6311,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -6242,6 +6356,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6301,6 +6416,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6331,6 +6447,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6361,6 +6478,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6391,6 +6509,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6492,6 +6611,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -6528,6 +6648,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6558,6 +6679,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6588,6 +6710,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6618,6 +6741,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6648,6 +6772,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6678,6 +6803,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6708,6 +6834,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6738,6 +6865,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6768,6 +6896,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6798,6 +6927,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6828,6 +6958,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6858,6 +6989,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6888,6 +7020,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6918,6 +7051,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6948,6 +7082,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -6978,6 +7113,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7008,6 +7144,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7038,6 +7175,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7068,6 +7206,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7106,6 +7245,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 2,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7136,6 +7276,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7166,6 +7307,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7196,6 +7338,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7226,6 +7369,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7256,6 +7400,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds"
@@ -7289,6 +7434,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7319,6 +7465,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds"
@@ -7495,6 +7642,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7596,6 +7744,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7697,6 +7846,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7777,6 +7927,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7878,6 +8029,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -7979,6 +8131,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -8080,6 +8233,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -8181,6 +8335,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -8282,6 +8437,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -8341,6 +8497,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -8442,6 +8599,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "lotteria"
@@ -8475,6 +8633,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -8576,6 +8735,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -8677,6 +8837,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -8778,6 +8939,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -8879,6 +9041,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -8980,6 +9143,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9081,6 +9245,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9111,6 +9276,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9212,6 +9378,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9313,6 +9480,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9414,6 +9582,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 2,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9444,6 +9613,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9489,6 +9659,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9534,6 +9705,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9635,6 +9807,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9736,6 +9909,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9837,6 +10011,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9938,6 +10113,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9968,6 +10144,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10069,6 +10246,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 2,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10170,6 +10348,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10200,6 +10379,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10238,6 +10418,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10276,6 +10457,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10335,6 +10517,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10365,6 +10548,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10466,6 +10650,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10567,6 +10752,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10640,6 +10826,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10670,6 +10857,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10708,6 +10896,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10738,6 +10927,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10768,6 +10958,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10813,6 +11004,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10858,6 +11050,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10896,6 +11089,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10997,6 +11191,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11027,6 +11222,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11079,6 +11275,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11109,6 +11306,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11154,6 +11352,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11220,6 +11419,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11265,6 +11465,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11345,6 +11546,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11383,6 +11585,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11413,6 +11616,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11443,6 +11647,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11473,6 +11678,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11503,6 +11709,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11604,6 +11811,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11634,6 +11842,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11664,6 +11873,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11694,6 +11904,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11724,6 +11935,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11762,6 +11974,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11792,6 +12005,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11830,6 +12044,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11860,6 +12075,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11961,6 +12177,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -11997,6 +12214,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12027,6 +12245,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "mcdonalds",
             "lotteria"
@@ -12060,6 +12279,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12098,6 +12318,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12128,6 +12349,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12158,6 +12380,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12196,6 +12419,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12226,6 +12450,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12256,6 +12481,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12286,6 +12512,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12316,6 +12543,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12346,6 +12574,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12376,6 +12605,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12406,6 +12636,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12436,6 +12667,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12466,6 +12698,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12496,6 +12729,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12541,6 +12775,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12571,6 +12806,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12601,6 +12837,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12646,6 +12883,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12676,6 +12914,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12714,6 +12953,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12744,6 +12984,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12789,6 +13030,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12819,6 +13061,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12864,6 +13107,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12894,6 +13138,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12924,6 +13169,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         }
@@ -13104,6 +13350,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -13205,6 +13452,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -13306,6 +13554,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -13393,6 +13642,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -13494,6 +13744,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -13567,6 +13818,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -13668,6 +13920,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -13761,14 +14014,15 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 8,
-            "neu": 2,
+            "neg": 0,
+            "neu": 0,
             "pos": 0
           },
-          "negative_ratio": 0.8,
-          "warning_level": "red",
+          "negative_ratio": 0.0,
+          "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -13870,6 +14124,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -13971,6 +14226,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -14072,6 +14328,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -14159,6 +14416,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -14252,14 +14510,15 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 7,
-            "neu": 1,
-            "pos": 2
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
           },
-          "negative_ratio": 0.7,
-          "warning_level": "red",
+          "negative_ratio": 0.0,
+          "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -14353,14 +14612,15 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 5,
-            "neu": 1,
-            "pos": 4
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
           },
-          "negative_ratio": 0.5,
-          "warning_level": "red",
+          "negative_ratio": 0.0,
+          "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -14462,6 +14722,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -14555,14 +14816,15 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 4,
-            "neu": 2,
-            "pos": 4
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
           },
-          "negative_ratio": 0.4,
-          "warning_level": "yellow",
+          "negative_ratio": 0.0,
+          "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -14664,6 +14926,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -14765,6 +15028,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -14866,6 +15130,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -14967,6 +15232,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "mcdonalds",
             "momstouch"
@@ -15000,6 +15266,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -15052,6 +15319,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -15153,6 +15421,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -15254,6 +15523,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -15347,14 +15617,15 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 7,
+            "neg": 0,
             "neu": 0,
-            "pos": 3
+            "pos": 0
           },
-          "negative_ratio": 0.7,
-          "warning_level": "red",
+          "negative_ratio": 0.0,
+          "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -15421,6 +15692,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -15451,6 +15723,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -15552,6 +15825,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -15645,14 +15919,15 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 8,
+            "neg": 0,
             "neu": 0,
-            "pos": 2
+            "pos": 0
           },
-          "negative_ratio": 0.8,
-          "warning_level": "red",
+          "negative_ratio": 0.0,
+          "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -15705,6 +15980,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -15798,14 +16074,15 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 9,
+            "neg": 0,
             "neu": 0,
-            "pos": 1
+            "pos": 0
           },
-          "negative_ratio": 0.9,
-          "warning_level": "red",
+          "negative_ratio": 0.0,
+          "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -15907,6 +16184,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16008,6 +16286,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16109,6 +16388,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16210,6 +16490,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16240,6 +16521,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16306,6 +16588,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "mcdonalds",
             "momstouch"
@@ -16410,6 +16693,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16511,6 +16795,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16556,6 +16841,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16622,6 +16908,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16652,6 +16939,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16746,6 +17034,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16776,14 +17065,15 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 0,
             "neu": 0,
             "pos": 0
           },
-          "negative_ratio": 1.0,
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16814,6 +17104,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16915,6 +17206,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16945,6 +17237,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16990,6 +17283,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17020,6 +17314,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17065,6 +17360,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17166,6 +17462,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 2,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17267,6 +17564,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17297,6 +17595,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17327,6 +17626,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17372,6 +17672,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17445,6 +17746,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17475,6 +17777,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17520,6 +17823,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17557,14 +17861,15 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 0,
             "neu": 0,
-            "pos": 1
+            "pos": 0
           },
-          "negative_ratio": 0.5,
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17617,6 +17922,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17647,6 +17953,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17677,6 +17984,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17707,14 +18015,15 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 0,
             "neu": 0,
             "pos": 0
           },
-          "negative_ratio": 1.0,
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17752,14 +18061,15 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
-            "neu": 1,
+            "neg": 0,
+            "neu": 0,
             "pos": 0
           },
-          "negative_ratio": 0.5,
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17798,6 +18108,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17828,6 +18139,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17866,6 +18178,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17896,6 +18209,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17997,6 +18311,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18035,6 +18350,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18136,6 +18452,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18181,6 +18498,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18211,6 +18529,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18312,6 +18631,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -18348,6 +18668,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18378,6 +18699,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18408,6 +18730,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18438,6 +18761,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18468,6 +18792,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18498,6 +18823,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18528,6 +18854,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18558,6 +18885,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18588,6 +18916,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18618,6 +18947,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18648,6 +18978,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18686,6 +19017,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18716,6 +19048,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18754,6 +19087,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18784,6 +19118,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18822,6 +19157,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18852,6 +19188,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18890,6 +19227,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18920,6 +19258,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18958,6 +19297,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18996,6 +19336,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -19026,6 +19367,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -19056,6 +19398,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -19094,6 +19437,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -19124,6 +19468,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -19154,16 +19499,17 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         }
       ],
       "sentiment_counts": {
-        "neg": 166,
-        "neu": 39,
-        "pos": 234
+        "neg": 114,
+        "neu": 32,
+        "pos": 217
       },
-      "negative_ratio": 0.378,
+      "negative_ratio": 0.314,
       "warning_level": "yellow",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -19288,6 +19634,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         }
@@ -19396,6 +19743,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -19497,6 +19845,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -19598,6 +19947,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -19699,6 +20049,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -19800,6 +20151,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -19880,6 +20232,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -19981,6 +20334,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20082,6 +20436,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20112,6 +20467,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20213,6 +20569,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20314,6 +20671,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20344,6 +20702,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20445,6 +20804,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20504,6 +20864,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20534,6 +20895,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20635,6 +20997,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20665,6 +21028,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20710,6 +21074,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20811,6 +21176,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20898,6 +21264,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20928,6 +21295,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -20973,6 +21341,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21025,6 +21394,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21077,6 +21447,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21178,6 +21549,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21223,6 +21595,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21275,6 +21648,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21348,6 +21722,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21378,6 +21753,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21408,6 +21784,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21446,6 +21823,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21498,6 +21876,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21571,6 +21950,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21609,6 +21989,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21639,6 +22020,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21677,6 +22059,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21715,6 +22098,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21745,6 +22129,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21775,6 +22160,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21841,6 +22227,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21907,6 +22294,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21937,6 +22325,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -21996,6 +22385,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22026,6 +22416,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22078,6 +22469,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22116,6 +22508,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22146,6 +22539,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22226,6 +22620,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22278,6 +22673,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22379,6 +22775,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "subway",
             "bhc"
@@ -22427,6 +22824,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22465,6 +22863,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22510,6 +22909,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22540,6 +22940,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22599,6 +23000,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22652,12 +23054,13 @@
           "sentiment_counts": {
             "neg": 0,
             "neu": 0,
-            "pos": 4
+            "pos": 0
           },
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22731,6 +23134,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22761,6 +23165,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22791,6 +23196,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22821,6 +23227,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22859,6 +23266,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22889,6 +23297,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -22919,6 +23328,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23020,6 +23430,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23072,6 +23483,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23117,6 +23529,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23147,6 +23560,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23192,6 +23606,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23230,6 +23645,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23260,6 +23676,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23326,6 +23743,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23356,6 +23774,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23401,6 +23820,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds",
@@ -23435,6 +23855,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23465,6 +23886,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23495,6 +23917,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23525,6 +23948,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": true,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23555,6 +23979,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23585,6 +24010,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23623,6 +24049,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23653,6 +24080,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23683,6 +24111,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23713,6 +24142,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23743,6 +24173,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23781,6 +24212,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23811,6 +24243,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23841,6 +24274,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23871,6 +24305,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23901,6 +24336,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23931,6 +24367,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23961,6 +24398,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -23991,6 +24429,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24021,6 +24460,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24051,6 +24491,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24081,6 +24522,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24111,6 +24553,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24141,6 +24584,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24171,6 +24615,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24209,6 +24654,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24239,6 +24685,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 2,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24269,6 +24716,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24299,6 +24747,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24329,6 +24778,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24359,6 +24809,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24389,6 +24840,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24419,6 +24871,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24449,6 +24902,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24479,6 +24933,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24509,6 +24964,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24539,6 +24995,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24569,6 +25026,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24599,6 +25057,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 2,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24629,6 +25088,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24659,6 +25119,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24689,6 +25150,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24719,6 +25181,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24749,6 +25212,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24779,6 +25243,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24809,6 +25274,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24839,6 +25305,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24869,6 +25336,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24899,6 +25367,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24929,6 +25398,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24967,6 +25437,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -24997,6 +25468,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25027,6 +25499,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25057,6 +25530,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25087,6 +25561,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25117,6 +25592,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25147,6 +25623,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25177,6 +25654,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25207,6 +25685,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25237,6 +25716,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25267,6 +25747,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25297,6 +25778,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25327,6 +25809,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25357,6 +25840,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25387,6 +25871,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         }
@@ -25394,9 +25879,9 @@
       "sentiment_counts": {
         "neg": 38,
         "neu": 19,
-        "pos": 203
+        "pos": 199
       },
-      "negative_ratio": 0.146,
+      "negative_ratio": 0.148,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -25566,6 +26051,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "bbq",
             "kyochon"
@@ -25670,6 +26156,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25722,6 +26209,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25823,6 +26311,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -25924,6 +26413,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds",
@@ -25958,6 +26448,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26059,6 +26550,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26125,6 +26617,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26170,6 +26663,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26229,6 +26723,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26330,6 +26825,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26410,6 +26906,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26462,6 +26959,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26563,6 +27061,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26601,6 +27100,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26631,6 +27131,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26683,6 +27184,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26721,6 +27223,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26751,6 +27254,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26789,6 +27293,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26819,6 +27324,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26849,6 +27355,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -26908,6 +27415,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "bbq",
             "bhc",
@@ -27013,6 +27521,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27051,6 +27560,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27096,6 +27606,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27126,6 +27637,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "bbq",
             "bhc",
@@ -27168,6 +27680,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27206,6 +27719,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27236,6 +27750,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27274,6 +27789,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27304,6 +27820,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27342,6 +27859,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27380,6 +27898,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27410,6 +27929,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27440,6 +27960,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27470,6 +27991,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27500,6 +28022,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27530,6 +28053,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         }
@@ -27708,6 +28232,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27809,6 +28334,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27910,6 +28436,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27948,6 +28475,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -27986,6 +28514,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28066,6 +28595,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28167,6 +28697,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28240,6 +28771,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28334,6 +28866,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28414,6 +28947,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28444,6 +28978,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28474,6 +29009,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28575,6 +29111,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28676,6 +29213,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28706,6 +29244,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28765,6 +29304,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28795,6 +29335,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28854,6 +29395,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -28955,6 +29497,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "subway",
             "bhc"
@@ -28988,6 +29531,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29047,6 +29591,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29077,6 +29622,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29115,6 +29661,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29145,6 +29692,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29204,6 +29752,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "bbq",
             "bhc",
@@ -29238,6 +29787,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29268,6 +29818,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29313,6 +29864,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29343,6 +29895,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29373,6 +29926,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29403,6 +29957,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         }
@@ -29512,6 +30067,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29542,6 +30098,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29643,6 +30200,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29744,6 +30302,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -29845,6 +30404,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "bbq",
             "kyochon"
@@ -29949,6 +30509,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30050,6 +30611,7 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30102,6 +30664,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30132,6 +30695,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30233,6 +30797,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30263,6 +30828,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30301,6 +30867,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30331,6 +30898,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30361,6 +30929,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30434,6 +31003,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30464,6 +31034,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30494,6 +31065,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30524,6 +31096,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30625,6 +31198,7 @@
           "warning_level": "red",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30684,6 +31258,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30714,6 +31289,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30752,6 +31328,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30782,6 +31359,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30812,6 +31390,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30892,6 +31471,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30930,6 +31510,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -30960,6 +31541,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31019,6 +31601,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31078,6 +31661,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31108,6 +31692,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31138,6 +31723,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31168,6 +31754,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31198,6 +31785,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31228,6 +31816,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31287,6 +31876,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "bbq",
             "bhc",
@@ -31321,6 +31911,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31359,6 +31950,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31389,6 +31981,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31419,6 +32012,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31449,6 +32043,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31479,6 +32074,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31509,6 +32105,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31539,6 +32136,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31569,6 +32167,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31599,6 +32198,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31629,6 +32229,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31667,6 +32268,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31697,6 +32299,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31727,6 +32330,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "bbq",
             "bhc",
@@ -31761,6 +32365,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31791,6 +32396,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31850,6 +32456,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31888,6 +32495,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31918,6 +32526,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31948,6 +32557,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -31978,6 +32588,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -32008,6 +32619,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -32046,6 +32658,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -32076,6 +32689,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -32106,6 +32720,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         }
@@ -32284,6 +32899,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "bbq",
             "kyochon"
@@ -32389,6 +33005,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "mcdonalds",
             "momstouch"
@@ -32494,6 +33111,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "lotteria"
@@ -32592,6 +33210,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "mcdonalds",
             "momstouch"
@@ -32697,6 +33316,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds",
@@ -32803,6 +33423,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "subway",
             "bhc"
@@ -32852,6 +33473,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -32918,6 +33540,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "bbq",
             "bhc",
@@ -32968,6 +33591,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds",
@@ -33074,6 +33698,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -33111,6 +33736,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "mcdonalds"
@@ -33145,6 +33771,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "mcdonalds",
             "lotteria"
@@ -33179,6 +33806,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds"
@@ -33235,6 +33863,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -33270,6 +33899,7 @@
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "bbq",
             "bhc",
@@ -33305,6 +33935,7 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "kfc",
             "burgerking",
@@ -33340,6 +33971,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds"
@@ -33374,6 +34006,7 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
           "multi_brand_tags": [
             "burgerking",
             "mcdonalds"
