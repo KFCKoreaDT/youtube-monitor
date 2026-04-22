@@ -1863,9 +1863,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     <div class="exec-meta">
       <strong id="exec-date">-</strong> 기준 · 최근 <strong id="exec-window">-</strong>일 모니터링 · 비교 기준 <strong id="exec-baseline">4일 전</strong>
       <span class="period-toggle" id="period-toggle" role="group" aria-label="기간 필터">
-        <button type="button" data-period="7">최근 7일</button>
+        <button type="button" data-period="7" class="active">최근 7일</button>
         <button type="button" data-period="14">14일</button>
-        <button type="button" data-period="30" class="active">30일</button>
+        <button type="button" data-period="30">30일</button>
       </span>
       <button type="button" id="btn-reset-brand" class="reset-brand-btn" style="display:none;">← KFC로 되돌리기</button>
     </div>
@@ -3315,7 +3315,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     sortDir: 'desc',
     splits: {},           // { brand_code: {paid, earned, engagement} } — computeTierSplit 캐시
     selectedBrand: 'kfc', // v4: 클릭으로 KPI Strip 기준 브랜드 전환
-    period: 30            // v5: 기간 필터 (7/14/30일) — upload_date 기반 client-side 필터
+    period: 7             // v5: 기본 7일 (로딩 빠름, 30일 선택 시 client-side 재계산)
   };
 
   // 기간 필터링된 data 뷰 반환 (원본 latest 수정 없이 브랜드별 videos 만 필터)
