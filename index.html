@@ -2105,8 +2105,33 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 
     <!-- 2. PESO 3층 -->
     <section class="help-section" id="h-peso">
-      <h2>🎯 PESO 3층 KPI</h2>
-      <p>마케팅에서 널리 쓰이는 <strong>PESO 프레임워크</strong> — 콘텐츠를 어디서 발신하냐에 따른 3단계:</p>
+      <h2>🎯 PESO 프레임워크 (3층 사용)</h2>
+      <p>마케팅 업계 표준 <strong>PESO (Paid·Earned·Shared·Owned) 4분류</strong>.
+      본 대시보드는 그 중 <strong>3가지만 사용</strong>합니다 — 이유는 아래에서 설명.</p>
+
+      <div class="help-card">
+        <strong>✅ 사용 중인 3종:</strong>
+        <ul>
+          <li><span class="help-dot owned"></span>🏛 <strong>Owned</strong> — 자사 공식 채널</li>
+          <li><span class="help-dot sponsored"></span>🤝 <strong>Sponsored</strong> (Paid 변형) — 크리에이터 협찬 영상</li>
+          <li><span class="help-dot earned"></span>🎤 <strong>Earned</strong> — 자발 크리에이터 콘텐츠</li>
+        </ul>
+      </div>
+
+      <div class="help-card" style="border-left-color: #f59e0b;">
+        <strong>❌ 빠진 1종 — <code style="background:rgba(245,158,11,0.15);padding:2px 6px;border-radius:4px;">Shared</code>:</strong>
+        <p style="margin:8px 0 0 0;">전통 PESO에서 <strong>Shared</strong> = "사용자가 공유·좋아요·댓글로 재확산하는 것".
+        하지만 본 대시보드에선 별도 카테고리로 분리하지 않았습니다.</p>
+        <strong style="display:block;margin-top:10px;">제외 이유 3가지:</strong>
+        <ul>
+          <li><strong>① 이중 집계 방지</strong> — Shared 를 별도 집계하면 Owned/Earned 영상에서 발생한 좋아요·댓글을 2번 카운트하게 됨 (예: 맘스터치 공식 광고의 좋아요 → Owned & Shared 양쪽)</li>
+          <li><strong>② 이미 <code>💬 Engagement SOV</code> 로 측정 중</strong> — KPI 5번째 카드의 "좋아요+댓글 시장 점유" = 전통 Shared 개념과 사실상 동일</li>
+          <li><strong>③ YouTube 특성</strong> — YouTube 의 "공유" 지표(Share count)는 yt-dlp 로 수집 불가. 좋아요·댓글만 가능</li>
+        </ul>
+        <p style="margin:8px 0 0 0;">→ 결론: <strong>Shared 는 Engagement SOV 카드로 대체</strong>. 3+1 구조 (PESO 3분류 + Engagement) 로 운영.</p>
+      </div>
+
+      <p>PESO 의 각 층 의미:</p>
       <div class="help-table">
         <table>
           <thead><tr><th>층</th><th>의미</th><th>예시</th><th>KFC가 쓸 수 있는 레버</th></tr></thead>
@@ -2309,6 +2334,51 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <summary>Q. 데이터는 어디서 오나요?</summary>
         <p><code>yt-dlp</code> 오픈소스 도구로 YouTube 검색·공식 채널 크롤. <strong>YouTube Data API 미사용</strong> (토큰·쿼터 없음).
         감성 분석은 로컬 KR-BERT, 요약은 로컬 Ollama qwen2.5:14b. <strong>외부 API 비용 0원</strong>.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. 어떤 검색어(키워드)로 브랜드 영상을 잡나요?</summary>
+        <p>각 브랜드마다 공식표기·줄임말·별칭·오타·시그니처메뉴까지 포함해서 매칭합니다.
+        제목에 아래 키워드 중 <strong>하나라도 포함</strong>되면 해당 브랜드 관련 영상으로 인식:</p>
+        <div class="help-table" style="font-size:0.82rem;">
+          <table>
+            <thead><tr><th>브랜드</th><th>매칭 키워드</th></tr></thead>
+            <tbody>
+              <tr><td>🔴 <strong>KFC</strong></td>
+                  <td>KFC · 케이에프씨 · 케프씨 · 켄터키치킨 · 켄터키프라이드 · 할아버지치킨 · 커널샌더스
+                  <br><span style="color:var(--text-muted);">※ 메뉴 매칭 별도: 징거 · 통다리살 · 치즐링 · 트위스터 · 타워버거 · 갈릭징거 · 살라미 등</span></td></tr>
+              <tr><td>🟨 <strong>맥도날드</strong></td>
+                  <td>맥도날드 · 맥날 · 맥드 · 맥도 · 맥디 · 막도날드 · 맥날먹방 · 맥날버거 · McDonald('s) · Mcdonald · MacDonald · Mckdonald · Mickey D's · 미키디</td></tr>
+              <tr><td>🟧 <strong>버거킹</strong></td>
+                  <td>버거킹 · 버거 킹 · 버킹 · 벅킹 · 부거킹(오타) · Burger King · BK · <strong>와퍼 · 와퍼주니어</strong></td></tr>
+              <tr><td>🩷 <strong>롯데리아</strong></td>
+                  <td>롯데리아 · 롯리 · 롯데 · 리아버거 · 롯데리야(오타) · Lotteria</td></tr>
+              <tr><td>🟢 <strong>맘스터치</strong></td>
+                  <td>맘스터치 · 맘스 · 맘터 · 맘터치 · 맘치 · 맘스치킨 · 혜자터치 · Mom's Touch · <strong>싸이버거 · 싸이플렉스</strong></td></tr>
+              <tr><td>🔵 <strong>파파이스</strong></td>
+                  <td>파파이스 · 파파이 · 파핫 · Popeyes · Popeye's · <strong>케이준후라이</strong></td></tr>
+              <tr><td>🟣 <strong>서브웨이</strong></td>
+                  <td>서브웨이 · <strong>써브웨이</strong>(공식병기) · 써브 · 서브 · 섭웨이 · 섭웨 · 써배 · 서배 · Subway</td></tr>
+              <tr><td>🔷 <strong>BBQ</strong></td>
+                  <td>BBQ · 비비큐 · 비비큐치킨 · 비비규(오타) · B.B.Q · <strong>황금올리브 · 황올</strong></td></tr>
+              <tr><td>🟪 <strong>BHC</strong></td>
+                  <td>BHC · 비에이치씨 · 비에이치씨치킨 · 비에이치 · 비에이치치 · B.H.C · <strong>뿌링클 · 맛초킹</strong></td></tr>
+              <tr><td>🩵 <strong>교촌</strong></td>
+                  <td>교촌 · 교촌치킨 · Kyochon · <strong>허니콤보 · 레드콤보 · 교촌 허니 · 교촌 레드</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p><strong>오탐 방지를 위해 제외한 키워드</strong>:</p>
+        <ul>
+          <li><code>갓양념</code> — "갓"은 한국어 슬랭으로 너무 일반적 (갓성비·갓경수 등)</li>
+          <li><code>라이스버거</code> — 여러 브랜드가 사용 (롯데리아 전용 아님)</li>
+          <li><code>데리버거</code> — 일반 데리야키 버거와 혼동</li>
+          <li><code>상하이버거</code> — "상하이" 도시명과 혼동 가능</li>
+        </ul>
+        <p>또한 추가 필터 2단:</p>
+        <ol>
+          <li><strong>한글 비율 필터</strong>: 제목 한글 50% 이상 OR 한글 브랜드 토큰 포함 시 통과 (한·영 이중 제목 허용)</li>
+          <li><strong>해외 KFC 블랙리스트</strong>: "미국 KFC", "일본 KFC" 등 16개 해외 KFC 표현 포함 시 드롭</li>
+        </ol>
       </details>
     </section>
 
