@@ -1485,17 +1485,24 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  align-items: start;
+  align-items: stretch;
 }
 .peso-donut-cell {
   min-width: 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .peso-donut-title {
   font-size: 0.82rem;
   font-weight: 600;
   color: var(--text-secondary);
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+  min-height: 2.8em;  /* 제목 2줄 영역 고정 (1줄짜리도 같은 높이) */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  line-height: 1.3;
 }
 .primary-hint {
   color: var(--accent-light);
@@ -1524,7 +1531,8 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 .chart-legend.xs {
   font-size: 0.7rem;
   line-height: 1.5;
-  margin-top: 4px;
+  margin-top: 6px;
+  min-height: 7.5em;  /* 범례 최대 5줄 기준 세로 정렬 고정 */
 }
 .chart-legend.xs .lg-item { margin: 0 4px 2px 0; }
 
