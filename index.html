@@ -1761,10 +1761,10 @@ body.mode-detail .view-executive { display: none; }
             <tr>
               <th data-sort="brand">브랜드</th>
               <th data-sort="videos">영상수</th>
-              <th data-sort="views">조회수</th>
+              <th data-sort="views" class="sort-active">조회수<span class="sort-arrow">▼</span></th>
               <th data-sort="ownedSov" data-col="owned" class="col-owned">🏛 Owned</th>
               <th data-sort="sponsoredSov" data-col="sponsored" class="col-sponsored">🤝 Sponsored</th>
-              <th data-sort="earnedSov" class="sort-active">🎤 Earned<span class="sort-arrow">▼</span></th>
+              <th data-sort="earnedSov">🎤 Earned</th>
               <th data-sort="engSov">💬 ER</th>
               <th data-sort="neg">부정률</th>
             </tr>
@@ -1780,19 +1780,19 @@ body.mode-detail .view-executive { display: none; }
       <div class="exec-section-title"><h3>🥧 SOV 분포 (PESO)</h3><span class="hint">각 유형 시장에서 브랜드별 점유 — 10개 브랜드 합산 100%</span></div>
       <div class="peso-donuts">
         <div class="peso-donut-cell">
+          <div class="peso-donut-title">🌐 전체 조회수 점유 <span class="primary-hint">⭐ 시장 목소리</span></div>
+          <div class="chart-wrap xs"><canvas id="chart-total"></canvas><div id="chart-total-empty" class="chart-empty" style="display:none;">집계된 조회수 없음</div></div>
+          <div class="chart-legend xs" id="total-legend"></div>
+        </div>
+        <div class="peso-donut-cell">
           <div class="peso-donut-title">🏛 Owned 점유</div>
           <div class="chart-wrap xs"><canvas id="chart-owned"></canvas><div id="chart-owned-empty" class="chart-empty" style="display:none;">집계된 Owned 영상 없음</div></div>
           <div class="chart-legend xs" id="owned-legend"></div>
         </div>
         <div class="peso-donut-cell">
-          <div class="peso-donut-title">🎤 Earned 점유 <span class="primary-hint">⭐ 주요 지표</span></div>
+          <div class="peso-donut-title">🎤 Earned 점유 <span class="primary-hint">CDTO 레버</span></div>
           <div class="chart-wrap xs"><canvas id="chart-earned"></canvas><div id="chart-earned-empty" class="chart-empty" style="display:none;">집계된 Earned 영상 없음</div></div>
           <div class="chart-legend xs" id="earned-legend"></div>
-        </div>
-        <div class="peso-donut-cell">
-          <div class="peso-donut-title">💬 Engagement 점유</div>
-          <div class="chart-wrap xs"><canvas id="chart-engagement"></canvas><div id="chart-engagement-empty" class="chart-empty" style="display:none;">집계된 좋아요/댓글 없음</div></div>
-          <div class="chart-legend xs" id="engagement-legend"></div>
         </div>
       </div>
 
@@ -2812,7 +2812,7 @@ body.mode-detail .view-executive { display: none; }
     latest: null,
     baseline: null,       // archive/2026-04-16.json (30d window) for 4-day delta
     trend: [],            // digest-2026-04-17 ~ -20 arrays of brand snapshots
-    sortKey: 'earnedSov', // v2: Paid/Earned/Engagement 3층으로 분해하면서 기본 정렬 변경
+    sortKey: 'views',     // v5: 기본 정렬을 총조회수로 (가장 직관적)
     sortDir: 'desc',
     splits: {},           // { brand_code: {paid, earned, engagement} } — computeTierSplit 캐시
     selectedBrand: 'kfc', // v4: 클릭으로 KPI Strip 기준 브랜드 전환
@@ -3104,9 +3104,20 @@ body.mode-detail .view-executive { display: none; }
     return { splits: splits, totals: totals };
   }
 
-  // Earned 조회수 기준 순위 (1등 = 최다 earned)
+  // Earned 조회수 기준 순위 (1등 = 최다 earned) — 레거시, 벤치마크 부가 용도
   function earnedRank(splits, code) {
     var arr = COMP_KEYS.map(function(k) { return { k: k, v: (splits[k] && splits[k].earned) || 0 }; });
+    arr.sort(function(a, b) { return b.v - a.v; });
+    for (var i = 0; i < arr.length; i++) if (arr[i].k === code) return i + 1;
+    return null;
+  }
+
+  // 총 조회수 기준 순위 (KPI '🏆 순위' 카드 메인 지표)
+  function viewsRank(data, code) {
+    if (!data || !data.brands) return null;
+    var arr = COMP_KEYS.map(function(k) {
+      return { k: k, v: (data.brands[k] && data.brands[k].total_views) || 0 };
+    });
     arr.sort(function(a, b) { return b.v - a.v; });
     for (var i = 0; i < arr.length; i++) if (arr[i].k === code) return i + 1;
     return null;
@@ -3144,7 +3155,7 @@ body.mode-detail .view-executive { display: none; }
     var sponsoredSov = pct(kSp.sponsored, cur.totals.sponsored);
     var earnedSov    = pct(kSp.earned, cur.totals.earned);
     var engSov       = pct(kSp.engagement, cur.totals.engagement);
-    var rank = earnedRank(cur.splits, selCode);
+    var rank = viewsRank(data, selCode);  // 총 조회수 기준 (메인 순위)
 
     document.getElementById('k-rank').innerHTML = (rank || '—') + '<span class="small">/' + COMP_KEYS.length + '</span>';
 
@@ -3202,7 +3213,7 @@ body.mode-detail .view-executive { display: none; }
     if (EXEC.baseline && EXEC.baseline.brands && EXEC.baseline.brands[selCode]) {
       var prev = preparePesoSplits(EXEC.baseline);
       var prevSel = prev.splits[selCode] || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
-      var prevRank = earnedRank(prev.splits, selCode);
+      var prevRank = viewsRank(EXEC.baseline, selCode);
 
       var ownedDelta     = prevSel.owned     ? ((kSp.owned     - prevSel.owned)     / prevSel.owned)     * 100 : null;
       var sponsoredDelta = prevSel.sponsored ? ((kSp.sponsored - prevSel.sponsored) / prevSel.sponsored) * 100 : null;
@@ -3522,22 +3533,25 @@ body.mode-detail .view-executive { display: none; }
 
     var splits = EXEC.splits || {};
 
-    // Earned / Paid 도넛 2개
-    function buildDonut(canvasId, field, legendId, emptyId) {
+    // 전체 조회수 기반 도넛 — brand.total_views 사용 (splits 우회)
+    function buildTotalViewsDonut(canvasId, legendId, emptyId, palette) {
       var labels = [], values = [], colors = [];
       COMP_KEYS.forEach(function(k) {
-        var v = (splits[k] && splits[k][field]) || 0;
+        var v = (data.brands[k] && data.brands[k].total_views) || 0;
         if (v > 0) {
           labels.push((data.brands[k] && data.brands[k].display) || k);
           values.push(v);
           colors.push(palette[k] || '#888');
         }
       });
+      _renderDonut(canvasId, legendId, emptyId, labels, values, colors);
+    }
 
+    // 공용 도넛 렌더 로직
+    function _renderDonut(canvasId, legendId, emptyId, labels, values, colors) {
       var cv = document.getElementById(canvasId);
       if (!cv) return;
       if (CHART_INSTANCES[canvasId]) CHART_INSTANCES[canvasId].destroy();
-
       var emptyEl = emptyId ? document.getElementById(emptyId) : null;
       if (values.length === 0) {
         if (emptyEl) emptyEl.style.display = 'flex';
@@ -3548,7 +3562,6 @@ body.mode-detail .view-executive { display: none; }
       }
       if (emptyEl) emptyEl.style.display = 'none';
       cv.style.visibility = '';
-
       var ctx = cv.getContext('2d');
       CHART_INSTANCES[canvasId] = new Chart(ctx, {
         type: 'doughnut',
@@ -3569,11 +3582,9 @@ body.mode-detail .view-executive { display: none; }
           }
         }
       });
-
       var legendEl = document.getElementById(legendId);
       if (legendEl) {
         var total = values.reduce(function(a,b){return a+b;},0);
-        // 상위 5개만 표시 (짧게)
         var top = labels.map(function(l, i) { return { l: l, v: values[i], c: colors[i] }; })
                         .sort(function(a,b){return b.v-a.v;}).slice(0, 5);
         legendEl.innerHTML = top.map(function(it) {
@@ -3583,10 +3594,25 @@ body.mode-detail .view-executive { display: none; }
       }
     }
 
-    // 3-donut 렌더링 (Owned / Earned / Engagement — Sponsored는 데이터 희소해서 제외)
-    buildDonut('chart-owned',      'owned',      'owned-legend',      'chart-owned-empty');
-    buildDonut('chart-earned',     'earned',     'earned-legend',     'chart-earned-empty');
-    buildDonut('chart-engagement', 'engagement', 'engagement-legend', 'chart-engagement-empty');
+    // 카테고리별 (splits 기반) 도넛 — Owned / Earned
+    function buildDonut(canvasId, field, legendId, emptyId) {
+      var labels = [], values = [], colors = [];
+      COMP_KEYS.forEach(function(k) {
+        var v = (splits[k] && splits[k][field]) || 0;
+        if (v > 0) {
+          labels.push((data.brands[k] && data.brands[k].display) || k);
+          values.push(v);
+          colors.push(palette[k] || '#888');
+        }
+      });
+      _renderDonut(canvasId, legendId, emptyId, labels, values, colors);
+    }
+
+    // 3-donut 렌더링 (전체 조회수 / Owned / Earned)
+    // 전체 조회수 점유: splits 가 아닌 brand.total_views 기반 — 객관적 시장 목소리 비교
+    buildTotalViewsDonut('chart-total', 'total-legend', 'chart-total-empty', palette);
+    buildDonut('chart-owned',  'owned',  'owned-legend',  'chart-owned-empty');
+    buildDonut('chart-earned', 'earned', 'earned-legend', 'chart-earned-empty');
 
     // Sentiment stacked
     if (CHART_INSTANCES.sent) CHART_INSTANCES.sent.destroy();
