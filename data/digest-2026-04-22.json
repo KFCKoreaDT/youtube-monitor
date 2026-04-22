@@ -15,61 +15,15 @@
         "Nano": 2,
         "Macro": 1
       },
-      "summary": "KFC의 신메뉴 '살라미 빵치짜'가 긍정적인 반응을 얻으며 가성비와 맛에 대한 소비자 만족도가 높아졌음. 그러나 일부 사용자는 맛끼리의 조화보다는 단순한 맛의 결합이 더 나은지에 대해 의견을 제시함.\n  📌 신메뉴 · 가성비 · 맛",
-      "videos": [
-        {
-          "video_id": "3jp04ZVwURY",
-          "title": "KFC 신메뉴 \"살라미 빵치짜\" 기대 1도 안 했는데 가성비 감동함",
-          "channel": "잡식맨 JOBXICMAN",
-          "subscribers": 182000,
-          "creator_tier": "Macro",
-          "is_verified": false,
-          "views": 141352,
-          "likes": 1722,
-          "comment_count": 0,
-          "engagement_rate": 0.0122,
-          "duration": 579,
-          "is_short": false,
-          "buzz_score": 57.7,
-          "upload_date": "2026.04.21",
-          "url": "https://www.youtube.com/watch?v=3jp04ZVwURY",
-          "description_excerpt": "육식맨(홈쿠킹&푸드트립) : https://www.youtube.com/@YOOXICMAN\n잡식맨(일상&라이브&쇼츠) : https://www.youtube.com/@JOBXICMAN\n인스타그램 : https://www.instagram.com/yooxicman/",
-          "top_comments": [
-            {
-              "author": "@개구리-s6r",
-              "text": "막 맛끼리 조화롭거나 곱해져서 맛있는 거보다  맛있는거만 때려박은게 더 나은거 같음",
-              "likes": 117
-            },
-            {
-              "author": "@miwnwoid",
-              "text": "그래서 아 됐고\n밤비 목욕 영상은 언제 주나요",
-              "likes": 54
-            },
-            {
-              "author": "@goioiop",
-              "text": "내일 점심메뉴 추천 감사합니다",
-              "likes": 30
-            },
-            {
-              "author": "@Collaintp",
-              "text": "치킨 + 피자 + 버거 = 빵치짜 치킨버거",
-              "likes": 29
-            },
-            {
-              "author": "@라니-o7t",
-              "text": "만원 언저리 혹은 그 이하 프랜차이즈에서 조화롭게 곱해져서 맛있기도 힘들고 그 가격대는 그냥 폭력적인 맛 먹으면 다음날 죽을 거 같은 맛이 무조건 최고인거같음",
-              "likes": 20
-            }
-          ]
-        }
-      ]
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
     },
     "burgerking": {
       "display": "버거킹",
       "video_count": 3,
-      "total_views": 449,
-      "total_likes": 15,
-      "total_comments": 12,
+      "total_views": 525,
+      "total_likes": 16,
+      "total_comments": 16,
       "n_short": 0,
       "n_long": 3,
       "tier_counts": {
@@ -81,8 +35,8 @@
     "mcdonalds": {
       "display": "맥도날드",
       "video_count": 4,
-      "total_views": 3111927,
-      "total_likes": 41,
+      "total_views": 3112051,
+      "total_likes": 47,
       "total_comments": 4,
       "n_short": 2,
       "n_long": 2,
@@ -95,54 +49,35 @@
     },
     "lotteria": {
       "display": "롯데리아",
-      "video_count": 9,
-      "total_views": 22357,
-      "total_likes": 461,
+      "video_count": 10,
+      "total_views": 22702,
+      "total_likes": 467,
       "total_comments": 6,
       "n_short": 1,
-      "n_long": 8,
+      "n_long": 9,
       "tier_counts": {
-        "Nano": 8,
+        "Nano": 9,
         "Macro": 1
       },
-      "summary": "롯데리아의 '뒤진다 돈까스'와 '초코 프링글스'가 소비자들 사이에서 주목받고 있으며, 일부 소비자는 매운 음식을 잘 못 먹는 점을 고려해 조심해야 한다고 경고하고 있다.\n  📌 뒤진다 돈까스 · 초코 프링글스 · 매운음식",
+      "summary": "롯데리아의 '디진다돈까스' 메뉴가 유튜버 김토봉의 방송에서 주요 콘텐츠로 다뤄졌으며, 이는 롯데리아의 인지도와 소비자 관심을 반영하고 있다. 그러나 해당 영상은 프랜차이즈 관련 정보보다는 게임과 방송에 초점을 맞추고 있어, 롯데리아 메뉴 자체에 대한 심도 있는 논의나 평가는 부족하다.\n  📌 디진다돈까스 · 김토봉 · 플레노방종",
       "videos": [
         {
-          "video_id": "t5O28IlM6FU",
-          "title": "26.04.07 먹고 즐긴사람이 이시대의 즐겜러다 1부 동의게임 ⧸ 2부 롯데리아 디진다 돈까스 먹기",
-          "channel": "진짜 박시윤 다시보기",
-          "subscribers": 252,
+          "video_id": "m4QYCrjX0Mc",
+          "title": "국토 100km,롯리 디진다돈까스 10개-플레 노방종 2.5일차 2026-04-22 12:23",
+          "channel": "김토봉",
+          "subscribers": 3000,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 27,
-          "likes": 3,
+          "views": 300,
+          "likes": 6,
           "comment_count": 0,
-          "engagement_rate": 0.1111,
-          "duration": 15454,
+          "engagement_rate": 0.02,
+          "duration": 0,
           "is_short": false,
-          "buzz_score": 30.6,
-          "upload_date": "2026.04.21",
-          "url": "https://www.youtube.com/watch?v=t5O28IlM6FU",
-          "description_excerpt": "nan",
-          "top_comments": []
-        },
-        {
-          "video_id": "_YJ1G0Ve-kw",
-          "title": "요즘 유행 8분 정리!![롯데리아 뒤진다 돈까스+초코 프링글스]",
-          "channel": "과모립",
-          "subscribers": 8,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 174,
-          "likes": 2,
-          "comment_count": 0,
-          "engagement_rate": 0.0115,
-          "duration": 505,
-          "is_short": false,
-          "buzz_score": 10.4,
-          "upload_date": "2026.04.21",
-          "url": "https://www.youtube.com/watch?v=_YJ1G0Ve-kw",
-          "description_excerpt": "요즘 유행 따라가려다 위장 박살날 뻔 했습니다...ㅎㅎ 매운거 잘 못드시는 분들은 조심하세요🥹!",
+          "buzz_score": 45.4,
+          "upload_date": "2026.04.22",
+          "url": "https://www.youtube.com/watch?v=m4QYCrjX0Mc",
+          "description_excerpt": "#플레노방종#벌칙#노방종#롤 \n#리그오브레전드 #lol #쇼츠라이브 #쇼츠 #보이는라디오\n#아이언 #브론즈 #실버 #골드 #플레티넘 #에메랄드\n[풀화면]:https://chzzk.naver.com/0dd5988f5922e65c9bfd627973ab5878\n100원펀치:https://toon.at/donate/tobong\n어둠의토봉재단\n카카오뱅크 3333-10-4834238 [ㄱㅂㅈ]\nThis stream is created with #PRISMLiveStudio",
           "top_comments": []
         }
       ]
@@ -150,8 +85,8 @@
     "momstouch": {
       "display": "맘스터치",
       "video_count": 4,
-      "total_views": 21011,
-      "total_likes": 306,
+      "total_views": 21562,
+      "total_likes": 310,
       "total_comments": 40,
       "n_short": 1,
       "n_long": 3,
@@ -188,35 +123,35 @@
     },
     "bbq": {
       "display": "BBQ치킨",
-      "video_count": 2,
-      "total_views": 82880,
-      "total_likes": 1170,
+      "video_count": 3,
+      "total_views": 85815,
+      "total_likes": 1214,
       "total_comments": 20,
       "n_short": 0,
-      "n_long": 2,
+      "n_long": 3,
       "tier_counts": {
-        "Macro": 1,
-        "Nano": 1
+        "Nano": 2,
+        "Macro": 1
       },
-      "summary": "BBQ치킨은 라이브 방송을 통해 소비자와의 실시간 상호작용을 강화하고 있으며, 주로 술과 치킨을 함께 즐기는 문화를 중심으로 내용을 전개하고 있다. 이는 BBQ치킨의 제품 품질에 대한 긍정적인 인식을 조성하는 데 기여하며, KFC가 소비자와의 연결성을 강화하기 위한 디지털 마케팅 전략 개발에 참고할 만하다.\n  📌 라이브 방송 · 술치킨 문화 · 품질 긍정 인식",
+      "summary": "BBQ치킨의 신메뉴나 프로모션에 대한 직접적인 언급은 없으나, BBQ 치킨이 주요 식사 메뉴로 소비자들의 일상에서 중요한 역할을 하고 있음을 확인. 또한, 건강과 활동적 생활 스타일을 강조하는 콘텐츠가 인기를 얻고 있어 KFC도 이러한 트렌드를 반영한 마케팅 전략이 필요.\n  📌 건강 · 활동적인 라이프스타일 · 일상 식사",
       "videos": [
         {
-          "video_id": "tEL6G2r_p9Y",
-          "title": "송파 해장 bbq 순살 치킨#술먹방#부천#강남#송파#홍대#7080#먹방",
-          "channel": "쫑지 (Jongji)",
-          "subscribers": 1700,
+          "video_id": "L3oy0iQSGxw",
+          "title": "미국일상 미니 철인3종 도전하기와 닭다리 돼지갈비 바베큐 Eat BBQ and Take on a Mini Triathlon Challenge #미국브이로그 #미국생활",
+          "channel": "잇 앤 아웃 Eat-N-Out",
+          "subscribers": 36,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 1080,
-          "likes": 21,
+          "views": 7,
+          "likes": 5,
           "comment_count": 0,
-          "engagement_rate": 0.0194,
-          "duration": 23694,
+          "engagement_rate": 0.7143,
+          "duration": 603,
           "is_short": false,
-          "buzz_score": 47.9,
+          "buzz_score": 25.3,
           "upload_date": "2026.04.21",
-          "url": "https://www.youtube.com/watch?v=tEL6G2r_p9Y",
-          "description_excerpt": "여행하면서 시청자와 실시간으로 소통하는 라이브 방송입니다.\n술먹방, 잡담, 고민상담, 연애이야기, 요리(쿡방),\n국내여행·해외여행·현지맛집 탐방 라이브를 진행합니다.\n아프리카TV 숲BJ이며 유튜브 동시송출 방송입니다.\n\n#여행왕쫑지 #라이브 #유튜브라이브 #생방송 #스트리밍\n#실시간방송 #소통라이브 #잡담라이브 #일상라이브 #토크방송\n#BJ #비제이 #스트리머 #인터넷방송 #개인방송\n#아프리카TV #숲BJ #동시송출 #멀티송출\n#1인미디어 #크리에이터 #라이브스트리머\n#후원 #도네이션 #투네이션 #슈퍼챗 #별풍선\n#술방 #술먹방 #",
+          "url": "https://www.youtube.com/watch?v=L3oy0iQSGxw",
+          "description_excerpt": "미국 이민 25년 차, 캘리포니아 생활, 맛있게 먹고, 운동하기! Calories in, Calories out! 🍱🏃‍♂️\n\n맛있는 음식 만들어 먹고, 열심히 운동하는 미국 이민 25년 차 한국 아빠입니다.\n오늘은 닭다리와 돼지갈비 바베큐를 해 먹고, 미니 철인 3종에 도전해 봤습니다.\n\n3년 전 시작한 다이어트에 성공하고 유지하기 위해 열심히 운동하며,\n5월 3일에 있을 OC Marathon 출전을 준비하고 있습니다.\n\n저의 소소하지만 버라이어티한 일상이 궁금하시다면, 구독과 좋아요를 눌러주세요!\n\n🕒 Video Chapters",
           "top_comments": []
         }
       ]
@@ -236,8 +171,8 @@
     "kyochon": {
       "display": "교촌치킨",
       "video_count": 5,
-      "total_views": 89114,
-      "total_likes": 1433,
+      "total_views": 92182,
+      "total_likes": 1478,
       "total_comments": 38,
       "n_short": 0,
       "n_long": 5,
@@ -246,73 +181,8 @@
         "Macro": 1,
         "Micro": 1
       },
-      "summary": "교촌치킨의 가격 인상과 관련된 비판적인 의견들이 제기되었으나, 일부 소비자들은 여전히 교촌 치킨의 맛과 냄새를 좋아하며 긍정적 반응도 있음. 또한, 교촌치킨의 이벤트 참여와 지역 방문에 대한 내용이 올라왔으며, KFC는 가격 정책과 고객 만족도에 주목할 필요가 있다.\n  📌 가격 인상 · 긍정적 반응 · 이벤트",
-      "videos": [
-        {
-          "video_id": "mBI5RFtO7BA",
-          "title": "이벤트 교촌치킨 남양주 도착! 백대종#김용국처럼# #모자란정우#박공 #남양주# #강원도#강릉 속초#삼척",
-          "channel": "버럭만득이",
-          "subscribers": 22600,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 4504,
-          "likes": 181,
-          "comment_count": 0,
-          "engagement_rate": 0.0402,
-          "duration": 15175,
-          "is_short": false,
-          "buzz_score": 60.5,
-          "upload_date": "2026.04.21",
-          "url": "https://www.youtube.com/watch?v=mBI5RFtO7BA",
-          "description_excerpt": "여행#남양주#구리#태국만득#경기도#먹살만먹태#김삭은#오동지#백대종#먹방#찐남생#김향비#이머니#행배#서칸#중검#투깝이#여포#김용국처럼#노가다간#삐꿍#소라월드#학두#대전#애견#조성근#시수기릿#중검무대뽀조성근#찐남생#박공",
-          "top_comments": []
-        },
-        {
-          "video_id": "fAxiK362UrQ",
-          "title": "\"끊임없는 가격상승 꼼수\" 결국 고개숙인 교촌치킨의 몰락",
-          "channel": "Duy Khanh Ha",
-          "subscribers": 2940,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 235,
-          "likes": 8,
-          "comment_count": 6,
-          "engagement_rate": 0.0596,
-          "duration": 1444,
-          "is_short": false,
-          "buzz_score": 45.3,
-          "upload_date": "2026.04.21",
-          "url": "https://www.youtube.com/watch?v=fAxiK362UrQ",
-          "description_excerpt": "저희 유튜브 채널에 오신 것을 환영합니다 📰🌍\n\n이 채널에서는 국내외 주요 뉴스를 빠르고 쉽게 이해할 수 있도록 엄선하여 제공합니다. 사회, 경제, 법률, 기술, 교육, 공익 문제 등 시사 관련 주요 주제를 중점적으로 다룹니다. 모든 콘텐츠는 핵심 정보를 간결하고 명확하게 편집하여 시간을 절약하면서도 중요한 정보를 쉽게 파악할 수 있도록 구성했습니다.\n\n📌 정보 출처:\n본 채널의 뉴스는 주요 신문, 웹사이트, 공개 데이터 등 인터넷에서 공개적으로 이용 가능한 다양한 자료를 수집하여 편집한 것입니다. 간결하고 이해하기 쉬운 정보를 제",
-          "top_comments": [
-            {
-              "author": "@시골의원",
-              "text": "교촌 BBQ 아직도 먹는 존재가 있어요?",
-              "likes": 1
-            },
-            {
-              "author": "@기다림의미학-i1n",
-              "text": "교촌 배달비 포함 간장치킨 20500원   임 이거  싼것 아닌가",
-              "likes": 1
-            },
-            {
-              "author": "@look-le3yp",
-              "text": "그래도 교촌만의 치킨냄새는 가끔씩 유혹하고 간장치킨은 교촌이 정말 진리..아쉽지만 아..교촌 먹고싶네",
-              "likes": 1
-            },
-            {
-              "author": "@kolhui2431",
-              "text": "바로 밑에 벌레거 먹구싶다네요",
-              "likes": 0
-            },
-            {
-              "author": "@frciti",
-              "text": "교촌이 상장기업이었다니 오늘 첨 알았네... 그런데 주식값이 아직도 4000원이나 된다니 이해가 잘 안 간다. '교촌'하면 욕부터 하는 사람이 주위에 천지삐깔이더만...",
-              "likes": 0
-            }
-          ]
-        }
-      ]
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
     }
   }
 }
