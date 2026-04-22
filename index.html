@@ -1986,8 +1986,8 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 
   <!-- Today's Highlights -->
   <div class="exec-section-title">
-    <h3>✨ 오늘의 하이라이트 Top 8 <span class="hint" style="font-weight:normal;font-size:0.85rem;">💚 좋은 콘텐츠 4 + 🚨 나쁜 콘텐츠 4</span></h3>
-    <span class="hint">조회수 스파이크 · 부정 급증 · 높은 Buzz 자동 선별</span>
+    <h3>✨ <span id="highlights-brand-label">KFC</span> 하이라이트 <span class="hint" style="font-weight:normal;font-size:0.85rem;">🔥 가장 많이 퍼진 2 · 💚 가장 긍정적 2 · 🚨 가장 부정적 2</span></h3>
+    <span class="hint" id="highlights-period-hint">브랜드 클릭 시 전환 · 기간 토글 반영</span>
   </div>
   <div class="highlights-list" id="highlights-list">
     <div style="grid-column: 1/-1; text-align:center; color: var(--text-muted); padding: 20px;">분석 중…</div>
@@ -4163,78 +4163,104 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   }
 
   function renderHighlights() {
-    var data = getFilteredLatest();  // 기간 필터 반영
-    var all = [];
-    Object.keys(data.brands || {}).forEach(function(k) {
-      if (k === 'multi') return;
-      var b = data.brands[k];
-      (b.videos || []).forEach(function(v) {
-        all.push({ v: v, brand: k, brandDisplay: b.display || k });
-      });
+    // v6: 선택 브랜드 + 기간 필터 기준 3축 Top 2 × 3 섹션
+    //  🔥 가장 많이 퍼진 (조회수 기준 Top 2)
+    //  💚 가장 긍정적 (긍정비율 기준 Top 2)
+    //  🚨 가장 부정적 (부정률 기준 Top 2)
+    var data = getFilteredLatest();
+    var selCode = EXEC.selectedBrand || 'kfc';
+    var sel = data.brands[selCode] || {};
+    var selName = sel.display || selCode;
+
+    // 라벨·부제 업데이트
+    var labelEl = document.getElementById('highlights-brand-label');
+    if (labelEl) labelEl.textContent = selName;
+    var periodEl = document.getElementById('highlights-period-hint');
+    if (periodEl) periodEl.textContent =
+      '브랜드 클릭 시 전환 · 최근 ' + EXEC.period + '일 기준';
+
+    var all = (sel.videos || []).map(function(v) {
+      return { v: v, brand: selCode, brandDisplay: selName };
     });
 
-    function daysAgo(d) {
-      if (!d) return 999;
-      var m = d.match(/(\d{4})[.\-](\d{1,2})[.\-](\d{1,2})/);
-      if (!m) return 999;
-      var t = new Date(+m[1], +m[2]-1, +m[3]).getTime();
-      var now = EXEC.latest.date ? new Date(EXEC.latest.date.replace(/\./g,'-')).getTime() : Date.now();
-      return (now - t) / 86400000;
+    if (all.length === 0) {
+      document.getElementById('highlights-list').innerHTML =
+        '<div style="grid-column:1/-1;text-align:center;color:var(--text-muted);padding:30px;">' +
+        escapeHtml(selName) + ' 의 최근 ' + EXEC.period + '일 영상이 없습니다.</div>';
+      return;
     }
 
-    // 좋은 점수 (긍정): buzz + reach + freshness + 댓글 긍정비율
-    // 나쁜 점수 (부정): 부정률 + 위험경고 + 도달(피해 확산성)
+    // 점수 계산
     all.forEach(function(x) {
       var v = x.v;
       var sc = v.sentiment_counts || {};
-      var sTot = (sc.neg||0) + (sc.neu||0) + (sc.pos||0);
-      var posRatio = sTot > 0 ? (sc.pos||0) / sTot : 0;
-      var negRatio = v.negative_ratio || 0;
-      var freshness = Math.max(0, 1 - daysAgo(v.upload_date) / 30);
-      var buzz = (v.buzz_score || 0) / 100;
-      var reach = Math.log10((v.views || 0) + 1) / 8;
-
-      // Best: 바이럴 + 긍정 호평 (부정 없을수록)
-      x.bestScore = buzz * 0.4 + reach * 0.25 + freshness * 0.15
-                  + posRatio * 0.2 - negRatio * 0.3;
-      // Worst: 부정 급증 + 위험영상 + 도달 (피해 확산성)
-      var riskBonus = v.warning_level === 'red' ? 0.4 : (v.warning_level === 'yellow' ? 0.2 : 0);
-      x.worstScore = negRatio * 0.45 + riskBonus + reach * 0.2 + freshness * 0.1;
-
-      // Reason label (best/worst 구분용)
-      if (negRatio > 0.4 || v.warning_level === 'red') x.reasonNeg = '🚨 부정 급증';
-      else if (v.warning_level === 'yellow') x.reasonNeg = '⚠️ 경고';
-      else x.reasonNeg = '📉 주의';
-
-      if ((v.buzz_score || 0) > 60) x.reasonPos = '🔥 Buzz 고점';
-      else if ((v.views || 0) > 100000) x.reasonPos = '👁 조회 스파이크';
-      else if (posRatio > 0.7 && sTot >= 5) x.reasonPos = '💚 호평';
-      else if (freshness > 0.9 && (v.engagement_rate || 0) > 0.02) x.reasonPos = '✨ 신규 고참여';
-      else x.reasonPos = '⭐ 주목';
+      var sTot = (sc.neg || 0) + (sc.neu || 0) + (sc.pos || 0);
+      x.posRatio = sTot > 0 ? (sc.pos || 0) / sTot : 0;
+      x.negRatio = v.negative_ratio || 0;
+      x.sTotal = sTot;
     });
 
-    // 최고 4개 (bestScore 순)
-    var bestSorted = all.slice().sort(function(a, b) { return b.bestScore - a.bestScore; });
-    var best3 = bestSorted.slice(0, 4).map(function(x) { x.type = 'best'; x.reason = x.reasonPos; return x; });
+    // ① 🔥 가장 많이 퍼진 — 조회수 내림차순
+    var viral = all.slice().sort(function(a, b) {
+      return (b.v.views || 0) - (a.v.views || 0);
+    }).slice(0, 2).map(function(x) { x.type = 'viral'; return x; });
 
-    // 최악 4개 (worstScore 순, 단 worstScore > 0.15 이상만 — 평범한 영상은 최악이 아님)
-    var worstSorted = all.slice()
-      .filter(function(x) { return x.worstScore > 0.15 && best3.indexOf(x) < 0; })
-      .sort(function(a, b) { return b.worstScore - a.worstScore; });
-    var worst3 = worstSorted.slice(0, 4).map(function(x) { x.type = 'worst'; x.reason = x.reasonNeg; return x; });
+    // ② 💚 가장 긍정적 — 댓글 있는 것 중 긍정비율 높은 순 (최소 5개 댓글)
+    var positive = all.slice()
+      .filter(function(x) { return x.sTotal >= 3; })
+      .sort(function(a, b) {
+        if (b.posRatio !== a.posRatio) return b.posRatio - a.posRatio;
+        return (b.v.views || 0) - (a.v.views || 0);
+      }).slice(0, 2).map(function(x) { x.type = 'pos'; return x; });
+
+    // 댓글 적어서 긍정 Top 2 못 채우면 메타감성 긍정 으로 보완
+    if (positive.length < 2) {
+      var metaPos = all.slice()
+        .filter(function(x) {
+          return x.v.video_meta_sentiment === '긍정' &&
+                 positive.every(function(p) { return p.v.video_id !== x.v.video_id; });
+        })
+        .sort(function(a, b) { return (b.v.views || 0) - (a.v.views || 0); });
+      while (positive.length < 2 && metaPos.length > 0) {
+        var it = metaPos.shift();
+        it.type = 'pos';
+        positive.push(it);
+      }
+    }
+
+    // ③ 🚨 가장 부정적 — 부정률 높은 순 (최소 3개 댓글)
+    var negative = all.slice()
+      .filter(function(x) { return x.sTotal >= 3 && x.negRatio > 0.2; })
+      .sort(function(a, b) {
+        if (b.negRatio !== a.negRatio) return b.negRatio - a.negRatio;
+        return (b.v.views || 0) - (a.v.views || 0);
+      }).slice(0, 2).map(function(x) { x.type = 'neg'; return x; });
+
+    // 부정 없으면 메타감성 부정 or warning_level 있는 것
+    if (negative.length < 2) {
+      var metaNeg = all.slice()
+        .filter(function(x) {
+          return (x.v.video_meta_sentiment === '부정' || x.v.warning_level) &&
+                 negative.every(function(n) { return n.v.video_id !== x.v.video_id; });
+        })
+        .sort(function(a, b) { return (b.v.views || 0) - (a.v.views || 0); });
+      while (negative.length < 2 && metaNeg.length > 0) {
+        var it = metaNeg.shift();
+        it.type = 'neg';
+        negative.push(it);
+      }
+    }
 
     function card(x) {
       var v = x.v;
       var sc = v.sentiment_counts || {};
-      var sTot = (sc.neg||0) + (sc.neu||0) + (sc.pos||0);
+      var sTot = x.sTotal;
       var neg = (v.negative_ratio != null && sTot > 0) ? (v.negative_ratio * 100).toFixed(0) + '% 부정' : '';
       var sentClass = (v.negative_ratio || 0) > 0.3 ? 'danger' : 'safe';
-      var typeCls = x.type === 'worst' ? ' hl-worst' : ' hl-best';
+      var typeCls = x.type === 'neg' ? ' hl-worst' : ' hl-best';
       return '<a class="highlight-card' + typeCls + '" href="' + escapeHtml(v.url || '#') + '" target="_blank" rel="noopener">' +
-        '<div class="hl-reason">' + x.reason + '</div>' +
         '<div class="hl-title">' + escapeHtml(v.title || '') + '</div>' +
         '<div class="hl-meta">' +
-          '<span class="hl-brand">' + escapeHtml(x.brandDisplay) + '</span>' +
           '<span>' + escapeHtml(v.channel || '-') + '</span>' +
           '<span style="color: var(--text-muted);">' + escapeHtml(v.upload_date || '') + '</span>' +
         '</div>' +
@@ -4248,16 +4274,20 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       '</a>';
     }
 
+    function section(label, color, list) {
+      if (!list || list.length === 0) {
+        return '<div class="hl-group-label" style="color:' + color + ';">' + label +
+          ' <span style="color:var(--text-muted);font-weight:normal;font-size:0.8rem;">(데이터 부족)</span></div>' +
+          '<div class="highlights-row" style="opacity:0.5;"><div class="highlight-card" style="text-align:center;color:var(--text-muted);">해당 기간 내 충분한 데이터 없음</div></div>';
+      }
+      return '<div class="hl-group-label" style="color:' + color + ';">' + label + '</div>' +
+        '<div class="highlights-row">' + list.map(card).join('') + '</div>';
+    }
+
     var html = '';
-    if (best3.length > 0) {
-      html += '<div class="hl-group-label">💚 가장 좋은 콘텐츠 Top 3</div>';
-      html += '<div class="highlights-row">' + best3.map(card).join('') + '</div>';
-    }
-    if (worst3.length > 0) {
-      html += '<div class="hl-group-label" style="color:#dc2626;">🚨 가장 나쁜 콘텐츠 Top 3</div>';
-      html += '<div class="highlights-row">' + worst3.map(card).join('') + '</div>';
-    }
-    if (!html) html = '<div style="grid-column:1/-1; text-align:center; color: var(--text-muted); padding: 20px;">표시할 영상이 없습니다.</div>';
+    html += section('🔥 가장 많이 퍼진 Top 2 (조회수 기준)', '#ea580c', viral);
+    html += section('💚 가장 긍정적 Top 2 (호평 비율)', '#059669', positive);
+    html += section('🚨 가장 부정적 Top 2 (비판 비율)', '#dc2626', negative);
 
     document.getElementById('highlights-list').innerHTML = html;
   }
