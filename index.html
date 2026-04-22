@@ -1676,9 +1676,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 .chart-legend .lg-item { display: flex; align-items: center; gap: 4px; }
 .chart-legend .lg-dot { width: 9px; height: 9px; border-radius: 50%; }
 
-/* Highlights Top 8 (Best 4 + Worst 4) */
+/* Highlights 3 sections (🔥 viral 2 + 💚 pos 2 + 🚨 neg 2) */
 .hl-group-label {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: #059669;
   margin: 14px 0 8px;
@@ -1686,8 +1686,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 }
 .highlights-row {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
+  margin-bottom: 4px;
 }
 .highlight-card.hl-best {
   border-left: 3px solid #10b981;
@@ -1697,9 +1698,10 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 }
 
 .highlights-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 12px;
+  display: block;  /* 섹션 라벨·카드 행 수직 쌓기 (grid 아님) */
+}
+@media (max-width: 600px) {
+  .highlights-row { grid-template-columns: 1fr; }
 }
 .highlight-card {
   background: var(--bg-card);
