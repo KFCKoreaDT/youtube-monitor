@@ -3844,7 +3844,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     });
     rows.sort(function(a, b) { return b.sp.earned - a.sp.earned; });
 
-    var data = EXEC.latest;
+    var data = getFilteredLatest();  // 기간 필터 반영
     var selected = EXEC.selectedBrand || 'kfc';
     container.innerHTML = rows.map(function(r) {
       var display = (data.brands[r.key] && data.brands[r.key].display) || r.key;
@@ -3902,7 +3902,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   }
 
   function renderBenchTable() {
-    var data = EXEC.latest;
+    var data = getFilteredLatest();  // 기간 필터 반영
     var base = EXEC.baseline;
     var splits = EXEC.splits || {};
     var totals = EXEC.totals || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
@@ -4017,7 +4017,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 
   function buildCharts() {
     if (!window.Chart) return;
-    var data = EXEC.latest;
+    var data = getFilteredLatest();  // 기간 필터 반영
     var textColor = getCSS('--text-secondary');
     var gridColor = getCSS('--chart-grid');
 
@@ -4163,7 +4163,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   }
 
   function renderHighlights() {
-    var data = EXEC.latest;
+    var data = getFilteredLatest();  // 기간 필터 반영
     var all = [];
     Object.keys(data.brands || {}).forEach(function(k) {
       if (k === 'multi') return;
