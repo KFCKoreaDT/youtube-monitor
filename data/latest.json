@@ -1,6 +1,6 @@
 {
   "date": "2026-04-22",
-  "generated_at": "2026-04-22 13:01:13",
+  "generated_at": "2026-04-22 14:06:10",
   "window_days": 30,
   "brands": {
     "kfc": {
@@ -17,7 +17,7 @@
         "Nano": 17,
         "Official": 2
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "summary": "(요약 대기 중)",
       "videos": [
         {
           "video_id": "3jp04ZVwURY",
@@ -1188,21 +1188,51 @@
     },
     "burgerking": {
       "display": "버거킹",
-      "video_count": 23,
-      "total_views": 20173880,
-      "total_likes": 7296,
-      "total_comments": 116,
+      "video_count": 34,
+      "total_views": 20198144,
+      "total_likes": 10207,
+      "total_comments": 169,
       "n_short": 6,
-      "n_long": 17,
+      "n_long": 28,
       "tier_counts": {
+        "Mega": 2,
         "Official": 5,
-        "Nano": 12,
+        "Nano": 21,
         "Macro": 2,
-        "Micro": 3,
-        "Mega": 1
+        "Micro": 4
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "summary": "(요약 대기 중)",
       "videos": [
+        {
+          "video_id": "GPD274njg9E",
+          "title": "ASMR MUKBANG 버거킹 양념 치킨먹방! 치즈 햄버거 치즈스틱 후라이드치킨 & 레시피 CRISPY FRIED CHICKEN CHEESE BURGER EATING SOUND!",
+          "channel": "DANI GO!",
+          "subscribers": 2060000,
+          "creator_tier": "Mega",
+          "is_verified": false,
+          "views": 789,
+          "likes": 2794,
+          "comment_count": 20,
+          "engagement_rate": 3.5665,
+          "duration": 156,
+          "is_short": false,
+          "buzz_score": 53.1,
+          "upload_date": "2026.04.17",
+          "url": "https://www.youtube.com/watch?v=GPD274njg9E",
+          "description_excerpt": "🌈✨🎉🎈🎁🍭🍬🧁🍩🍪🍦🍫🦄🐥🐸🐶🐱🐼🐻🐯🦊🐵⭐🌟💥🚀🎮🎨🪄🎊🌈✨🎉🎈🎁🍭🍬🧁🍩🍪🍦🍫🦄🐥🐸🐶🐱🐼🐻🐯🦊🐵⭐🌟💥🚀🎮🎨🪄🎊🌈✨🎉🎈🎁🍭🍬🧁🍩🍪🍦🍫🦄🐥🐸🐶🐱\nASMR MUKBANG 버거킹 양념 치킨먹방! 치즈 햄버거 치즈스틱 후라이드치킨 & 레시피 CRISPY FRIED CHICKEN CHEESE BURGER EATING SOUND!\n¡Prepara tus palomitas para una dosis de videos de risa! En este clip, una pareja se divierte con filtros de tiktok, mient",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
         {
           "video_id": "fe4mRs8biEk",
           "title": "[버거킹] 버거킹 X 유용욱 바베큐 연구소",
@@ -1210,13 +1240,13 @@
           "subscribers": 51100,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 3489579,
+          "views": 3489580,
           "likes": 728,
           "comment_count": 20,
           "engagement_rate": 0.0002,
           "duration": 15,
           "is_short": true,
-          "buzz_score": 51.2,
+          "buzz_score": 51.1,
           "upload_date": "2026.04.06",
           "url": "https://www.youtube.com/watch?v=fe4mRs8biEk",
           "description_excerpt": "오늘 제가 올려드릴 고기는 …\n와퍼에, 올려드렸습니다.\n\nComing soon\n26.04.09\n\n#버거킹 #BURGERKING #유용욱",
@@ -1406,14 +1436,115 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "8hbDRNCRGas",
+          "title": "다정한 연하남과 버거킹 간 날",
+          "channel": "송티찬티",
+          "subscribers": 2550,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 7006,
+          "likes": 107,
+          "comment_count": 20,
+          "engagement_rate": 0.0181,
+          "duration": 216,
+          "is_short": false,
+          "buzz_score": 44.9,
+          "upload_date": "2026.04.19",
+          "url": "https://www.youtube.com/watch?v=8hbDRNCRGas",
+          "description_excerpt": "생기부 털이 너무 재밌었다",
+          "top_comments": [
+            {
+              "author": "@공이-j1b",
+              "text": "연하남 자존감 채워주는 이세계 최고의 공주.\n의기소침해진 연하남에게 종합의견이 취향이엇다라는 말을 해줄 수 잇는 상여자라니……………………… 마냥 커엽다구만 생각햇는데 배울 점이 넘 많아요………………… 최고최고 💕",
+              "likes": 26,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@Hnhnhnnny",
+              "text": "남친분 크래비티 태영도 닮은 것 같아여..,\n3:19 ㅋㅋ 넘 귀여운 커플 ……. 영상 최대 스킨십 장면",
+              "likes": 18,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@태화동타이슨",
+              "text": "낼  회사가서 기분 안좋았는데😢 \n요 영상으로 극뽁~",
+              "likes": 8,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@maybebetterthenluck",
+              "text": "혹시 나이차이 어떻게 되시는지 알려주실 수 있으신가요ㅠㅠ 연하남짝사랑 하고 있는 입장에서 너무 부럽습미다..🥹",
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@stella-lejlej",
+              "text": "이케 영상 마니 올려주시묘는 저 너무 조아요…❤",
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@원시림w",
+              "text": "아 나도 연애하고싶다",
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@k.xxopi_l",
+              "text": "언니제가연하남을감히좋아하게됐습니다....제발저도이런부귀영화를이룰수있게해주십쇼.......너무부러워.......😭😭",
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@베이베콩",
+              "text": "영상이 10초만에 끝나는거 같아요😢",
+              "likes": 2,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@songtichanti",
+              "text": "감히라뇨!! 쟁취해냅시다😉",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@나율강-q5x",
+              "text": "락스 한잔 받아가실분.일단 나",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 9
+          },
+          "negative_ratio": 0.1,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "tD8gd3ShvAQ",
           "title": "[버거킹] 스모크 비프립 와퍼 By.유용욱바베큐연구소",
           "channel": "버거킹",
           "subscribers": 51100,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 6921792,
-          "likes": 1487,
+          "views": 6930324,
+          "likes": 1488,
           "comment_count": 20,
           "engagement_rate": 0.0002,
           "duration": 37,
@@ -1459,6 +1590,13 @@
               "rating": 5
             },
             {
+              "author": "@아이레인-w5n",
+              "text": "김대희??",
+              "likes": 5,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
               "author": "@김문용-q6z",
               "text": "저도 그 두개가 가장 맛있는데 신상 나오면 꼭 먹으러 갑니다. 그러고나선 아..이 두개중에 한개 먹을껄 매번 후회함 ㅎ",
               "likes": 3,
@@ -1473,13 +1611,6 @@
               "rating": 3
             },
             {
-              "author": "@HP11-x5i",
-              "text": "롯데리아 한우버거 느낌 같던데;;",
-              "likes": 2,
-              "sentiment": "중립",
-              "rating": 3
-            },
-            {
               "author": "@주인-t7g",
               "text": "직접가서 먹었는데 너무 과장됬어",
               "likes": 2,
@@ -1487,11 +1618,11 @@
               "rating": 1
             },
             {
-              "author": "@오오오롱로오오",
-              "text": "​ @김문용-q6z  저랑 같으시네요 ㅋㅋ 딱한번 만족했던게 지금은 안나오는 트러플머쉬룸와퍼였어요",
-              "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
+              "author": "@HP11-x5i",
+              "text": "롯데리아 한우버거 느낌 같던데;;",
+              "likes": 2,
+              "sentiment": "중립",
+              "rating": 3
             }
           ],
           "sentiment_counts": {
@@ -1513,7 +1644,7 @@
           "subscribers": 51100,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 2739618,
+          "views": 2739573,
           "likes": 1798,
           "comment_count": 20,
           "engagement_rate": 0.0007,
@@ -1715,7 +1846,7 @@
           "subscribers": 51100,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 2864746,
+          "views": 2869052,
           "likes": 141,
           "comment_count": 20,
           "engagement_rate": 0.0001,
@@ -2259,6 +2390,152 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "ga10q9OeNTo",
+          "title": "요정 와퍼 공속 차이 설명 샤르나변신 공속 차이 설명 기사 용기 공속차이 설명 기사요정 2단가속 이속차이 설명 #리니지클래식",
+          "channel": "겜봉원",
+          "subscribers": 180,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 746,
+          "likes": 1,
+          "comment_count": 3,
+          "engagement_rate": 0.0054,
+          "duration": 127,
+          "is_short": false,
+          "buzz_score": 33.9,
+          "upload_date": "2026.04.19",
+          "url": "https://www.youtube.com/watch?v=ga10q9OeNTo",
+          "description_excerpt": "요정 와퍼 공속 차이 설명 샤르나변신 공속 차이 설명 기사 용기 공속차이 설명 기사요정 2단가속 이속차이 설명 #리니지클래식",
+          "top_comments": [
+            {
+              "author": "@jf141l",
+              "text": "원거리에서 때리는데 요정 개씹사기네",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@bubu-ww3wm",
+              "text": "다필요 없고, 역체감 끝장남. 샤르나는 그냥 무조건 필수",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
+            },
+            {
+              "author": "@블랙록-666",
+              "text": "방송하면서 소통이나 하자",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 2,
+            "pos": 0
+          },
+          "negative_ratio": 0.333,
+          "warning_level": "yellow",
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "04N-bByrpP4",
+          "title": "[먹방 브이로그] 먹는 양 가지고 진짜 싸우는 쌍둥이 / 몸무게 공개/ 버거킹/ 엽기떡볶이",
+          "channel": "소리새미 sorisaemi",
+          "subscribers": 1220,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 2226,
+          "likes": 0,
+          "comment_count": 9,
+          "engagement_rate": 0.004,
+          "duration": 627,
+          "is_short": false,
+          "buzz_score": 33.5,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=04N-bByrpP4",
+          "description_excerpt": "안녕하세요 쌍둥이 유튜버 소리새미입니다\n이렇게까지 노골적으로 싸우고 다이어트 얘기할 줄은 몰랐는데ㅜㅜㅜ\n그냥 둘이서도 잘 들 논다 생각해주시면 좋겠어요ㅋ\n제가 다이어트하면서 그간 너무 스트레스 받았나봐요.....\n재밌게 보시고 좋아요와 구독을 눌러주세요 감사합니다😚😍\n\n**화질은 1440p로 설정해서 시청해주세요**\n\n타임라인\n00:00 치팅데이 시작은 체중계에서\n00:10 쌍둥이 버거킹 먹방\n01:23 버거킹 한 입만\n09:26 치팅엔 엽떡이지\n09:30 라면도 빠지면 섭해\n\n제안,협업 등등  ▼▼▼▼\nsaemsaem0926@ha",
+          "top_comments": [
+            {
+              "author": "@srsm7524",
+              "text": "안녕하세요 쌍둥이 유튜버 소리새미입니다\n이렇게까지 노골적으로 싸우고 다이어트 얘기할 줄은 몰랐는데ㅜㅜㅜ\n그냥 둘이서도 잘 들 논다 생각해주시면 좋겠어요ㅋ\n제가 다이어트하면서 그간 너무 스트레스 받았나봐요.....\n재밌게 보시고 좋아요와 구독을 눌러주세요 감사합니다😚😍\n\n*화질은 1440p로 설정해서 시청해주세요*\n\n타임라인\n00:00 치팅데이 시작은 체중계에서\n00:10 쌍둥이 버거킹 먹방\n01:23 버거킹 한 입만\n09:26 치팅엔 엽떡이지\n09:30 라면도 빠지면 섭해",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@박유원-b3u",
+              "text": "새미씨가 다이어트 땜에 예민해서 언니한테 서운했던거 같네요❤\n서로 선의의 경쟁으로 생각하면 더 좋은 성과가 날거 같아요❤",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@김채은-x5n",
+              "text": "지나고나면 아무것도아닌것도 원래 자매끼리는 유치뽕짝으로 싸워요~~ㅋㅋ",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@srsm7524",
+              "text": "옙 맞아요ㅜㅜㅜㅜㅜ\n지나고보니 후회되더라고요😢\n다이어트는 자기와의 싸움인데 언니한테 괜히\n위로부터 응원까지 감사합니다🩷\n날이 더운데 수분섭취 많이 하시고요",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@srsm7524",
+              "text": "지나고보니 언니한테 넘 미안한거 있죠ㅜㅜ\n진짜 유치뽕짝이었어요😢\n다이어트해서 예민했나봅니다❤",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@지니-b9f2p",
+              "text": "기여워 둘다 ❤❤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@srsm7524",
+              "text": "귀여울 나이는 지났습니다만 그렇게 봐주시니 감사해요😂❤❤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@훈이-v4b",
+              "text": "저랑 언니랑 4살차이 둘다 애엄마인데도\n서로 질투해요 \n저는 마른타입 언니는 통통이인데\n요즘 부쩍 언니가 말라깽이가 되어가거든요\n(언니는 술X, 저는 술쟁이)\n친정갈때마다 언니한테는 걱정가득 저한텐 보기좋다하셔서 저만 질투그득그득한 상태입니다 ㅋㅋㅋㅋㅋㅋ 자매는 어쩔수없나봐요",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@srsm7524",
+              "text": "아하 저만 그런줄😂\n자매는 대부분 그렇군요ㅋ\n마른 타입이시라니 부럽습니다...\n시청,댓글 감사드려요❤❤",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 1,
+            "pos": 6
+          },
+          "negative_ratio": 0.222,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "wxGAfrGTf1U",
           "title": "흑백요리사2 바베큐연구소장이 만든 버거킹 스모크 비프립 와퍼",
           "channel": "Chaenie Jeon",
@@ -2386,6 +2663,36 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "hospdY5deG0",
+          "title": "ENG) 가볍게 먹고 든든하게 채우는 🍽 /또띠아 와퍼/오리고기 파스타(성시경 파스타)/시금치 피자(최화정 피자)/시금치 베이컨 덮밥",
+          "channel": "odd archive 오드 아카이브",
+          "subscribers": 849,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 266,
+          "likes": 5,
+          "comment_count": 0,
+          "engagement_rate": 0.0188,
+          "duration": 565,
+          "is_short": false,
+          "buzz_score": 29.0,
+          "upload_date": "2026.04.18",
+          "url": "https://www.youtube.com/watch?v=hospdY5deG0",
+          "description_excerpt": "안녕하세요 오드 아카이브입니다.\n정말 오랜만에 찾아왔어요. 죄송할 따름입니다😭\n\n----------------------------------------------------------------------------------------\n\n건강하지 않은 음식을 먹기 위해 건강한 음식을 먹어요.\n다수의 요리영상과 약간의 브이로그가 공존하는 저의 아카이브입니다.\n\nEating healthily for eating unhealthy food.\nThis is my archive with almost cooking and some dail",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 4,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2704,6 +3011,164 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "AJXcB7GvQDs",
+          "title": "버거킹에서 가장 저렴한 2900원 와퍼 주니어 먹어봤어요",
+          "channel": "음식왕",
+          "subscribers": 271,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 35,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 168,
+          "is_short": false,
+          "buzz_score": 8.4,
+          "upload_date": "2026.04.20",
+          "url": "https://www.youtube.com/watch?v=AJXcB7GvQDs",
+          "description_excerpt": "nan",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 4,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "KmHf5WbSX-A",
+          "title": "ASMR MUKBANG 버거킹 양념 치킨먹방! 치즈 햄버거 치즈스틱 후라이드치킨 & 레시피 CRISPY FRIED CHICKEN CHEESE BURGER EATING SOUND!",
+          "channel": "GTA production",
+          "subscribers": 75100,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 154,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 4367,
+          "is_short": false,
+          "buzz_score": 8.3,
+          "upload_date": "2026.04.18",
+          "url": "https://www.youtube.com/watch?v=KmHf5WbSX-A",
+          "description_excerpt": "ASMR MUKBANG 버거킹 양념 치킨먹방! 치즈 햄버거 치즈스틱 후라이드치킨 & 레시피 CRISPY FRIED CHICKEN CHEESE BURGER EATING SOUND!\n¡Prepara tus palomitas para una dosis de videos de risa! En este clip, una pareja se divierte con filtros de tiktok, mientras una mujer prueba Pringles con reacciones épicas. Es un momento de videos g",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "cWZJyuZtEs8",
+          "title": "버거킹 서울역점에서 햄버거와 커피를 마셨습니다",
+          "channel": "똥쑤tv",
+          "subscribers": 17,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 4,
+          "likes": 1,
+          "comment_count": 1,
+          "engagement_rate": 0.5,
+          "duration": 256,
+          "is_short": false,
+          "buzz_score": 7.8,
+          "upload_date": "2026.04.22",
+          "url": "https://www.youtube.com/watch?v=cWZJyuZtEs8",
+          "description_excerpt": "버거킹에서 햄버거와 커피를 마셨습니다...하디스 햄버거 근무할때 생각이 떠올랐습니다.",
+          "top_comments": [
+            {
+              "author": "@호빵이네-e5c",
+              "text": "버거킹은 햄버거 진리 입니다",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "IQ6x1dIA5wg",
+          "title": "처 먹기만 하면 다메데스까? (우베바스크치즈케이크, 코끼리 야채찜, 버거킹)",
+          "channel": "회피생",
+          "subscribers": 198,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 49,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 499,
+          "is_short": false,
+          "buzz_score": 7.7,
+          "upload_date": "2026.04.21",
+          "url": "https://www.youtube.com/watch?v=IQ6x1dIA5wg",
+          "description_excerpt": "nan",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "VlFSeJEZvqI",
+          "title": "벚꽃 안녕🌸 일상 브이로그(삼겹김치찜, 몬스터와퍼, 벚꽃 구경, 오징어튀김, 왕새우튀김, 본집에서 집밥 먹기, 불고기피자, 초밥)",
+          "channel": "양혜인",
+          "subscribers": 134,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 73,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.0274,
+          "duration": 432,
+          "is_short": false,
+          "buzz_score": 6.9,
+          "upload_date": "2026.04.17",
+          "url": "https://www.youtube.com/watch?v=VlFSeJEZvqI",
+          "description_excerpt": "올해는 벚꽃 구경을 4번 했어요ㅎㅎ\n여러분 이번 주 다들 고생하셨어요\n주말 잘 보내세요❤️\n\n#브이로그 #일상브이로그 #양혜인",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "NdKipzu_bN0",
           "title": "버거킹 스모크 비프립 와퍼",
           "channel": "dashima",
@@ -2730,6 +3195,36 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "B6B-7NMCXP0",
+          "title": "예비군 훈련 마치고, 버거킹 통새우 와퍼 ㅣ 혼밥일기 ep. 1",
+          "channel": "명곤씨의 혼밥일기",
+          "subscribers": 3,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 122,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 345,
+          "is_short": false,
+          "buzz_score": 5.9,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=B6B-7NMCXP0",
+          "description_excerpt": "혼밥 일기 첫 번째 영상 기록, 예비군 훈련 버거킹(Burger King) 매장에 들러 먹은 '통새우 와퍼' 후기예요. 들른 곳은 버거킹 김포한강 GS점이고요. \n\n대학 시절부터 처음 접해본 버거킹, 또 와퍼 처돌이가 어떻게 됐는지도 영상에 담았어요. 할인 행사 버프를 받은 버거킹 식사는 아주 혜자로웠어요. \n\n#예비군 #버거킹 #혼밥",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -2765,11 +3260,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 28,
-        "neu": 18,
-        "pos": 86
+        "neg": 32,
+        "neu": 21,
+        "pos": 102
       },
-      "negative_ratio": 0.212,
+      "negative_ratio": 0.206,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -2838,7 +3333,7 @@
         "Mega": 1,
         "Nano": 4
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "summary": "(요약 대기 중)",
       "videos": [
         {
           "video_id": "sqfZPocqKWY",
@@ -3466,7 +3961,7 @@
         "Official": 6,
         "Mega": 1
       },
-      "summary": "롯데리아의 '디진다돈까스' 메뉴가 유튜버 김토봉의 방송에서 주요 콘텐츠로 다뤄졌으며, 이는 롯데리아의 인지도와 소비자 관심을 반영하고 있다. 그러나 해당 영상은 프랜차이즈 관련 정보보다는 게임과 방송에 초점을 맞추고 있어, 롯데리아 메뉴 자체에 대한 심도 있는 논의나 평가는 부족하다.\n  📌 디진다돈까스 · 김토봉 · 플레노방종",
+      "summary": "(요약 대기 중)",
       "videos": [
         {
           "video_id": "jDF1ModgKog",
@@ -6597,7 +7092,7 @@
         "Official": 5,
         "Macro": 4
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "summary": "(요약 대기 중)",
       "videos": [
         {
           "video_id": "ZHJT16R61C0",
@@ -9034,17 +9529,382 @@
     },
     "subway": {
       "display": "서브웨이",
-      "video_count": 3,
-      "total_views": 5773,
-      "total_likes": 100,
-      "total_comments": 9,
-      "n_short": 1,
-      "n_long": 2,
+      "video_count": 18,
+      "total_views": 14602,
+      "total_likes": 255,
+      "total_comments": 66,
+      "n_short": 2,
+      "n_long": 16,
       "tier_counts": {
+        "Nano": 15,
         "Official": 3
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "summary": "서브웨이는 최근 한국 유튜버들 사이에서 주목받고 있으나, 일부에서는 사업 부진에 대한 우려가 제기되고 있다. 서브웨이 메뉴의 창조적 조합과 꾸준한 소비자 활동은 긍정적인 반응을 얻었지만, 동시에 폐점 이슈와 관련된 부정적인 의견도 존재한다.\n  📌 서브웨이 폐점 · 메뉴 창조성 · 꾸준한 소비자 활동",
       "videos": [
+        {
+          "video_id": "EBwi_AjYwL0",
+          "title": "[먹방브이로그] 다이어트는 내일부터가 국룰😇 (족발,막국수,스팸카레,서브웨이,피자,파스타,리조또,주먹밥)",
+          "channel": "술또어터",
+          "subscribers": 949,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1372,
+          "likes": 35,
+          "comment_count": 18,
+          "engagement_rate": 0.0386,
+          "duration": 1119,
+          "is_short": false,
+          "buzz_score": 52.0,
+          "upload_date": "2026.04.18",
+          "url": "https://www.youtube.com/watch?v=EBwi_AjYwL0",
+          "description_excerpt": "여러분 안녕하세요 ❤️ \n업로드가 살짝 늦어졌어요 ㅠㅡㅠ 이사하느라 정신이 없었어요..\n이사하니 너무 행복하네요 증맬루 ! 이제 바쁜건 많이 가셔서 다시 열심히 올려볼게요\n그럼 시청해주셔서 감사합니다 🧚‍♀️\n.\n.\n.\n타임라인 \n00:00 피자,파스타,빠에야 잔뜩 !\n02:40 서브웨이\n04:34 족발+막국수+주먹밥\n11:20 10분 조린 멸치칼국수\n13:09 스팸카레\n16:24 숙성스팸카레 ㅋ\n.\n.\n.\n🎵Music provided by 브금대통령\n🎵Track : \n브금의 숲 - https://www.youtube.com/wat",
+          "top_comments": [
+            {
+              "author": "@박기범-b2s",
+              "text": "술또어터님 먹방 브이로그를 잘 볼게요",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@깜순이-d2e",
+              "text": "영상 너무재밋어용 이쁘공 오래오래뵈여",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@eunji_boriiunnii",
+              "text": "네에 감사합니다 😊",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@김승민님",
+              "text": "너무 재밌게 잘 보았어용 ㅋㅋㅋㅋㅋ 이번주도 화이팅입니다!!!!  알고리즘아 힘을내!!!!!!!!🎉🎉🎉",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@eunji_boriiunnii",
+              "text": "힘을내!!! 감사합니다 😊😊",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@eunji_boriiunnii",
+              "text": "네 감사합니댜 😊",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@남현우-f9i",
+              "text": "술또어터님 코엑스편 기다려요",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@eunji_boriiunnii",
+              "text": "담주에 올릴게요 🩵🤍",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@껨온SON153",
+              "text": "술또어터님 먹는모습이 아주예쁘군요.",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@eunji_boriiunnii",
+              "text": "예쁘게 봐주셔서 감사합니댜 😊",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 10
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "eo8jZI9Dst0",
+          "title": "와… 진짜 이런 곳이 있다고? 세도나 숨은 명소 서브웨이 동굴 Sedona Arizona",
+          "channel": "꿈꾸는 쉼표여행",
+          "subscribers": 790,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 2679,
+          "likes": 43,
+          "comment_count": 20,
+          "engagement_rate": 0.0235,
+          "duration": 463,
+          "is_short": false,
+          "buzz_score": 47.1,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=eo8jZI9Dst0",
+          "description_excerpt": "이번 여행은 캘리포니아에서 출발해 \n약 7시간을 달려 도착한 애리조나 세도나\n\n[영상 주요 구간 보기]\n00:00 인트로 \n00:16 애리조나 도착\n00:42 BLM 도착\n02:22 와… 진짜 이런 곳이 있다고? (서브웨이 동굴)  \n02:56 시나구아 원주민 거주 흔적\n03:49 성당(채플 오브 홀리 크로스)\n04:38 여행의 끝에서, 다시 길 위로  \n\n붉은 암석들이 만들어낸 풍경 속에서\n우리는 숨겨진 명소,\nSubway Cave를 찾아 걸었습니다.\n\n좁은 길을 따라 도착한 그곳은\n마치 또 다른 세상처럼 느껴졌고,\n그 안에는 고",
+          "top_comments": [
+            {
+              "author": "@camptriplife",
+              "text": "여러분은 세도나에서 가장 가보고 싶은 곳이 어디인가요? 😊\n서브웨이 케이브는 생각보다 찾는 길이 쉽지 않았지만\n그만큼 더 특별한 경험이었어요.\n다음 영상에서는\n페트리파이드 포레스트 국립공원으로 이어집니다 🚐\n함께 여행해 주셔서 감사합니다 🙏",
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@olivialee4182",
+              "text": "세도나를 몇번 가도 서브웨이 케이브는 못 갔는데 또 갈일이 생겼네요\n가도 가도 끝이 없는 여행길 두분 행복 하세요",
+              "likes": 3,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@kkuni491",
+              "text": "붉은 대지 위를 달려온 시간들이 고스란히 느껴집니다.\n새벽 공기를 가르며 시작된 여정이 더 깊게 와닿네요.\n서브웨이 동굴 속 풍경은 정말 다른 세상 같아요. 놀랍습니다.\n자연이 만든 곡선 속에 시간의 흔적이 머무는 느낌입니다.\n길 위에서 만나는 순간들이 이렇게 아름답게 남습니다.\n다음 여정도 따뜻한 풍경으로 이어지길 바랍니다.:face-red-heart-shape::face-red-heart-shape::face-red-heart-shape:",
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@user-manduworld",
+              "text": "서브웨이 동굴 대단합니다. 상상초월 지금이라도 날아가고 싶네요. 항상 즐겁고 멋진 시간되세요. ✨️👏👍",
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@ArteFilmsOfficial",
+              "text": "와 진짜 이런곳이 실제로 존재하다니..!! 가보고싶네요😊😊",
+              "likes": 3,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@SmileTravelDiary",
+              "text": "저희 부부의 버킷리스트에 있는 여행지입니다. 너무 좋네요. \n항상 안전하게 여행하세요.",
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@handongchoi8932",
+              "text": "내 딸이 LA 있습니다.   미국의 광활한 땅과 딸을 보고 싶습니다.",
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@camptriplife",
+              "text": "엥~ 서브웨이 동굴을 아직 못 가보셨다니요 😄\n저희도 이번에 처음 가봤는데 정말 매력적인 곳이었어요!\n말씀처럼 가도 가도 끝이 없는 곳이네요~ㅎㅎ\n다음엔 꼭 다녀오시길 바랄게요.\n감사합니다.❤❤❤",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@camptriplife",
+              "text": "안녕하세요 😊\n따님이 LA에 계시다니, 많이 보고 싶으시겠어요.\n미국의 넓은 풍경도, 따님도 함께 떠올리며 영상 보셨을 것 같아요.\n\n채널에 와주시고 구독까지 해주셔서 진심으로 감사합니다.✨💕👍\n앞으로도 편안하게 보실 수 있는 영상으로 찾아뵐게요 😊",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@camptriplife",
+              "text": "맞아요… 😊\n저도 그곳에 서 있으면서\n자연의 웅장함에 한동안 말을 잇지 못했어요.\n언젠가 꼭 한 번 직접 느껴보시길 바랍니다\n오늘도 함께해 주셔서 감사드립니다 🙏",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 0,
+            "pos": 8
+          },
+          "negative_ratio": 0.2,
+          "warning_level": "",
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 1,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "-bBj6aaey3g",
+          "title": "미국에선 7,600개 폐업... 써브웨이가 몰락하는 진짜 이유",
+          "channel": "Duy Khanh Ha",
+          "subscribers": 2940,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1112,
+          "likes": 21,
+          "comment_count": 2,
+          "engagement_rate": 0.0207,
+          "duration": 1400,
+          "is_short": false,
+          "buzz_score": 45.7,
+          "upload_date": "2026.04.20",
+          "url": "https://www.youtube.com/watch?v=-bBj6aaey3g",
+          "description_excerpt": "저희 유튜브 채널에 오신 것을 환영합니다 📰🌍\n\n이 채널에서는 국내외 주요 뉴스를 빠르고 쉽게 이해할 수 있도록 엄선하여 제공합니다. 사회, 경제, 법률, 기술, 교육, 공익 문제 등 시사 관련 주요 주제를 중점적으로 다룹니다. 모든 콘텐츠는 핵심 정보를 간결하고 명확하게 편집하여 시간을 절약하면서도 중요한 정보를 쉽게 파악할 수 있도록 구성했습니다.\n\n📌 정보 출처:\n본 채널의 뉴스는 주요 신문, 웹사이트, 공개 데이터 등 인터넷에서 공개적으로 이용 가능한 다양한 자료를 수집하여 편집한 것입니다. 간결하고 이해하기 쉬운 정보를 제",
+          "top_comments": [
+            {
+              "author": "@토지순둥이누나",
+              "text": "없애면 됨.  바게트에 각자 좋아하는속재료 선택하는건데 우리나라빵잘만듬. 몬 ㅉ.",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
+            },
+            {
+              "author": "@kimbrsdf",
+              "text": "누가 줄서서 먹는데 시8놈아 서브웨이 찻기도 힘들어\n한번도 가본적없는디",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 1,
+            "pos": 0
+          },
+          "negative_ratio": 0.5,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "Vg6CpAvStoY",
+          "title": "서브웨이 점심 6000명 구독자 돌파 #Shorts #쇼츠 #Shorts #세로방송 #서브웨이",
+          "channel": "슈퍼스타배수광",
+          "subscribers": 6030,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 862,
+          "likes": 9,
+          "comment_count": 0,
+          "engagement_rate": 0.0104,
+          "duration": 1271,
+          "is_short": false,
+          "buzz_score": 42.9,
+          "upload_date": "2026.04.21",
+          "url": "https://www.youtube.com/watch?v=Vg6CpAvStoY",
+          "description_excerpt": "nan",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "RPTqkzNZ3Jg",
+          "title": "샌드위치계의 양대산맥! 서브웨이? 퀴즈노스? 먹어보고 말해!#샌드위치맛집",
+          "channel": "레드썬 선명TV",
+          "subscribers": 319,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1358,
+          "likes": 12,
+          "comment_count": 8,
+          "engagement_rate": 0.0147,
+          "duration": 280,
+          "is_short": false,
+          "buzz_score": 42.1,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=RPTqkzNZ3Jg",
+          "description_excerpt": "서브웨이와 퀴즈노스 샌드위치의 맛비교\n00:34 트레디셔널 샌드위치\n02:08 필리치즈스테이크 샌드위치\n03:20 치킨까르보나라 샌드위치\n04:00 코리언트레디셔널 샌드위치\n04:12  바질카프레제 샌드위치",
+          "top_comments": [
+            {
+              "author": "@해옥황-w3g",
+              "text": "K 썬 야무지네요\n우~~와 먹고싶어요",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@레드썬선명TV",
+              "text": "다음은 야무진 카페리뷰가 기다리고 있으니 기대해주세요^^",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@tv-mw5gq",
+              "text": "재료가 아주 푸짐하고 신선 하네요!",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@레드썬선명TV",
+              "text": "ㅎㅎ어설픈 미모 한스푼이 샌드위치 맛에 도움이 되었길 바래보아요~~~😊",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
+            },
+            {
+              "author": "@레드썬선명TV",
+              "text": "든든한 한 끼로 딱이에요, 꼭 드셔보세요^^",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@레드썬선명TV",
+              "text": "@tv-mw5gq 한끼식사로 든든해용~~ 퀴즈노스 샌드위치 추천^^",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@4826love",
+              "text": "이거 왜 이렇게 맛있어 보이나 했더니… 만드시는 분 미모 때문인가 !!!! ❤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@idenia1",
+              "text": "맛있겠다. 퀴즈노스 샌드위치 먹으러 가봐야겠어요!",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 8
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
         {
           "video_id": "TRxB-LElBTU",
           "title": "[써브웨이] 카니의 명작 극장 #shorts",
@@ -9052,13 +9912,13 @@
           "subscribers": 17100,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 4015,
+          "views": 4019,
           "likes": 67,
           "comment_count": 2,
           "engagement_rate": 0.0172,
           "duration": 43,
           "is_short": true,
-          "buzz_score": 38.8,
+          "buzz_score": 38.2,
           "upload_date": "2026.03.25",
           "url": "https://www.youtube.com/watch?v=TRxB-LElBTU",
           "description_excerpt": "[인스타그램 EVENT] \n너 왜 말을 못해!!! \n잠봉이 쎄봉~이라고 왜 말을 못하냐고!! \n\nk-드라마 덕후 카니가 \n불어로 말아주는 잠봉 썹드라마! \n근데 정일영 교수님을 곁들인.. \n\n여기서 Quiz!👀 \n카니의 최애 잠봉 조합은 무엇일까요?! \n\n🔎힌트! \n: 영상 속 초록색 대사에 집중해 보세요! \n\n댓글로 정답을 맞히면 \n카니의 친필 싸인이 있는 폴라로이드를 드린다카니~💚 \n\n📍참여 방법 \n: 영상 속 카니의 불어 대사를 듣고, 카니의 잠봉 최애 조합을 써브웨이 인스타그램 계정(@subwaykorea) 내 이벤트 게시물",
@@ -9082,6 +9942,222 @@
             "neg": 0,
             "neu": 0,
             "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "8xJyb6U46xk",
+          "title": "서브웨이 먹방 #Shorts #쇼츠 #Shorts #세로방송 #점심 #회사",
+          "channel": "슈퍼스타배수광",
+          "subscribers": 6030,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1012,
+          "likes": 15,
+          "comment_count": 0,
+          "engagement_rate": 0.0148,
+          "duration": 1911,
+          "is_short": false,
+          "buzz_score": 38.2,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=8xJyb6U46xk",
+          "description_excerpt": "nan",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "5h_L-qORzEQ",
+          "title": "동네 축구에서 46살 씹어 먹은 40살 써브웨이 사장님 포효함",
+          "channel": "BUSOL99(부쏠99)",
+          "subscribers": 6220,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 86,
+          "likes": 5,
+          "comment_count": 0,
+          "engagement_rate": 0.0581,
+          "duration": 359,
+          "is_short": false,
+          "buzz_score": 34.4,
+          "upload_date": "2026.04.19",
+          "url": "https://www.youtube.com/watch?v=5h_L-qORzEQ",
+          "description_excerpt": "그래도 오늘이 그대 인생에 가장 젊은 날이니 기록으로 남깁니다. \n\n\n시합은 안하고 회원들끼리 운동삼아 살살 찹니다.\n회원 모집 상시 중입니다.\n\n남녀 상관없고 실력 상관 없습니다. \nyounbohan@hanmail.net \n로 문의 바랍니다. \n\n#풋살 #football #축구 #축구경기 #아마추어축구 #Amateur #soccer #동네축구 #축구기본기 #축구드리블 #국대경기 #손흥민 #부산축구 #부산풋살 #불혹 #40대 #노총각 #월드컵예선 #goals #골든골",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "CyN4bvgDVFs",
+          "title": "생체2급 시험치고 섭웨 먹기!📖매일 서브웨이 먹기 1,205개째/Everyday Subway Eating, Mukbang, Everyday Subway diet #1,205",
+          "channel": "Subjin",
+          "subscribers": 2570,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 114,
+          "likes": 2,
+          "comment_count": 5,
+          "engagement_rate": 0.0614,
+          "duration": 478,
+          "is_short": false,
+          "buzz_score": 34.1,
+          "upload_date": "2026.04.18",
+          "url": "https://www.youtube.com/watch?v=CyN4bvgDVFs",
+          "description_excerpt": "#subway #sandwich #subwaysandwich #diet #workout #everydaysubway #mukbang #food \n\n메뉴 : 피자썹 15cm + 치킨 베이컨 미니 랩\n빵 : 그레인\n굽기 : 스테이크3 화력으로 바삭하게 굽기\n치즈 : 모짜렐라 치즈 2스쿱\n채소 : 피망, 양파, 올리브\n소스 : 마요네즈, 살사 소스\n음료 : 제로 콜라\n가격 : 10,200₩",
+          "top_comments": [
+            {
+              "author": "@User-r4cm",
+              "text": "매일 서브웨이 먹는 동영상보기 1164일차 오 새로운 도전이신가요? 좋은 결과 았으시기를 바랍니다!",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@아빠-d4r",
+              "text": "오늘 생체 지도자  셤을 쳤다는 겨?",
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@Pandalove.",
+              "text": "매섭웨 791!! 오 시험은 왜 보셨나요??",
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@Subjin04",
+              "text": "ㅎㅎ 운동도 좋아하고 나중에 이걸로 제 사업에 접목시켜보려고 합니다^^",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@Subjin04",
+              "text": "원래 운동도 좋아하기도 했고, 이걸로 제 사업에 접목시켜보고 싶어서요! ㅎㅎ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 0,
+            "pos": 3
+          },
+          "negative_ratio": 0.4,
+          "warning_level": "yellow",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "H7_5Ho1emQg",
+          "title": "갑자기 시작된 서브웨이 데이트",
+          "channel": "헌구두 Hengudu",
+          "subscribers": 225,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 77,
+          "likes": 7,
+          "comment_count": 1,
+          "engagement_rate": 0.1039,
+          "duration": 905,
+          "is_short": false,
+          "buzz_score": 32.8,
+          "upload_date": "2026.04.20",
+          "url": "https://www.youtube.com/watch?v=H7_5Ho1emQg",
+          "description_excerpt": "nan",
+          "top_comments": [
+            {
+              "author": "@하충불가이어빙",
+              "text": "갑자기 떠서 봤는데 너무 재밌네요 제 친형이 워킹홀리데이가서 유튜버로써 도전을 했었는데 정말 쉽지않았데요 저와 가족들은 자극적인 컨텐츠를 올려라고해도 우리 형은 너무 착하고 소심해서 자극적인 컨텐츠를 올리지못했어요 얼굴이 꽤나 잘생겨서 여자도 많이 꼬였는데 근데  헌구두님이 저희 형이 생각나네요 외모도 좋고 정말 착하고 수수한 영상을 만들고 계시지만 자극적이지 않으면 결국 시청자가 안 보게되는거 같아요 마지막 그녀는 친구였겠지만 다 큰 성인들끼리 술한잔하면서 어른스런 모먼트? 이런것도 보여주면 시청자들은 더욱 볼맛이 나고 재밌을거 ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "U26puCvmkHM",
+          "title": "구독자분의 역대급 맛도리 조합🍔🍖👍매일 서브웨이 먹기 1,208개째/Everyday Subway Eating, Mukbang, Everyday Subway diet #1,208",
+          "channel": "Subjin",
+          "subscribers": 2570,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 29,
+          "likes": 2,
+          "comment_count": 3,
+          "engagement_rate": 0.1724,
+          "duration": 426,
+          "is_short": false,
+          "buzz_score": 32.3,
+          "upload_date": "2026.04.21",
+          "url": "https://www.youtube.com/watch?v=U26puCvmkHM",
+          "description_excerpt": "#subway #sandwich #subwaysandwich #diet #workout #everydaysubway #mukbang #food \n\n메뉴 : 이탈리안 BMT 15cm, 안에 웨지감자 넣기\n빵 : 플랫 브레드\n굽기 : 피망, 양파, 올리브 오일 넣고 \n         스테이크3 화력으로 바삭하게 굽기\n치즈 : 모짜렐라 치즈\n채소 : 양상추, 토마토, 피클, 올리브\n소스 : 랜치, 스위트 어니언\n음료 : 제로 콜라\n사이드 : 웨지 감자 2개(1개는 샌드위치 안에 넣음)\n가격 : 12,300₩",
+          "top_comments": [
+            {
+              "author": "@hhhhhhi-u9t",
+              "text": "이분은 정말 꾸준하시네요 화이팅입니다",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@Pandalove.",
+              "text": "매섭웨 794~ 오 새로운 조합! 신선하네요 ㅎㅎ 병원 오픈하신다니 축하드려요!!!! 늘 발전해가는 멋진 썹진님",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@User-r4cm",
+              "text": "매일 서브웨이 먹는 동영상보기 1167일차 오호 특이한 조합이네요 마침 집돌아가려는데 한번 먹어봐야겠습니다😮",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 3
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -9193,14 +10269,164 @@
           "video_meta_rating": 5,
           "multi_brand_tags": [],
           "transcript_sentiment": null
+        },
+        {
+          "video_id": "sXLUf-_xkL4",
+          "title": "서브웨이 좋아하시나요?",
+          "channel": "광부",
+          "subscribers": 931,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 17,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.1176,
+          "duration": 65,
+          "is_short": false,
+          "buzz_score": 8.3,
+          "upload_date": "2026.04.19",
+          "url": "https://www.youtube.com/watch?v=sXLUf-_xkL4",
+          "description_excerpt": "nan",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "jvWpKIlQw1c",
+          "title": "호주 서브웨이 주문 영어 🇦🇺 | 실전 리얼 대화 쉐도잉",
+          "channel": "The Language Nibbles (Kor & Eng)",
+          "subscribers": 278,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 23,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 1081,
+          "is_short": false,
+          "buzz_score": 8.2,
+          "upload_date": "2026.04.20",
+          "url": "https://www.youtube.com/watch?v=jvWpKIlQw1c",
+          "description_excerpt": "호주에서 서브웨이 주문할 때\n생각보다 당황하는 순간 많습니다.\n\n“어떤 빵 드릴까요?”\n“추천 드릴까요?”\n“소스는 어떤 걸로 하실래요?”\n 메뉴보다 영어가 더 어렵게 느껴지는 순간입니다.\n\n이번 영상은 🇦🇺 호주 서브웨이에서 실제로 사용하는\n주문 흐름 전체를 담은 실전 영어 섀도잉입니다.\n\n사이즈 선택부터\n빵 → 치즈 → 야채 → 소스 → 세트 업그레이드까지\n현지에서 그대로 쓰는 표현만 정리했습니다.\n\n00:00 인트로\n00:30 Listening Practice (문제 3개)\n00:40 Step 1. 전체 듣기\n02:36 Ste",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "YXWCTa0mMlc",
+          "title": "1층 서브웨이를 7층으로 배달하는 시대, 우리가 놓치고 있는 것들",
+          "channel": "배투박기사의 배달 라이프",
+          "subscribers": 107,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 75,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 349,
+          "is_short": false,
+          "buzz_score": 8.0,
+          "upload_date": "2026.04.17",
+          "url": "https://www.youtube.com/watch?v=YXWCTa0mMlc",
+          "description_excerpt": "안녕하세요, 대전의 길 위에서 기록을 남기는 배투박기사입니다.\n오늘은 조금 특별하고도 아이러니한 배달을 다녀왔습니다.\n1층 서브웨이에서 픽업해 바로 위 7층으로 가는 배달, 여러분은 어떻게 생각하시나요?\n\n[주요 내용]\n\n세상에서 가장 가까운 배달: 엘리베이터만 타면 끝나는 '개꿀 콜'의 현장\n\n왜 배달을 시킬까?: 브랜드 자체 앱과 무료 배송이 만든 새로운 풍경\n\n라이더의 속마음: 치솟는 기름값 속에서 전기 오토바이가 주는 작은 여유\n\n플랫폼의 그늘: 자영업자도, 라이더도 고민하게 만드는 수수료 이야기\n\n[맺음말]\n문 앞까지 음식",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "LPPhZzw5nyU",
+          "title": "써브웨이 비켜; 집에서 만드는 게 더 쫀득한 ‘마약 쫀득쿠키’ 레시피",
+          "channel": "떵이커플",
+          "subscribers": 4,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 9,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.2222,
+          "duration": 227,
+          "is_short": false,
+          "buzz_score": 6.1,
+          "upload_date": "2026.04.18",
+          "url": "https://www.youtube.com/watch?v=LPPhZzw5nyU",
+          "description_excerpt": "nan",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "부정",
+          "video_meta_rating": 2,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "fck9wkQkmLg",
+          "title": "써브웨이 타코까지 써브웨이답게 Full ver",
+          "channel": "AIRINGRING",
+          "subscribers": 4,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 0,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 52,
+          "is_short": true,
+          "buzz_score": 0.0,
+          "upload_date": "2026.04.21",
+          "url": "https://www.youtube.com/watch?v=fck9wkQkmLg",
+          "description_excerpt": "* 광고쟁이가 찾은 완성도 높은(주관적) 레퍼런스 영상 아카이브 *\n\n광고주 = 써브웨이\n소재일 = 20260120",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 4,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
         }
       ],
       "sentiment_counts": {
-        "neg": 2,
-        "neu": 0,
-        "pos": 6
+        "neg": 8,
+        "neu": 2,
+        "pos": 47
       },
-      "negative_ratio": 0.25,
+      "negative_ratio": 0.14,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -9269,7 +10495,7 @@
         "Macro": 1,
         "Micro": 4
       },
-      "summary": "BBQ치킨의 신메뉴나 프로모션에 대한 직접적인 언급은 없으나, BBQ 치킨이 주요 식사 메뉴로 소비자들의 일상에서 중요한 역할을 하고 있음을 확인. 또한, 건강과 활동적 생활 스타일을 강조하는 콘텐츠가 인기를 얻고 있어 KFC도 이러한 트렌드를 반영한 마케팅 전략이 필요.\n  📌 건강 · 활동적인 라이프스타일 · 일상 식사",
+      "summary": "(요약 대기 중)",
       "videos": [
         {
           "video_id": "tEL6G2r_p9Y",
@@ -10081,7 +11307,7 @@
         "Nano": 12,
         "Macro": 1
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "summary": "(요약 대기 중)",
       "videos": [
         {
           "video_id": "I6y1SCaQFNU",
@@ -11254,7 +12480,7 @@
         "Macro": 1,
         "Mega": 2
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "summary": "(요약 대기 중)",
       "videos": [
         {
           "video_id": "at9XWx6VgXA",
