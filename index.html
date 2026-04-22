@@ -1062,8 +1062,153 @@ a:hover { text-decoration: underline; }
 }
 
 /* View visibility */
-body.mode-exec .view-detail { display: none; }
-body.mode-detail .view-executive { display: none; }
+body.mode-exec .view-detail, body.mode-exec .view-help { display: none; }
+body.mode-detail .view-executive, body.mode-detail .view-help { display: none; }
+body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
+
+/* Help View — 초심자용 설명 문서 */
+.view-help { display: block; }
+.help-doc {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 28px 36px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  line-height: 1.65;
+  color: var(--text-primary);
+}
+.help-doc h1 { font-size: 1.7rem; margin: 0 0 8px; }
+.help-doc h2 {
+  font-size: 1.2rem; margin: 32px 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--accent);
+}
+.help-doc p { margin: 8px 0; }
+.help-lead {
+  padding: 12px 16px;
+  background: rgba(228,0,43,0.08);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+.help-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 24px;
+  padding: 12px;
+  background: var(--bg-card-hover);
+  border-radius: 8px;
+}
+.help-nav a {
+  padding: 4px 12px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+.help-nav a:hover {
+  color: var(--accent-light);
+  border-color: var(--accent);
+}
+.help-section { margin-bottom: 24px; scroll-margin-top: 80px; }
+.help-card {
+  margin: 10px 0;
+  padding: 12px 16px;
+  background: var(--bg-card-hover);
+  border-left: 3px solid var(--text-muted);
+  border-radius: 0 8px 8px 0;
+  font-size: 0.9rem;
+}
+.help-card ul { margin: 6px 0 0 18px; }
+.help-card li { margin: 4px 0; }
+.help-table { margin: 10px 0; overflow-x: auto; }
+.help-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+.help-table th {
+  text-align: left;
+  padding: 8px 12px;
+  background: var(--bg-card-hover);
+  border-bottom: 2px solid var(--border);
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+.help-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.help-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.help-dot.owned { background: #6b7280; }
+.help-dot.sponsored { background: #f59e0b; }
+.help-dot.earned { background: #E4002B; }
+.help-glossary {
+  margin: 10px 0;
+  padding: 0;
+}
+.help-glossary dt {
+  font-weight: 700;
+  color: var(--accent-light);
+  margin-top: 14px;
+}
+.help-glossary dd {
+  margin: 4px 0 0 0;
+  padding-left: 0;
+  color: var(--text-secondary);
+}
+.help-faq {
+  margin: 10px 0;
+  padding: 12px 16px;
+  background: var(--bg-card-hover);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.help-faq summary {
+  font-weight: 600;
+  color: var(--text-primary);
+  list-style: none;
+}
+.help-faq summary::before {
+  content: "▶ ";
+  color: var(--accent);
+  transition: transform 0.2s;
+  display: inline-block;
+}
+.help-faq[open] summary::before { content: "▼ "; }
+.help-faq p {
+  margin-top: 10px;
+  padding-left: 16px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+.help-foot {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .help-doc { padding: 18px; margin: 10px; }
+  .help-nav { gap: 6px; padding: 8px; }
+  .help-table { font-size: 0.8rem; }
+}
 
 /* Executive Strip — headline KPI cards */
 .exec-strip {
@@ -1680,6 +1825,9 @@ body.mode-detail .view-executive { display: none; }
   <button class="view-tab" data-view="detail" role="tab" aria-selected="false">
     📋 Detail <span class="tab-hint">브랜드별 영상 상세</span>
   </button>
+  <button class="view-tab" data-view="help" role="tab" aria-selected="false">
+    📚 Help <span class="tab-hint">용어·지표 해설</span>
+  </button>
 </nav>
 
 <!-- ===================== Executive View ===================== -->
@@ -1909,6 +2057,256 @@ body.mode-detail .view-executive { display: none; }
 
   <div id="brands-container">
     <div class="loading"><div class="spinner"></div>데이터를 불러오는 중...</div>
+  </div>
+</div>
+
+<!-- ===================== Help / 설명 View ===================== -->
+<div class="container view-help" id="view-help">
+  <div class="help-doc">
+    <h1>📚 대시보드 사용 설명서</h1>
+    <p class="help-lead">
+      이 대시보드는 <strong>KFC + 경쟁사 9개</strong> YouTube 동향을 한눈에 보기 위한 도구입니다.
+      매일 <strong>06:00 / 18:00 자동 업데이트</strong>, 최근 30일 영상을 수집합니다.
+    </p>
+
+    <nav class="help-nav">
+      <a href="#h-ranking">🏆 순위</a>
+      <a href="#h-peso">🎯 PESO 3층</a>
+      <a href="#h-donut">🥧 도넛</a>
+      <a href="#h-bench">🏁 벤치마크</a>
+      <a href="#h-mix">🧩 콘텐츠 믹스</a>
+      <a href="#h-sentiment">🎭 감성 분석</a>
+      <a href="#h-buzz">🔥 Buzz</a>
+      <a href="#h-glossary">📖 용어</a>
+      <a href="#h-faq">❓ FAQ</a>
+    </nav>
+
+    <!-- 1. 순위 -->
+    <section class="help-section" id="h-ranking">
+      <h2>🏆 순위 (조회수 기준)</h2>
+      <p>경쟁 10개 브랜드 중 <strong>총 YouTube 조회수 기준 순위</strong>. 1위 = 조회수 가장 많음.</p>
+      <div class="help-card">
+        <strong>해석 주의:</strong>
+        <ul>
+          <li>맥도날드·맘스터치 등은 <strong>광고비로 만든 조회수</strong>가 대부분 (유튜브 광고 노출 = 조회수 카운트)</li>
+          <li>KFC가 6위라도 "약하다"가 아니라 <strong>광고 투자를 덜 했다</strong>는 의미</li>
+          <li>실제 자발 관심은 🎤 <strong>Earned SOV</strong>가 더 정확 (벤치마크 테이블에서 확인)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 2. PESO 3층 -->
+    <section class="help-section" id="h-peso">
+      <h2>🎯 PESO 3층 KPI</h2>
+      <p>마케팅에서 널리 쓰이는 <strong>PESO 프레임워크</strong> — 콘텐츠를 어디서 발신하냐에 따른 3단계:</p>
+      <div class="help-table">
+        <table>
+          <thead><tr><th>층</th><th>의미</th><th>예시</th><th>KFC가 쓸 수 있는 레버</th></tr></thead>
+          <tbody>
+            <tr><td><span class="help-dot owned"></span>🏛 <strong>Owned</strong></td>
+                <td>자사 공식 채널이 업로드한 영상</td>
+                <td>KFC Korea · 한국 맥도날드 공식 채널 광고</td>
+                <td>광고 제작 · 예산 집행</td></tr>
+            <tr><td><span class="help-dot sponsored"></span>🤝 <strong>Sponsored</strong></td>
+                <td>크리에이터가 돈받고 만든 협찬 영상</td>
+                <td>#광고 · "유료광고 포함" 표시가 있는 영상</td>
+                <td>크리에이터 협찬 집행</td></tr>
+            <tr><td><span class="help-dot earned"></span>🎤 <strong>Earned</strong> ⭐</td>
+                <td>크리에이터가 자발적으로 만든 영상</td>
+                <td>일반 먹방·리뷰·뉴스 영상</td>
+                <td><strong>제품 자체 화제성</strong> (KFC 주력)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="help-card">
+        <strong>KPI 카드 읽는 법:</strong>
+        <ul>
+          <li><strong>큰 숫자</strong> = 선택된 브랜드 <strong>내 비중</strong> (Owned + Sponsored + Earned = 100%)</li>
+          <li><strong>회색 배지</strong> = "시장 OO 중 X% 점유" (경쟁사 대비 점유율)</li>
+          <li>예: <code>KFC 내 Earned 99.6%</code> = KFC 영상의 99.6%가 크리에이터 자발 / <code>시장 Earned 중 21.9%</code> = 전체 Earned 시장의 21.9% 차지</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. 도넛 -->
+    <section class="help-section" id="h-donut">
+      <h2>🥧 SOV 분포 도넛 3개</h2>
+      <p>세로 합 100% 기준 시장 점유 — 브랜드별 색깔 조각 크기 비교:</p>
+      <ul>
+        <li><strong>🌐 전체 조회수 점유</strong> ⭐ — 광고+협찬+자발 모두 합친 시장 목소리. 제일 직관적</li>
+        <li><strong>🏛 Owned 점유</strong> — 공식 광고 지출 규모 반영 (맥도날드가 보통 압도)</li>
+        <li><strong>🎤 Earned 점유</strong> — 자발 크리에이터 화제성 (KFC·롯데리아 강함)</li>
+      </ul>
+    </section>
+
+    <!-- 4. 벤치마크 -->
+    <section class="help-section" id="h-bench">
+      <h2>🏁 경쟁 벤치마크 테이블</h2>
+      <p>10개 브랜드 × 8개 컬럼. <strong>기본 정렬: 조회수 내림차순</strong>. 헤더 클릭하면 해당 컬럼 기준 정렬.</p>
+      <div class="help-card">
+        <strong>행 클릭 기능:</strong> 해당 브랜드 행을 클릭하면 <strong>상단 KPI 5장이 그 브랜드 기준으로 전환</strong>.
+        레드 외곽선 = 현재 선택된 브랜드. "← KFC로 되돌리기" 버튼으로 초기화.
+      </div>
+      <div class="help-table">
+        <table>
+          <thead><tr><th>컬럼</th><th>의미</th></tr></thead>
+          <tbody>
+            <tr><td>영상수</td><td>30일 내 해당 브랜드 관련 영상 개수</td></tr>
+            <tr><td>조회수</td><td>영상들 조회수 총합</td></tr>
+            <tr><td>🏛 Owned</td><td>전체 Owned 시장 중 이 브랜드 차지 비율</td></tr>
+            <tr><td>🤝 Sponsored</td><td>전체 Sponsored 시장 중 이 브랜드 비율</td></tr>
+            <tr><td>🎤 Earned</td><td>전체 Earned 시장 중 이 브랜드 비율</td></tr>
+            <tr><td>💬 ER</td><td>Engagement (좋아요+댓글) 시장 점유</td></tr>
+            <tr><td>부정률</td><td>댓글 중 부정 댓글 비율</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 5. 콘텐츠 믹스 -->
+    <section class="help-section" id="h-mix">
+      <h2>🧩 브랜드 콘텐츠 믹스</h2>
+      <p>가로 100% 스택바 — <strong>각 브랜드가 어떤 유형에 투자하는지</strong>:</p>
+      <ul>
+        <li>🏛 회색(Owned) 비율 크면 → 광고 중심 브랜드 (맥도날드·맘스터치)</li>
+        <li>🎤 레드(Earned) 비율 크면 → 자발 바이럴 브랜드 (KFC·BBQ·교촌)</li>
+        <li>🤝 주황(Sponsored) 비율 크면 → 협찬 마케팅 (드물게 롯데리아 침착맨)</li>
+      </ul>
+    </section>
+
+    <!-- 6. 감성 분석 -->
+    <section class="help-section" id="h-sentiment">
+      <h2>🎭 감성 분석 — 2개 층 분리 표시</h2>
+      <p>각 영상 카드에 2가지 감성 배지가 병렬 표시됩니다:</p>
+      <div class="help-table">
+        <table>
+          <thead><tr><th>배지</th><th>의미</th><th>신뢰도</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><span class="sentiment-inline pos">💬 😊 긍정 82% (9/11)</span></td>
+              <td><strong>댓글 감성</strong>: 댓글들을 KR-BERT로 분류한 결과. N/T = 해당 감정 건수/총 댓글</td>
+              <td>★★ (실제 시청자 반응)</td>
+            </tr>
+            <tr>
+              <td><span class="sentiment-inline meta pos">📝 😊 내용 긍정</span></td>
+              <td><strong>내용 감성</strong>: 제목+설명을 KR-BERT로 분류. 크리에이터 의도 추정</td>
+              <td>★ (낮음, 댓글 대체제)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="help-card">
+        <strong>한국어 슬랭 오버라이드 적용:</strong>
+        "폭력적인 맛 = 최고", "병맛광고", "역대급", "존맛", "인생메뉴" 등 한국어 극찬 밈은
+        KR-BERT 가 문자 그대로 해석(부정)하지만, 자동으로 <strong>긍정</strong>으로 교정합니다.
+        총 54개 슬랭 키워드 + 광고 패턴(출시/신메뉴/런칭) 검출.
+      </div>
+      <div class="help-card">
+        <strong>경고 등급 (부정률 기반):</strong>
+        <ul>
+          <li>🔴 red — 댓글 5개 이상 중 부정 <strong>50% 이상</strong></li>
+          <li>🟡 yellow — 댓글 3개 이상 중 부정 <strong>30% 이상</strong></li>
+          <li>멀티브랜드 영상은 경고 등급 <strong>한 단계 감쇠</strong> (크리에이터 팬 댓글이라 신뢰도 ↓)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 7. Buzz Score -->
+    <section class="help-section" id="h-buzz">
+      <h2>🔥 Buzz Score (영상별 0~100)</h2>
+      <p>각 영상에 부여되는 종합 점수. "얼마나 바이럴 되고 있느냐" 지표.</p>
+      <div class="help-table">
+        <table>
+          <thead><tr><th>구성 요소</th><th>가중치</th><th>의미</th></tr></thead>
+          <tbody>
+            <tr><td>Reach</td><td>15%</td><td>절대 조회수 (log)</td></tr>
+            <tr><td>Engagement</td><td>20%</td><td>좋아요+댓글 비율</td></tr>
+            <tr><td>Freshness</td><td>10%</td><td>신선도 (7일 반감기)</td></tr>
+            <tr><td>Authority</td><td>15%</td><td>채널 구독자 파급력</td></tr>
+            <tr><td>Velocity</td><td>10%</td><td>시간당 조회수 증가 속도</td></tr>
+            <tr><td>Overperformance</td><td>20%</td><td>구독자 대비 조회수 (작은 채널 바이럴)</td></tr>
+            <tr><td>Discovery Speed</td><td>10%</td><td>업로드→발견까지 속도</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="help-card">
+        <strong>보정 게이트:</strong>
+        <ul>
+          <li><strong>Viability Gate</strong>: 좋아요+댓글 3건 미만 → ×0.3 (죽은 영상 감쇠)</li>
+          <li><strong>Paid Gate</strong>: 조회수 1만 이상인데 ER < 0.1% → ×0.7 (광고성 감쇠)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 8. 용어 사전 -->
+    <section class="help-section" id="h-glossary">
+      <h2>📖 용어 사전</h2>
+      <dl class="help-glossary">
+        <dt>SOV (Share of Voice)</dt>
+        <dd>전체 시장에서 해당 브랜드가 차지하는 "목소리"의 비율. 여기선 조회수·Engagement 기반.</dd>
+
+        <dt>ER (Engagement Rate)</dt>
+        <dd>(좋아요 + 댓글) / 조회수. YouTube 평균 4~5%. 10% 넘으면 매우 강한 참여.</dd>
+
+        <dt>Creator Tier</dt>
+        <dd>Official = 공식 채널 / Mega = 1M+ 구독 / Macro = 100K-1M / Micro = 10K-100K / Nano = 10K 미만</dd>
+
+        <dt>🔀 멀티-브랜드</dt>
+        <dd>제목/설명에 2개 이상 브랜드 등장. KFC 포함 영상은 KFC+멀티 섹션만, 나머지는 멀티 섹션만 표시 (중복 방지).</dd>
+
+        <dt>Refresh Tier</dt>
+        <dd>영상 업로드 경과일 기준 — hot(≤3일), warm(3-7일), cold(7-14일), frozen(>14일). 주기적으로 다시 크롤.</dd>
+
+        <dt>KR-BERT</dt>
+        <dd>한국어 전용 BERT 기반 3-class 감성 분류기. 로컬 MPS(Apple Silicon GPU)에서 실행, API 비용 0.</dd>
+      </dl>
+    </section>
+
+    <!-- 9. FAQ -->
+    <section class="help-section" id="h-faq">
+      <h2>❓ 자주 묻는 질문</h2>
+      <details class="help-faq">
+        <summary>Q. 왜 KFC가 순위 6위인가요? 실제로는 잘하고 있는 것 같은데...</summary>
+        <p>기본 순위는 <strong>총 조회수 기준</strong>인데 맥도날드·맘스터치가 유튜브 광고 집행(억 단위)으로
+        수천만 조회를 찍어서 상위권. 하지만 <strong>자발 크리에이터 관심(🎤 Earned)</strong>에서는
+        KFC가 상위 2~3위 수준이라 브랜드 파워는 건재합니다. 광고비 투자 부족이 순위에 반영된 것.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. 맥도날드 광고 한 편이 2,400만 뷰가 말이 되나요?</summary>
+        <p>YouTube 인스트림/인피드 광고는 <strong>사용자가 광고 건너뛰기 전 잠깐 본 것도 조회수 1로 카운트</strong>합니다.
+        TV CF + 유튜브 광고에 수억 투입하면 2천만 뷰 달성은 현실적입니다.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. 부정률이 왜 이렇게 들쑥날쑥한가요?</summary>
+        <p>교촌 40% = 실제 갑질 뉴스 때문 (진짜 부정). KFC 14% = 대부분 호의적 리뷰.
+        한국어 슬랭 (폭력적=최고, 죽인다=최고) 자동 교정 적용 후 현실 반영.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. Sponsored 영상이 거의 없는데 왜 생겼나요?</summary>
+        <p>현재 감지는 제목+설명 300자 범위에서 "#광고", "유료광고 포함" 같은 명시적 마커만 잡습니다.
+        <strong>미공개 협찬</strong>(20~30% 추정)은 Earned로 오분류될 수 있음.
+        향후 자막 기반 고도화 예정.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. 파파이스가 항상 0%인 이유?</summary>
+        <p>파파이스 한국 공식 채널은 <strong>2024년 4월 이후 2년째 업로드가 없습니다</strong>.
+        크리에이터 자발 영상도 희박해서 실제 "데이터가 없는" 상태입니다.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. 언제 데이터가 업데이트되나요?</summary>
+        <p>매일 <strong>06:00 (아침)과 18:00 (저녁)</strong> 자동 크롤. Slack 발송은 08:30 (아침만).
+        대시보드는 브라우저 하드 리프레시(⌘+Shift+R)하면 최신 버전 반영됩니다.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. 데이터는 어디서 오나요?</summary>
+        <p><code>yt-dlp</code> 오픈소스 도구로 YouTube 검색·공식 채널 크롤. <strong>YouTube Data API 미사용</strong> (토큰·쿼터 없음).
+        감성 분석은 로컬 KR-BERT, 요약은 로컬 Ollama qwen2.5:14b. <strong>외부 API 비용 0원</strong>.</p>
+      </details>
+    </section>
+
+    <p class="help-foot">
+      질문·개선 제안: KFC IT/디지털 팀 · 최종 업데이트는 상단 날짜 확인
+    </p>
   </div>
 </div>
 
@@ -2227,13 +2625,14 @@ body.mode-detail .view-executive { display: none; }
     var warnLevel = effectiveWarnLevel(v);
     var cardCls = 'video-card' + (warnLevel ? ' warn-' + warnLevel : '');
 
-    // Buzz 옆 인라인 감성 점수 — 댓글 기반 우선, 없으면 영상 메타 기반 fallback
-    // 이모지와 숫자 일관성: 😠=부정% / 😐=중립% / 😊=긍정% (건수 포함)
+    // 감성 배지 — 댓글 감성(💬) + 내용 감성(📝) 분리 표시
+    // 💬 댓글 기반: KR-BERT + 슬랭 오버라이드 (신뢰도 높음)
+    // 📝 내용 기반: 제목+설명 KR-BERT + 슬랭 오버라이드 (신뢰도 낮음)
     var inlineSent = '';
+    // ① 댓글 감성
     if (sTotal > 0) {
       var posRatio = (sc.pos || 0) / sTotal;
       var neuRatio = (sc.neu || 0) / sTotal;
-      // 지배 감정 결정: 부정률이 높으면 부정, 아니면 긍정/중립 중 우위
       var sCls, sIcon, sLabel, sPct, sCnt;
       if (negRatio >= 0.5) {
         sCls = 'neg'; sIcon = '😠'; sLabel = '부정'; sPct = negRatio; sCnt = sc.neg;
@@ -2244,17 +2643,20 @@ body.mode-detail .view-executive { display: none; }
       } else {
         sCls = 'mid'; sIcon = '😐'; sLabel = '중립'; sPct = neuRatio; sCnt = sc.neu;
       }
-      inlineSent = '<span class="sentiment-inline ' + sCls +
-        '" title="댓글 ' + sTotal + '개 기반 — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0) + '">' +
+      inlineSent += '<span class="sentiment-inline ' + sCls +
+        '" title="💬 댓글 ' + sTotal + '개 KR-BERT 분석 — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0) + '">💬 ' +
         sIcon + ' ' + sLabel + ' ' + Math.round(sPct * 100) + '% <span style="opacity:0.7">(' + sCnt + '/' + sTotal + ')</span></span>';
-    } else if (v.video_meta_sentiment) {
-      // 댓글 0개일 때 제목+설명 기반 감성 (📝 마크로 구분 · 신뢰도 낮음)
+    }
+    // ② 내용 감성 (제목+설명, 댓글 있든 없든 표시)
+    if (v.video_meta_sentiment) {
       var ms = v.video_meta_sentiment;
       var mCls = ms === '부정' ? 'neg' : (ms === '중립' ? 'mid' : 'pos');
       var mIcon = ms === '부정' ? '😠' : (ms === '중립' ? '😐' : '😊');
-      inlineSent = '<span class="sentiment-inline meta ' + mCls + '" title="영상 제목+설명 기반 (댓글 없음) · 신뢰도 낮음">📝 ' + mIcon + ' ' + escapeHtml(ms) + '</span>';
-    } else {
-      inlineSent = '<span class="sentiment-inline none" title="댓글 없음">· –</span>';
+      inlineSent += '<span class="sentiment-inline meta ' + mCls + '" title="📝 제목+설명 KR-BERT 분석 · 크리에이터 의도 추정 (신뢰도 낮음)">📝 ' + mIcon + ' 내용 ' + escapeHtml(ms) + '</span>';
+    }
+    // 둘 다 없으면 "댓글 없음" 표시
+    if (!inlineSent) {
+      inlineSent = '<span class="sentiment-inline none" title="댓글 및 메타 분석 없음">· –</span>';
     }
 
     // 멀티-브랜드 비교 콘텐츠 칩 (2개 이상 브랜드 감지 시)
@@ -2907,8 +3309,10 @@ body.mode-detail .view-executive { display: none; }
           b.classList.toggle('active', b === btn);
           b.setAttribute('aria-selected', b === btn ? 'true' : 'false');
         });
-        document.body.classList.remove('mode-exec','mode-detail');
+        document.body.classList.remove('mode-exec','mode-detail','mode-help');
         document.body.classList.add('mode-' + v);
+        // Help 탭: 외부 데이터 렌더링 시 사용자 브랜드 현재 상태 반영
+        if (v === 'help' && typeof renderHelp === 'function') renderHelp();
       });
     });
     // Default mode
