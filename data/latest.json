@@ -1,6 +1,6 @@
 {
   "date": "2026-04-22",
-  "generated_at": "2026-04-22 11:27:20",
+  "generated_at": "2026-04-22 11:46:55",
   "window_days": 30,
   "brands": {
     "kfc": {
@@ -12,10 +12,10 @@
       "n_short": 4,
       "n_long": 20,
       "tier_counts": {
-        "Nano": 17,
         "Macro": 4,
-        "Official": 2,
-        "Micro": 1
+        "Micro": 1,
+        "Nano": 17,
+        "Official": 2
       },
       "summary": "KFC의 신메뉴 '살라미 빵치짜'가 긍정적인 반응을 얻으며 가성비와 맛에 대한 소비자 만족도가 높아졌음. 그러나 일부 사용자는 맛끼리의 조화보다는 단순한 맛의 결합이 더 나은지에 대해 의견을 제시함.\n  📌 신메뉴 · 가성비 · 맛",
       "videos": [
@@ -1188,17 +1188,17 @@
     },
     "burgerking": {
       "display": "버거킹",
-      "video_count": 25,
-      "total_views": 20435651,
-      "total_likes": 7288,
+      "video_count": 23,
+      "total_views": 20133865,
+      "total_likes": 7287,
       "total_comments": 112,
       "n_short": 6,
-      "n_long": 19,
+      "n_long": 17,
       "tier_counts": {
-        "Nano": 13,
         "Official": 5,
+        "Nano": 12,
+        "Macro": 2,
         "Micro": 3,
-        "Macro": 3,
         "Mega": 1
       },
       "summary": "(48시간 내 한국어 콘텐츠 없음)",
@@ -2827,17 +2827,16 @@
     },
     "mcdonalds": {
       "display": "맥도날드",
-      "video_count": 16,
-      "total_views": 59075950,
-      "total_likes": 1939,
+      "video_count": 14,
+      "total_views": 58774154,
+      "total_likes": 1938,
       "total_comments": 4,
       "n_short": 7,
-      "n_long": 9,
+      "n_long": 7,
       "tier_counts": {
         "Official": 9,
-        "Nano": 5,
-        "Macro": 1,
-        "Mega": 1
+        "Mega": 1,
+        "Nano": 4
       },
       "summary": "(48시간 내 한국어 콘텐츠 없음)",
       "videos": [
@@ -3454,17 +3453,17 @@
     },
     "lotteria": {
       "display": "롯데리아",
-      "video_count": 65,
-      "total_views": 10078234,
-      "total_likes": 12302,
+      "video_count": 48,
+      "total_views": 9729227,
+      "total_likes": 11612,
       "total_comments": 126,
-      "n_short": 7,
-      "n_long": 58,
+      "n_short": 6,
+      "n_long": 42,
       "tier_counts": {
-        "Nano": 46,
-        "Micro": 7,
+        "Macro": 4,
+        "Micro": 6,
         "Official": 6,
-        "Macro": 5,
+        "Nano": 31,
         "Mega": 1
       },
       "summary": "롯데리아의 '뒤진다 돈까스'와 '초코 프링글스'가 소비자들 사이에서 주목받고 있으며, 일부 소비자는 매운 음식을 잘 못 먹는 점을 고려해 조심해야 한다고 경고하고 있다.\n  📌 뒤진다 돈까스 · 초코 프링글스 · 매운음식",
@@ -6586,17 +6585,17 @@
     },
     "momstouch": {
       "display": "맘스터치",
-      "video_count": 43,
-      "total_views": 36292112,
-      "total_likes": 8332,
+      "video_count": 40,
+      "total_views": 35983788,
+      "total_likes": 8245,
       "total_comments": 120,
       "n_short": 8,
-      "n_long": 35,
+      "n_long": 32,
       "tier_counts": {
-        "Nano": 30,
-        "Macro": 5,
+        "Micro": 2,
+        "Nano": 29,
         "Official": 5,
-        "Micro": 3
+        "Macro": 4
       },
       "summary": "(48시간 내 한국어 콘텐츠 없음)",
       "videos": [
@@ -9259,16 +9258,16 @@
     },
     "bbq": {
       "display": "BBQ치킨",
-      "video_count": 16,
-      "total_views": 164684,
-      "total_likes": 2835,
-      "total_comments": 20,
+      "video_count": 13,
+      "total_views": 68201,
+      "total_likes": 1436,
+      "total_comments": 0,
       "n_short": 2,
-      "n_long": 14,
+      "n_long": 11,
       "tier_counts": {
-        "Nano": 9,
-        "Micro": 5,
-        "Macro": 2
+        "Nano": 8,
+        "Macro": 1,
+        "Micro": 4
       },
       "summary": "BBQ치킨은 라이브 방송을 통해 소비자와의 실시간 상호작용을 강화하고 있으며, 주로 술과 치킨을 함께 즐기는 문화를 중심으로 내용을 전개하고 있다. 이는 BBQ치킨의 제품 품질에 대한 긍정적인 인식을 조성하는 데 기여하며, KFC가 소비자와의 연결성을 강화하기 위한 디지털 마케팅 전략 개발에 참고할 만하다.\n  📌 라이브 방송 · 술치킨 문화 · 품질 긍정 인식",
       "videos": [
@@ -10041,15 +10040,15 @@
     },
     "bhc": {
       "display": "BHC치킨",
-      "video_count": 21,
-      "total_views": 5871814,
-      "total_likes": 1800,
+      "video_count": 20,
+      "total_views": 5871754,
+      "total_likes": 1796,
       "total_comments": 28,
       "n_short": 8,
-      "n_long": 13,
+      "n_long": 12,
       "tier_counts": {
-        "Nano": 13,
         "Official": 7,
+        "Nano": 12,
         "Macro": 1
       },
       "summary": "(48시간 내 한국어 콘텐츠 없음)",
@@ -11213,17 +11212,17 @@
     },
     "kyochon": {
       "display": "교촌치킨",
-      "video_count": 34,
-      "total_views": 224865,
-      "total_likes": 3698,
-      "total_comments": 38,
+      "video_count": 32,
+      "total_views": 142988,
+      "total_likes": 2543,
+      "total_comments": 18,
       "n_short": 3,
-      "n_long": 31,
+      "n_long": 29,
       "tier_counts": {
-        "Nano": 27,
+        "Nano": 26,
         "Micro": 3,
-        "Mega": 2,
-        "Macro": 2
+        "Macro": 1,
+        "Mega": 2
       },
       "summary": "교촌치킨의 가격 인상과 관련된 비판적인 의견들이 제기되었으나, 일부 소비자들은 여전히 교촌 치킨의 맛과 냄새를 좋아하며 긍정적 반응도 있음. 또한, 교촌치킨의 이벤트 참여와 지역 방문에 대한 내용이 올라왔으며, KFC는 가격 정책과 고객 만족도에 주목할 필요가 있다.\n  📌 가격 인상 · 긍정적 반응 · 이벤트",
       "videos": [
