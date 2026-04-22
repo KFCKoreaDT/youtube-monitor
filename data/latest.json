@@ -1,6 +1,6 @@
 {
   "date": "2026-04-22",
-  "generated_at": "2026-04-22 15:02:22",
+  "generated_at": "2026-04-22 15:12:00",
   "window_days": 30,
   "brands": {
     "kfc": {
@@ -1089,8 +1089,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1119,8 +1119,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         }
@@ -3580,8 +3580,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3752,8 +3752,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -5242,8 +5242,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9313,8 +9313,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9414,8 +9414,8 @@
           },
           "negative_ratio": 0.6,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9515,8 +9515,8 @@
           },
           "negative_ratio": 0.7,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9616,8 +9616,8 @@
           },
           "negative_ratio": 0.6,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -9818,8 +9818,8 @@
           },
           "negative_ratio": 0.9,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10208,8 +10208,8 @@
           },
           "negative_ratio": 0.7,
           "warning_level": "red",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10309,8 +10309,8 @@
           },
           "negative_ratio": 0.5,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10410,8 +10410,8 @@
           },
           "negative_ratio": 0.8,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10497,8 +10497,8 @@
           },
           "negative_ratio": 0.75,
           "warning_level": "red",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10765,8 +10765,8 @@
           },
           "negative_ratio": 0.6,
           "warning_level": "red",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -10967,8 +10967,8 @@
           },
           "negative_ratio": 0.6,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11172,8 +11172,8 @@
           },
           "negative_ratio": 0.8,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 2,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11370,8 +11370,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11436,8 +11436,8 @@
           },
           "negative_ratio": 0.8,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -11676,8 +11676,8 @@
           },
           "negative_ratio": 1.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12853,8 +12853,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -12964,8 +12964,8 @@
           },
           "negative_ratio": 1.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -14087,8 +14087,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -14325,8 +14325,8 @@
           },
           "negative_ratio": 0.4,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [
             "bbq",
             "kyochon"
@@ -14616,8 +14616,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -15483,8 +15483,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [
             "bbq",
             "bhc",
@@ -15790,24 +15790,226 @@
     },
     "bhc": {
       "display": "BHC치킨",
-      "video_count": 21,
-      "total_views": 6001101,
-      "total_likes": 1814,
-      "total_comments": 28,
+      "video_count": 27,
+      "total_views": 6082478,
+      "total_likes": 2222,
+      "total_comments": 72,
       "n_short": 8,
-      "n_long": 13,
+      "n_long": 19,
       "tier_counts": {
-        "Official": 7,
-        "Nano": 13,
-        "Macro": 1
+        "Macro": 2,
+        "Nano": 18,
+        "Official": 7
       },
       "summary": "(요약 대기 중)",
       "videos": [
         {
+          "video_id": "HB3gVt9aO6k",
+          "title": "VLOG, 갓생과 똥생 그 어딘가쯤. 언뜻 보면 저속노화 자세히보면 초고속노화. 나홀로 한남동 나들이 (부자피자, 알로, on, 샵아모멘토, 글로니) 엽떡과 뿌링클",
+          "channel": "소소soso",
+          "subscribers": 143000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 13119,
+          "likes": 289,
+          "comment_count": 20,
+          "engagement_rate": 0.0236,
+          "duration": 1140,
+          "is_short": false,
+          "buzz_score": 56.7,
+          "upload_date": "2026.04.21",
+          "url": "https://www.youtube.com/watch?v=HB3gVt9aO6k",
+          "description_excerpt": "#엽떡 #뿌링클 #러닝 \n📮Contact : sosotmi01@gmail.com\n📸 Instagram : https://www.instagram.com/sosotmi/\n\n안녕하세요 여러분 !\n여행 한 번 다녀왔다고 또 만사가 귀찮더라,,, 너무 오랜만에 와서 미안혀\n\n⭐️ 회색 레글런 티 : 웡커 https://www.dontbeawanker.kr/SHOP/?idx=174\n⭐️ 05:05\ntop : LEMONE https://curator.29cm.co.kr/short-link/goods/1xhv968o\nops : CITTA htt",
+          "top_comments": [
+            {
+              "author": "@간고등어-c6q",
+              "text": "야외배변ㅋㅋㅋ소소님 항상 건강한듯 안건강한듯 친근감 느껴져서 좋아요 ㅋㅋㅋ",
+              "likes": 10,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@null0t",
+              "text": "소소님 브이로그 넘 꿀잼쓰…. 야외배변 얘기하신거 너무 웃겨요 ㅠㅠㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+              "likes": 7,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@fleurming",
+              "text": "야외배변😂ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ넘웃겨욬ㅋㅋㅋ소소님은 먹방러하셔야할 듯 음식을 넘 맛있게 드심🍩🍩🍩",
+              "likes": 7,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@sosotmi",
+              "text": "지금 거의 50%의 확률로 실외배변중...",
+              "likes": 1,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@yjyjyj86",
+              "text": "맨날 소소 기다려요 소소영상 좋아하네 나.. 이번영상 애탓스…..",
+              "likes": 1,
+              "sentiment": "중립",
+              "rating": 3
+            },
+            {
+              "author": "@Hyoll_",
+              "text": "14:07 맛있으면 춤추는거...제 모습인줄..............ㅎ 급똥 조시매요 소소님~.~ 🩵",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@hyo-12345",
+              "text": "8:15 소소님, 파란색 하트 목걸이 정보 궁금합니당 ❤❤",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
+            },
+            {
+              "author": "@MYNAMEISSEON",
+              "text": "맨날 다이어트 할거라고 염불외는 내 모습과 겹치잖아….😂 \n낫또는 어디꺼 드세요? 저렴하고 한팩당 양 많은 노브랜드 시도했다가 노맛이라 그냥 풀무원 외길 걷고 있어요. 흑흑",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
+            },
+            {
+              "author": "@mings486",
+              "text": "소소언니❤ 요거트랑 함께 드신 빵은 어떤고예요😮 따라먹을래여ㅎㅎ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@amoodraw",
+              "text": "쇼님 요즘 안오셔서 궁금했어요 요거트+다진마늘+올오에다가 오이넣어먹는게 그리스 차지키 소스에용 ㅎㅎ 응용 버전인듯! 차지키도 해드셔보세요☺️",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 3,
+            "pos": 6
+          },
+          "negative_ratio": 0.1,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 4,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "mCT_awLY0Fg",
+          "title": "[vlog] 예비 며느리모드로 술냄새 곁들인 시댁식구들과 첫여행🌊🍺혼술 먹방브이로그(냉면/BHC 핫후라이드/멍게/바베큐 파티/월남쌈/비빔밥/해장술/육삼이와 밍돌이🤍/대부도 여행)",
+          "channel": "김써주",
+          "subscribers": 6860,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 5628,
+          "likes": 105,
+          "comment_count": 20,
+          "engagement_rate": 0.0222,
+          "duration": 1945,
+          "is_short": false,
+          "buzz_score": 50.2,
+          "upload_date": "2026.04.19",
+          "url": "https://www.youtube.com/watch?v=mCT_awLY0Fg",
+          "description_excerpt": "@ssuunn__y \nE-mail : sunmikim426@naver.com\n\n\n여러분 어느덧 4월 셋째주네요🥹\n소중한 계절 잘보내고 계시죠ㅎㅎㅎ\n저도 소중한 봄날 소중히 만끽하고 있답니다\n더위가 물론 이른바도 있지만 (오지마 무더위)\n남은 주말도 즐겁게 보내시고\n다음주는 제가 생일주라....💗 \n방구석 진~~한 혼술 생일파티가 있겠음다ㅋㅋㅋㅋㅋㅋㅋㅋ(진절머리ㅠ)\n오늘도 감사합니다!❤️",
+          "top_comments": [
+            {
+              "author": "@황슬-f9f",
+              "text": "밤톨이인데 예솔언니네 가족되신건가요?????",
+              "likes": 13,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@동마니-u4e",
+              "text": "다들 예솔님이 형님이라 좋겠다하지만 전 반대!!ㅋㅋㅋ 선미님 참 좋은 사람인 것 같다는~~이런 동서, 며느리가 어딨겠냐고 남동생 있는 누나로써 생각해봅니다요ㅋㅋ 내인생에 로또라고 예전 예솔님 영상에서도 봤었는데 두 분 행복한 결혼생활하시길 바라요 팬티바람 볼 일 없기로해~~ㅋㅋㅋ",
+              "likes": 10,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@리히히릴히히",
+              "text": "ㅋㅋ예솔님 영상에서 선미님 너무 웃갸서 ㅋㅋㅋ빵터졌어요… 나 무서워..하는 거 ㅋㅋㅋㅋㅋㅋㅋ",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@쀼쀼-k9y",
+              "text": "밍돌이 왜이렇게 순하고 귀여워요ㅠㅠ \n영상 재밌게 봤습니당❤",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@cute_mingky",
+              "text": "예솔님 보다 써주님을 먼저 알게된 구독자에용❤❤❤넘 축하합니다! 제 최애 유뷰버 써주님!! 꽃길만 걷길❤❤",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@ssuunn__y",
+              "text": "너무 감사합니다 항상 함께 행복하시길 바라요💕💕💕🎀",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@ssuunn__y",
+              "text": "이번주 나홀로 베란다 캠핑…. 많관부탁드려요?❤ㅎㅎㅎㅎ 즐거운 하루 보내세요🌼",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@yjk4115",
+              "text": "이번영상도 잘 봤습니당😄 혼술영상 많이 찍어주세요!~",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@ssuunn__y",
+              "text": "고맙습~~~니다🌸💗",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@yeahhn2",
+              "text": "완투형!!!!! 여기서 뵈어 더 반갑네요ㅋㅋㅋㅋㅋㅋㅋㅋ🎉🎉 결혼 축하합니당",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 10
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "I6y1SCaQFNU",
           "title": "미안하다 이거 보여주려고 신제품 출시했다. 새로운 간장치킨 등장 실화냐? 진짜 간장치킨 최강자다 | b-치킨회담 (w. 이용진, 양상국)",
           "channel": "bhc치킨",
-          "subscribers": 31100,
+          "subscribers": 31000,
           "creator_tier": "Official",
           "is_verified": false,
           "views": 162094,
@@ -15816,7 +16018,7 @@
           "engagement_rate": 0.0046,
           "duration": 971,
           "is_short": false,
-          "buzz_score": 44.8,
+          "buzz_score": 44.7,
           "upload_date": "2026.04.10",
           "url": "https://www.youtube.com/watch?v=I6y1SCaQFNU",
           "description_excerpt": "❝bhc 좋아하는 맘이 커졌어\n엄청 커\n막 쏘이갈릭킹의 풍미만해❞\n\n간장치킨 계의 새로운 강자 등장!\n근데 2가지 맛이라고?!\n\n달콤하고 알싸한 허니\n깊고 진한 풍미의 오리지널\n과연 누구를 택할 것인가?! \n\n요즘 폼 좋은 이용진과 양상국의\n기세로 밀어붙이는 b-치킨회담!\n\n지금 바로 영상 확인 후 고정 댓글 이벤트 참여하고\nbhc 신메뉴 쏘이갈릭킹의 깊은 풍미에 빠져보세요!\n\n*출연자에 대한 욕설 및 비방 댓글은 삭제될 수 있습니다.\n#bhc #bhc치킨 #b치킨회담 #쏘이갈릭킹 #이용진 #양상국",
@@ -15843,13 +16045,6 @@
               "rating": 5
             },
             {
-              "author": "@집에가고싶어-k6d",
-              "text": "아니 요즘 이용진 여기저기 더 자주 나와서 좋네 ㅋㅋㅋ 둘이 진짜 개웃기네 ㅋㅋ",
-              "likes": 4,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
               "author": "@송송이-n8s",
               "text": "쏘이갈릭킹 허니🎉🎉🎉🎉🎉🎉\n건조해진 치킨의 허니판에 새롭게 등장한 신성 쏘이갈릭킹 허니의 출현🎉🎉\n이제 치킨계의 허니는 bhc의 쏘이갈릭킹 허니가 평정한다\n이제 치킨의 허니씬도 긴장해야죠\n그동안 단짠으로 허니씬을 장악했다면\n이젠 갈릭으로 건강까지 챙긴 bhc의 쏘이갈릭킹 허니가 등장한거죠\n허니씬의 신성 쏘이갈릭킹 먹어보고 싶어요\n이젠 매일먹던 허니들 대신 건강 챙기는 허니~~\n쏘이갈릭킹 허니로 건강까지 챙긴 단짠 만나보고 싶어요🎉🎉🎉",
               "likes": 4,
@@ -15864,15 +16059,22 @@
               "rating": 4
             },
             {
-              "author": "@Mango_s2",
-              "text": "🌈쏘이갈릭킹 허니 오리지널 이름만 들어도 기대감이 확 올라가는 신메뉴인 것 같아요 🍯🧄✨ 달콤한 허니의 풍미에 진한 갈릭 향이 더해져 한층 깊고 풍부한 맛을 완성할 것 같아 벌써부터 군침이 돕니다. 익숙하면서도 새로운 조합이라 더욱 특별하게 느껴지고, 한 입 먹는 순간 그 조화로운 풍미에 빠져들 것 같은 기대가 큽니다! 새롭게 선보이는 메뉴인 만큼 어떤 맛의 밸런스를 보여줄지 궁금하고, 한 끼를 더 즐겁게 만들어줄 메뉴로 많은 사람들의 입맛을 사로잡을 것 같아 더욱 기대됩니다😊",
-              "likes": 3,
+              "author": "@집에가고싶어-k6d",
+              "text": "아니 요즘 이용진 여기저기 더 자주 나와서 좋네 ㅋㅋㅋ 둘이 진짜 개웃기네 ㅋㅋ",
+              "likes": 4,
               "sentiment": "긍정",
               "rating": 5
             },
             {
               "author": "@Sun_gazea",
               "text": "이용진 이렇게 맛있게 먹는거 첨봄 ㅋㅋㅋㅋㅋ요즘 텐션 좋은 이용진😁난 허니편  사이드 메뉴까지 이용진오빠 똑같이 시켜서 다시보면서 먹을래요 쏘이갈릭킹 허니👍",
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@Mango_s2",
+              "text": "🌈쏘이갈릭킹 허니 오리지널 이름만 들어도 기대감이 확 올라가는 신메뉴인 것 같아요 🍯🧄✨ 달콤한 허니의 풍미에 진한 갈릭 향이 더해져 한층 깊고 풍부한 맛을 완성할 것 같아 벌써부터 군침이 돕니다. 익숙하면서도 새로운 조합이라 더욱 특별하게 느껴지고, 한 입 먹는 순간 그 조화로운 풍미에 빠져들 것 같은 기대가 큽니다! 새롭게 선보이는 메뉴인 만큼 어떤 맛의 밸런스를 보여줄지 궁금하고, 한 끼를 더 즐겁게 만들어줄 메뉴로 많은 사람들의 입맛을 사로잡을 것 같아 더욱 기대됩니다😊",
               "likes": 3,
               "sentiment": "긍정",
               "rating": 5
@@ -15908,10 +16110,10 @@
           "video_id": "v8ZtpciRLSs",
           "title": "스윗 갈릭 소스 찍어 슥삭 순삭! 쏘이갈릭킹 오리지널 (6s)",
           "channel": "bhc치킨",
-          "subscribers": 31100,
+          "subscribers": 31000,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 2642246,
+          "views": 2665932,
           "likes": 16,
           "comment_count": 1,
           "engagement_rate": 0.0,
@@ -15946,10 +16148,10 @@
           "video_id": "44EilWpPBCQ",
           "title": "알싸한 갈릭과 단짠의 조화, 쏘이갈릭킹 허니 (6s)",
           "channel": "bhc치킨",
-          "subscribers": 31100,
+          "subscribers": 31000,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 2560509,
+          "views": 2591169,
           "likes": 25,
           "comment_count": 1,
           "engagement_rate": 0.0,
@@ -15977,6 +16179,65 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "UBeJ4k3r7eI",
+          "title": "뿌링클 후라이드 먹방 기가 막히노 풀 영상",
+          "channel": "박상현",
+          "subscribers": 3590,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 315,
+          "likes": 4,
+          "comment_count": 4,
+          "engagement_rate": 0.0254,
+          "duration": 374,
+          "is_short": false,
+          "buzz_score": 39.2,
+          "upload_date": "2026.04.19",
+          "url": "https://www.youtube.com/watch?v=UBeJ4k3r7eI",
+          "description_excerpt": "#뿌링클먹방 #후라이드치킨 #fypシ #fypシ",
+          "top_comments": [
+            {
+              "author": "@하츄핑0",
+              "text": "너무 적게 드세요ㅠㅠㅠ다이어트 열심히 하시는듯 오늘도 존잘❤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@유만아빠",
+              "text": "더 많이 먹어주세요❤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@rubyrrubyy",
+              "text": "뿌링클 맛있겠다 아자스!",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@브르스리-y8f",
+              "text": "뭐냐? 장난치냐?",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 3
+          },
+          "negative_ratio": 0.25,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16228,6 +16489,36 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "-MKXtJ8_t1E",
+          "title": "귀하게 자란 여러분께 선보이는 집밥 브이로그 🔔ㅣ 우리 집이 중화반점 가지 덮밥🍆, 가리비 파티, 초간단 명란버터 파스타, 바나나우유 떡🍌, bhc 핫후라이드, 쌀국수",
+          "channel": "주부함",
+          "subscribers": 2440,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 310,
+          "likes": 8,
+          "comment_count": 0,
+          "engagement_rate": 0.0258,
+          "duration": 658,
+          "is_short": false,
+          "buzz_score": 36.1,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=-MKXtJ8_t1E",
+          "description_excerpt": "이번 주도 육해공,, 가리지 않고 열심히 먹었습니다..!\n저의 작은 채널에 놀러와 주신 분들 환영하고 감사해요~\n4K로 보면 더 맛있지요!\n재밌으셨다면 구독과 좋아요, 댓글 부탁드려도 될까요..?\n더 맛있는 메뉴들로 다음 영상에서 만나요~\n\n📩: jubuham@naver.com\n\n📌 타임라인\n00:00 미리보기\n00:20 가지 덮밥 \n02:58 청년떡집 바나나우유 떡\n03:53 쌀국수\n04:51 가리비 파티\n07:29 명란 버터 파스타\n10:11 bhc 핫후라이드 \n \n#집밥브이로그 #먹방 #초간단요리 #제철음식",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "3AcWErBl2ps",
           "title": "BHC 쏘이갈릭킹 순살 로제세트 집밥 BHC Soy Garlic King Boneless Rosé Set Mukbang #먹방 #mukbang #야식 #집밥 #bhc #로제떡볶이",
           "channel": "Delicious mukbang",
@@ -16297,36 +16588,6 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "xKOSmDZ3FgQ",
-          "title": "순서 따지다간 오늘 하루 굶는 겁니다.",
-          "channel": "bhc치킨",
-          "subscribers": 31100,
-          "creator_tier": "Official",
-          "is_verified": false,
-          "views": 352940,
-          "likes": 221,
-          "comment_count": 0,
-          "engagement_rate": 0.0006,
-          "duration": 74,
-          "is_short": false,
-          "buzz_score": 34.5,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=xKOSmDZ3FgQ",
-          "description_excerpt": "#bhc #bhc치킨 #b치킨회담 #쏘이갈릭킹 #이용진 #양상국",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16428,6 +16689,36 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "xKOSmDZ3FgQ",
+          "title": "순서 따지다간 오늘 하루 굶는 겁니다.",
+          "channel": "bhc치킨",
+          "subscribers": 31000,
+          "creator_tier": "Official",
+          "is_verified": false,
+          "views": 352926,
+          "likes": 221,
+          "comment_count": 0,
+          "engagement_rate": 0.0006,
+          "duration": 74,
+          "is_short": false,
+          "buzz_score": 34.4,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=xKOSmDZ3FgQ",
+          "description_excerpt": "#bhc #bhc치킨 #b치킨회담 #쏘이갈릭킹 #이용진 #양상국",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -16566,13 +16857,13 @@
           "video_id": "_AZwLTK0t_I",
           "title": "사이드 메뉴란에 치킨무 국물 1L 추가 기원 1일차",
           "channel": "bhc치킨",
-          "subscribers": 31100,
+          "subscribers": 31000,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 238752,
+          "views": 245899,
           "likes": 199,
           "comment_count": 4,
-          "engagement_rate": 0.0009,
+          "engagement_rate": 0.0008,
           "duration": 54,
           "is_short": true,
           "buzz_score": 33.9,
@@ -16744,10 +17035,10 @@
           "video_id": "QDMWM8LOzCs",
           "title": "손 쉴 틈 없는 쏘이의 출현! 쏘이갈릭킹 (30s)",
           "channel": "bhc치킨",
-          "subscribers": 31100,
+          "subscribers": 31000,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 3347,
+          "views": 3348,
           "likes": 29,
           "comment_count": 2,
           "engagement_rate": 0.0093,
@@ -16782,16 +17073,16 @@
           "video_id": "WfQcnfSjfr0",
           "title": "손 쉴 틈 있겠어? 멈출 수 없는 쏘이갈릭킹 (15s)",
           "channel": "bhc치킨",
-          "subscribers": 31100,
+          "subscribers": 31000,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 970,
+          "views": 975,
           "likes": 22,
           "comment_count": 0,
-          "engagement_rate": 0.0227,
+          "engagement_rate": 0.0226,
           "duration": 15,
           "is_short": true,
-          "buzz_score": 26.4,
+          "buzz_score": 26.3,
           "upload_date": "2026.04.07",
           "url": "https://www.youtube.com/watch?v=WfQcnfSjfr0",
           "description_excerpt": "소희도 손이 스윽\n쏘이갈릭킹 오리지널\n\n소희 또 손이 스윽 \n쏘이갈릭킹 허니\n\n손 쉴 틈 있겠어?\n   \nSo\n쏘이갈릭킹\nbhc",
@@ -16872,6 +17163,36 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "LwZDVMK3j70",
+          "title": "다이어트 중인데 뿌링클 먹어도 되나요? #5",
+          "channel": "또용또용 ",
+          "subscribers": 81,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 509,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.0039,
+          "duration": 608,
+          "is_short": false,
+          "buzz_score": 11.3,
+          "upload_date": "2026.04.18",
+          "url": "https://www.youtube.com/watch?v=LwZDVMK3j70",
+          "description_excerpt": "#고도비만 #다이어트 #브이로그",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "rfdjZEf6Rsk",
           "title": "한소희 / bhc치킨 / 손 쉴 틈 없는 쏘이의 출현! 쏘이갈릭킹 (30s) TVCF 2026",
           "channel": "ads.archive",
@@ -16932,6 +17253,36 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "Mw2G63fgDXA",
+          "title": "1부 - 뿌링클 순살",
+          "channel": " Life Previous Axiom - 패왕 카오피",
+          "subscribers": 41,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 11,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 1905,
+          "is_short": false,
+          "buzz_score": 6.7,
+          "upload_date": "2026.04.18",
+          "url": "https://www.youtube.com/watch?v=Mw2G63fgDXA",
+          "description_excerpt": "세상에 모든 알 수 없었던 진리들을 라피아라는\n종교를 통해 분석과 확고한 신념으로 전파한다\n\n그것이 세상을 모두 깨달은 신적인 존재\n카오피라는 만인의 인물로 써 지녀야 할 마음가짐\n\n=================================================\n\n#shorts #쇼츠 #리그오브레전드 #원딜 #아펠리오스 #lol #leagueoflegends #원딜 #드레이븐 #카오피 #칼리스타 #귀공 소년 #귀소 #LAPIA #라피아",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "LmlObjOebPk",
           "title": "BHC 치킨 스윗킹 시리즈 광고 중국 일품매유한공사",
           "channel": "승환 백",
@@ -16963,11 +17314,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 10,
-        "neu": 4,
-        "pos": 59
+        "neg": 12,
+        "neu": 7,
+        "pos": 78
       },
-      "negative_ratio": 0.137,
+      "negative_ratio": 0.124,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -17397,8 +17748,8 @@
           },
           "negative_ratio": 0.3,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [
             "bbq",
             "kyochon"
@@ -17574,8 +17925,8 @@
           },
           "negative_ratio": 0.9,
           "warning_level": "red",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -17612,8 +17963,8 @@
           },
           "negative_ratio": 1.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18032,8 +18383,8 @@
           },
           "negative_ratio": 0.143,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -18798,8 +19149,8 @@
           },
           "negative_ratio": 0.4,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [
             "bbq",
             "kyochon"
@@ -19609,8 +19960,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "부정",
-          "video_meta_rating": 1,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [
             "bbq",
             "bhc",
