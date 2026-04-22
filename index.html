@@ -1858,10 +1858,10 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   <!-- KPI Strip — PESO 3분류 (Owned / Sponsored / Earned) + Engagement -->
   <div class="exec-strip">
     <div class="exec-card primary">
-      <div class="exec-label">🏆 KFC 순위 (Earned 기준)</div>
+      <div class="exec-label">🏆 KFC 순위 (총 조회수 기준)</div>
       <div class="exec-value" id="k-rank">-<span class="small">/10</span></div>
       <div class="exec-delta flat" id="k-rank-delta">—</div>
-      <div class="exec-sub" id="k-rank-sub">순수 자발 크리에이터 조회수 기준</div>
+      <div class="exec-sub" id="k-rank-sub">경쟁 10개 브랜드 총 조회수 비교</div>
     </div>
     <div class="exec-card peso-owned">
       <div class="exec-label">🏛 Owned SOV</div>
@@ -3686,9 +3686,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     var cards = document.querySelectorAll('.exec-strip .exec-card');
     if (cards.length) {
       // 5장 카드 순서: 순위 / Owned / Sponsored / Earned / Engagement
-      // 값의 의미: 순위=시장순위, Owned/Sponsored/Earned=선택 브랜드 내 비중(3합=100%), Engagement=시장 점유
+      // 값의 의미: 순위=총조회수 시장순위, Owned/Sponsored/Earned=선택 브랜드 내 비중(3합=100%), Engagement=시장 점유
       var labelTexts = [
-        '🏆 ' + brandName + ' 순위 (조회수 기준)',
+        '🏆 ' + brandName + ' 순위 (총 조회수 기준)',
         '🏛 ' + brandName + ' 내 Owned 비중',
         '🤝 ' + brandName + ' 내 Sponsored 비중',
         '🎤 ' + brandName + ' 내 Earned 비중',
@@ -3717,6 +3717,10 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         btn.style.display = 'none';
       }
     }
+
+    // 순위 서브텍스트 — 항상 '경쟁 10개 브랜드 총 조회수 비교' 로 일관
+    var rankSub = document.getElementById('k-rank-sub');
+    if (rankSub) rankSub.textContent = '경쟁 10개 브랜드 총 조회수 비교';
 
     // 선택 브랜드 행 하이라이트 (스택바 + 벤치마크 테이블)
     document.querySelectorAll('.mix-row, .bench-table tbody tr').forEach(function(row) {
