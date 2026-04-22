@@ -2653,7 +2653,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       }
       inlineSent += '<span class="sentiment-inline ' + sCls +
         '" title="💬 댓글 ' + sTotal + '개 KR-BERT 분석 — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0) + '">💬 ' +
-        sIcon + ' ' + sLabel + ' ' + Math.round(sPct * 100) + '% <span style="opacity:0.7">(' + sCnt + '/' + sTotal + ')</span></span>';
+        sIcon + ' 댓글 ' + sLabel + ' ' + Math.round(sPct * 100) + '% <span style="opacity:0.7">(' + sCnt + '/' + sTotal + ')</span></span>';
     }
     // ② 내용 감성 (제목+설명, 댓글 있든 없든 표시)
     if (v.video_meta_sentiment) {
