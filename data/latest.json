@@ -1,6 +1,6 @@
 {
   "date": "2026-04-22",
-  "generated_at": "2026-04-22 15:21:04",
+  "generated_at": "2026-04-22 15:59:26",
   "window_days": 30,
   "brands": {
     "kfc": {
@@ -1188,21 +1188,167 @@
     },
     "burgerking": {
       "display": "버거킹",
-      "video_count": 37,
-      "total_views": 20499949,
-      "total_likes": 10208,
-      "total_comments": 169,
+      "video_count": 47,
+      "total_views": 20587264,
+      "total_likes": 11214,
+      "total_comments": 248,
       "n_short": 6,
-      "n_long": 31,
+      "n_long": 41,
       "tier_counts": {
+        "Micro": 6,
+        "Nano": 27,
         "Mega": 2,
         "Official": 5,
-        "Nano": 22,
-        "Macro": 3,
-        "Micro": 5
+        "Macro": 7
       },
       "summary": "(요약 대기 중)",
       "videos": [
+        {
+          "video_id": "ZRGl5XXHK40",
+          "title": "도쿄 브이로그🍛 | 일본 한정 불닭 카레, 버터떡, 버거킹 아보카도 버거, 냉면, 나고야 오미야게 맛보기 | 일본에서 첫 영화로 코난 본 일상🍿",
+          "channel": "이프 if",
+          "subscribers": 14800,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 3761,
+          "likes": 167,
+          "comment_count": 20,
+          "engagement_rate": 0.0497,
+          "duration": 699,
+          "is_short": false,
+          "buzz_score": 61.0,
+          "upload_date": "2026.04.20",
+          "url": "https://www.youtube.com/watch?v=ZRGl5XXHK40",
+          "description_excerpt": "💌 mail : lovemyfactory@gmail.com\n🤳🏻 insta : if_logs\n\n⏰\n00:18 불닭 카레 + 버터떡🧈\n02:37 버거킹🍔\n03:58 마트 장보기🐾\n05:03 마녀 스프 🍲\n07:00 냉명 + 고기 🧊\n09:15 코난 극장판 보기 🍿 \n10:01 나고야 오미야게\n\n🎧song\n@oneul274 \n@RYUITOMUSIC \n@danmo.o",
+          "top_comments": [
+            {
+              "author": "@sirrry",
+              "text": "저녁 먹고 이제 뭐하지..하려는 찰나에 올려주셔서 너무 감사하네요😊\n\n한국엔 요즘 참외도 나와서 지나갈때마다 참외의 달달한 향에 정신을 못차리겠어요ㅋㅋㅋ😂",
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@soyingsauceeee",
+              "text": "우와 1분 전이다! 밥 먹으면서 같이 볼게요😍",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@if_log",
+              "text": "오늘도 들러주셔서 감사해요 🤍🤍🤍\n즐거운 저녁시간 보내세요 ☺️🌷",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@if_log",
+              "text": "일본은 봄마다 나오는데, 한국은 여름마다군요 ?! 🤓\n코난은 정말 ,, 결국 범인이 잡히는 엔딩일 걸 알지만 참 재밌는 거 같아요 ㅋㅋㅋ\n이번주도 빠이팅하세요 ☺️🤍🤍",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@if_log",
+              "text": "감사합니다 !! ☺️\n오늘도 들러주셔서 감사해요 ˶˙ᵕ˙ )ﾉﾞ♡ \n시작된 한 주도 화이팅입니다 !! 🌷🤍🤍",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@if_log",
+              "text": "버터떡 댓글 기억하고 있습니다 .. 🥹🤍🤍\n저도 저녁 먹었답니다 ~ 🍚\n대댓글은 잘 확인 못 하는데 오늘따라 눈에 띄어서 행복하네요 (*´∇｀*) \n다정한 댓글 감사합니다 🌷🤍🌸☺️🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@lo_Haii",
+              "text": "헉 생일이셨군요 축하드려요~~!🎉🎉 햄버거 케이크 넘 귀엽구 소원처럼 적게 일하고 많이 버시길 바랍니다ㅋㅋ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@kwonjerry6972",
+              "text": "전 여행 오미야게는 저 자신을 위해 산적이 없어서.... 이프님의 오미야게였군요ㅋㅋㅋㅋㅋㅋ 팥샌드 맛있어보여요ㅋㅋ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 4
+            },
+            {
+              "author": "@땅콩빵-v2k",
+              "text": "7:25 맞혔어요 ㅎㅎㅎ 저두 무물파. (무조건 물냉)",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@bluefilm_",
+              "text": "우왕 늦었지만 생일 축하드려요!! 이번 주도 안 올라오나 기다리고 있었는데 마침! 딱 올라오네용🥰 \n저두 코난 진짜 좋아해요 한국은 아직도 여름마다 코난 나오는데 저두 꼭 같이 코난 보는 친구가 있거든요 ㅎㅎ 여름이 기다려지네용",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 9
+          },
+          "negative_ratio": 0.1,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "x2vdAlcPzuo",
+          "title": "[리니지 클래식] 데포로쥬 똘끼혈맹 화이팅 와퍼 왜 안 파냐!",
+          "channel": "열음잉",
+          "subscribers": 3210,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 3025,
+          "likes": 147,
+          "comment_count": 2,
+          "engagement_rate": 0.0493,
+          "duration": 19692,
+          "is_short": false,
+          "buzz_score": 55.6,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=x2vdAlcPzuo",
+          "description_excerpt": "⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰\n\n#리니지클래식 #데포로쥬 #요정 #똘끼 #누리형\n\n태어나서 리니지 경력 처음인 열음잉 성장기 \n구독 & 좋아요는 사랑입니당❤️\n\n🎀투네이션: https://toon.at/donate/yeolumee\n\n🎀후원겨자: 케이뱅크 100-117-621850 이여*\n\n🎀메일 : plzsummers2@gmail.com\n\n🎵노래 만들어주신 “백숙”님 감사합니다!\n\n🎵 고급카페음악 썸머에디션 #03 | 4시간 리믹스 여름 감성 플레이리스트 | 중간광고 · 중복음악· 저작권없음🔕\n\n⋱⋰ ⋱",
+          "top_comments": [
+            {
+              "author": "@Cloud_Jung-s6e",
+              "text": "오디갔노!!!! 퇴근하고 왔더니 가버렸네?????????????????????",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@3단기리-k3d",
+              "text": "갔으요ㅜㅜ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.5,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
         {
           "video_id": "GPD274njg9E",
           "title": "ASMR MUKBANG 버거킹 양념 치킨먹방! 치즈 햄버거 치즈스틱 후라이드치킨 & 레시피 CRISPY FRIED CHICKEN CHEESE BURGER EATING SOUND!",
@@ -1240,7 +1386,7 @@
           "subscribers": 51100,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 3489580,
+          "views": 3489609,
           "likes": 728,
           "comment_count": 20,
           "engagement_rate": 0.0002,
@@ -1331,6 +1477,253 @@
           "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "8HFhrYJ3mfM",
+          "title": "[리니지 클래식] 데포로쥬 똘끼혈맹 화이팅 와퍼 왜 안 파냐!",
+          "channel": "열음잉",
+          "subscribers": 3210,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1187,
+          "likes": 50,
+          "comment_count": 3,
+          "engagement_rate": 0.0447,
+          "duration": 5106,
+          "is_short": false,
+          "buzz_score": 50.4,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=8HFhrYJ3mfM",
+          "description_excerpt": "⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰\n\n#리니지클래식 #데포로쥬 #요정 #똘끼 #누리형\n\n태어나서 리니지 경력 처음인 열음잉 성장기 \n구독 & 좋아요는 사랑입니당❤️\n\n🎀투네이션: https://toon.at/donate/yeolumee\n\n🎀후원겨자: 케이뱅크 100-117-621850 이여*\n\n🎀메일 : plzsummers2@gmail.com\n\n🎀 카카오톡 : https://open.kakao.com/o/sUye0Dqi\n\n🎵노래 만들어주신 “백숙”님 감사합니다!\n\n🎵 고급카페음악 썸머에디션 #03 | 4시간 ",
+          "top_comments": [
+            {
+              "author": "@신체포기각서-b1e",
+              "text": "이  냥반이  그 강덕구와 쌍벽을  이룬다는  그 냥반이야?",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@user-it5bs5zj2r",
+              "text": "쌀먹❤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "VhRZRT1L9KQ",
+          "title": "용욱이 버거를 용욱이가 먹어봄 [유용욱x버거킹]",
+          "channel": "박용욱",
+          "subscribers": 5100,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 2351,
+          "likes": 60,
+          "comment_count": 20,
+          "engagement_rate": 0.034,
+          "duration": 373,
+          "is_short": false,
+          "buzz_score": 49.8,
+          "upload_date": "2026.04.17",
+          "url": "https://www.youtube.com/watch?v=VhRZRT1L9KQ",
+          "description_excerpt": "버거킹 유용욱 바베큐버거 후기",
+          "top_comments": [
+            {
+              "author": "@동그리동동-d1v",
+              "text": "세월이 야속하다",
+              "likes": 7,
+              "sentiment": "중립",
+              "rating": 3
+            },
+            {
+              "author": "@진원-o2e",
+              "text": "이마에서 빛납니다 형님",
+              "likes": 5,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@gigapmind4465",
+              "text": "밖용욱 + 먹방은 못참지",
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@puriring",
+              "text": "뚝지 유튜브에 나오는 남편분인줄알아쏘 ㅋㅋㅋㅋㅋㅋ",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@봄내",
+              "text": "로아는 접어도 브이로그는 보러 옵니다 형님. 항상 건강하십쇼",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@limpbk7808",
+              "text": "그래 이감성이 그리웠어... 용쌤!!!!",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@All-ex5mb",
+              "text": "용쌤 브이로그는 뭔가 힐링이 됨",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@user-nz6re2vl7l",
+              "text": "산책하기 좋은 거리라 가지고(운전을 하며)",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
+            },
+            {
+              "author": "@분리된자아",
+              "text": "영상보고 군침 싹돌아서 바로 동네 부거킹 매장 갔습니다 😋",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@Kenshi-c5p",
+              "text": "이거 맛있음 근데 또 먹고 싶다라는 생각이 안들 정도로 ㅈㄴ 자극적인 맛임",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 1,
+            "pos": 9
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "dnUZwndHES4",
+          "title": "이번엔 버거킹이 콜라보를? 기대했던 유용욱 바베큐 버거",
+          "channel": "다주",
+          "subscribers": 439000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 55062,
+          "likes": 541,
+          "comment_count": 20,
+          "engagement_rate": 0.0102,
+          "duration": 481,
+          "is_short": false,
+          "buzz_score": 48.7,
+          "upload_date": "2026.04.15",
+          "url": "https://www.youtube.com/watch?v=dnUZwndHES4",
+          "description_excerpt": "#다주\n\n[생방송] https://chzzk.naver.com/bdc57cc4217173f0e89f63fba2f1c6e5\n[풀영상] https://www.youtube.com/@다주보기\n[팬카페] https://cafe.naver.com/datalkroom\n\n🎬방송날짜: 2026년 04월 10일\n (풀영상 보러가기 ▶ ) https://youtu.be/B67AY0VhRn0?si=rEUHjCA3FELAr7bO\n\n-편집: 아영님\n-썸네일: 소연님\n\n🎵Music provided by 브금대통령\n🎵Track : 빼빼로 행진곡 - https",
+          "top_comments": [
+            {
+              "author": "@DJKim119",
+              "text": "역시 버거인 대다주 ㅋㅋㅋ",
+              "likes": 70,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@백준호-k6n",
+              "text": "이정도면 햄버거 스트리머 아니냐고 ㅋㅋㅋㅋ",
+              "likes": 59,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@user-jt7xp6jz1y",
+              "text": "닥터페퍼가 제로 중에 고트인 이유는 다른 탄산음료 제로에 비해 바뀐 재료 성분이 오리지날과 젤 비슷하기 때문.. 큼큼",
+              "likes": 11,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@boomerangs1122",
+              "text": "0:24 으! \nㅋㅋㅋㅋㅋ 다주님 왤케 귀여움ㅋㅋ",
+              "likes": 9,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@alcohol3019",
+              "text": "진짜 와앙! 할때 눈 질끈 감는거 커엽누ㅋㅋㅋㅋㅋ",
+              "likes": 6,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@반_crow",
+              "text": "이러다가 흑백 세프 콜라보 햄버거는 다 드시겠어요 ㅋㅋㅋㅋㅋㅋㅋ 참고 지금 프랭크 보는데 정호영 세프님 콜라보 나왔어요 ㅋㅋㅋㅋㅋㅋㅋ",
+              "likes": 4,
+              "sentiment": "부정",
+              "rating": 1
+            },
+            {
+              "author": "@xion-fh5vg",
+              "text": "0:50 다주 남성호르몬 논란",
+              "likes": 4,
+              "sentiment": "중립",
+              "rating": 3
+            },
+            {
+              "author": "@김도연-e3x8l",
+              "text": "저도 버거 좋아하는데 다주님이 신메뉴 나올때마다 리뷰해주셔서 리뷰보고 시켜먹어요 ㅋㅋㅋㅋ",
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@소프트-d3d",
+              "text": "대다주 나이 먹을수록 점점 이뻐지네",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@GK_MM",
+              "text": "프리미엄 와퍼중 탑은 통새우와퍼\n그 살짝 매운 소스가 ㄹㅇ킥임. 새우는 맛 보단 식감 느낌이고\n\n일반 와퍼에 저 살짝 매운 소스 쓰면 진짜 존맛탱일 것 같은데 일반 와퍼엔 못 씀 ㅠㅠ😊",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 2,
+            "neu": 1,
+            "pos": 7
+          },
+          "negative_ratio": 0.2,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -1543,13 +1936,13 @@
           "subscribers": 51100,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 6930324,
-          "likes": 1488,
+          "views": 6945162,
+          "likes": 1490,
           "comment_count": 20,
           "engagement_rate": 0.0002,
           "duration": 37,
           "is_short": true,
-          "buzz_score": 44.5,
+          "buzz_score": 44.4,
           "upload_date": "2026.04.09",
           "url": "https://www.youtube.com/watch?v=tD8gd3ShvAQ",
           "description_excerpt": "유용욱 시그니처 비프립을 와퍼에.\n입 안 가득 먹을 때마다 느껴지는 훈연의 정수!\n\n유용욱 바베큐 소장의 손길이 들어간 콜라보 버거,\n총 3종을 지금 바로 버거킹에서 만나보세요!\n\n#버거킹 #BURGERKING #유용욱 #유용욱바베큐연구소\n#스모크비프립와퍼 #스모크베이컨와퍼 #스모크비프립샌드위치버거\n#SMOKEDBEEFRIBWHOPPER",
@@ -1597,18 +1990,18 @@
               "rating": 5
             },
             {
-              "author": "@김문용-q6z",
-              "text": "저도 그 두개가 가장 맛있는데 신상 나오면 꼭 먹으러 갑니다. 그러고나선 아..이 두개중에 한개 먹을껄 매번 후회함 ㅎ",
-              "likes": 3,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
               "author": "@kg12395",
               "text": "살사베르데 나오고 이거만 먹는데 이게 젤 맛있는듯",
               "likes": 3,
               "sentiment": "중립",
               "rating": 3
+            },
+            {
+              "author": "@김문용-q6z",
+              "text": "저도 그 두개가 가장 맛있는데 신상 나오면 꼭 먹으러 갑니다. 그러고나선 아..이 두개중에 한개 먹을껄 매번 후회함 ㅎ",
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
             },
             {
               "author": "@주인-t7g",
@@ -1638,19 +2031,79 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "MFAFYnNBkwc",
+          "title": "루키아랑 버거킹 먹으러 갑니당",
+          "channel": "힘의길 / Road of the strength",
+          "subscribers": 254000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 60,
+          "likes": 8,
+          "comment_count": 0,
+          "engagement_rate": 0.1333,
+          "duration": 1704,
+          "is_short": false,
+          "buzz_score": 42.6,
+          "upload_date": "2026.04.22",
+          "url": "https://www.youtube.com/watch?v=MFAFYnNBkwc",
+          "description_excerpt": "📩 힘의길 공식 메일 : rukia1117@naver.com\n\n✅ 힘의길 굿즈 (수익금 전액 기부)\nhttps://www.catinabox.co.kr/category/road-of-the-strength/70/\n\n인스타그램 : https://bre.is/w1HgOMO4k​\n치지직 : https://chzzk.naver.com/4381ccfe5a18fd32558743e902e7d884\n틱톡 : https://www.tiktok.com/@road_of_the_strength",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "_Ab0C9uYnM8",
+          "title": "루키아랑 버거킹 먹으러 가요 3트! 2026-04-22 15:26",
+          "channel": "힘의길 / Road of the strength",
+          "subscribers": 254000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 48,
+          "likes": 19,
+          "comment_count": 0,
+          "engagement_rate": 0.3958,
+          "duration": 0,
+          "is_short": false,
+          "buzz_score": 41.7,
+          "upload_date": "2026.04.22",
+          "url": "https://www.youtube.com/watch?v=_Ab0C9uYnM8",
+          "description_excerpt": "📩 힘의길 공식 메일 : rukia1117@naver.com\n\n✅ 힘의길 굿즈 (수익금 전액 기부)\nhttps://www.catinabox.co.kr/category/road-of-the-strength/70/\n\n인스타그램 : https://bre.is/w1HgOMO4k​\n치지직 : https://chzzk.naver.com/4381ccfe5a18fd32558743e902e7d884\n틱톡 : https://www.tiktok.com/@road_of_the_strength",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "WAom0cMVxI4",
           "title": "추성훈X버거킹, 갈릭 불고기 맥시멈에 도전하라!",
           "channel": "버거킹",
           "subscribers": 51100,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 2739573,
+          "views": 2739579,
           "likes": 1798,
           "comment_count": 20,
           "engagement_rate": 0.0007,
           "duration": 24,
           "is_short": true,
-          "buzz_score": 41.8,
+          "buzz_score": 41.7,
           "upload_date": "2026.03.30",
           "url": "https://www.youtube.com/watch?v=WAom0cMVxI4",
           "description_excerpt": "추성훈 아조씨가 알려주는 버거킹 갈릭 불고기 맥시멈 공략법 지금 버거킹에서 도전하라!",
@@ -1712,27 +2165,27 @@
               "rating": 2
             },
             {
-              "author": "@윤갱-c5g",
-              "text": "먹는둥 마는둥 하네 입은 겁나크게 벌렸는데 실제로 먹은양은 ㅋㅋ",
+              "author": "@blackdawn-n1u",
+              "text": "햄버거 먹고 싶은데, 돈이 없습니다...",
               "likes": 2,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "중립",
+              "rating": 3
             },
             {
-              "author": "@삼지원-3jiwon",
-              "text": "추성훈 광고 보면 죄다 똑같아서 어떤 브랜드인지 모를 정도인데  왜 쓰는 건지도 모르겠음ㅋㅋㅋㅋ 평소에 이용하긴 커녕 자기가 광고했다는 거 자체도 기억 못할 거 같은데",
+              "author": "@윤갱-c5g",
+              "text": "먹는둥 마는둥 하네 입은 겁나크게 벌렸는데 실제로 먹은양은 ㅋㅋ",
               "likes": 2,
               "sentiment": "부정",
               "rating": 1
             }
           ],
           "sentiment_counts": {
-            "neg": 5,
-            "neu": 1,
+            "neg": 4,
+            "neu": 2,
             "pos": 4
           },
-          "negative_ratio": 0.5,
-          "warning_level": "red",
+          "negative_ratio": 0.4,
+          "warning_level": "yellow",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
           "multi_brand_tags": [],
@@ -1846,7 +2299,7 @@
           "subscribers": 51100,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 2869052,
+          "views": 2875676,
           "likes": 141,
           "comment_count": 20,
           "engagement_rate": 0.0001,
@@ -2143,19 +2596,64 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "1VOBfXdvbJ4",
+          "title": "버거킹 X 유용욱 스모크 버거 3종 먹었어요! / I ate Burgerking X Yoo Yong-wook Hamburgers ASMR",
+          "channel": "소화불냐앙",
+          "subscribers": 39,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 265,
+          "likes": 6,
+          "comment_count": 2,
+          "engagement_rate": 0.0302,
+          "duration": 342,
+          "is_short": false,
+          "buzz_score": 36.5,
+          "upload_date": "2026.04.16",
+          "url": "https://www.youtube.com/watch?v=1VOBfXdvbJ4",
+          "description_excerpt": "버거킹 X 유용욱 스모크 버거 3종\n\n#asmr   \n#mukbang \n#eatingsounds \n#koreanfood  \n#kfood  \n#hamburger \n#burgerking \n#whopper \n#culinaryclasswars \n#버거킹 \n#먹방 \n#와퍼 \n#유용욱\n#바베큐연구소\n#스모크비프립와퍼\n#스모크베이컨와퍼\n#스모크비프립샌드위치\n#흑백요리사",
+          "top_comments": [
+            {
+              "author": "@코너_rk800",
+              "text": "와 눅진해보이는 게 버거 오랜만에 먹고 싶어지네요ㅠㅠ 질긴빵 좋아하는 저는 저 번도 맛있을 것 같앙..",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 4
+            },
+            {
+              "author": "@LeeTonyang",
+              "text": "맛있게 봐주셔서 감사합니다! 다음에 햄버거 드실 때 브리오슈 번으로 변경해서 드셔 보세요~ 맛있습니다!",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "sqnq-sw7HGE",
           "title": "[버거킹] 버거킹 X 유용욱 바베큐 연구소",
           "channel": "버거킹",
           "subscribers": 51100,
           "creator_tier": "Official",
           "is_verified": false,
-          "views": 3969484,
+          "views": 3969487,
           "likes": 78,
           "comment_count": 20,
           "engagement_rate": 0.0,
           "duration": 15,
           "is_short": true,
-          "buzz_score": 36.3,
+          "buzz_score": 36.2,
           "upload_date": "2026.04.06",
           "url": "https://www.youtube.com/watch?v=sqnq-sw7HGE",
           "description_excerpt": "오늘 제가 올려드릴 고기는 …\n와퍼에, 올려드렸습니다.\n\nComing soon\n26.04.09\n\n#버거킹 #BURGERKING #유용욱",
@@ -2667,6 +3165,107 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "TRGzBG29a2k",
+          "title": "난사남이 버킹리스트의 중요 품종 감상",
+          "channel": "난사남이.J.상선",
+          "subscribers": 71,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 41,
+          "likes": 6,
+          "comment_count": 12,
+          "engagement_rate": 0.439,
+          "duration": 111,
+          "is_short": false,
+          "buzz_score": 30.7,
+          "upload_date": "2026.04.21",
+          "url": "https://www.youtube.com/watch?v=TRGzBG29a2k",
+          "description_excerpt": "nan",
+          "top_comments": [
+            {
+              "author": "@chung135",
+              "text": "난인이면 누구나  꼭 해보고싶은 목표가있을것이다.\n이렇게 잘완성한 작품이  내마음을 사로잡는다",
+              "likes": 3,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@이승우-w4t",
+              "text": "❤❤❤아름다운 영상 노래 감사합니다 🎉🎉🎉 늘 건강하시기를 바랍니다 🎉🎉",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@chung135",
+              "text": "따뜻한 응원 감사합니다, 편안한 밤 보내세요!❤❤❤",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@chung135",
+              "text": "따뜻한 응원 감사합니다, 늘 행복하세요!❤❤❤",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@상록수-i3p",
+              "text": "꽃잎새가 화려하고 기세가 살아 있네요 ✨명품 난 즐감하고 갑니다🎋🎋🎋",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@chung135",
+              "text": "좋게 봐주셔서 감사합니다, 행복한 하루 보내세요!❤❤❤",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@박지혜-k9i2g",
+              "text": "오랜만에  난초보니 기분이좋아요 \n오늘도 수고하셨어요 \n늘 응원합니다",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@김소윤-y3q",
+              "text": "난초보니 너무 기뿐이 좋아요^^",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@mk6520",
+              "text": "난을 모르는 저도 한참을 보게  되는 자태네요. 귀한영상 공유해주셔서 감사합니다 ❤❤❤ 조금씩 알아가는 재미 느끼게 해주셔서 감사드립니다.",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@chung135",
+              "text": "이뿐이 소윤이 다녀가셨군요.감사합니다 ❤❤❤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 10
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "hospdY5deG0",
           "title": "ENG) 가볍게 먹고 든든하게 채우는 🍽 /또띠아 와퍼/오리고기 파스타(성시경 파스타)/시금치 피자(최화정 피자)/시금치 베이컨 덮밥",
           "channel": "odd archive 오드 아카이브",
@@ -2977,6 +3576,36 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "m15jxg0qTTU",
+          "title": "루키아랑 버거킹 먹으러 가는길",
+          "channel": "힘의길 / Road of the strength",
+          "subscribers": 254000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 15,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 125,
+          "is_short": false,
+          "buzz_score": 11.3,
+          "upload_date": "2026.04.22",
+          "url": "https://www.youtube.com/watch?v=m15jxg0qTTU",
+          "description_excerpt": "📩 힘의길 공식 메일 : rukia1117@naver.com\n\n✅ 힘의길 굿즈 (수익금 전액 기부)\nhttps://www.catinabox.co.kr/category/road-of-the-strength/70/\n\n인스타그램 : https://bre.is/w1HgOMO4k​\n치지직 : https://chzzk.naver.com/4381ccfe5a18fd32558743e902e7d884\n틱톡 : https://www.tiktok.com/@road_of_the_strength",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -3433,11 +4062,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 32,
-        "neu": 21,
-        "pos": 102
+        "neg": 35,
+        "neu": 24,
+        "pos": 142
       },
-      "negative_ratio": 0.206,
+      "negative_ratio": 0.174,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
