@@ -1676,7 +1676,26 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 .chart-legend .lg-item { display: flex; align-items: center; gap: 4px; }
 .chart-legend .lg-dot { width: 9px; height: 9px; border-radius: 50%; }
 
-/* Highlights Top 5 */
+/* Highlights Top 8 (Best 4 + Worst 4) */
+.hl-group-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #059669;
+  margin: 14px 0 8px;
+  padding-left: 2px;
+}
+.highlights-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+.highlight-card.hl-best {
+  border-left: 3px solid #10b981;
+}
+.highlight-card.hl-worst {
+  border-left: 3px solid #dc2626;
+}
+
 .highlights-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -1967,7 +1986,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 
   <!-- Today's Highlights -->
   <div class="exec-section-title">
-    <h3>✨ 오늘의 하이라이트 Top 5</h3>
+    <h3>✨ 오늘의 하이라이트 Top 8 <span class="hint" style="font-weight:normal;font-size:0.85rem;">💚 좋은 콘텐츠 4 + 🚨 나쁜 콘텐츠 4</span></h3>
     <span class="hint">조회수 스파이크 · 부정 급증 · 높은 Buzz 자동 선별</span>
   </div>
   <div class="highlights-list" id="highlights-list">
@@ -4154,7 +4173,6 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       });
     });
 
-    // Score: prioritize high buzz, high negative ratio, warning_level, recency
     function daysAgo(d) {
       if (!d) return 999;
       var m = d.match(/(\d{4})[.\-](\d{1,2})[.\-](\d{1,2})/);
@@ -4164,31 +4182,55 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       return (now - t) / 86400000;
     }
 
+    // 좋은 점수 (긍정): buzz + reach + freshness + 댓글 긍정비율
+    // 나쁜 점수 (부정): 부정률 + 위험경고 + 도달(피해 확산성)
     all.forEach(function(x) {
       var v = x.v;
+      var sc = v.sentiment_counts || {};
+      var sTot = (sc.neg||0) + (sc.neu||0) + (sc.pos||0);
+      var posRatio = sTot > 0 ? (sc.pos||0) / sTot : 0;
+      var negRatio = v.negative_ratio || 0;
       var freshness = Math.max(0, 1 - daysAgo(v.upload_date) / 30);
       var buzz = (v.buzz_score || 0) / 100;
       var reach = Math.log10((v.views || 0) + 1) / 8;
-      var nrRisk = (v.warning_level === 'red' ? 0.5 : (v.warning_level === 'yellow' ? 0.25 : 0));
-      x.score = buzz * 0.35 + reach * 0.25 + freshness * 0.15 + nrRisk * 0.25;
 
-      // Reason label
-      if (v.warning_level === 'red') x.reason = '🚨 위험 영상';
-      else if ((v.negative_ratio || 0) > 0.4) x.reason = '⚠️ 부정 급증';
-      else if ((v.buzz_score || 0) > 60) x.reason = '🔥 Buzz 고점';
-      else if ((v.views || 0) > 100000) x.reason = '👁 조회 스파이크';
-      else if (freshness > 0.9 && (v.engagement_rate || 0) > 0.02) x.reason = '✨ 신규 고참여';
-      else x.reason = '⭐ 주목';
+      // Best: 바이럴 + 긍정 호평 (부정 없을수록)
+      x.bestScore = buzz * 0.4 + reach * 0.25 + freshness * 0.15
+                  + posRatio * 0.2 - negRatio * 0.3;
+      // Worst: 부정 급증 + 위험영상 + 도달 (피해 확산성)
+      var riskBonus = v.warning_level === 'red' ? 0.4 : (v.warning_level === 'yellow' ? 0.2 : 0);
+      x.worstScore = negRatio * 0.45 + riskBonus + reach * 0.2 + freshness * 0.1;
+
+      // Reason label (best/worst 구분용)
+      if (negRatio > 0.4 || v.warning_level === 'red') x.reasonNeg = '🚨 부정 급증';
+      else if (v.warning_level === 'yellow') x.reasonNeg = '⚠️ 경고';
+      else x.reasonNeg = '📉 주의';
+
+      if ((v.buzz_score || 0) > 60) x.reasonPos = '🔥 Buzz 고점';
+      else if ((v.views || 0) > 100000) x.reasonPos = '👁 조회 스파이크';
+      else if (posRatio > 0.7 && sTot >= 5) x.reasonPos = '💚 호평';
+      else if (freshness > 0.9 && (v.engagement_rate || 0) > 0.02) x.reasonPos = '✨ 신규 고참여';
+      else x.reasonPos = '⭐ 주목';
     });
 
-    all.sort(function(a, b) { return b.score - a.score; });
-    var top5 = all.slice(0, 5);
+    // 최고 4개 (bestScore 순)
+    var bestSorted = all.slice().sort(function(a, b) { return b.bestScore - a.bestScore; });
+    var best3 = bestSorted.slice(0, 4).map(function(x) { x.type = 'best'; x.reason = x.reasonPos; return x; });
 
-    var html = top5.map(function(x) {
+    // 최악 4개 (worstScore 순, 단 worstScore > 0.15 이상만 — 평범한 영상은 최악이 아님)
+    var worstSorted = all.slice()
+      .filter(function(x) { return x.worstScore > 0.15 && best3.indexOf(x) < 0; })
+      .sort(function(a, b) { return b.worstScore - a.worstScore; });
+    var worst3 = worstSorted.slice(0, 4).map(function(x) { x.type = 'worst'; x.reason = x.reasonNeg; return x; });
+
+    function card(x) {
       var v = x.v;
-      var neg = v.negative_ratio != null ? (v.negative_ratio * 100).toFixed(0) + '% 부정' : '';
+      var sc = v.sentiment_counts || {};
+      var sTot = (sc.neg||0) + (sc.neu||0) + (sc.pos||0);
+      var neg = (v.negative_ratio != null && sTot > 0) ? (v.negative_ratio * 100).toFixed(0) + '% 부정' : '';
       var sentClass = (v.negative_ratio || 0) > 0.3 ? 'danger' : 'safe';
-      return '<a class="highlight-card" href="' + escapeHtml(v.url || '#') + '" target="_blank" rel="noopener">' +
+      var typeCls = x.type === 'worst' ? ' hl-worst' : ' hl-best';
+      return '<a class="highlight-card' + typeCls + '" href="' + escapeHtml(v.url || '#') + '" target="_blank" rel="noopener">' +
         '<div class="hl-reason">' + x.reason + '</div>' +
         '<div class="hl-title">' + escapeHtml(v.title || '') + '</div>' +
         '<div class="hl-meta">' +
@@ -4204,9 +4246,20 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
           (v.buzz_score ? '<span style="color: var(--buzz-orange);">🔥 ' + v.buzz_score.toFixed(0) + '</span>' : '') +
         '</div>' +
       '</a>';
-    }).join('');
+    }
 
-    document.getElementById('highlights-list').innerHTML = html || '<div style="grid-column:1/-1; text-align:center; color: var(--text-muted); padding: 20px;">표시할 영상이 없습니다.</div>';
+    var html = '';
+    if (best3.length > 0) {
+      html += '<div class="hl-group-label">💚 가장 좋은 콘텐츠 Top 3</div>';
+      html += '<div class="highlights-row">' + best3.map(card).join('') + '</div>';
+    }
+    if (worst3.length > 0) {
+      html += '<div class="hl-group-label" style="color:#dc2626;">🚨 가장 나쁜 콘텐츠 Top 3</div>';
+      html += '<div class="highlights-row">' + worst3.map(card).join('') + '</div>';
+    }
+    if (!html) html = '<div style="grid-column:1/-1; text-align:center; color: var(--text-muted); padding: 20px;">표시할 영상이 없습니다.</div>';
+
+    document.getElementById('highlights-list').innerHTML = html;
   }
 
   function copyOneLiner() {
