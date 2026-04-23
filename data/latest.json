@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-04-23 09:26:36",
+  "generated_at": "2026-04-23 09:27:39",
   "window_days": 30,
   "brands": {
     "kfc": {
@@ -6645,17 +6645,17 @@
     },
     "lotteria": {
       "display": "롯데리아",
-      "video_count": 96,
-      "total_views": 13011487,
-      "total_likes": 74925,
+      "video_count": 94,
+      "total_views": 13010747,
+      "total_likes": 74918,
       "total_comments": 368,
       "n_short": 14,
-      "n_long": 82,
+      "n_long": 80,
       "tier_counts": {
         "Mega": 3,
         "Micro": 8,
         "Macro": 8,
-        "Nano": 71,
+        "Nano": 69,
         "Official": 6
       },
       "summary": "롯데리아의 신메뉴 '번트 비프버거'에 대한 여러 리뷰 영상이 올라왔으며, 소비자들의 반응은 대부분 긍정적이지만 맵기와 품질에 대한 일부 지적도 있음. KFC는 신제품 출시 시 맛과 품질을 중점적으로 검토해야 함.\n  📌 번트 비프버거 · 맵기 · 긍정적인 반응",
@@ -8579,37 +8579,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "zGQAMBftSlo",
-          "title": "서울 겨울여행에 빠진 외국인의 진짜 반응 🇰🇷 명동·경복궁·남이섬·롯데월드 풀버전",
-          "channel": "Cooking & Common sense",
-          "subscribers": 23,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 726,
-          "likes": 6,
-          "comment_count": 0,
-          "engagement_rate": 0.0083,
-          "duration": 675,
-          "is_short": false,
-          "buzz_score": 37.5,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=zGQAMBftSlo",
-          "description_excerpt": "❄️ 겨울 서울을 처음 방문한 외국인 여행자의 11분 풀버전 반응 영상!\n\n명동역 도착부터 롯데리아 키오스크 체험, 경복궁 설경, 강촌 레일파크, 남이섬 눈길,\n친절한 버스 기사님, 비빔밥, 크리스마스 카페, 그리고 롯데월드 야경까지 —\n한국의 매력에 완전히 빠진 외국인의 생생한 여행기!\n\n📍 등장 장소\n00:00 명동역 & Winter in Seoul 인트로\n00:50 롯데리아 키오스크 주문 체험\n01:45 명동 크리스마스 거리\n02:35 명동 할랄 길거리 음식 (램 스틱 9,000원)\n03:25 경복궁 겨울 설경\n04:25 강촌",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "JiF628OllSQ",
           "title": "탄 줄 알았다고? 삐딱한 생각이 버거를 맛있게! #번트비프버거 (FULL)",
           "channel": "리아버거가게",
@@ -10365,40 +10334,6 @@
           "video_meta_rating": 0,
           "is_news_incident": false,
           "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "1sqQ3Io30l8",
-          "title": "우리나라 최초의 패스트푸드 롯데리아 탄생 이야기",
-          "channel": "마케터배씨",
-          "subscribers": 1910,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 14,
-          "likes": 1,
-          "comment_count": 0,
-          "engagement_rate": 0.0714,
-          "duration": 260,
-          "is_short": false,
-          "buzz_score": 8.1,
-          "upload_date": "2026.04.18",
-          "url": "https://www.youtube.com/watch?v=1sqQ3Io30l8",
-          "description_excerpt": "우리나라 최초의 패스트푸드는 1979년에 오픈한 롯데리아입니다. 국민소득의 향상과 더불어 패스트푸드 산업도 성장할 것이라고 생각한 롯데 경영진이 롯데호텔과 롯데쇼핑의 개관에 맞추어 롯데리아를 출범시킨 것입니다. 반면 맥도날드는 한국 진출을 망설이는데...",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [
-            "mcdonalds",
-            "lotteria"
-          ],
           "transcript_sentiment": null
         },
         {
@@ -18369,15 +18304,15 @@
     },
     "bbq": {
       "display": "BBQ치킨",
-      "video_count": 41,
-      "total_views": 230274,
-      "total_likes": 3881,
-      "total_comments": 150,
+      "video_count": 34,
+      "total_views": 203310,
+      "total_likes": 2551,
+      "total_comments": 142,
       "n_short": 3,
-      "n_long": 38,
+      "n_long": 31,
       "tier_counts": {
-        "Macro": 3,
-        "Nano": 32,
+        "Macro": 2,
+        "Nano": 26,
         "Micro": 5,
         "Mega": 1
       },
@@ -18946,88 +18881,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "xnxIjEhT72c",
-          "title": "오늘 역대급으로 빨리 먹었어요⏰전기구이 통닭+목삼겹 바베큐 먹방 BBQ eating show",
-          "channel": "[Mukgang] 먹갱",
-          "subscribers": 617000,
-          "creator_tier": "Macro",
-          "is_verified": false,
-          "views": 26773,
-          "likes": 1308,
-          "comment_count": 0,
-          "engagement_rate": 0.0489,
-          "duration": 931,
-          "is_short": false,
-          "buzz_score": 40.2,
-          "upload_date": "2026.04.09",
-          "url": "https://www.youtube.com/watch?v=xnxIjEhT72c",
-          "description_excerpt": "💌 오늘의 식당 : [닭살부부] 인천 미추홀구 용현1.4동 186-17\n💜 좋아요와 구독은 먹갱에게 큰 힘이됩니다! 💜\n💖 먹갱 채널 멤버십 가입 💖\nhttps://www.youtube.com/channel/UCGOYrCwp_ks0b4f6XQwaS4Q/join\n\n📣타인을 비방하는 악의적 모욕적인 댓글과 지속적인 괴롭힘은\n사전 고지없이 차단되거나 삭제 신고 될 수 있습니다.\n\n🐷 먹갱_먹방갱스터 MUKGANG_MUKBANG 🐷\n👉협찬광고 문의메일 : vv23235288@gmail.com\n👉인스타그램 : https://www.insta",
-          "top_comments": [
-            {
-              "author": "@_mukgang7234",
-              "text": "💌 오늘의 식당 : [닭살부부] 인천 미추홀구 용현1.4동 186-17\r\n💜 좋아요와 구독은 먹갱에게 큰 힘이됩니다! 💜",
-              "likes": 31
-            },
-            {
-              "author": "@johnnybae9953",
-              "text": "저는 먹갱님 보다 오히려 멱따님 팬입니다, 자주 나와주세요,,",
-              "likes": 11
-            },
-            {
-              "author": "@성삼-z5c",
-              "text": "오늘도 먹갱님 먹방 잘 보고 갈게요! ㅎㅎ😊",
-              "likes": 4
-            },
-            {
-              "author": "@진우-t3d1k",
-              "text": "정말 추천 맛집 잘 고르셨네요. 👍바비큐 맛이 제대로 나네요. 🍖🍗😋 굿굿~~ 먹나이스~ ✌👍💜💜",
-              "likes": 4
-            },
-            {
-              "author": "@남자윤굉인",
-              "text": "와우🎉🎉🎉근래에본 먹방메뉴중에 최고인거같아용^^😮..정말먹고싶어요..여긴부산이라ㅠㅠ😂..암튼 맛나게 잘봤어요..담방송 기대할게요..❤❤❤",
-              "likes": 3
-            },
-            {
-              "author": "@_mukgang7234",
-              "text": "멱따도 자주자주 출연 가즈아💪🐷",
-              "likes": 2
-            },
-            {
-              "author": "@멱따",
-              "text": "자주 나올 수 있도록 노력하겠습니다~😋🩷",
-              "likes": 2
-            },
-            {
-              "author": "@만듀-u3w",
-              "text": "맛있겠따꾸용😊😊\n전기구이통닭두  맛있따꾸용!!!!!!!!!❤❤\n추워지네영😢😢  감기조심하세용🥰🥰",
-              "likes": 2
-            },
-            {
-              "author": "@서영진-d6d",
-              "text": "1:02 싫어하는 표정 빵터졌다ㅋㅋㅋㅋ",
-              "likes": 2
-            },
-            {
-              "author": "@한석주-k3j",
-              "text": "오늘 통닭이 맛있어보였어요\n맛있게 드시고 건강하세요 ❤",
-              "likes": 2
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "zPaf-Lk6FRA",
           "title": "[ASMR / Eating Sound] BBQ 황금올리브치킨 먹방 Korean Fried Chicken Mukbang",
           "channel": "EatN’Eat ASMR",
@@ -19286,43 +19139,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "yQc44_u-QHc",
-          "title": "100년 전통 바베큐 가문.잇몸으로 고기분해! 근본 BBQ.#Black's BBQ #텍사스바베큐#여행 #전통BBQ#육식맨#맛집탐방#BBQ #바베큐전설#texasbbq#미국#리얼먹방",
-          "channel": "텍사스 임반장 Holy Cow Texas! ",
-          "subscribers": 143,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 148,
-          "likes": 9,
-          "comment_count": 1,
-          "engagement_rate": 0.0676,
-          "duration": 629,
-          "is_short": false,
-          "buzz_score": 29.9,
-          "upload_date": "2026.04.20",
-          "url": "https://www.youtube.com/watch?v=yQc44_u-QHc",
-          "description_excerpt": "가족 계승 100년 전통 BBQ! 텍사스 바베큐 성지, Black’s BBQ 다녀왔습니다🔥\n고기 한입 먹는 순간 생각이 멈춥니다…\n“이게 고기 맞나?” 싶은 수준의 부드러움ㅋㅋ\n포크? 필요 없습니다.\n소스? 고민할 시간도 없습니다.\n\n그냥… 손으로 들고 먹으면 끝.\n지갑은 조금 울었지만\n마음은 완전 행복해졌습니다 😎\n이게 바로 텍사스 찐 바베큐 클래스입니다🔥 강추",
-          "top_comments": [
-            {
-              "author": "@holycowtexas",
-              "text": "시골촌스런  분위기, 가족 친화적이고 허름한 식당 내 분위기는 바베큐 감성을 찐으로 느끼기에 더 없이 완벽합니다. \n부드러움의 상징 허친스와 다른점은 잘려진 고기 위에 탈로우라는 녹인 소기름을 뿌리지 않아서 윤기가 없어보이지만. 전혀!! 걱정하지 마세요. 충분히 부드럽고 담백합니다. 오히려 느끼함이 상대적으로 적습니다.  가족 계승 100년 전통 BBQ! 텍사스 바베큐 성지, Black’s BBQ 다녀왔습니다🔥\n고기 한입 먹는 순간 생각이 멈춥니다…\n“이게 고기 맞나?” 싶은 수준의 부드러움ㅋㅋ\n포크? 필요 없습니다.\n소스? 고민할",
-              "likes": 3
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "c1SI3fx9cnE",
           "title": "치킨 황금올리브 BBQ 여러분 인생도 올리고 🔥 내인생도 올리브 🍗 포장 22,000원 BBQ Golden Olive Chicken Raise Your Life",
           "channel": "보현 Eat 배달기사한입 TV",
@@ -19436,63 +19252,6 @@
               "author": "@따끔OI",
               "text": "오 족발에 한잔하면 기가 막히겠는데요? ㅋㅋㅋ",
               "likes": 0
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "FswkGBuzlz4",
-          "title": "슈바인학센 & 바베큐 폭립 술 먹방 | 바삭바삭 꼴레뇨 🍖🍺 | Pork Knuckle & BBQ Ribs Mukbang",
-          "channel": "수다로그 sooda_log",
-          "subscribers": 556,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 17,
-          "likes": 8,
-          "comment_count": 5,
-          "engagement_rate": 0.7647,
-          "duration": 526,
-          "is_short": false,
-          "buzz_score": 29.4,
-          "upload_date": "2026.04.22",
-          "url": "https://www.youtube.com/watch?v=FswkGBuzlz4",
-          "description_excerpt": "오늘은 큼직한 유럽식 족발, 슈바인학센과\n달달매콤한 바베큐 폭립을 준비했습니다 🍖\n\n겉은 바삭해야 진짜 학센이죠!\n최대한 바삭하게 구워서 겉바속촉 제대로 살렸어요 😎\n\n샐러드와 빵에 싸 먹으면 조합이 정말 좋고,\n부드러운 폭립까지 더해져서 완벽한 한 상이었습니다\n\n오늘은 마치 파티처럼 제대로 즐겨봤네요 🍺\n\n오늘도 영상 보러 와주셔서 감사합니다 🙏\n구독과 좋아요, 알림 설정 그리고 이쁜 댓글까지 부탁드려요!\n\n※ 지나친 음주는 뇌졸중, 기억력 손상이나 치매를 유발할 수 있습니다. 임신 중 음주는 태아의 건강을 해칠 수 있습니다.\n\n",
-          "top_comments": [
-            {
-              "author": "@수다로그",
-              "text": "슈바인학센 드셔보셨나요? \n이런 안주에는 과연 어떤 술이 좋나요!!?\n\n소주다!! vs 맥주다!! \n편하게 댓글로 달아주세요오👐",
-              "likes": 1
-            },
-            {
-              "author": "@차가운술잔-k6k",
-              "text": "이거 비주얼 미쳤는데요",
-              "likes": 1
-            },
-            {
-              "author": "@수다로그",
-              "text": "비주얼만큼 맛도 진짜 맛있어서 정말 뿌듯한 음식이였습니다🔥",
-              "likes": 1
-            },
-            {
-              "author": "@bivebird2487",
-              "text": "방가방가방가~\n올두 넘 잼나게 시청했습니당~\n아쉬운건 일주일에 한번이다는것...\n일주일 두번 해주심 안될까여!!!😂😂😂\n행복하셔여~~~❤❤❤",
-              "likes": 1
-            },
-            {
-              "author": "@수다로그",
-              "text": "진짜 매일 올리고 싶은데\n일하랴 편집하랴 술먹으랴 현생이 넘 힘드네요😭 \n이렇게 기다려주셔서 너무 감사 할 따름입니다ㅠ",
-              "likes": 1
             }
           ],
           "sentiment_counts": {
@@ -19631,37 +19390,6 @@
               "likes": 0
             }
           ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "L3oy0iQSGxw",
-          "title": "미국일상 미니 철인3종 도전하기와 닭다리 돼지갈비 바베큐 Eat BBQ and Take on a Mini Triathlon Challenge #미국브이로그 #미국생활",
-          "channel": "잇 앤 아웃 Eat-N-Out",
-          "subscribers": 39,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 20,
-          "likes": 5,
-          "comment_count": 0,
-          "engagement_rate": 0.25,
-          "duration": 603,
-          "is_short": false,
-          "buzz_score": 22.0,
-          "upload_date": "2026.04.21",
-          "url": "https://www.youtube.com/watch?v=L3oy0iQSGxw",
-          "description_excerpt": "미국 이민 25년 차, 캘리포니아 생활, 맛있게 먹고, 운동하기! Calories in, Calories out! 🍱🏃‍♂️\n\n맛있는 음식 만들어 먹고, 열심히 운동하는 미국 이민 25년 차 한국 아빠입니다.\n오늘은 닭다리와 돼지갈비 바베큐를 해 먹고, 미니 철인 3종에 도전해 봤습니다.\n\n3년 전 시작한 다이어트에 성공하고 유지하기 위해 열심히 운동하며,\n5월 3일에 있을 OC Marathon 출전을 준비하고 있습니다.\n\n저의 소소하지만 버라이어티한 일상이 궁금하시다면, 구독과 좋아요를 눌러주세요!\n\n🕒 Video Chapters",
-          "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
             "neu": 0,
@@ -19955,43 +19683,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "FKd3Jnj5A7Y",
-          "title": "꿀조합! 맥주 안주 대방출: CJ맛밤, 오구채, 나쵸, BBQ, 나쵸콤보까지!",
-          "channel": "제품탐험대",
-          "subscribers": 335,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 3,
-          "likes": 0,
-          "comment_count": 1,
-          "engagement_rate": 0.3333,
-          "duration": 78,
-          "is_short": false,
-          "buzz_score": 6.5,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=FKd3Jnj5A7Y",
-          "description_excerpt": "이 포스팅은 쿠팡파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n 1위~5위 상품 자세히 보기 \n\n상품List 정리했습니다. 확인해보세요. \n영상에 소개된 제품들의 상세내용입니다. 자세한 내용이 궁금하신 분들은 아래 링크를 참고하시면됩니다. \n\n\n5위 - CJ맛밤, 420g, 1개\n가격 : 11900원\n할인제품 : https://link.coupang.com/a/eqjTvQ\n\n\n4위 - 해야미 맥반석 오구채, 150g, 1개\n가격 : 8990원\n할인제품 : https://link.coupang.com/a/eq",
-          "top_comments": [
-            {
-              "author": "@제품탐험대-y3y",
-              "text": "이 포스팅은 쿠팡파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n▣ 1위~5위 상품 자세히 보기 ▣\n\n상품List 정리했습니다. 확인해보세요. \n영상에 소개된 제품들의 상세내용입니다. 자세한 내용이 궁금하신 분들은 아래 링크를 참고하시면됩니다. \n\n\n5위 - CJ맛밤, 420g, 1개\n가격 : 11900원\n할인제품 : https://link.coupang.com/a/eqjTvQ\n\n\n4위 - 해야미 맥반석 오구채, 150g, 1개\n가격 : 8990원\n할인제품 : https://link.coupang.com/a/",
-              "likes": 0
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "gnORgm18T3c",
           "title": "같은 값에 4조각 사라졌다\" 교촌만 줄인 이유, BBQ는 왜 버텼나",
           "channel": "떠먹는 요즘경제",
@@ -20089,43 +19780,6 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "jkp5z7UFcDc",
-          "title": "가성비 BBQ 전기그릴 끝판왕! 몽비오스/신일/테팔/벤하임 비교 리뷰 (생선구이, 고기)",
-          "channel": "프라이스나우",
-          "subscribers": 18,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 1,
-          "likes": 0,
-          "comment_count": 1,
-          "engagement_rate": 1.0,
-          "duration": 89,
-          "is_short": false,
-          "buzz_score": 5.4,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=jkp5z7UFcDc",
-          "description_excerpt": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n\n5위 - 26년형 온도조절가능 몽비오스 국산 멀티 양면그릴 전기 직화 생선구이기, DW-G1000MOS\n가격 : 89900원\n할인제품 : https://link.coupang.com/a/eqkIav\n\n\n4위 - 신일 와이드 전기그릴 특대형 세트, SGP-H77WS\n가격 : 98000원\n할인제품 : https://link.coupang.com/a/eqkH6O\n\n\n3위 - 테팔 컴팩트 전기그릴, TG300DKR\n가격 : 55300원\n할인제품 : ",
-          "top_comments": [
-            {
-              "author": "@프라이스나우",
-              "text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n\n5위 - [26년형 온도조절가능] 몽비오스 국산 멀티 양면그릴 전기 직화 생선구이기, DW-G1000MOS\n가격 : 89900원\n할인제품 : https://link.coupang.com/a/eqkIav\n\n\n4위 - 신일 와이드 전기그릴 특대형 세트, SGP-H77WS\n가격 : 98000원\n할인제품 : https://link.coupang.com/a/eqkH6O\n\n\n3위 - 테팔 컴팩트 전기그릴, TG300DKR\n가격 : 55300원\n할인제품 ",
-              "likes": 0
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
           "video_meta_rating": 0,
           "is_news_incident": false,
           "multi_brand_tags": [],
@@ -20253,37 +19907,6 @@
           "upload_date": "2026.04.19",
           "url": "https://www.youtube.com/watch?v=Ryqc_IQsTGQ",
           "description_excerpt": "nan",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "47972yUYPSs",
-          "title": "서울 명동 서서갈비에서 서서 먹는 한국 BBQ를 체험한다",
-          "channel": "만두만",
-          "subscribers": 9,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 2,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 920,
-          "is_short": false,
-          "buzz_score": 4.2,
-          "upload_date": "2026.04.20",
-          "url": "https://www.youtube.com/watch?v=47972yUYPSs",
-          "description_excerpt": "서울 명동에 있는 서서갈비에서 서서 먹는 한국 BBQ를 직접 체험한다. 이곳은 의자가 없어서 모두 서서 고기를 먹는 독특한 방식으로 유명하다.\n\n연기와 불판, 그리고 활기찬 분위기 속에서 먹는 고기는 단순하지만 정말 맛있다. 왜 이곳이 서울에서 유명한 맛집인지 직접 경험해본다.\n\n서울에서 색다른 음식 경험을 찾는다면 꼭 한 번 가볼 만한 곳이다.\n\n#서울 #명동 #서서갈비 #한국바베큐 #고기집 #서울맛집 #한국음식 #먹방 #여행브이로그 #맛집추천 #서울여행 #한국여행",
           "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
@@ -21998,14 +21621,14 @@
     },
     "kyochon": {
       "display": "교촌치킨",
-      "video_count": 61,
-      "total_views": 684408,
-      "total_likes": 7053,
-      "total_comments": 118,
+      "video_count": 55,
+      "total_views": 684036,
+      "total_likes": 7034,
+      "total_comments": 113,
       "n_short": 3,
-      "n_long": 58,
+      "n_long": 52,
       "tier_counts": {
-        "Nano": 48,
+        "Nano": 42,
         "Micro": 7,
         "Macro": 3,
         "Mega": 2,
@@ -23130,43 +22753,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "67xz9Ey6Jyk",
-          "title": "사랑나누리예술단#사랑의맘보#단체#댄스#노래#경주교촌마을공연#",
-          "channel": "미애소리tv",
-          "subscribers": 812,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 120,
-          "likes": 5,
-          "comment_count": 1,
-          "engagement_rate": 0.05,
-          "duration": 194,
-          "is_short": false,
-          "buzz_score": 31.9,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=67xz9Ey6Jyk",
-          "description_excerpt": "nan",
-          "top_comments": [
-            {
-              "author": "@유영삼-u03",
-              "text": "사랑나누리예술단 화이팅💗",
-              "likes": 1
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "LWKr18Y_fs4",
           "title": "교촌치킨 먹방 #Shorts #쇼츠 #Shorts #세로방송 #치킨",
           "channel": "슈퍼스타배수광",
@@ -23478,58 +23064,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "I6zIC7DmU1w",
-          "title": "Vlog | 1박 2일 경주여행•완벽 데이트 힐링 코스 | 봄경주는 사랑이야..🌸 | 대릉원•황리단길 맛집,카페 | 경주 벚꽃 스팟•포토존 꿀팁 |  첨성대•월정교•교촌마을",
-          "channel": "여행혜연TRIPHY",
-          "subscribers": 1470,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 109,
-          "likes": 8,
-          "comment_count": 4,
-          "engagement_rate": 0.1101,
-          "duration": 1735,
-          "is_short": false,
-          "buzz_score": 27.2,
-          "upload_date": "2026.04.20",
-          "url": "https://www.youtube.com/watch?v=I6zIC7DmU1w",
-          "description_excerpt": "🙏 최고화질로 변경하여 시청 부탁드립니다:)\n\n안녕하세요 여행혜연 입니다.\n오랜만에 인사드려요🙂\n\n올해 첫 영상은 자랑스러운 우리나라의 역사의 도시, 신라의 숨결이 그대로 남아 있는 천년의 도시, \n1박 2일 다녀온 경상북도 경주 여행 영상이에요.\n\n올해 4월 초 2주 전에 다녀왔고, 비도 오고 벚꽃이 지기 시작할 때쯤에 갔지만 그럼에도 경주의 벚꽃은 정말 이뻤어요 왜 다들 경주 벚꽃 하는지 알겠는..🌸\n\n지금은 이미 다 졌지만.. 내년을 기약하며🌸\n꼭 벚꽃 필 무렵이 아니더라도 날 좋을 때 가는 경주는 행복\n이에오..🤍\n\n너무너무",
-          "top_comments": [
-            {
-              "author": "@북충",
-              "text": "언제나 잘보고 있습니다~ ㅎㅎ",
-              "likes": 0
-            },
-            {
-              "author": "@TRIP_H_Y",
-              "text": "항상 챙겨봐 주셔서 정말 감사드려용!",
-              "likes": 0
-            },
-            {
-              "author": "@작곡가겸-vlog",
-              "text": "잘봤어요 경주랑 영상 예쁘네요😊",
-              "likes": 0
-            },
-            {
-              "author": "@TRIP_H_Y",
-              "text": "영상 예쁘게 봐주셔서 너무 기분 좋아용!! 감사합니당 ☺️",
-              "likes": 0
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "lCPGORbF2wg",
           "title": "허니콤보 먹방(feat. 다이어터)",
           "channel": "빵떡순이",
@@ -23809,68 +23343,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "8Alt5Es6EHQ",
-          "title": "2026경주가면 꼭 봐야할 신라판 마당극/신라오기 금환/교촌문화공연.경주여행",
-          "channel": "korea문화탐방여행",
-          "subscribers": 4320,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 55,
-          "likes": 2,
-          "comment_count": 0,
-          "engagement_rate": 0.0364,
-          "duration": 200,
-          "is_short": false,
-          "buzz_score": 8.9,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=8Alt5Es6EHQ",
-          "description_excerpt": "2026.4.25일 (토)낮1시/3시- 2회공연\n 5.16일 - 23일(토)낮1시/3시- 2회공연\n#신라오기#교촌문화공연#경주교촌한옥마을광장#경주여행\n#경주가볼만한곳 ♤문의#경주문화재단T.054-777-6304",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "ggdtluzrXJc",
-          "title": "Gyeongju Gyochon.외국인도 놀란 한국전통문화공연#신라오기 경주가면 꼭 봐야하는 교촌한옥마을,경주여행 문화공연",
-          "channel": "korea문화탐방여행",
-          "subscribers": 4320,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 69,
-          "likes": 2,
-          "comment_count": 0,
-          "engagement_rate": 0.029,
-          "duration": 667,
-          "is_short": false,
-          "buzz_score": 8.8,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=ggdtluzrXJc",
-          "description_excerpt": "#경주교촌한옥마을#신라오기#교촌문화공연#너울무용단#교촌한옥마을광장#경주여행#경주가볼만한곳 26.4.11\n#2026.4.25일 (토) 낮 1시 / 3시- 공연\n#5.16일, 23일(토) 낮1시 /3시- 공연\n문의♤경주문화재단 T.054-777-6304",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "KhD2WOhQBOw",
           "title": "교촌치킨 먹방",
           "channel": "급중 데일리",
@@ -24117,37 +23589,6 @@
               "likes": 0
             }
           ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "gPl88chEQsQ",
-          "title": "Gyeongju tourism highlight경주관광 하이라이트/신라오기新羅五伎.교촌한옥마을 문화공연",
-          "channel": "앞산유튜브tv",
-          "subscribers": 2690,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 19,
-          "likes": 2,
-          "comment_count": 0,
-          "engagement_rate": 0.1053,
-          "duration": 753,
-          "is_short": false,
-          "buzz_score": 6.6,
-          "upload_date": "2026.04.19",
-          "url": "https://www.youtube.com/watch?v=gPl88chEQsQ",
-          "description_excerpt": "#신라오기#경주 교촌문화공연 #경주가볼만한곳.26.4.11\n*경주 교촌한옥마을광장 / \n주소- 경주시 교촌길 39-2 (교동 88-5)\n\n*26.4.11/ 25일(토) 낮1시 / 3시 공연\n      5.16일, 23일(토)낮1시/ 3시 공연\n*공연문의-경주문화재단 T.054-777-6304",
-          "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
             "neu": 0,
@@ -24476,37 +23917,6 @@
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
-        },
-        {
-          "video_id": "W_KM_RNRpDk",
-          "title": "경주교촌버스킹_ 선율모리타령",
-          "channel": "살롱드국악 선율모리",
-          "subscribers": 125,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 0,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 86,
-          "is_short": false,
-          "buzz_score": 0.0,
-          "upload_date": "2026.04.19",
-          "url": "https://www.youtube.com/watch?v=W_KM_RNRpDk",
-          "description_excerpt": "[경주 교촌버스킹_ 선율모리]\n\n민요 군밤타령의 멜로디와 \n지금 현재를 살아가는 사람들에게 전하는 \n선율모리의 메세지를 담은 짧고 강렬한 창작곡.",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
         }
       ],
       "sentiment_counts": {
@@ -24572,18 +23982,18 @@
     },
     "multi": {
       "display": "🔀 멀티-브랜드 비교",
-      "video_count": 17,
-      "total_views": 468419,
-      "total_likes": 2319,
+      "video_count": 16,
+      "total_views": 468405,
+      "total_likes": 2318,
       "total_comments": 83,
       "n_short": 1,
-      "n_long": 16,
+      "n_long": 15,
       "tier_counts": {
         "Macro": 2,
-        "Nano": 11,
+        "Nano": 10,
         "Micro": 4
       },
-      "summary": "경쟁사 2개 이상이 함께 등장하는 비교 콘텐츠 17개. KFC IT/디지털 입장에서 타사 대비 KFC 평가가 드러나는 핵심 관찰 구간.",
+      "summary": "경쟁사 2개 이상이 함께 등장하는 비교 콘텐츠 16개. KFC IT/디지털 입장에서 타사 대비 KFC 평가가 드러나는 핵심 관찰 구간.",
       "videos": [
         {
           "video_id": "qIlMCXqk0s0",
@@ -25326,41 +24736,6 @@
           ],
           "transcript_sentiment": null,
           "primary_brand": "mcdonalds"
-        },
-        {
-          "video_id": "1sqQ3Io30l8",
-          "title": "우리나라 최초의 패스트푸드 롯데리아 탄생 이야기",
-          "channel": "마케터배씨",
-          "subscribers": 1910,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 14,
-          "likes": 1,
-          "comment_count": 0,
-          "engagement_rate": 0.0714,
-          "duration": 260,
-          "is_short": false,
-          "buzz_score": 8.1,
-          "upload_date": "2026.04.18",
-          "url": "https://www.youtube.com/watch?v=1sqQ3Io30l8",
-          "description_excerpt": "우리나라 최초의 패스트푸드는 1979년에 오픈한 롯데리아입니다. 국민소득의 향상과 더불어 패스트푸드 산업도 성장할 것이라고 생각한 롯데 경영진이 롯데호텔과 롯데쇼핑의 개관에 맞추어 롯데리아를 출범시킨 것입니다. 반면 맥도날드는 한국 진출을 망설이는데...",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [
-            "mcdonalds",
-            "lotteria"
-          ],
-          "transcript_sentiment": null,
-          "primary_brand": "lotteria"
         },
         {
           "video_id": "pEJpwGiKayc",
