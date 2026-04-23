@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-04-23 10:08:05",
+  "generated_at": "2026-04-23 10:16:42",
   "window_days": 90,
   "data_earliest": "2026-01-26",
   "data_latest": "2026-04-22",
@@ -99,8 +99,8 @@
               "author": "@서투른꽃",
               "text": "계속 빵찌차 라고 하시는거 너무 웃김 ㅋㅋㅋㅋㅋ",
               "likes": 6,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@부정적인생각",
@@ -111,11 +111,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
+            "neg": 1,
             "neu": 1,
-            "pos": 7
+            "pos": 8
           },
-          "negative_ratio": 0.2,
+          "negative_ratio": 0.1,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -326,8 +326,8 @@
               "author": "@포매-p1z",
               "text": "롯데리아 삐딱한 버거~\n해주세여 ㅋㅋㅋㅋㅋ",
               "likes": 2,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@고봉-t1n",
@@ -381,8 +381,8 @@
           ],
           "sentiment_counts": {
             "neg": 0,
-            "neu": 1,
-            "pos": 9
+            "neu": 0,
+            "pos": 10
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -1222,11 +1222,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 6,
-        "neu": 5,
-        "pos": 41
+        "neg": 5,
+        "neu": 4,
+        "pos": 43
       },
-      "negative_ratio": 0.115,
+      "negative_ratio": 0.096,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -1644,8 +1644,8 @@
               "author": "@DRAGON_YONG",
               "text": "@firekim-lj2re 그걸 감안 해도 요즘 과대 광고 심함. 저번 큐브 스테이크도 버거에 손가락 마디보다 작은 사이즈로 2개 들어가드만 ㅋㅋㅋㅋ",
               "likes": 2,
-              "sentiment": "부정",
-              "rating": 2
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@이해의선물-z9q",
@@ -1670,11 +1670,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 3,
+            "neg": 2,
             "neu": 2,
-            "pos": 5
+            "pos": 6
           },
-          "negative_ratio": 0.3,
+          "negative_ratio": 0.2,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -2246,8 +2246,8 @@
               "author": "@땅콩빵-v2k",
               "text": "7:25 맞혔어요 ㅎㅎㅎ 저두 무물파. (무조건 물냉)",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@bluefilm_",
@@ -2258,11 +2258,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 0,
             "neu": 0,
-            "pos": 9
+            "pos": 10
           },
-          "negative_ratio": 0.1,
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -3147,8 +3147,8 @@
               "author": "@훈이-v4b",
               "text": "저랑 언니랑 4살차이 둘다 애엄마인데도\n서로 질투해요 \n저는 마른타입 언니는 통통이인데\n요즘 부쩍 언니가 말라깽이가 되어가거든요\n(언니는 술X, 저는 술쟁이)\n친정갈때마다 언니한테는 걱정가득 저한텐 보기좋다하셔서 저만 질투그득그득한 상태입니다 ㅋㅋㅋㅋㅋㅋ 자매는 어쩔수없나봐요",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@srsm7524",
@@ -3159,11 +3159,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
+            "neg": 1,
             "neu": 1,
-            "pos": 6
+            "pos": 7
           },
-          "negative_ratio": 0.222,
+          "negative_ratio": 0.111,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -3224,15 +3224,15 @@
               "author": "@밥빙기-n7s",
               "text": "22:45 \n 난 진짜 수준높은 장면이라고 생각함 \n이런건 처음임 \n지가 어제 쓴 편지에 지가 오늘 화내는 이런건",
               "likes": 51,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@히히-m1k7w",
               "text": "23:59 이런 스트리머는 진짜 처음봄",
               "likes": 48,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "중립",
+              "rating": 3
             },
             {
               "author": "@ddddbehd",
@@ -3259,8 +3259,8 @@
               "author": "@간고등어-b4z",
               "text": "아니 프좀 너무 긴장해서 중간에 화장실 간 거 ㅋㅋㅋㅋㅋ 1:12:58",
               "likes": 7,
-              "sentiment": "부정",
-              "rating": 2
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@sibasiba333",
@@ -3292,11 +3292,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 3,
-            "neu": 1,
-            "pos": 6
+            "neg": 0,
+            "neu": 3,
+            "pos": 7
           },
-          "negative_ratio": 0.3,
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -4075,16 +4075,16 @@
               "author": "@목이버섯-t4d",
               "text": "일지가 너무 scp 설명서 같아요 ㅋㅋㅋㅋ 새로운 인물도 나올까 기대 됩니다",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 2
+              "sentiment": "긍정",
+              "rating": 4
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 0,
             "neu": 0,
-            "pos": 0
+            "pos": 1
           },
-          "negative_ratio": 1.0,
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
@@ -4221,11 +4221,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 29,
-        "neu": 20,
-        "pos": 112
+        "neg": 22,
+        "neu": 22,
+        "pos": 117
       },
-      "negative_ratio": 0.18,
+      "negative_ratio": 0.137,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -5216,8 +5216,8 @@
               "author": "@몽실몽실-j6s",
               "text": "할망은 햄버거도 참 신기하게 먹는다ㅋㅋㅋ돌려깎기를 해서먹네ㅋㅋㅋㅋㅋㅋㄲㅋㅋㅋㅋㅋ",
               "likes": 20,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@정지연-t8f",
@@ -5235,11 +5235,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 8,
+            "neg": 7,
             "neu": 1,
-            "pos": 1
+            "pos": 2
           },
-          "negative_ratio": 0.8,
+          "negative_ratio": 0.7,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -6276,16 +6276,16 @@
               "author": "@유소연-x6j",
               "text": "ㅋㅋㄲㅋ개웃기노ㅋㅋㅋ탄산없이\n햄버거를ㅋㅋ..",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
+            "neg": 1,
             "neu": 0,
-            "pos": 0
+            "pos": 1
           },
-          "negative_ratio": 1.0,
+          "negative_ratio": 0.5,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
@@ -7590,11 +7590,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 20,
+        "neg": 18,
         "neu": 10,
-        "pos": 73
+        "pos": 75
       },
-      "negative_ratio": 0.194,
+      "negative_ratio": 0.175,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -7689,8 +7689,8 @@
               "author": "@조기석-q6y",
               "text": "광고 안보려고 유투브 프리미엄쓰는데 이걸 보고있네 ㅋㅋㅋㅋㅋ",
               "likes": 21000,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@blancmoon-mj",
@@ -7750,11 +7750,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 3,
+            "neg": 2,
             "neu": 2,
-            "pos": 4
+            "pos": 5
           },
-          "negative_ratio": 0.333,
+          "negative_ratio": 0.222,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -7893,8 +7893,8 @@
               "author": "@DDa-GU",
               "text": "스폰지밥 그 버거 같은데ㅋㅋㅋㅋ",
               "likes": 469,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@빠빠뿌뿌-m3o",
@@ -7921,15 +7921,15 @@
               "author": "@Loveholic1231",
               "text": "이쁜이 버거였나? ㅋㅋㅋㅋ",
               "likes": 81,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@한국산거북이",
               "text": "가격이 삐딱한버거ㅋㅋㅋㅋ",
               "likes": 73,
-              "sentiment": "부정",
-              "rating": 2
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@hanjm13",
@@ -7954,11 +7954,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 4,
-            "neu": 3,
-            "pos": 3
+            "neg": 3,
+            "neu": 1,
+            "pos": 6
           },
-          "negative_ratio": 0.4,
+          "negative_ratio": 0.3,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
@@ -8240,8 +8240,8 @@
               "author": "@김나은-m7s",
               "text": "0:50 치토스 밥 같은건가 했는데 원래 빨간거였군요 ㅋㅋㅋ \n1:49 약간 딸기 다이스랑 오레오 들어간 쫀득쿠키처럼 생겼어요ㅋㅋ",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@NiCrCuPd",
@@ -8280,11 +8280,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
+            "neg": 1,
             "neu": 0,
-            "pos": 8
+            "pos": 9
           },
-          "negative_ratio": 0.2,
+          "negative_ratio": 0.1,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -8483,8 +8483,8 @@
               "author": "@닭과개는친구",
               "text": "뇌전증 터지는 맛ㅋㅋㅋㅋ독한룐...",
               "likes": 2,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@ancmfldk",
@@ -8544,11 +8544,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 4,
+            "neg": 3,
             "neu": 3,
-            "pos": 3
+            "pos": 4
           },
-          "negative_ratio": 0.4,
+          "negative_ratio": 0.3,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -8953,8 +8953,8 @@
               "author": "@kimjunyoung07",
               "text": "순간 댓글 밀린 줄 ㅋㅋㅋ",
               "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@jddfsaf",
@@ -8986,11 +8986,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 4,
+            "neg": 3,
             "neu": 1,
-            "pos": 5
+            "pos": 6
           },
-          "negative_ratio": 0.4,
+          "negative_ratio": 0.3,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -9290,8 +9290,8 @@
               "author": "@Wolfcatgaming",
               "text": "점심 때 먹어보고 흠? 안 매운데? 했다가 킥이 늦게 오더라 ㅋㅋㅋ 그날 저녁까지 뱃속이 부글부글",
               "likes": 1,
-              "sentiment": "부정",
-              "rating": 2
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@이지선-s3l",
@@ -9323,11 +9323,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
+            "neg": 1,
             "neu": 2,
-            "pos": 6
+            "pos": 7
           },
-          "negative_ratio": 0.2,
+          "negative_ratio": 0.1,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
@@ -9711,8 +9711,8 @@
               "author": "@user-ik2od3qf3y",
               "text": "광고 이미지가 아닌 그냥 다른ㄱ 허접한 제품을 팔앛 먹고 있는데 댓글 반응 ㅋㅋㅋㅋㅋㅋㅋㅋ",
               "likes": 4,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@성이름-s7t8f",
@@ -9738,8 +9738,8 @@
           ],
           "sentiment_counts": {
             "neg": 1,
-            "neu": 1,
-            "pos": 8
+            "neu": 0,
+            "pos": 9
           },
           "negative_ratio": 0.1,
           "warning_level": "",
@@ -9876,8 +9876,8 @@
               "author": "@나난난다",
               "text": "솔직히 이번꺼 노잼이었어 감스트가 너무 감성에 안맞기도 하고 찡찡대는거 듣기도 싫더라 지피티랑 4명이서 실패한 그림이 훨 재밌었을듯",
               "likes": 16,
-              "sentiment": "부정",
-              "rating": 2
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@wieucjxkwo",
@@ -9916,11 +9916,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
+            "neg": 1,
             "neu": 0,
-            "pos": 8
+            "pos": 9
           },
-          "negative_ratio": 0.2,
+          "negative_ratio": 0.1,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -9971,8 +9971,8 @@
               "author": "@Yellow_Tail-02",
               "text": "스스로 먹고 화내고 운다 멋지다 ㅋㅋㅋㅋㅋㅋㅋㅋ",
               "likes": 19,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@NeetLife93",
@@ -10018,11 +10018,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
+            "neg": 1,
             "neu": 2,
-            "pos": 6
+            "pos": 7
           },
-          "negative_ratio": 0.2,
+          "negative_ratio": 0.1,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -10263,15 +10263,15 @@
               "author": "@매일5분책읽기",
               "text": "물들어올 때 노젓는듯 제대로 어그로 ㅋㅋㅋ",
               "likes": 17,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@마늘밭동그리",
               "text": "듣기만해도 설레는 저 소리 ㅋㅋㅋㅋㅋㅋ 햄버거도 삐딱하게 주려나?",
               "likes": 13,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@patraschu",
@@ -10291,8 +10291,8 @@
               "author": "@jyc0710",
               "text": "이번엔 또 뭔 컨셉?? 매번 궁금하게 어그로 잘끄넼ㅋㅋㅋㅋ",
               "likes": 7,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@동백이-y8i",
@@ -10324,11 +10324,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 3,
-            "neu": 4,
-            "pos": 3
+            "neg": 2,
+            "neu": 2,
+            "pos": 6
           },
-          "negative_ratio": 0.3,
+          "negative_ratio": 0.2,
           "warning_level": "",
           "video_meta_sentiment": "부정",
           "video_meta_rating": 1,
@@ -10910,8 +10910,8 @@
               "author": "@나쁜팬더",
               "text": "먹는소리 진짜 웃기네ㅋㅋㅋㅋㅋㅋ",
               "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@naver324",
@@ -10922,11 +10922,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 0,
             "neu": 0,
-            "pos": 1
+            "pos": 2
           },
-          "negative_ratio": 0.5,
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -11272,8 +11272,8 @@
               "author": "@리베리베-f5i",
               "text": "어머니 귀여우시네요 ㅋㅋㅋㅋㅋ 이거 맛도 없는데 맵기만함..ㅠㅠ",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 2
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@Unet_SABELLIN",
@@ -11291,11 +11291,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 1,
+            "neg": 0,
             "neu": 2,
-            "pos": 2
+            "pos": 3
           },
-          "negative_ratio": 0.2,
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
@@ -11371,8 +11371,8 @@
               "author": "@monkylu1590",
               "text": "냅다 옷벗는게 개웃기네 ㅋㅋㅋㅋ 겨자이크 좀 해주세요",
               "likes": 2,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@정명희-g7d7w",
@@ -11419,8 +11419,8 @@
           ],
           "sentiment_counts": {
             "neg": 2,
-            "neu": 1,
-            "pos": 4
+            "neu": 0,
+            "pos": 5
           },
           "negative_ratio": 0.286,
           "warning_level": "",
@@ -11615,8 +11615,8 @@
               "author": "@뚜띠-t2w",
               "text": "ㅋㅋㅋㅋㅋ머야 오늘 왜이렇게 애기같앙",
               "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@이슬-y1i5d",
@@ -11629,8 +11629,8 @@
               "author": "@이슬-y1i5d",
               "text": "​ @beeny7810 ㅋㅋㅋㅋ그래두 안 남기고 다 드셨구만요",
               "likes": 1,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@이슬-y1i5d",
@@ -11671,23 +11671,23 @@
               "author": "@beeny7810",
               "text": "​ @이슬-y1i5d 오히려 정신이 없어서 남긴다는 선택지 자체를 생각하지 못하곸ㅋㅋㅋ",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@beeny7810",
               "text": "먹은거 후회해요..ㅋㅋㅋㅋ",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             }
           ],
           "sentiment_counts": {
-            "neg": 4,
+            "neg": 0,
             "neu": 2,
-            "pos": 4
+            "pos": 8
           },
-          "negative_ratio": 0.4,
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
@@ -13091,11 +13091,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 76,
-        "neu": 56,
-        "pos": 191
+        "neg": 61,
+        "neu": 50,
+        "pos": 212
       },
-      "negative_ratio": 0.235,
+      "negative_ratio": 0.189,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -14874,8 +14874,8 @@
               "author": "@옴베르트에코",
               "text": "ㅋㅋㅋ 사모펀드 진짜 악질이네",
               "likes": 124,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@lim6801",
@@ -14914,11 +14914,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 5,
+            "neg": 4,
             "neu": 2,
-            "pos": 3
+            "pos": 4
           },
-          "negative_ratio": 0.5,
+          "negative_ratio": 0.4,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
@@ -15681,8 +15681,8 @@
               "author": "@Youyell4279",
               "text": "흑백 요리사 콜라보 제품도 그렇구나 하고 넘어갔는데 김풍이라 궁금하긴 하네 ㅋㅋㅋㅋㅋ",
               "likes": 114,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@Pohang_sexy_guy",
@@ -15750,8 +15750,8 @@
           ],
           "sentiment_counts": {
             "neg": 2,
-            "neu": 1,
-            "pos": 7
+            "neu": 0,
+            "pos": 8
           },
           "negative_ratio": 0.2,
           "warning_level": "",
@@ -16580,8 +16580,8 @@
               "author": "@최규진-t1f",
               "text": "한번씩 개망한 음식 나오는거까지 김풍 콜라보 확실 ㅋㅋㅋㅋㅋ",
               "likes": 268,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@조덕례-o",
@@ -16641,11 +16641,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
+            "neg": 1,
             "neu": 4,
-            "pos": 4
+            "pos": 5
           },
-          "negative_ratio": 0.2,
+          "negative_ratio": 0.1,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -17343,8 +17343,8 @@
               "author": "@별빛MJ",
               "text": "치킨만 나오면 통닭이라하네...둘다 옛날사람 ㄷㄷ🫩  할머니는 웬 불닭짜장면 ㅋㅋㅋㅋ 신메뉴인가 ㅋㅋㅋㅋ 😂😂😂",
               "likes": 36,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@Sjc12143",
@@ -17362,11 +17362,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 6,
+            "neg": 5,
             "neu": 2,
-            "pos": 2
+            "pos": 3
           },
-          "negative_ratio": 0.6,
+          "negative_ratio": 0.5,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -18300,16 +18300,16 @@
               "author": "@짭현-g2v",
               "text": "하 g70 영상 보러 왔는데 삶은감자 먼저 보고 가네 ㅋㅋㅋㅋ",
               "likes": 0,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
+            "neg": 1,
             "neu": 0,
-            "pos": 4
+            "pos": 5
           },
-          "negative_ratio": 0.333,
+          "negative_ratio": 0.167,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
@@ -20101,11 +20101,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 47,
-        "neu": 25,
-        "pos": 187
+        "neg": 43,
+        "neu": 24,
+        "pos": 192
       },
-      "negative_ratio": 0.181,
+      "negative_ratio": 0.166,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -21383,14 +21383,14 @@
               "author": "@Subjin04",
               "text": "ㅋㅋㅋㅋ 탄산 빠지면 맛 없죠 ㅠ 새삥 콜라가 최곱니다",
               "likes": 0,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 4
             }
           ],
           "sentiment_counts": {
             "neg": 0,
-            "neu": 1,
-            "pos": 2
+            "neu": 0,
+            "pos": 3
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -22188,8 +22188,8 @@
       ],
       "sentiment_counts": {
         "neg": 4,
-        "neu": 10,
-        "pos": 69
+        "neu": 9,
+        "pos": 70
       },
       "negative_ratio": 0.048,
       "warning_level": "",
@@ -22409,8 +22409,8 @@
               "author": "@헤헤-j2z4q",
               "text": "24:21 ㅋㅋㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌ\n모자이크도 보통 사람 따라다니는데 그냥 한곳에 고정되어있고 디제이님 얼굴 나왔다 들어갔다 하는것도 웃김",
               "likes": 11,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@카르멘4915",
@@ -22437,8 +22437,8 @@
               "author": "@jpark7635",
               "text": "24:21 아 진짜 ㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎ 디제이님 저 멘트치고 어떤 봉변을 당할까 기대하고 있었는데 자다 누워서 빵터지므   미쳐 진짜",
               "likes": 9,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@iamhaewon",
@@ -22451,16 +22451,16 @@
               "author": "@heydj_",
               "text": "22:32 아 이 녀석.. 계속 삐져나오네",
               "likes": 7,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "중립",
+              "rating": 3
             }
           ],
           "sentiment_counts": {
-            "neg": 4,
-            "neu": 0,
-            "pos": 6
+            "neg": 1,
+            "neu": 1,
+            "pos": 8
           },
-          "negative_ratio": 0.4,
+          "negative_ratio": 0.1,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -23184,11 +23184,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 15,
-        "neu": 6,
-        "pos": 37
+        "neg": 12,
+        "neu": 7,
+        "pos": 39
       },
-      "negative_ratio": 0.259,
+      "negative_ratio": 0.207,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -23851,8 +23851,8 @@
               "author": "@daily-hanel",
               "text": "머리 자르니까 넘 가볍고 편하고><ㅋㅋㅋㅋㅋ\n지금은 또 점점 길어지고 있어용!!!\n머리 컬러도 빠져가지구 다시 까만색으로 염색하고 싶기두 해용🥺",
               "likes": 1,
-              "sentiment": "중립",
-              "rating": 3
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@공주-e6f",
@@ -23906,8 +23906,8 @@
           ],
           "sentiment_counts": {
             "neg": 0,
-            "neu": 1,
-            "pos": 8
+            "neu": 0,
+            "pos": 9
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -24153,8 +24153,8 @@
               "author": "@코리안맨-r3d",
               "text": "ㅋㅋㅋㅋㅋ맨날 챙겨보는데 몇 시간 굶고가 왜 이렇게 웃기지ㅋㅋㅋㅋㅋㅋ 그냥 푹 잤다가 먹는",
               "likes": 80,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@dstoe-d2f",
@@ -24174,8 +24174,8 @@
               "author": "@ヤナギ27",
               "text": "1인1닭도 물리는데 2닭은 진짜.. 게다가 모두 닭다리를 2닭은 대단해 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
               "likes": 7,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@장인-h5t",
@@ -24221,11 +24221,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 4,
+            "neg": 2,
             "neu": 1,
-            "pos": 5
+            "pos": 7
           },
-          "negative_ratio": 0.4,
+          "negative_ratio": 0.2,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
@@ -25031,11 +25031,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 9,
-        "neu": 12,
-        "pos": 100
+        "neg": 7,
+        "neu": 11,
+        "pos": 103
       },
-      "negative_ratio": 0.074,
+      "negative_ratio": 0.058,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -25417,8 +25417,8 @@
               "author": "@헤헤-j2z4q",
               "text": "24:21 ㅋㅋㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌ\n모자이크도 보통 사람 따라다니는데 그냥 한곳에 고정되어있고 디제이님 얼굴 나왔다 들어갔다 하는것도 웃김",
               "likes": 11,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@카르멘4915",
@@ -25445,8 +25445,8 @@
               "author": "@jpark7635",
               "text": "24:21 아 진짜 ㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎ 디제이님 저 멘트치고 어떤 봉변을 당할까 기대하고 있었는데 자다 누워서 빵터지므   미쳐 진짜",
               "likes": 9,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@iamhaewon",
@@ -25459,16 +25459,16 @@
               "author": "@heydj_",
               "text": "22:32 아 이 녀석.. 계속 삐져나오네",
               "likes": 7,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "중립",
+              "rating": 3
             }
           ],
           "sentiment_counts": {
-            "neg": 4,
-            "neu": 0,
-            "pos": 6
+            "neg": 1,
+            "neu": 1,
+            "pos": 8
           },
-          "negative_ratio": 0.4,
+          "negative_ratio": 0.1,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -27703,11 +27703,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 32,
-        "neu": 10,
-        "pos": 67
+        "neg": 29,
+        "neu": 11,
+        "pos": 69
       },
-      "negative_ratio": 0.294,
+      "negative_ratio": 0.266,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -27822,8 +27822,8 @@
               "author": "@헤헤-j2z4q",
               "text": "24:21 ㅋㅋㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌㅌ\n모자이크도 보통 사람 따라다니는데 그냥 한곳에 고정되어있고 디제이님 얼굴 나왔다 들어갔다 하는것도 웃김",
               "likes": 11,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@카르멘4915",
@@ -27850,8 +27850,8 @@
               "author": "@jpark7635",
               "text": "24:21 아 진짜 ㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎ 디제이님 저 멘트치고 어떤 봉변을 당할까 기대하고 있었는데 자다 누워서 빵터지므   미쳐 진짜",
               "likes": 9,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "긍정",
+              "rating": 4
             },
             {
               "author": "@iamhaewon",
@@ -27864,16 +27864,16 @@
               "author": "@heydj_",
               "text": "22:32 아 이 녀석.. 계속 삐져나오네",
               "likes": 7,
-              "sentiment": "부정",
-              "rating": 1
+              "sentiment": "중립",
+              "rating": 3
             }
           ],
           "sentiment_counts": {
-            "neg": 4,
-            "neu": 0,
-            "pos": 6
+            "neg": 1,
+            "neu": 1,
+            "pos": 8
           },
-          "negative_ratio": 0.4,
+          "negative_ratio": 0.1,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -28906,11 +28906,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 15,
-        "neu": 6,
-        "pos": 47
+        "neg": 12,
+        "neu": 7,
+        "pos": 49
       },
-      "negative_ratio": 0.221,
+      "negative_ratio": 0.176,
       "warning_level": "",
       "is_multi_section": true
     }
