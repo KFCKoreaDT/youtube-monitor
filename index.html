@@ -663,6 +663,23 @@ a:hover { text-decoration: underline; }
 .sentiment-inline.mid { background: #fef3c7; color: #b45309; border-color: #fcd34d; }
 .sentiment-inline.pos { background: #d1fae5; color: #065f46; border-color: #86efac; }
 .sentiment-inline.none { background: #f3f4f6; color: #9ca3af; border-color: #e5e7eb; font-weight: 500; }
+.sentiment-inline.low-conf { opacity: 0.62; border-style: dashed; }
+.exec-date-range { margin-left: 8px; display: inline-flex; gap: 4px; align-items: center; }
+.exec-date-range input[type="date"] {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+}
+.exec-date-range .apply-btn {
+  background: var(--accent);
+  color: #fff; border: none;
+  padding: 5px 12px; border-radius: 6px;
+  font-size: 0.82rem; font-weight: 600; cursor: pointer;
+}
+.exec-date-range .apply-btn:hover { background: var(--accent-light); }
 /* 영상 메타 기반 감성 (댓글 없을 때 fallback) — 점선 테두리로 신뢰도 낮음을 표시 */
 .sentiment-inline.meta {
   border-style: dashed;
@@ -2038,6 +2055,13 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <button type="button" data-period="7" class="active">최근 7일</button>
         <button type="button" data-period="14">14일</button>
         <button type="button" data-period="30">30일</button>
+        <button type="button" data-period="custom">기간 지정</button>
+      </span>
+      <span class="date-range exec-date-range" id="exec-date-range" style="display:none;">
+        <input type="date" id="exec-date-from">
+        <span class="dash">~</span>
+        <input type="date" id="exec-date-to">
+        <button class="apply-btn" id="exec-date-apply">적용</button>
       </span>
       <button type="button" id="btn-reset-brand" class="reset-brand-btn" style="display:none;">← KFC로 되돌리기</button>
     </div>
@@ -3068,7 +3092,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   function isCriticalVideo(v) { return getCriticalInfo(v) !== null; }
   function effectiveWarnLevel(v) {
     if (isCriticalVideo(v)) return 'critical';
-    // 댓글 표본 15개 미만이면 워닝 표시 보류 (통계적 유의성 확보 후 판정)
+    // 댓글 표본 15개 미만이면 워닝 표시 보류 (10~14 건은 '참고' 배지만 노출)
     var sc = v.sentiment_counts || {};
     var sTot = (sc.neg||0) + (sc.neu||0) + (sc.pos||0);
     if (sTot < 15) return '';
@@ -3095,13 +3119,12 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     var cardCls = 'video-card' + (warnLevel ? ' warn-' + warnLevel : '');
 
     // 감성 배지 — 댓글 감성(💬) + 내용 감성(📝) 분리 표시
-    // 💬 댓글 기반: KR-BERT + 슬랭 오버라이드 (신뢰도 높음)
-    // 📝 내용 기반: 제목+설명 KR-BERT + 슬랭 오버라이드 (신뢰도 낮음)
-    // 표본 임계: 15개 이상일 때만 비율·판정 표시. 미만은 "표본 부족" 으로 표시 (판정 보류)
-    var SAMPLE_MIN = 15;
+    // 표본 임계 2단: 10+ 표시 가능(참고), 15+ 정규 판정(워닝 트리거)
+    var SAMPLE_DISPLAY_MIN = 10;  // 감성 비율 표시 최소
+    var SAMPLE_HIGH_MIN = 15;     // 정규 판정 (워닝 연동)
     var inlineSent = '';
     // ① 댓글 감성
-    if (sTotal >= SAMPLE_MIN) {
+    if (sTotal >= SAMPLE_DISPLAY_MIN) {
       var posRatio = (sc.pos || 0) / sTotal;
       var neuRatio = (sc.neu || 0) / sTotal;
       var sCls, sIcon, sLabel, sPct, sCnt;
@@ -3114,12 +3137,17 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       } else {
         sCls = 'mid'; sIcon = '😐'; sLabel = '중립'; sPct = neuRatio; sCnt = sc.neu;
       }
-      inlineSent += '<span class="sentiment-inline ' + sCls +
-        '" title="💬 댓글 ' + sTotal + '개 KR-BERT 분석 — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0) + '">💬 ' +
-        sIcon + ' 댓글 ' + sLabel + ' ' + Math.round(sPct * 100) + '% <span style="opacity:0.7">(' + sCnt + '/' + sTotal + ')</span></span>';
+      var isLowConf = sTotal < SAMPLE_HIGH_MIN;
+      var extraCls = isLowConf ? ' low-conf' : '';
+      var refNote = isLowConf ? ' <span style="opacity:0.6;font-size:0.88em;">(참고)</span>' : '';
+      var tipNote = isLowConf
+        ? '댓글 ' + sTotal + '개 — 참고용(15개 이상이면 정규 판정) — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0)
+        : '💬 댓글 ' + sTotal + '개 KR-BERT+Qwen3 — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0);
+      inlineSent += '<span class="sentiment-inline ' + sCls + extraCls + '" title="' + tipNote + '">💬 ' +
+        sIcon + ' 댓글 ' + sLabel + ' ' + Math.round(sPct * 100) + '% <span style="opacity:0.7">(' + sCnt + '/' + sTotal + ')</span>' + refNote + '</span>';
     } else if (sTotal > 0) {
-      // 1~14개: 표본 부족 — 판정 보류, 분포만 표기
-      inlineSent += '<span class="sentiment-inline none" title="댓글 ' + sTotal + '개로 통계 판정 보류 (15개 이상 필요) — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0) + '">💬 🔬 표본 부족 <span style="opacity:0.7">(' + sTotal + '개)</span></span>';
+      // 1~9개: 표본 부족 — 판정 보류, 분포만 툴팁으로
+      inlineSent += '<span class="sentiment-inline none" title="댓글 ' + sTotal + '개로 통계 판정 보류 (10개 이상 필요) — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0) + '">💬 🔬 표본 부족 <span style="opacity:0.7">(' + sTotal + '개)</span></span>';
     } else {
       // 0개: 댓글 없음
       inlineSent += '<span class="sentiment-inline none" title="댓글 없음">💬 — 댓글 없음</span>';
@@ -3713,7 +3741,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     sortDir: 'desc',
     splits: {},           // { brand_code: {paid, earned, engagement} } — computeTierSplit 캐시
     selectedBrand: 'kfc', // v4: 클릭으로 KPI Strip 기준 브랜드 전환
-    period: 7             // v5: 기본 7일 (로딩 빠름, 30일 선택 시 client-side 재계산)
+    period: 7,            // v5: 기본 7일 (로딩 빠름, 30일 선택 시 client-side 재계산)
+    customFrom: null,     // v6: 기간 지정 모드
+    customTo: null,
   };
 
   // 기간 필터링된 data 뷰 반환 (원본 latest 수정 없이 브랜드별 videos 만 필터)
@@ -3721,23 +3751,36 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     if (!EXEC.latest) return null;
     // 원본 JSON window_days 이상이면 전체 데이터 그대로 사용
     var srcDays = EXEC.latest.window_days || 90;
-    if (!EXEC.period || EXEC.period >= srcDays) return EXEC.latest;
-    var cutoff = new Date();
-    cutoff.setDate(cutoff.getDate() - EXEC.period);
-    // upload_date 포맷 "2026.04.14" → Date
+    // period 가 숫자 && 윈도우 이상이면 전체
+    if (!EXEC.period || (typeof EXEC.period === 'number' && EXEC.period >= srcDays)) return EXEC.latest;
+
     function parseUp(s) {
       if (!s) return null;
       var p = String(s).split('.');
       if (p.length !== 3) return null;
       return new Date(+p[0], +p[1] - 1, +p[2]);
     }
+
+    var cutoff, endCut;
+    if (EXEC.period === 'custom' && EXEC.customFrom && EXEC.customTo) {
+      cutoff = new Date(EXEC.customFrom);
+      endCut = new Date(EXEC.customTo);
+      endCut.setHours(23, 59, 59);
+    } else {
+      cutoff = new Date();
+      cutoff.setDate(cutoff.getDate() - EXEC.period);
+      endCut = null;
+    }
+
     var filtered = { date: EXEC.latest.date, generated_at: EXEC.latest.generated_at,
                      window_days: EXEC.period, brands: {} };
     Object.keys(EXEC.latest.brands || {}).forEach(function(k) {
       var b = EXEC.latest.brands[k];
       var fvids = (b.videos || []).filter(function(v) {
         var d = parseUp(v.upload_date);
-        return d && d >= cutoff;
+        if (!d) return false;
+        if (endCut) return d >= cutoff && d <= endCut;
+        return d >= cutoff;
       });
       var sumV = 0, sumL = 0, sumC = 0, nS = 0, nL = 0;
       fvids.forEach(function(v) {
@@ -3808,6 +3851,11 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         });
         document.body.classList.remove('mode-exec','mode-detail','mode-help');
         document.body.classList.add('mode-' + v);
+        // 탭 전환 시 기간 필터 동기화
+        if (v === 'exec' && typeof window._syncFromDetail === 'function') {
+          window._syncFromDetail();
+          if (typeof renderExecutiveView === 'function') renderExecutiveView();
+        }
         // Help 탭: 외부 데이터 렌더링 시 사용자 브랜드 현재 상태 반영
         if (v === 'help' && typeof renderHelp === 'function') renderHelp();
       });
@@ -3853,18 +3901,126 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       });
     });
 
-    // 기간 필터 토글 (7/14/30일)
+    // 기간 필터 토글 (7/14/30일 + 기간 지정)
     document.querySelectorAll('#period-toggle button').forEach(function(btn) {
       btn.addEventListener('click', function() {
-        var p = parseInt(btn.getAttribute('data-period'), 10);
-        if (!p || p === EXEC.period) return;
-        EXEC.period = p;
+        var p = btn.getAttribute('data-period');
+        var range = document.getElementById('exec-date-range');
+        if (p === 'custom') {
+          // 기간 지정 모드
+          EXEC.period = 'custom';
+          document.querySelectorAll('#period-toggle button').forEach(function(b) {
+            b.classList.toggle('active', b === btn);
+          });
+          if (range) range.style.display = 'inline-flex';
+          return;
+        }
+        var num = parseInt(p, 10);
+        if (!num || num === EXEC.period) return;
+        EXEC.period = num;
+        EXEC.customFrom = null;
+        EXEC.customTo = null;
+        if (range) range.style.display = 'none';
         document.querySelectorAll('#period-toggle button').forEach(function(b) {
           b.classList.toggle('active', b === btn);
         });
+        // Detail 탭 필터도 동기화
+        syncDetailPeriod(num);
         renderExecutiveView();
       });
     });
+
+    // 기간 지정 적용 버튼
+    var execApplyBtn = document.getElementById('exec-date-apply');
+    if (execApplyBtn) {
+      execApplyBtn.addEventListener('click', function() {
+        var fromEl = document.getElementById('exec-date-from');
+        var toEl = document.getElementById('exec-date-to');
+        if (!fromEl || !toEl || !fromEl.value || !toEl.value) {
+          alert('시작일과 종료일을 모두 선택하세요');
+          return;
+        }
+        EXEC.period = 'custom';
+        EXEC.customFrom = fromEl.value;
+        EXEC.customTo = toEl.value;
+        // Detail 필터도 동기화
+        syncDetailCustomRange(fromEl.value, toEl.value);
+        renderExecutiveView();
+      });
+    }
+
+    // Detail 탭 -> Exec 동기화 (Detail 의 기간 필터 변경 감시)
+    // Detail 에선 FILTERS.period 를 바꾸므로, 탭 전환 시 Exec 에 반영
+    window._syncFromDetail = function() {
+      try {
+        if (typeof FILTERS === 'undefined' || !FILTERS.period) return;
+        var p = FILTERS.period;
+        if (p === 'custom' && FILTERS.dateFrom && FILTERS.dateTo) {
+          EXEC.period = 'custom';
+          EXEC.customFrom = FILTERS.dateFrom;
+          EXEC.customTo = FILTERS.dateTo;
+          var fromEl = document.getElementById('exec-date-from');
+          var toEl = document.getElementById('exec-date-to');
+          var range = document.getElementById('exec-date-range');
+          if (fromEl) fromEl.value = FILTERS.dateFrom;
+          if (toEl) toEl.value = FILTERS.dateTo;
+          if (range) range.style.display = 'inline-flex';
+          document.querySelectorAll('#period-toggle button').forEach(function(b) {
+            b.classList.toggle('active', b.getAttribute('data-period') === 'custom');
+          });
+        } else if (p === 'today' || p === '1') {
+          EXEC.period = 1;
+        } else {
+          var num = parseInt(p, 10);
+          if (num === 7 || num === 14 || num === 30) {
+            EXEC.period = num;
+            EXEC.customFrom = null; EXEC.customTo = null;
+            var rr = document.getElementById('exec-date-range');
+            if (rr) rr.style.display = 'none';
+            document.querySelectorAll('#period-toggle button').forEach(function(b) {
+              b.classList.toggle('active', b.getAttribute('data-period') === String(num));
+            });
+          }
+        }
+      } catch (e) { /* ignore */ }
+    };
+
+    function syncDetailPeriod(days) {
+      // Detail 필터의 chip 을 해당 기간으로 active 설정
+      try {
+        document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+          b.classList.toggle('active', b.getAttribute('data-period') === String(days));
+        });
+        if (typeof FILTERS !== 'undefined') {
+          FILTERS.period = String(days);
+          FILTERS.dateFrom = null;
+          FILTERS.dateTo = null;
+          var dr = document.getElementById('date-range');
+          if (dr) dr.style.display = 'none';
+          if (typeof applyFilters === 'function') applyFilters();
+        }
+      } catch (e) { /* ignore */ }
+    }
+
+    function syncDetailCustomRange(from, to) {
+      try {
+        document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+          b.classList.toggle('active', b.getAttribute('data-period') === 'custom');
+        });
+        if (typeof FILTERS !== 'undefined') {
+          FILTERS.period = 'custom';
+          FILTERS.dateFrom = from;
+          FILTERS.dateTo = to;
+          var fe = document.getElementById('date-from');
+          var te = document.getElementById('date-to');
+          var dr = document.getElementById('date-range');
+          if (fe) fe.value = from;
+          if (te) te.value = to;
+          if (dr) dr.style.display = 'inline-flex';
+          if (typeof applyFilters === 'function') applyFilters();
+        }
+      } catch (e) { /* ignore */ }
+    }
 
     // ← KFC로 되돌리기 버튼 (IIFE 내부라 전역 onclick 불가, 이벤트 리스너 사용)
     var resetBtn = document.getElementById('btn-reset-brand');

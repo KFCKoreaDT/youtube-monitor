@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-04-23 11:13:31",
+  "generated_at": "2026-04-23 13:02:15",
   "window_days": 90,
   "data_earliest": "2026-01-26",
   "data_latest": "2026-04-22",
@@ -1481,7 +1481,7 @@
               "author": "@heeeo01",
               "text": "8끼라 하길래 끼니당 한두개 드실거란 내 얄팍한 생각을 반성합니다",
               "likes": 55,
-              "sentiment": "긍정",
+              "sentiment": "중립",
               "rating": 1
             },
             {
@@ -1711,8 +1711,8 @@
           ],
           "sentiment_counts": {
             "neg": 0,
-            "neu": 5,
-            "pos": 44
+            "neu": 6,
+            "pos": 43
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -2175,8 +2175,8 @@
       ],
       "sentiment_counts": {
         "neg": 11,
-        "neu": 30,
-        "pos": 147
+        "neu": 31,
+        "pos": 146
       },
       "negative_ratio": 0.059,
       "warning_level": "",
@@ -5802,7 +5802,7 @@
               "author": "@maps-j1k",
               "text": "제목 보고 배부르긴 또 처음이네",
               "likes": 360,
-              "sentiment": "긍정",
+              "sentiment": "중립",
               "rating": 1
             },
             {
@@ -5865,7 +5865,7 @@
               "author": "@냥냥냥-n1e",
               "text": "이정도면 평소 먹방도 얼마나 자중한것인지 알수있다 ㄷㄷ",
               "likes": 65,
-              "sentiment": "중립",
+              "sentiment": "긍정",
               "rating": 1
             },
             {
@@ -7177,8 +7177,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -8902,7 +8902,7 @@
               "author": "@돌돌이-j4j",
               "text": "그.. 복순님.. 팔 아프게 시간 인증 안 해주셔도 될 거 같아여.... 이제 믿는 정도를 넘어 경이로움에 도달했거등요",
               "likes": 438,
-              "sentiment": "중립",
+              "sentiment": "긍정",
               "rating": 1
             },
             {
@@ -8972,7 +8972,7 @@
               "author": "@냥냥냥-n1e",
               "text": "이정도면 평소 먹방도 얼마나 자중한것인지 알수있다 ㄷㄷ",
               "likes": 65,
-              "sentiment": "중립",
+              "sentiment": "긍정",
               "rating": 1
             },
             {
@@ -9048,8 +9048,8 @@
           ],
           "sentiment_counts": {
             "neg": 0,
-            "neu": 5,
-            "pos": 18
+            "neu": 3,
+            "pos": 20
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -9857,8 +9857,8 @@
       ],
       "sentiment_counts": {
         "neg": 5,
-        "neu": 29,
-        "pos": 98
+        "neu": 27,
+        "pos": 100
       },
       "negative_ratio": 0.038,
       "warning_level": "",
@@ -9969,7 +9969,7 @@
               "author": "@EvieBeau202",
               "text": "@blancmoon-mj  그거 정신과로 가봐. 안과가 아니야.",
               "likes": 560,
-              "sentiment": "중립",
+              "sentiment": "부정",
               "rating": 1
             },
             {
@@ -10011,16 +10011,16 @@
               "author": "@doodaebal",
               "text": "​ @섞은양파 ㅇ",
               "likes": 0,
-              "sentiment": "중립",
+              "sentiment": "부정",
               "rating": 1
             }
           ],
           "sentiment_counts": {
-            "neg": 0,
-            "neu": 4,
+            "neg": 2,
+            "neu": 2,
             "pos": 5
           },
-          "negative_ratio": 0.0,
+          "negative_ratio": 0.222,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
@@ -11092,14 +11092,14 @@
               "author": "@튜레비",
               "text": "아니 테리님거도 지금 봤는에 똑같은 행동을..",
               "likes": 0,
-              "sentiment": "부정",
+              "sentiment": "중립",
               "rating": 1
             },
             {
               "author": "@하루-u29",
               "text": "얼마나 맵찔이인지 감도안옴",
               "likes": 0,
-              "sentiment": "부정",
+              "sentiment": "중립",
               "rating": 1
             },
             {
@@ -11139,11 +11139,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 2,
-            "neu": 2,
+            "neg": 0,
+            "neu": 4,
             "pos": 9
           },
-          "negative_ratio": 0.154,
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
@@ -15416,7 +15416,7 @@
               "author": "@정명희-g7d7w",
               "text": "이건 머여~이런거였어? 애쓴다 아들  ~짠하네 매운거 1도 못먹는디~ 쫌 봐주쇼들!",
               "likes": 2,
-              "sentiment": "긍정",
+              "sentiment": "부정",
               "rating": 1
             },
             {
@@ -15437,7 +15437,7 @@
               "author": "@canfree-o5s",
               "text": "매운 거 못 드시는 분 절대 먹지 마십쇼...",
               "likes": 0,
-              "sentiment": "중립",
+              "sentiment": "부정",
               "rating": 1
             },
             {
@@ -15456,11 +15456,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 0,
-            "neu": 1,
-            "pos": 6
+            "neg": 2,
+            "neu": 0,
+            "pos": 5
           },
-          "negative_ratio": 0.0,
+          "negative_ratio": 0.286,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
@@ -16110,7 +16110,7 @@
               "author": "@heeeo01",
               "text": "8끼라 하길래 끼니당 한두개 드실거란 내 얄팍한 생각을 반성합니다",
               "likes": 55,
-              "sentiment": "긍정",
+              "sentiment": "중립",
               "rating": 1
             },
             {
@@ -16166,7 +16166,7 @@
               "author": "@지원-x7x6f",
               "text": "와 진짜....",
               "likes": 0,
-              "sentiment": "긍정",
+              "sentiment": "중립",
               "rating": 1
             },
             {
@@ -16179,8 +16179,8 @@
           ],
           "sentiment_counts": {
             "neg": 0,
-            "neu": 1,
-            "pos": 22
+            "neu": 3,
+            "pos": 20
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -17220,11 +17220,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 43,
-        "neu": 127,
-        "pos": 414
+        "neg": 45,
+        "neu": 128,
+        "pos": 411
       },
-      "negative_ratio": 0.074,
+      "negative_ratio": 0.077,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -32491,7 +32491,7 @@
               "author": "@reversal2460",
               "text": "거기 지점이 맛없는듯?",
               "likes": 0,
-              "sentiment": "중립",
+              "sentiment": "부정",
               "rating": 2
             },
             {
@@ -32510,11 +32510,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 0,
-            "neu": 1,
+            "neg": 1,
+            "neu": 0,
             "pos": 3
           },
-          "negative_ratio": 0.0,
+          "negative_ratio": 0.25,
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
@@ -32883,11 +32883,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 8,
-        "neu": 21,
+        "neg": 9,
+        "neu": 20,
         "pos": 196
       },
-      "negative_ratio": 0.036,
+      "negative_ratio": 0.04,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -33433,14 +33433,14 @@
               "author": "@쓰레빠-g1t",
               "text": "위.대장내시경 .췌장염.간 검사 해야함",
               "likes": 2,
-              "sentiment": "중립",
+              "sentiment": "부정",
               "rating": 1
             },
             {
               "author": "@taeyoon_ping",
               "text": "동풍님이 식음전폐라니! 건강 잘 챙기면서 육아하세요🙏💕",
               "likes": 1,
-              "sentiment": "중립",
+              "sentiment": "부정",
               "rating": 1
             },
             {
@@ -33482,7 +33482,7 @@
               "author": "@여니-s5q",
               "text": "정후 귀염듕이☆ 우리 수아도 곧 2개월 접종 맞으러 가는데 열이 나겟죠???😂밤샐 각오 해야겟어요🤣👼",
               "likes": 0,
-              "sentiment": "긍정",
+              "sentiment": "부정",
               "rating": 1
             },
             {
@@ -33522,11 +33522,11 @@
             }
           ],
           "sentiment_counts": {
-            "neg": 0,
-            "neu": 3,
-            "pos": 11
+            "neg": 3,
+            "neu": 1,
+            "pos": 10
           },
-          "negative_ratio": 0.0,
+          "negative_ratio": 0.214,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -36556,11 +36556,11 @@
         }
       ],
       "sentiment_counts": {
-        "neg": 31,
-        "neu": 38,
-        "pos": 183
+        "neg": 34,
+        "neu": 36,
+        "pos": 182
       },
-      "negative_ratio": 0.123,
+      "negative_ratio": 0.135,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -38030,7 +38030,7 @@
               "author": "@heeeo01",
               "text": "8끼라 하길래 끼니당 한두개 드실거란 내 얄팍한 생각을 반성합니다",
               "likes": 55,
-              "sentiment": "긍정",
+              "sentiment": "중립",
               "rating": 1
             },
             {
@@ -38260,8 +38260,8 @@
           ],
           "sentiment_counts": {
             "neg": 0,
-            "neu": 5,
-            "pos": 44
+            "neu": 6,
+            "pos": 43
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -38551,8 +38551,8 @@
       ],
       "sentiment_counts": {
         "neg": 13,
-        "neu": 24,
-        "pos": 144
+        "neu": 25,
+        "pos": 143
       },
       "negative_ratio": 0.072,
       "warning_level": "",
