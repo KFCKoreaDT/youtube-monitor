@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-04-23 09:34:59",
+  "generated_at": "2026-04-23 09:35:40",
   "window_days": 30,
   "brands": {
     "kfc": {
@@ -18273,15 +18273,15 @@
     },
     "bbq": {
       "display": "BBQ치킨",
-      "video_count": 20,
-      "total_views": 180476,
+      "video_count": 19,
+      "total_views": 180466,
       "total_likes": 2158,
       "total_comments": 81,
-      "n_short": 2,
+      "n_short": 1,
       "n_long": 18,
       "tier_counts": {
         "Macro": 2,
-        "Nano": 14,
+        "Nano": 13,
         "Mega": 1,
         "Micro": 3
       },
@@ -19174,37 +19174,6 @@
           "upload_date": "2026.04.19",
           "url": "https://www.youtube.com/watch?v=Ryqc_IQsTGQ",
           "description_excerpt": "nan",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "XKgw6XH06No",
-          "title": "[ TVCF ] BBQ / 비비큐 치킨 / 비비큐 뿜치킹",
-          "channel": "케이필름 KFILM  ",
-          "subscribers": 87,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 10,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 30,
-          "is_short": true,
-          "buzz_score": 3.6,
-          "upload_date": "2026.04.12",
-          "url": "https://www.youtube.com/watch?v=XKgw6XH06No",
-          "description_excerpt": "비비큐 치킨 \n비비큐 뿜치킹 케이필름 TVCF 제작지원\n\n비비큐 뿜치킹 광고\nBBQ 뿜치킹, 한 조각으로 완성되는 기분 전환! 아기맹수의 시즈닝 테라피 센터\n일상의 스트레스와 고민을 ‘뿜치킹’으로 처방해주는 힐링 콘셉트 광고이다.\n\n\nCLIENT : 비비큐\nTITLE : 비비큐 뿜치킹\nKFILM : 스튜디오렌탈 / 세트제작 / 제작지원\n\n\n■ 회사 정보 \n상   호 : 케이필름\n창립일 : 2000년\n조직도 : 영화 사업부 / 광고 사업부 / 스튜디오 사업부\n\n\n■ 사업 분야 \n영화 사업부 : 시나리오 개발 및 영화 제작\n광고 사업부",
           "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
