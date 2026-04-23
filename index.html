@@ -2155,7 +2155,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     <h1>📚 대시보드 사용 설명서</h1>
     <p class="help-lead">
       이 대시보드는 <strong>KFC + 경쟁사 9개</strong> YouTube 동향을 한눈에 보기 위한 도구입니다.
-      매일 <strong>06:00 / 18:00 자동 업데이트</strong>, <strong>최근 90일</strong> 누적 데이터를 관리합니다.
+      매일 <strong>06:00 / 18:00 자동 업데이트</strong>, 누적 데이터를 관리합니다.
       상단 `📊 YYYY-MM-DD ~ YYYY-MM-DD` 에서 실제 수집 범위와 마지막 업데이트 시각을 확인하세요.
     </p>
 
@@ -2268,7 +2268,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <table>
           <thead><tr><th>컬럼</th><th>의미</th></tr></thead>
           <tbody>
-            <tr><td>영상수</td><td>90일 내 해당 브랜드 관련 영상 개수 (기간 토글 7/14/30일로 축소 가능)</td></tr>
+            <tr><td>영상수</td><td>수집 기간 내 해당 브랜드 관련 영상 개수 (상단 날짜 범위 참조, 기간 토글 7/14/30일로 축소 가능)</td></tr>
             <tr><td>조회수</td><td>영상들 조회수 총합</td></tr>
             <tr><td>🏛 Owned</td><td>전체 Owned 시장 중 이 브랜드 차지 비율</td></tr>
             <tr><td>🤝 Sponsored</td><td>전체 Sponsored 시장 중 이 브랜드 비율</td></tr>
@@ -2293,7 +2293,24 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 
     <!-- 6. 감성 분석 -->
     <section class="help-section" id="h-sentiment">
-      <h2>🎭 감성 분석 — 2개 층 분리 표시</h2>
+      <h2>🎭 감성 분석 파이프라인</h2>
+      <p>
+        감성 분류는 <strong>KR-BERT + Qwen3 하이브리드</strong> 구조입니다. 대량 댓글은 BERT 가 빠르게 1차 분류하고,
+        BERT 가 '부정'으로 판정한 댓글 중 워닝 후보만 <strong>Qwen3:4b LLM</strong> 이 2차 검증해
+        YouTube 특유의 아이러니·밈·타임스탬프 코멘트를 교정합니다.
+      </p>
+
+      <div class="help-card">
+        <strong>🔬 2단계 파이프라인:</strong>
+        <ol>
+          <li><strong>1차 — KR-BERT</strong> (한국어 리뷰 학습, 로컬 MPS GPU, ~수천 댓글/분):
+            제목+설명(내용 감성), 상위 50개 댓글(댓글 감성) 각각 긍정/중립/부정 3분류</li>
+          <li><strong>규칙 오버라이드</strong> (아래 "자동 교정 규칙" 참조): 슬랭·밈·웃음·질문·타임스탬프 등 한국어·YouTube 특유 패턴 교정</li>
+          <li><strong>2차 — Qwen3:4b</strong> (Ollama 로컬, ~4 GB RAM, 배치 10건): BERT 가 '부정'으로 남긴 댓글 중
+            워닝 후보 영상(부정률 20%↑)의 것만 LLM 재검증 → 아이러니·웃음·질문을 재분류</li>
+        </ol>
+      </div>
+
       <p>각 영상 카드에 2가지 감성 배지가 병렬 표시됩니다:</p>
       <div class="help-table">
         <table>
@@ -2301,12 +2318,12 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
           <tbody>
             <tr>
               <td><span class="sentiment-inline pos">💬 😊 긍정 82% (9/11)</span></td>
-              <td><strong>댓글 감성</strong>: 상위 50개 댓글을 KR-BERT로 분류. N/T = 해당 감정 건수/총 댓글</td>
+              <td><strong>댓글 감성</strong>: 상위 50개 댓글 → KR-BERT 1차 + Qwen3 2차 검증 집계. N/T = 감정 건수/총 댓글</td>
               <td>★★ (실제 시청자 반응)</td>
             </tr>
             <tr>
               <td><span class="sentiment-inline meta pos">📝 😊 내용 긍정</span></td>
-              <td><strong>내용 감성</strong>: 제목+설명을 KR-BERT로 분류. 크리에이터 의도 추정</td>
+              <td><strong>내용 감성</strong>: 제목+설명 KR-BERT + 규칙 오버라이드. 크리에이터 의도 추정</td>
               <td>★ (보조 지표)</td>
             </tr>
           </tbody>
@@ -2316,14 +2333,16 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       <div class="help-card">
         <strong>Executive 탭 하단 "🎭 브랜드별 감정 분포" 2차트:</strong>
         <ul>
-          <li>💬 <strong>댓글 기반</strong> — 시청자 반응 (KR-BERT 상위 댓글 분류)</li>
+          <li>💬 <strong>댓글 기반</strong> — 시청자 반응 (BERT + Qwen3 검증 결과)</li>
           <li>🎬 <strong>영상 메타 기반</strong> — 컨텐츠 톤 (제목+설명 분석)</li>
         </ul>
       </div>
 
+      <h3 style="margin-top:24px;">🧭 자동 교정 규칙 (우선순위 순)</h3>
+
       <div class="help-card">
-        <strong>📰 뉴스·외부사건 자동 중립화:</strong>
-        브랜드 매장에서 일어난 <strong>고객 난동·진상·폭행 영상</strong>은 브랜드 평판과 무관 → 중립 처리.
+        <strong>① 📰 뉴스·외부사건 자동 중립화</strong>
+        — 브랜드 매장에서 일어난 <strong>고객 난동·진상·폭행 영상</strong>은 브랜드 평판과 무관 → 중립.
         <ul>
           <li>강한 고객-가해자 마커: 진상녀/난동녀/진상 손님/블랙컨슈머/풀영상 → 중립 (설명 `#갑질`·`#논란` 해시태그 오독 방지)</li>
           <li>뉴스 채널 + 외부 사건 키워드(난동·폭행·행패·막말·시비) → 중립</li>
@@ -2333,11 +2352,10 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       </div>
 
       <div class="help-card">
-        <strong>✅ 브랜드 친소비자 이니셔티브 → 강제 긍정:</strong>
-        본사가 손해를 감수하고 소비자·가맹점을 보호하는 영상은 브랜드 이미지 제고 효과 → 긍정 확정.
+        <strong>② ✅ 브랜드 친소비자 이니셔티브 → 긍정 강제</strong>
+        — 본사가 손해를 감수하고 소비자·가맹점을 보호하는 영상은 브랜드 이미지 제고 → 긍정 확정.
         <ul>
-          <li>가격 동결/인상 안 한다/인하</li>
-          <li>본사 부담/본사 흡수/원가 흡수</li>
+          <li>가격 동결/인상 안 한다/인하 · 본사 부담/본사 흡수/원가 흡수</li>
           <li>기부/후원/사회공헌/상생/장학금/무료 제공</li>
           <li>품질 개선/서비스 개선/안심 선언</li>
         </ul>
@@ -2345,8 +2363,8 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       </div>
 
       <div class="help-card">
-        <strong>🔍 비판·분석 톤 → 강제 부정:</strong>
-        "먹방/리뷰" 키워드가 있어도 비판 분석 영상이면 부정 유지.
+        <strong>③ 🔍 비판·분석 톤 → 부정 강제</strong>
+        — "먹방/리뷰" 키워드가 있어도 비판 분석 영상이면 부정 유지.
         <ul>
           <li>무엇이 문제/왜 실패/몰락/조롱/밈으로 확산/주가 영향/역풍/불매/어색한/구설</li>
         </ul>
@@ -2354,8 +2372,8 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       </div>
 
       <div class="help-card">
-        <strong>🎯 브랜드별 관점 재판단 — 주제 vs 참조 브랜드:</strong>
-        같은 영상도 브랜드 관점이 다르면 다른 감성.
+        <strong>④ 🎯 브랜드별 관점 재판단 — 주제 vs 참조 브랜드</strong>
+        — 같은 영상도 브랜드 관점이 다르면 다른 감성.
         <ul>
           <li><strong>벤치마크 패턴</strong> — "브랜드보다 N배/년 많/크/빠르", "브랜드급/수준" → 긍정 (권위 인정)</li>
           <li>단 "브랜드보다 맛있/좋/낫/싸대기" → 부정 (경쟁사 우위 주장)</li>
@@ -2367,44 +2385,47 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       </div>
 
       <div class="help-card">
-        <strong>한국어 슬랭 오버라이드:</strong>
-        "폭력적인 맛 = 최고", "병맛광고", "역대급", "존맛", "인생메뉴", "레전드", "미쳤다", "죽인다", "킹", "갓" 등
-        극찬 밈은 KR-BERT 가 문자 그대로 부정 해석 → 자동 <strong>긍정 교정</strong>.
-      </div>
-
-      <div class="help-card">
-        <strong>💬 댓글 감성 오버라이드 (2026-04-23 강화):</strong>
+        <strong>⑤ 😂 한국어 슬랭·웃음 오버라이드 (댓글·메타 공통)</strong>
         <ul>
-          <li><strong>영상 품질 불만 ≠ 브랜드 비판</strong> — "재미없/지루/길다/잠온다/목소리/자막/스킵" 등은 중립 교정
-            (단 맛없·최악·불매·실망·비싸·쓰레기 등 <strong>브랜드 직접 불만어 동반 시</strong>는 부정 유지)</li>
-          <li><strong>질문형 댓글 중립화</strong> — "왜 ~인가요?", "셤을 쳤다는 겨?" 같은 호기심 질문을 부정으로 오분류하던 문제 교정</li>
+          <li><strong>극찬 슬랭</strong>: "폭력적인 맛", "병맛광고", "역대급", "존맛", "인생메뉴", "레전드", "미쳤다", "죽인다", "킹", "갓" → 긍정</li>
+          <li><strong>웃음·재미 표현</strong>: "ㅋㅋㅋ", "ㅎㅎㅎ", "빵터짐", "미쳐 진짜", "봉변", "웃김", "폭소", "꿀잼" → 긍정/중립</li>
+          <li>KR-BERT 가 문자 그대로 '부정' 해석하는 걸 교정</li>
         </ul>
       </div>
 
       <div class="help-card">
-        <strong>🔬 댓글 표본 부족 영상 — 판정 보류:</strong>
-        댓글이 <strong>15개 미만</strong>으로 수집된 영상은 통계적 유의성이 부족해 긍부정 판정을 하지 않습니다.
+        <strong>⑥ 💬 댓글 전용 규칙 (브랜드 평판과 무관한 코멘트 중립화)</strong>
+        <ul>
+          <li><strong>영상 품질 불만</strong>: "재미없/지루/길다/잠온다/목소리/자막/스킵" → 중립 (브랜드 비판 아님)
+            <br>&emsp;단 "맛없·최악·불매·실망·비싸·쓰레기" 등 <strong>브랜드 직접 불만어 동반 시</strong>는 부정 유지</li>
+          <li><strong>질문형 댓글</strong>: "왜 ~인가요?", "셤을 쳤다는 겨?" 같은 호기심 질문 → 중립</li>
+          <li><strong>타임스탬프 레퍼런스</strong>: "24:21 아 이 녀석 삐져나오네" 같은 영상 장면 묘사 → 중립</li>
+        </ul>
+      </div>
+
+      <div class="help-card">
+        <strong>⑦ 🔬 댓글 표본 부족 영상 — 판정 보류</strong>
+        — 댓글이 <strong>15개 미만</strong>이면 통계적 유의성 부족 → 긍부정 판정 않음.
         <ul>
           <li><strong>0개</strong>: <span class="sentiment-inline none">💬 — 댓글 없음</span></li>
-          <li><strong>1~14개</strong>: <span class="sentiment-inline none">💬 🔬 표본 부족 (N개)</span> — 분포는 툴팁에 숨김 표기, 워닝(🟡/🔴) 미표시</li>
+          <li><strong>1~14개</strong>: <span class="sentiment-inline none">💬 🔬 표본 부족 (N개)</span> — 분포는 툴팁, 워닝(🟡/🔴) 미표시</li>
           <li><strong>15개 이상</strong>: 정상 판정 (💬 😊 긍정 82% · 💬 😠 부정 35% 등)</li>
         </ul>
         <p style="margin:8px 0 0 0;color:var(--text-secondary);font-size:0.88rem;">
-        표본이 적을 때 섣불리 비율을 표시하면 예컨대 "댓글 2개 중 1개 부정 → 50% 부정"으로
-        과장되므로, <strong>영상 메타(📝) 감성만 참고</strong>하시는 것이 안전합니다.
+          표본이 적을 땐 <strong>영상 메타(📝) 감성</strong>만 참고하는 것이 안전합니다.
         </p>
       </div>
 
       <div class="help-card">
-        <strong>⚠️ 경고 등급 (부정률 기반, 2026-04-23 상향):</strong>
+        <strong>⚠️ 경고 등급 (부정률 기반)</strong>
         <ul>
-          <li>🔴 red — 댓글 <strong>30개 이상</strong> 중 부정 <strong>50% 이상</strong> (CI ±9%p)</li>
-          <li>🟡 yellow — 댓글 <strong>15개 이상</strong> 중 부정 <strong>30% 이상</strong> (CI ±12%p)</li>
+          <li>🔴 red — 댓글 <strong>30개 이상</strong> 중 부정 <strong>50% 이상</strong> (신뢰구간 ±9%p)</li>
+          <li>🟡 yellow — 댓글 <strong>15개 이상</strong> 중 부정 <strong>30% 이상</strong> (신뢰구간 ±12%p)</li>
           <li>멀티브랜드 영상은 경고 등급 한 단계 감쇠 (크리에이터 팬 댓글 신뢰도 ↓)</li>
         </ul>
         <p style="margin:8px 0 0 0;color:var(--text-secondary);font-size:0.88rem;">
-        이전 3/5 임계는 과민반응 — 댓글 3개 중 1개 부정(33%)이 yellow 로 뜨던 문제 해결.
-        통계적 유의성 확보를 위해 댓글 수집 한도도 확장: 경쟁사 20→<strong>100</strong>, 노출 10→<strong>50</strong>개.
+          댓글 수집 한도: 경쟁사 영상당 <strong>100개</strong> · 대시보드 노출 <strong>상위 50개</strong> (좋아요 기준).
+          15+ / 30+ 임계는 통계적 안정성을 위한 최소값입니다.
         </p>
       </div>
     </section>
