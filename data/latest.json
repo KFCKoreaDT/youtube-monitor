@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-04-23 09:35:40",
+  "generated_at": "2026-04-23 09:36:42",
   "window_days": 30,
   "brands": {
     "kfc": {
@@ -18273,15 +18273,15 @@
     },
     "bbq": {
       "display": "BBQ치킨",
-      "video_count": 19,
-      "total_views": 180466,
+      "video_count": 18,
+      "total_views": 180464,
       "total_likes": 2158,
-      "total_comments": 81,
-      "n_short": 1,
+      "total_comments": 80,
+      "n_short": 0,
       "n_long": 18,
       "tier_counts": {
         "Macro": 2,
-        "Nano": 13,
+        "Nano": 12,
         "Mega": 1,
         "Micro": 3
       },
@@ -18968,43 +18968,6 @@
             {
               "author": "@제니-h9i",
               "text": "여기는 오전11시50분\n어제 녹화된거군요~~\n예쁘고 귀여운 자태에 반해서 보고있다가 두꺼운 목소리가 나오면 뒤집어 지게 재밌어요\n머리도 미용사처럼 잘도 만지시네요\n\n끼가 넘치시나봅니다",
-              "likes": 0
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "2QAq4iEE73A",
-          "title": "BBQ체어 트렌드를 앞서가는 제품이에요 Top5",
-          "channel": "베리로그",
-          "subscribers": 102,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 2,
-          "likes": 0,
-          "comment_count": 1,
-          "engagement_rate": 0.5,
-          "duration": 41,
-          "is_short": true,
-          "buzz_score": 6.3,
-          "upload_date": "2026.04.17",
-          "url": "https://www.youtube.com/watch?v=2QAq4iEE73A",
-          "description_excerpt": "영상 속 BBQ체어 구매링크:\nhttps://link.coupang.com/a/eqXdgm\n이 포스팅은 쿠팡파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n1위 : 노스피크 와이즈 비비큐 체어 캠핑의자, 올리브탄, 2개\n가격 : 32,000원\n링크 : https://link.coupang.com/a/eqXdgm\n\n2위 : 노스피크 홀리데이 비비큐체어, 블랙, 2개\n가격 : 16,500원\n링크 : https://link.coupang.com/a/eqXdgr\n\n3위 : 노스피크 홀리데이 비비큐체어, 소이밀크, 2",
-          "top_comments": [
-            {
-              "author": "@bery_log",
-              "text": "영상 속 BBQ체어 구매링크:\nhttps://link.coupang.com/a/eqXdgm\n이 포스팅은 쿠팡파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n\n1위 : 노스피크 와이즈 비비큐 체어 캠핑의자, 올리브탄, 2개\n가격 : 32,000원\n링크 : https://link.coupang.com/a/eqXdgm\n\n2위 : 노스피크 홀리데이 비비큐체어, 블랙, 2개\n가격 : 16,500원\n링크 : https://link.coupang.com/a/eqXdgr\n\n3위 : 노스피크 홀리데이 비비큐체어, 소이밀크, 2",
               "likes": 0
             }
           ],
