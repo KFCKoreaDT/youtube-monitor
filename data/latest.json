@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-04-23 09:29:02",
+  "generated_at": "2026-04-23 09:31:44",
   "window_days": 30,
   "brands": {
     "kfc": {
@@ -18086,37 +18086,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "3F32FIa0X94",
-          "title": "[Today's Stockings] 지하철에서 마주친 그녀의 검정 스타킹, Subway Serenade 🚇",
-          "channel": "Today's stockings",
-          "subscribers": 3,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 46,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 34,
-          "is_short": true,
-          "buzz_score": 6.1,
-          "upload_date": "2026.04.21",
-          "url": "https://www.youtube.com/watch?v=3F32FIa0X94",
-          "description_excerpt": "무채색으로 가득한 지하철 안, 차분한 그레이 코트 아래로 시선을 사로잡는 검정색 스타킹의 존재감.\n\n일상적인 이동의 순간을 영화의 한 장면으로 만드는 오늘의 스타일링을 확인해 보세요.\n\n흔들리는 열차 안, 빛과 그림자가 교차하며 만들어내는 블랙의 우아한 실루엣과 영상 마지막에 들려오는 매혹적인 속삭임.\n\n바쁜 일상 속, 당신을 빛나게 할 오늘의 선택은 무엇인가요?\n\nToday's Stockings와 함께 매일 새로운 스타일을 만나보세요. ✨\n\n🎵 BGM : 지하철의 온기 (지하철 속 그녀는 이뻤다)\n\n(Lyrics)\n(Ooh)\n창밖",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "LPPhZzw5nyU",
           "title": "써브웨이 비켜; 집에서 만드는 게 더 쫀득한 ‘마약 쫀득쿠키’ 레시피",
           "channel": "떵이커플",
@@ -18133,6 +18102,37 @@
           "upload_date": "2026.04.18",
           "url": "https://www.youtube.com/watch?v=LPPhZzw5nyU",
           "description_excerpt": "nan",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "3F32FIa0X94",
+          "title": "[Today's Stockings] 지하철에서 마주친 그녀의 검정 스타킹, Subway Serenade 🚇",
+          "channel": "Today's stockings",
+          "subscribers": 3,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 46,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 34,
+          "is_short": true,
+          "buzz_score": 6.1,
+          "upload_date": "2026.04.21",
+          "url": "https://www.youtube.com/watch?v=3F32FIa0X94",
+          "description_excerpt": "무채색으로 가득한 지하철 안, 차분한 그레이 코트 아래로 시선을 사로잡는 검정색 스타킹의 존재감.\n\n일상적인 이동의 순간을 영화의 한 장면으로 만드는 오늘의 스타일링을 확인해 보세요.\n\n흔들리는 열차 안, 빛과 그림자가 교차하며 만들어내는 블랙의 우아한 실루엣과 영상 마지막에 들려오는 매혹적인 속삭임.\n\n바쁜 일상 속, 당신을 빛나게 할 오늘의 선택은 무엇인가요?\n\nToday's Stockings와 함께 매일 새로운 스타일을 만나보세요. ✨\n\n🎵 BGM : 지하철의 온기 (지하철 속 그녀는 이뻤다)\n\n(Lyrics)\n(Ooh)\n창밖",
           "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
