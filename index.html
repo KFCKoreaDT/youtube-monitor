@@ -2808,6 +2808,44 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     });
   })();
 
+  // ===== DOM Safety Helpers (Null-safe accessors) =====
+  // 동기 : HTML 수정 시 DOM 요소를 제거해도 JS가 null 참조로 전체 렌더 중단되지 않도록.
+  // 2026-04-23 버그 재발 방지 — exec-date/exec-window 제거 후 render 전체 크래시 사례.
+  var _MISSING_ID_LOG = {};
+  function $(id) {
+    var el = document.getElementById(id);
+    if (!el && !_MISSING_ID_LOG[id]) {
+      _MISSING_ID_LOG[id] = true;
+      try { console.warn('[dom] element not found:', id); } catch (e) {}
+    }
+    return el;
+  }
+  function $text(id, text) {
+    var el = $(id);
+    if (el) el.textContent = text == null ? '' : text;
+    return el;
+  }
+  function $html(id, html) {
+    var el = $(id);
+    if (el) el.innerHTML = html == null ? '' : html;
+    return el;
+  }
+  function $style(id, prop, val) {
+    var el = $(id);
+    if (el) el.style[prop] = val;
+    return el;
+  }
+  function $on(id, ev, fn) {
+    var el = $(id);
+    if (el) el.addEventListener(ev, fn);
+    return el;
+  }
+  // 렌더 함수에 안전한 try-catch 래퍼 (한 파트 실패해도 전체 페이지 붕괴 방지)
+  function safeRender(name, fn) {
+    try { fn(); }
+    catch (e) { try { console.error('[render:' + name + ']', e); } catch (_) {} }
+  }
+
   // ===== Utility functions =====
   function formatNumber(n) {
     if (n == null) return '-';
@@ -3357,6 +3395,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   }
 
   function renderBrands() {
+    safeRender('brands', _renderBrands);
+  }
+  function _renderBrands() {
     if (!DATA) return;
     var html = '';
     var totalVids = 0;
@@ -4203,6 +4244,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   }
 
   function renderExecutiveView() {
+    safeRender('executive', _renderExecutiveView);
+  }
+  function _renderExecutiveView() {
     var data = getFilteredLatest();
     if (!data) return;
     var selCode = EXEC.selectedBrand || 'kfc';
@@ -4210,10 +4254,8 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     var selName = (sel.display) || selCode;
 
     // Meta (exec-date / exec-window 는 구버전 — 헤더 상단의 data-range-line 으로 이관됨)
-    var _ed = document.getElementById('exec-date');
-    var _ew = document.getElementById('exec-window');
-    if (_ed) _ed.textContent = data.date || '-';
-    if (_ew) _ew.textContent = EXEC.period;
+    $text('exec-date', data.date || '-');
+    $text('exec-window', EXEC.period);
 
     // 선택된 브랜드 라벨 스왑 — KFC 이외 브랜드 선택시 상단에 "← KFC로" 버튼 표시
     updateKpiLabels(selName, selCode);
@@ -4588,6 +4630,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   var CHART_INSTANCES = {};
 
   function buildCharts() {
+    safeRender('charts', _buildCharts);
+  }
+  function _buildCharts() {
     if (!window.Chart) return;
     var data = getFilteredLatest();  // 기간 필터 반영
     var textColor = getCSS('--text-secondary');
@@ -4776,6 +4821,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   }
 
   function renderHighlights() {
+    safeRender('highlights', _renderHighlights);
+  }
+  function _renderHighlights() {
     // v6: 선택 브랜드 + 기간 필터 기준 3축 Top 2 × 3 섹션
     //  🔥 가장 많이 퍼진 (조회수 기준 Top 2)
     //  💚 가장 긍정적 (긍정비율 기준 Top 2)
