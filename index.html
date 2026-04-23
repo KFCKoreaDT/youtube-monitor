@@ -1900,10 +1900,10 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 <!-- Tabs -->
 <nav class="view-tabs" id="view-tabs" role="tablist" aria-label="대시보드 뷰">
   <button class="view-tab active" data-view="exec" role="tab" aria-selected="true">
-    🎯 Executive <span class="tab-hint">임원/CDTO 요약</span>
+    🎯 Executive Summary
   </button>
   <button class="view-tab" data-view="detail" role="tab" aria-selected="false">
-    📋 Detail <span class="tab-hint">브랜드별 영상 상세</span>
+    📋 브랜드별 영상 상세
   </button>
   <button class="view-tab" data-view="help" role="tab" aria-selected="false">
     📚 Help <span class="tab-hint">용어·지표 해설</span>
@@ -2155,7 +2155,8 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     <h1>📚 대시보드 사용 설명서</h1>
     <p class="help-lead">
       이 대시보드는 <strong>KFC + 경쟁사 9개</strong> YouTube 동향을 한눈에 보기 위한 도구입니다.
-      매일 <strong>06:00 / 18:00 자동 업데이트</strong>, 최근 30일 영상을 수집합니다.
+      매일 <strong>06:00 / 18:00 자동 업데이트</strong>, <strong>최근 90일</strong> 누적 데이터를 관리합니다.
+      상단 `📊 YYYY-MM-DD ~ YYYY-MM-DD` 에서 실제 수집 범위와 마지막 업데이트 시각을 확인하세요.
     </p>
 
     <nav class="help-nav">
@@ -2165,7 +2166,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       <a href="#h-bench">🏁 벤치마크</a>
       <a href="#h-mix">🧩 콘텐츠 믹스</a>
       <a href="#h-sentiment">🎭 감성 분석</a>
+      <a href="#h-relevance">🧹 영상 스크리닝</a>
       <a href="#h-buzz">🔥 Buzz</a>
+      <a href="#h-summary">📊 요약 카드</a>
       <a href="#h-glossary">📖 용어</a>
       <a href="#h-faq">❓ FAQ</a>
     </nav>
@@ -2265,7 +2268,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <table>
           <thead><tr><th>컬럼</th><th>의미</th></tr></thead>
           <tbody>
-            <tr><td>영상수</td><td>30일 내 해당 브랜드 관련 영상 개수</td></tr>
+            <tr><td>영상수</td><td>90일 내 해당 브랜드 관련 영상 개수 (기간 토글 7/14/30일로 축소 가능)</td></tr>
             <tr><td>조회수</td><td>영상들 조회수 총합</td></tr>
             <tr><td>🏛 Owned</td><td>전체 Owned 시장 중 이 브랜드 차지 비율</td></tr>
             <tr><td>🤝 Sponsored</td><td>전체 Sponsored 시장 중 이 브랜드 비율</td></tr>
@@ -2298,30 +2301,147 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
           <tbody>
             <tr>
               <td><span class="sentiment-inline pos">💬 😊 긍정 82% (9/11)</span></td>
-              <td><strong>댓글 감성</strong>: 댓글들을 KR-BERT로 분류한 결과. N/T = 해당 감정 건수/총 댓글</td>
+              <td><strong>댓글 감성</strong>: 상위 50개 댓글을 KR-BERT로 분류. N/T = 해당 감정 건수/총 댓글</td>
               <td>★★ (실제 시청자 반응)</td>
             </tr>
             <tr>
               <td><span class="sentiment-inline meta pos">📝 😊 내용 긍정</span></td>
               <td><strong>내용 감성</strong>: 제목+설명을 KR-BERT로 분류. 크리에이터 의도 추정</td>
-              <td>★ (낮음, 댓글 대체제)</td>
+              <td>★ (보조 지표)</td>
             </tr>
           </tbody>
         </table>
       </div>
+
       <div class="help-card">
-        <strong>한국어 슬랭 오버라이드 적용:</strong>
-        "폭력적인 맛 = 최고", "병맛광고", "역대급", "존맛", "인생메뉴" 등 한국어 극찬 밈은
-        KR-BERT 가 문자 그대로 해석(부정)하지만, 자동으로 <strong>긍정</strong>으로 교정합니다.
-        총 54개 슬랭 키워드 + 광고 패턴(출시/신메뉴/런칭) 검출.
-      </div>
-      <div class="help-card">
-        <strong>경고 등급 (부정률 기반):</strong>
+        <strong>Executive 탭 하단 "🎭 브랜드별 감정 분포" 2차트:</strong>
         <ul>
-          <li>🔴 red — 댓글 5개 이상 중 부정 <strong>50% 이상</strong></li>
-          <li>🟡 yellow — 댓글 3개 이상 중 부정 <strong>30% 이상</strong></li>
-          <li>멀티브랜드 영상은 경고 등급 <strong>한 단계 감쇠</strong> (크리에이터 팬 댓글이라 신뢰도 ↓)</li>
+          <li>💬 <strong>댓글 기반</strong> — 시청자 반응 (KR-BERT 상위 댓글 분류)</li>
+          <li>🎬 <strong>영상 메타 기반</strong> — 컨텐츠 톤 (제목+설명 분석)</li>
         </ul>
+      </div>
+
+      <div class="help-card">
+        <strong>📰 뉴스·외부사건 자동 중립화:</strong>
+        브랜드 매장에서 일어난 <strong>고객 난동·진상·폭행 영상</strong>은 브랜드 평판과 무관 → 중립 처리.
+        <ul>
+          <li>강한 고객-가해자 마커: 진상녀/난동녀/진상 손님/블랙컨슈머/풀영상 → 중립 (설명 `#갑질`·`#논란` 해시태그 오독 방지)</li>
+          <li>뉴스 채널 + 외부 사건 키워드(난동·폭행·행패·막말·시비) → 중립</li>
+          <li>단 <strong>브랜드가 가해자</strong>(갑질·담합·과징금·영업정지·이물질·위생) → 부정 유지</li>
+          <li>📰 <strong>뉴스 배지</strong>로 UI 에 별도 표시, 브랜드 부정률 집계에서도 제외</li>
+        </ul>
+      </div>
+
+      <div class="help-card">
+        <strong>✅ 브랜드 친소비자 이니셔티브 → 강제 긍정:</strong>
+        본사가 손해를 감수하고 소비자·가맹점을 보호하는 영상은 브랜드 이미지 제고 효과 → 긍정 확정.
+        <ul>
+          <li>가격 동결/인상 안 한다/인하</li>
+          <li>본사 부담/본사 흡수/원가 흡수</li>
+          <li>기부/후원/사회공헌/상생/장학금/무료 제공</li>
+          <li>품질 개선/서비스 개선/안심 선언</li>
+        </ul>
+        예: "BBQ, 치킨값 인상 안 한다 — 본사가 비용 상승 부담" → <strong>긍정</strong>
+      </div>
+
+      <div class="help-card">
+        <strong>🔍 비판·분석 톤 → 강제 부정:</strong>
+        "먹방/리뷰" 키워드가 있어도 비판 분석 영상이면 부정 유지.
+        <ul>
+          <li>무엇이 문제/왜 실패/몰락/조롱/밈으로 확산/주가 영향/역풍/불매/어색한/구설</li>
+        </ul>
+        예: "맥도날드 CEO의 햄버거 먹방 무엇이 문제였나" → <strong>부정</strong>
+      </div>
+
+      <div class="help-card">
+        <strong>🎯 브랜드별 관점 재판단 — 주제 vs 참조 브랜드:</strong>
+        같은 영상도 브랜드 관점이 다르면 다른 감성.
+        <ul>
+          <li><strong>벤치마크 패턴</strong> — "브랜드보다 N배/년 많/크/빠르", "브랜드급/수준" → 긍정 (권위 인정)</li>
+          <li>단 "브랜드보다 맛있/좋/낫/싸대기" → 부정 (경쟁사 우위 주장)</li>
+          <li><strong>위상 강조</strong> — "전 세계 브랜드", "글로벌 브랜드", "세계 최대" → 긍정</li>
+          <li><strong>산업·역사 주제</strong> — 자영업 잔혹사/프랜차이즈 현실/역사(로마·중세)/디지털 전환 → 중립</li>
+        </ul>
+        예: "대한민국 자영업 잔혹사 EP4. 치킨집 8만 개, 전세계 맥도날드 4만 개보다 2배 많은 나라의 비극"
+        → 맥도날드 섹션: <strong>긍정</strong> (글로벌 규모 기준점, 주제는 한국 자영업)
+      </div>
+
+      <div class="help-card">
+        <strong>한국어 슬랭 오버라이드:</strong>
+        "폭력적인 맛 = 최고", "병맛광고", "역대급", "존맛", "인생메뉴", "레전드", "미쳤다", "죽인다", "킹", "갓" 등
+        극찬 밈은 KR-BERT 가 문자 그대로 부정 해석 → 자동 <strong>긍정 교정</strong>.
+      </div>
+
+      <div class="help-card">
+        <strong>💬 댓글 감성 오버라이드 (2026-04-23 강화):</strong>
+        <ul>
+          <li><strong>영상 품질 불만 ≠ 브랜드 비판</strong> — "재미없/지루/길다/잠온다/목소리/자막/스킵" 등은 중립 교정
+            (단 맛없·최악·불매·실망·비싸·쓰레기 등 <strong>브랜드 직접 불만어 동반 시</strong>는 부정 유지)</li>
+          <li><strong>질문형 댓글 중립화</strong> — "왜 ~인가요?", "셤을 쳤다는 겨?" 같은 호기심 질문을 부정으로 오분류하던 문제 교정</li>
+        </ul>
+      </div>
+
+      <div class="help-card">
+        <strong>🔬 댓글 표본 부족 영상 — 판정 보류:</strong>
+        댓글이 <strong>15개 미만</strong>으로 수집된 영상은 통계적 유의성이 부족해 긍부정 판정을 하지 않습니다.
+        <ul>
+          <li><strong>0개</strong>: <span class="sentiment-inline none">💬 — 댓글 없음</span></li>
+          <li><strong>1~14개</strong>: <span class="sentiment-inline none">💬 🔬 표본 부족 (N개)</span> — 분포는 툴팁에 숨김 표기, 워닝(🟡/🔴) 미표시</li>
+          <li><strong>15개 이상</strong>: 정상 판정 (💬 😊 긍정 82% · 💬 😠 부정 35% 등)</li>
+        </ul>
+        <p style="margin:8px 0 0 0;color:var(--text-secondary);font-size:0.88rem;">
+        표본이 적을 때 섣불리 비율을 표시하면 예컨대 "댓글 2개 중 1개 부정 → 50% 부정"으로
+        과장되므로, <strong>영상 메타(📝) 감성만 참고</strong>하시는 것이 안전합니다.
+        </p>
+      </div>
+
+      <div class="help-card">
+        <strong>⚠️ 경고 등급 (부정률 기반, 2026-04-23 상향):</strong>
+        <ul>
+          <li>🔴 red — 댓글 <strong>30개 이상</strong> 중 부정 <strong>50% 이상</strong> (CI ±9%p)</li>
+          <li>🟡 yellow — 댓글 <strong>15개 이상</strong> 중 부정 <strong>30% 이상</strong> (CI ±12%p)</li>
+          <li>멀티브랜드 영상은 경고 등급 한 단계 감쇠 (크리에이터 팬 댓글 신뢰도 ↓)</li>
+        </ul>
+        <p style="margin:8px 0 0 0;color:var(--text-secondary);font-size:0.88rem;">
+        이전 3/5 임계는 과민반응 — 댓글 3개 중 1개 부정(33%)이 yellow 로 뜨던 문제 해결.
+        통계적 유의성 확보를 위해 댓글 수집 한도도 확장: 경쟁사 20→<strong>100</strong>, 노출 10→<strong>50</strong>개.
+        </p>
+      </div>
+    </section>
+
+    <!-- 6.5. 영상 스크리닝 -->
+    <section class="help-section" id="h-relevance">
+      <h2>🧹 브랜드 무관 영상 자동 스크리닝</h2>
+      <p>제목에 브랜드명이 있어도 실제 내용이 무관하면 자동 제외합니다. 수집 파이프라인과 대시보드 양쪽에서 다단 필터.</p>
+
+      <div class="help-card">
+        <strong>판정 우선순위:</strong>
+        <ol>
+          <li><strong>브랜드별 명시 제외 리스트</strong> (서브컬처/탁구/게임 방송/BBQ 전기그릴 등)</li>
+          <li><strong>공식표기 필수</strong> — 짧은 별칭(서브·맘스·롯데)만으로는 통과 불가. 공식 표기 또는 시그니처 메뉴(와퍼·빅맥·뿌링클·싸이버거·허니콤보 등) 필수</li>
+          <li><strong>서브웨이 엄격 모드</strong> — 제목+설명에 "서브웨이/써브웨이/Subway" 필수 (댓글만으로는 불가)</li>
+          <li><strong>BBQ 치킨 컨텍스트 필수</strong> — "비비큐" 있어도 치킨/닭/황올/프라이드/후라이드/치밥/치맥 등 동반 없으면 제외</li>
+          <li><strong>밈·비교 패턴</strong> — "브랜드랑 같은", "브랜드처럼" + 맥락 부족 → 제외
+            <br><span style="color:var(--text-muted);">예: "맘스터치랑 같은 사람인가" (수류탄 성능 테스트 영상)</span></li>
+          <li><strong>컨텍스트 마커 검증</strong> — 리뷰/먹방/매장/메뉴/시그니처 있으면 통과</li>
+          <li><strong>댓글 교차 검증</strong> — 댓글 내 브랜드 언급률 &lt; 50% 이면 제외</li>
+        </ol>
+      </div>
+
+      <div class="help-card">
+        <strong>주요 차단 동음이의 사례:</strong>
+        <ul>
+          <li><strong>서브웨이</strong> — 서브컬처/서브에이전트/서브티처/서브스터디/탁구·테니스·배드민턴 서브/마라톤 서브3·서브4/서브캠/서브우퍼/서브퀘스트/서브노티카(게임)/지하철·전철/Subway Serenade/Today's Stockings</li>
+          <li><strong>BBQ</strong> — 텍사스 바베큐/Korean BBQ/K-BBQ/삼겹살·오겹살·꽃갈비·꽃등심·살치살·토시살/마블링·드라이에이징/훈제·스모커/양꼬치/BBQ체어·전기그릴/게임방송(템진단·똥꼬쇼·룰렛)/라이브 음악 비비큐</li>
+          <li><strong>맥도날드</strong> — '맥도' 단독 제거 (맥도유저/맥도아이디 = 게임 유저명, 맥도생태공원 = 지명). 시그니처 메뉴(빅맥·맥너겟·맥치킨·맥스파이시·맥카페·맥모닝) 필수. 맥주/맥북/맥프로/심법/붉은사막/리니지 등 제외</li>
+          <li><strong>롯데리아</strong> — 롯데그룹/롯데쇼핑/롯데마트/롯데월드 등 계열사 뉴스 제외</li>
+          <li><strong>교촌</strong> — 교촌한옥마을(경주 지명) 제외</li>
+        </ul>
+      </div>
+
+      <div class="help-card">
+        <strong>수집 단계 차단:</strong>
+        서브웨이 검색 쿼리에서 '서브'·'써브' 짧은 별칭 제거. 수집 게이트에서 공식표기 없으면 CSV에 저장되지도 않음. CSV 비대화 방지.
       </div>
     </section>
 
@@ -2349,6 +2469,22 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
           <li><strong>Viability Gate</strong>: 좋아요+댓글 3건 미만 → ×0.3 (죽은 영상 감쇠)</li>
           <li><strong>Paid Gate</strong>: 조회수 1만 이상인데 ER < 0.1% → ×0.7 (광고성 감쇠)</li>
         </ul>
+      </div>
+    </section>
+
+    <!-- 7.5 요약 카드 -->
+    <section class="help-section" id="h-summary">
+      <h2>📊 상단 요약 카드 4개</h2>
+      <div class="help-table">
+        <table>
+          <thead><tr><th>카드</th><th>의미</th></tr></thead>
+          <tbody>
+            <tr><td>총 브랜드수</td><td>집계 중인 경쟁 브랜드 개수 (KFC + 경쟁사 9 + 멀티 = 11)</td></tr>
+            <tr><td>총 영상수</td><td>수집 기간 내 전 브랜드 영상 합계</td></tr>
+            <tr><td>총 조회수</td><td>전 영상 조회수 합계 (단위: 억/만/K 자동)</td></tr>
+            <tr><td>🚨 주의 브랜드</td><td><strong>현재 yellow/red 워닝 중인 브랜드 수</strong>. 임원이 한눈에 신경써야 할 브랜드 개수 파악 (액션지표)</td></tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
@@ -2762,6 +2898,10 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   function isCriticalVideo(v) { return getCriticalInfo(v) !== null; }
   function effectiveWarnLevel(v) {
     if (isCriticalVideo(v)) return 'critical';
+    // 댓글 표본 15개 미만이면 워닝 표시 보류 (통계적 유의성 확보 후 판정)
+    var sc = v.sentiment_counts || {};
+    var sTot = (sc.neg||0) + (sc.neu||0) + (sc.pos||0);
+    if (sTot < 15) return '';
     return v.warning_level || '';
   }
 
@@ -2787,9 +2927,11 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     // 감성 배지 — 댓글 감성(💬) + 내용 감성(📝) 분리 표시
     // 💬 댓글 기반: KR-BERT + 슬랭 오버라이드 (신뢰도 높음)
     // 📝 내용 기반: 제목+설명 KR-BERT + 슬랭 오버라이드 (신뢰도 낮음)
+    // 표본 임계: 15개 이상일 때만 비율·판정 표시. 미만은 "표본 부족" 으로 표시 (판정 보류)
+    var SAMPLE_MIN = 15;
     var inlineSent = '';
     // ① 댓글 감성
-    if (sTotal > 0) {
+    if (sTotal >= SAMPLE_MIN) {
       var posRatio = (sc.pos || 0) / sTotal;
       var neuRatio = (sc.neu || 0) / sTotal;
       var sCls, sIcon, sLabel, sPct, sCnt;
@@ -2805,6 +2947,12 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       inlineSent += '<span class="sentiment-inline ' + sCls +
         '" title="💬 댓글 ' + sTotal + '개 KR-BERT 분석 — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0) + '">💬 ' +
         sIcon + ' 댓글 ' + sLabel + ' ' + Math.round(sPct * 100) + '% <span style="opacity:0.7">(' + sCnt + '/' + sTotal + ')</span></span>';
+    } else if (sTotal > 0) {
+      // 1~14개: 표본 부족 — 판정 보류, 분포만 표기
+      inlineSent += '<span class="sentiment-inline none" title="댓글 ' + sTotal + '개로 통계 판정 보류 (15개 이상 필요) — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0) + '">💬 🔬 표본 부족 <span style="opacity:0.7">(' + sTotal + '개)</span></span>';
+    } else {
+      // 0개: 댓글 없음
+      inlineSent += '<span class="sentiment-inline none" title="댓글 없음">💬 — 댓글 없음</span>';
     }
     // ② 내용 감성 (제목+설명, 댓글 있든 없든 표시)
     if (v.video_meta_sentiment) {
