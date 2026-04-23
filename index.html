@@ -99,11 +99,13 @@ a:hover { text-decoration: underline; }
 .header .data-range-line {
   color: var(--text-secondary);
   font-size: 0.88rem;
-  margin-top: 6px;
+  margin-top: 8px;
   display: flex;
   gap: 10px;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 .header .data-range-line strong {
   color: var(--text-primary);
@@ -1890,7 +1892,6 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     <span class="dr-sep">·</span>
     <span>마지막 업데이트 <strong id="dr-generated">...</strong></span>
   </div>
-  <div class="subtitle" id="header-subtitle">데이터 로딩 중...</div>
   <div class="data-notice-pin" id="data-notice" title="안내">
     <span>📌 <strong id="notice-from-date">...</strong>부터</span>
   </div>
@@ -1918,7 +1919,6 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <button type="button" data-period="7" class="active">최근 7일</button>
         <button type="button" data-period="14">14일</button>
         <button type="button" data-period="30">30일</button>
-        <button type="button" data-period="90">90일</button>
       </span>
       <button type="button" id="btn-reset-brand" class="reset-brand-btn" style="display:none;">← KFC로 되돌리기</button>
     </div>
@@ -3305,8 +3305,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 
     // Header
     var windowDays = data.window_days != null ? data.window_days : data.days;
-    document.getElementById('header-subtitle').textContent =
-      (data.date || '') + ' 기준 · 최근 ' + (windowDays != null ? windowDays : '?') + '일';
+    // header-subtitle 제거됨 (데이터 범위는 data-range-line 에 표시)
 
     // Data notice — 수집 시작 날짜 계산 (오늘 - windowDays)
     try {
