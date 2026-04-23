@@ -4209,9 +4209,11 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     var sel = data.brands[selCode] || {};
     var selName = (sel.display) || selCode;
 
-    // Meta
-    document.getElementById('exec-date').textContent = data.date || '-';
-    document.getElementById('exec-window').textContent = EXEC.period;
+    // Meta (exec-date / exec-window 는 구버전 — 헤더 상단의 data-range-line 으로 이관됨)
+    var _ed = document.getElementById('exec-date');
+    var _ew = document.getElementById('exec-window');
+    if (_ed) _ed.textContent = data.date || '-';
+    if (_ew) _ew.textContent = EXEC.period;
 
     // 선택된 브랜드 라벨 스왑 — KFC 이외 브랜드 선택시 상단에 "← KFC로" 버튼 표시
     updateKpiLabels(selName, selCode);
