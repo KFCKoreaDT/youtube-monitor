@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-04-23 09:59:06",
+  "generated_at": "2026-04-23 10:00:10",
   "window_days": 90,
   "data_earliest": "2026-01-26",
   "data_latest": "2026-04-22",
@@ -3752,16 +3752,16 @@
     },
     "mcdonalds": {
       "display": "맥도날드",
-      "video_count": 91,
-      "total_views": 149365763,
-      "total_likes": 10014,
-      "total_comments": 125,
+      "video_count": 81,
+      "total_views": 149363456,
+      "total_likes": 9895,
+      "total_comments": 114,
       "n_short": 26,
-      "n_long": 65,
+      "n_long": 55,
       "tier_counts": {
         "Mega": 1,
         "Official": 20,
-        "Nano": 64,
+        "Nano": 54,
         "Micro": 5,
         "Macro": 1
       },
@@ -3831,88 +3831,6 @@
             "neg": 0,
             "neu": 0,
             "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "Hx1tBEEi98k",
-          "title": "발릭타왁 아이들 맥도날드 치킨세트나눔. 저의 구독자가 없으면 여기 아이들은 맥도날드 치킨세트을 먹을수가 없습니다.",
-          "channel": "EPD TV",
-          "subscribers": 6870,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 436,
-          "likes": 69,
-          "comment_count": 11,
-          "engagement_rate": 0.1835,
-          "duration": 435,
-          "is_short": false,
-          "buzz_score": 48.9,
-          "upload_date": "2026.04.21",
-          "url": "https://www.youtube.com/watch?v=Hx1tBEEi98k",
-          "description_excerpt": "기존 회원외에는 더이상의 후원은 받지 않습니다. 계좌번호가 변경되었습니다. 기존계좌로 돈을 보내면 더이상 돈을 보낼수 없습니다. 꼭 카톡으로 먼저 연락주세요\n\n오늘도 부족한 영상 시청해주셔서 진심으로 감사드립니다.\n  카톡 아이뒤: epdtv50\n\n\"구독\"과 \"좋아요\"는 저에게 큰 힘이 됩니다.~!!\n    부적절한 댓글은 즉시 삭제 처리 됩니다.\n   (욕설, 모든 비하성 댓글, 노골적인 성적 댓글, 유언비어 댓글 등)\n\n#필리핀아이#필리핀나눔#필리핀소녀#필리핀유튜버#필리핀일상#필리핀#필리핀독거노인\n-----------------",
-          "top_comments": [
-            {
-              "author": "@K-s5x7s",
-              "text": "단수에 단전에 심지어 쌀도 없으니 아이들이 얼마나 힘들겠나요 ㅜ \n시청만 해오다 신경이 너무 쓰여서 처음 후원해 봤는데 잠시나마 아이들이 행복해 하는 모습 보니 저또한 기분이 상당히 좋습니다 ^^\n저렇게까지 인사 안해도 되는데 무안하네요😅\n앞으로 저도 최대한 참여해볼려고 합니다.\n그동안 후원해 오시는분들 존경스럽습니다...\n피디님도 수고하셨습니다.\n아가들아 힘내보자~",
-              "likes": 9
-            },
-            {
-              "author": "@K-s5x7s",
-              "text": "​ @Treasurehunter401 감사합니다\n항상 좋은 일하시는거 봐왔습니다",
-              "likes": 6
-            },
-            {
-              "author": "@레이-f7k",
-              "text": "발릭타왁 아이들 다 볼수 있어서 너무 좋네요. khs님. ryan님 복받으실거에요.",
-              "likes": 5
-            },
-            {
-              "author": "@Treasurehunter401",
-              "text": "닉네임이 머리에 팍팍 꼽히네요 ^^",
-              "likes": 5
-            },
-            {
-              "author": "@보물user-iq1fw6vu3k",
-              "text": "아이들 에게  나눔 해주신 후원자님 감사드립니다.",
-              "likes": 4
-            },
-            {
-              "author": "@김성철-w4z",
-              "text": "KHS님  감사합니다  애들 웃는 모습 보기 좋습니다   ryan님 감사합니다",
-              "likes": 4
-            },
-            {
-              "author": "@epdtv8926",
-              "text": "저도 펄이 수도설치보다는 쌀을 원해서 맘이 좀 안타까웠습니다. 단수가 되면 불편해도 살수 있지만. 쌀이 없으면 아이들은 계속 굶습니다. 다행이 이번에 펄에게 쌀25kg 사줄수 있어서 감사합니다. 발릭타왁 아이들에게 큰 기쁨 주셔셔 또한번 감사드립니다.",
-              "likes": 3
-            },
-            {
-              "author": "@진김-u7m",
-              "text": "애들 이렇게 모여서 밥먹는게 보기좋네요",
-              "likes": 3
-            },
-            {
-              "author": "@Treasurehunter401",
-              "text": "Ryan님, KHS님, 고맙습니다. 아이들 환한 웃음에 저도 모르게 미소지어지네요.",
-              "likes": 2
-            },
-            {
-              "author": "@K-s5x7s",
-              "text": "아이들이 닉네임 말하기가 어려워해서 코리아의 K로 닉네임 변경했습니다 ^^",
-              "likes": 1
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 1,
-            "pos": 9
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -4818,37 +4736,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "sMEym0yzTak",
-          "title": "[연운] 맥도 시작부터 무아까지 한방에 가보자  뉴비도우미, 질문환영,  6666돌 맥도유저 260415",
-          "channel": "겜상이몽",
-          "subscribers": 1600,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 508,
-          "likes": 12,
-          "comment_count": 0,
-          "engagement_rate": 0.0236,
-          "duration": 23118,
-          "is_short": false,
-          "buzz_score": 39.6,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=sMEym0yzTak",
-          "description_excerpt": "편하게 들어오셔서 같이 이야기하며 즐겨요~\n\n랜덤 방송+ 매일 저녁 8시~라방합니다~ 놀러오셔서 같이 놀아용~\n\n맴버쉽가입 링크입니다\nhttps://www.youtube.com/channel/UCTo6HIxp9u9wEOBB9Y8KpUg/join\n투네이션 후원주소입니다.\nhttps://toon.at/donate/game_dreamer\n계좌 후원\n우리은행 1002-658153855\n예금주 김*훈\n\n스팀 친구등록\nhttps://s.team/p/dbq-vctb/jgrptjbw\n아프리카TV\nhttps://bj.afreecatv.com/hop",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "iypuzWmqaZ8",
           "title": "15년째 한국의 맥도날드를 꿈꾸며 달려온 동대문 밥플",
           "channel": "푸담 Fudam",
@@ -5178,37 +5065,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "ZPVko99sFi0",
-          "title": "[연운] 86협경 천부도우미,   뉴비도우미, 질문환영,  6666돌 맥도유저 260416",
-          "channel": "겜상이몽",
-          "subscribers": 1600,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 315,
-          "likes": 7,
-          "comment_count": 0,
-          "engagement_rate": 0.0222,
-          "duration": 14033,
-          "is_short": false,
-          "buzz_score": 35.2,
-          "upload_date": "2026.04.16",
-          "url": "https://www.youtube.com/watch?v=ZPVko99sFi0",
-          "description_excerpt": "편하게 들어오셔서 같이 이야기하며 즐겨요~\n\n랜덤 방송+ 매일 저녁 8시~라방합니다~ 놀러오셔서 같이 놀아용~\n\n맴버쉽가입 링크입니다\nhttps://www.youtube.com/channel/UCTo6HIxp9u9wEOBB9Y8KpUg/join\n투네이션 후원주소입니다.\nhttps://toon.at/donate/game_dreamer\n계좌 후원\n우리은행 1002-658153855\n예금주 김*훈\n\n스팀 친구등록\nhttps://s.team/p/dbq-vctb/jgrptjbw\n아프리카TV\nhttps://bj.afreecatv.com/hop",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "ZmdQCzXIWgc",
           "title": "2026.4.21 수동 아반떼N 퇴근길 | 시티세븐 맥도날드 귀산 | 가덕휴게소 유호리전망대 | 노터치 버블세차 [AVANTE N 2.0 MT Drive VLOG]",
           "channel": "신박한운전[DRIVE]&일상[VLOG]",
@@ -5355,68 +5211,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "DFjN725onNg",
-          "title": "[연운] 리그전 협성조 한국동맹과 , 질문환영,  6666돌 맥도유저 260419",
-          "channel": "겜상이몽",
-          "subscribers": 1600,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 491,
-          "likes": 8,
-          "comment_count": 0,
-          "engagement_rate": 0.0163,
-          "duration": 9827,
-          "is_short": false,
-          "buzz_score": 33.3,
-          "upload_date": "2026.04.19",
-          "url": "https://www.youtube.com/watch?v=DFjN725onNg",
-          "description_excerpt": "편하게 들어오셔서 같이 이야기하며 즐겨요~\n\n랜덤 방송+ 매일 저녁 8시~라방합니다~ 놀러오셔서 같이 놀아용~\n\n맴버쉽가입 링크입니다\nhttps://www.youtube.com/channel/UCTo6HIxp9u9wEOBB9Y8KpUg/join\n투네이션 후원주소입니다.\nhttps://toon.at/donate/game_dreamer\n계좌 후원\n우리은행 1002-658153855\n예금주 김*훈\n\n스팀 친구등록\nhttps://s.team/p/dbq-vctb/jgrptjbw\n아프리카TV\nhttps://bj.afreecatv.com/hop",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "TDC3mfcq960",
-          "title": "맥도날드 아이스크림 먹으러 긔긔",
-          "channel": "하이컴퍼니 은가비",
-          "subscribers": 309,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 114,
-          "likes": 15,
-          "comment_count": 0,
-          "engagement_rate": 0.1316,
-          "duration": 16445,
-          "is_short": false,
-          "buzz_score": 33.0,
-          "upload_date": "2026.04.18",
-          "url": "https://www.youtube.com/watch?v=TDC3mfcq960",
-          "description_excerpt": "#소통#대화#야방#야킹#헌팅#부천#댄스#챌린지#엑셀방송#유머#여캠#신입#뉴비#술방#먹방#7080#노래#섹시#청순#뷰티#엽기#전깃줄#장난감#백치미#여행",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 4,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "5qdQVGj3OgQ",
           "title": "[일본인] 건담과 맥도날드가 콜라보를 한다구? 일본여행 브이로그 Tokyo Walking Live Strea",
           "channel": "일본 대리 여행담당 모혜쨩",
@@ -5485,37 +5279,6 @@
             "neg": 0,
             "neu": 0,
             "pos": 3
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "gIc_-rMJeh4",
-          "title": "[연운] 시즌세기말 이득보기, 심법작업6돌 추가, 2차 심법 작업방법등 , 질문환영,  6666돌 맥도유저 260420",
-          "channel": "겜상이몽",
-          "subscribers": 1600,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 168,
-          "likes": 6,
-          "comment_count": 0,
-          "engagement_rate": 0.0357,
-          "duration": 8446,
-          "is_short": false,
-          "buzz_score": 29.7,
-          "upload_date": "2026.04.20",
-          "url": "https://www.youtube.com/watch?v=gIc_-rMJeh4",
-          "description_excerpt": "편하게 들어오셔서 같이 이야기하며 즐겨요~\n\n랜덤 방송+ 매일 저녁 8시~라방합니다~ 놀러오셔서 같이 놀아용~\n\n맴버쉽가입 링크입니다\nhttps://www.youtube.com/channel/UCTo6HIxp9u9wEOBB9Y8KpUg/join\n투네이션 후원주소입니다.\nhttps://toon.at/donate/game_dreamer\n계좌 후원\n우리은행 1002-658153855\n예금주 김*훈\n\n스팀 친구등록\nhttps://s.team/p/dbq-vctb/jgrptjbw\n아프리카TV\nhttps://bj.afreecatv.com/hop",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -6398,99 +6161,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "nqnmgg2IVfs",
-          "title": "연운 논검 무아 횡맥도vs쌍창",
-          "channel": "올빼미",
-          "subscribers": 30,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 113,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 118,
-          "is_short": false,
-          "buzz_score": 7.6,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=nqnmgg2IVfs",
-          "description_excerpt": "nan",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "WYvZvyETcQ4",
-          "title": "연운 무아 논검 횡맥도vs횡무창",
-          "channel": "올빼미",
-          "subscribers": 30,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 51,
-          "likes": 2,
-          "comment_count": 0,
-          "engagement_rate": 0.0392,
-          "duration": 71,
-          "is_short": false,
-          "buzz_score": 7.4,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=WYvZvyETcQ4",
-          "description_excerpt": "nan",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "0LrDJlCZwkg",
-          "title": "늑대와 춤을 영화리뷰 #영화리뷰 #고전영화 #케빈코스트너 #메리맥도널 #그레이엄그린 #넷파일 #웹하드 #영화 #netfile #무료다운 #파일공유",
-          "channel": "콘텐츠는 넷파일!",
-          "subscribers": 19,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 100,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 639,
-          "is_short": false,
-          "buzz_score": 7.4,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=0LrDJlCZwkg",
-          "description_excerpt": "모든 작품은 넷파일에서 만나볼 수 있습니다. 콘텐츠는 넷파일~\n넷파일 웹하드에서 만나볼 수 있어요! 검색은 특수문자 없이~ \n\n늑대와 춤을 영화리뷰 #영화리뷰 #고전영화 #케빈코스트너 #메리맥도널 #그레이엄그린 #넷파일 #웹하드 #영화 #netfile #무료다운 #파일공유",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "eL1jJS4rraY",
           "title": "맥도날드 아저씨 농장 🐄🚜 | 인기 동요 모음 – Kuku와 Cucudu",
           "channel": "Kuku and Cucudu 한국어",
@@ -6993,37 +6663,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "SbjT28p0bPQ",
-          "title": "(5080)Where Winds Meet_연운_진관후_맥도 노데미지",
-          "channel": "(p5pro,5080)gameboy",
-          "subscribers": 3,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 11,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 230,
-          "is_short": false,
-          "buzz_score": 5.4,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=SbjT28p0bPQ",
-          "description_excerpt": "개인기록용 게임 잘 못해요.",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "fk16iOnAy1Y",
           "title": "맥도날드 햄버거",
           "channel": "인터넷",
@@ -7215,10 +6854,10 @@
       ],
       "sentiment_counts": {
         "neg": 25,
-        "neu": 6,
-        "pos": 82
+        "neu": 5,
+        "pos": 73
       },
-      "negative_ratio": 0.221,
+      "negative_ratio": 0.243,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
