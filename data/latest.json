@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-04-23 09:36:42",
+  "generated_at": "2026-04-23 09:39:54",
   "window_days": 30,
   "brands": {
     "kfc": {
@@ -18273,15 +18273,15 @@
     },
     "bbq": {
       "display": "BBQ치킨",
-      "video_count": 18,
-      "total_views": 180464,
-      "total_likes": 2158,
+      "video_count": 15,
+      "total_views": 178946,
+      "total_likes": 2123,
       "total_comments": 80,
       "n_short": 0,
-      "n_long": 18,
+      "n_long": 15,
       "tier_counts": {
         "Macro": 2,
-        "Nano": 12,
+        "Nano": 9,
         "Mega": 1,
         "Micro": 3
       },
@@ -18875,37 +18875,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "V3p2aPjXEXc",
-          "title": "비비큐 췩킨 ㄷ  . #서기시대 #먹방 #술먹방 #소통 #음악 #남캠",
-          "channel": "서기시대",
-          "subscribers": 2330,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 1505,
-          "likes": 32,
-          "comment_count": 0,
-          "engagement_rate": 0.0213,
-          "duration": 8022,
-          "is_short": false,
-          "buzz_score": 21.4,
-          "upload_date": "2026.04.09",
-          "url": "https://www.youtube.com/watch?v=V3p2aPjXEXc",
-          "description_excerpt": "혼술 홈술 토킹 댄스",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "0Y7y85T46-E",
           "title": "먹방, 먹방 ASMR, 치킨 ASMR, bbq 자메이카 통다리, 자메이카 통다리 먹방, 양념치킨, 양념치킨 먹방, 비비큐 먹방, bbq 먹방",
           "channel": "링빵 Ring BBang",
@@ -18971,37 +18940,6 @@
               "likes": 0
             }
           ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "0hI2wG9sPh8",
-          "title": "20260321   동춘 서커스, 카캉스, 갈메기, 구봉도, 비비큐, 폭죽   2탄",
-          "channel": "코차팸",
-          "subscribers": 6,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 9,
-          "likes": 2,
-          "comment_count": 0,
-          "engagement_rate": 0.2222,
-          "duration": 2088,
-          "is_short": false,
-          "buzz_score": 5.6,
-          "upload_date": "2026.04.15",
-          "url": "https://www.youtube.com/watch?v=0hI2wG9sPh8",
-          "description_excerpt": "아내가 중국에 간 사이에, 아이들과 캠핑을 갔다~\n대부도, 구봉도, 동춘서커스, 카캉스, 갈메기, 새우깡, 비비큐, 폭죽놀이까지~\n신난 우리들~ 2탄",
-          "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
             "neu": 0,
@@ -19107,37 +19045,6 @@
               "likes": 0
             }
           ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "Ryqc_IQsTGQ",
-          "title": "라이브 음악 들으면서 먹는 비비큐",
-          "channel": "김태OK",
-          "subscribers": 69,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 4,
-          "likes": 1,
-          "comment_count": 0,
-          "engagement_rate": 0.25,
-          "duration": 63,
-          "is_short": false,
-          "buzz_score": 4.9,
-          "upload_date": "2026.04.19",
-          "url": "https://www.youtube.com/watch?v=Ryqc_IQsTGQ",
-          "description_excerpt": "nan",
-          "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
             "neu": 0,
