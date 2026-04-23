@@ -2062,7 +2062,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     <div class="summary-card"><div class="label">총 브랜드수</div><div class="value" id="s-brands">-</div></div>
     <div class="summary-card"><div class="label">총 영상수</div><div class="value" id="s-videos">-</div></div>
     <div class="summary-card"><div class="label">총 조회수</div><div class="value" id="s-views">-</div></div>
-    <div class="summary-card"><div class="label">기간</div><div class="value" id="s-period">-</div></div>
+    <div class="summary-card"><div class="label">총 댓글수</div><div class="value" id="s-comments">-</div></div>
   </div>
 
   <!-- Filter Toolbar -->
@@ -3326,10 +3326,14 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       totalVideos += data.brands[k].video_count || 0;
       totalViews += data.brands[k].total_views || 0;
     });
+    var totalComments = 0;
+    BRAND_KEYS_IN_DATA.forEach(function(k) {
+      totalComments += data.brands[k].total_comments || 0;
+    });
     document.getElementById('s-brands').textContent = BRAND_KEYS_IN_DATA.length;
     document.getElementById('s-videos').innerHTML = totalVideos + '<span class="unit">개</span>';
     document.getElementById('s-views').textContent = formatNumber(totalViews);
-    document.getElementById('s-period').innerHTML = (windowDays != null ? windowDays : '?') + '<span class="unit">일</span>';
+    document.getElementById('s-comments').innerHTML = formatNumber(totalComments) + '<span class="unit">개</span>';
 
     // Brand order: KFC first, then 🔀 멀티-브랜드 비교 (경쟁 맥락 중요), then by total_views desc
     var order = BRAND_KEYS_IN_DATA.slice().sort(function(a, b) {
