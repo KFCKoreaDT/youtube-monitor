@@ -2050,7 +2050,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 <div class="container view-executive" id="view-exec">
   <div class="exec-toolbar">
     <div class="exec-meta">
-      <strong id="exec-date">-</strong> 기준 · 최근 <strong id="exec-window">-</strong>일 모니터링 · 비교 기준 <strong id="exec-baseline">4일 전</strong>
+      <span id="exec-baseline-wrap" style="display:none;">비교 기준 <strong id="exec-baseline">-</strong></span>
       <span class="period-toggle" id="period-toggle" role="group" aria-label="기간 필터">
         <button type="button" data-period="7" class="active">최근 7일</button>
         <button type="button" data-period="14">14일</button>
@@ -3833,6 +3833,20 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       .then(function(results) {
         EXEC.baseline = results[0];
         EXEC.trend = results.slice(1).filter(Boolean);
+        // baseline 날짜 vs 현재 데이터 날짜 차이를 계산해 라벨 업데이트
+        try {
+          if (EXEC.baseline && EXEC.baseline.date && data && data.date) {
+            var b = new Date(String(EXEC.baseline.date).replace(/\./g, '-'));
+            var t = new Date(String(data.date).replace(/\./g, '-'));
+            var days = Math.round((t - b) / (1000 * 60 * 60 * 24));
+            var lbl = document.getElementById('exec-baseline');
+            var wrap = document.getElementById('exec-baseline-wrap');
+            if (lbl && days > 0) {
+              lbl.textContent = EXEC.baseline.date + ' (' + days + '일 전)';
+              if (wrap) wrap.style.display = '';
+            }
+          }
+        } catch (e) { /* ignore */ }
         renderExecutiveView();
       });
 
