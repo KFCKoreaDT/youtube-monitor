@@ -96,6 +96,20 @@ a:hover { text-decoration: underline; }
   font-size: 0.92rem;
   margin-top: 6px;
 }
+.header .data-range-line {
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  margin-top: 6px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header .data-range-line strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+.header .dr-sep { opacity: 0.5; }
 .header .data-notice-pin {
   position: absolute;
   top: 10px;
@@ -1871,6 +1885,11 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     <button class="icon-btn" id="theme-toggle" title="테마 전환" aria-label="테마 전환">🌙 다크</button>
   </div>
   <h1>📺 유튜브 브랜드 모니터링</h1>
+  <div class="data-range-line" id="data-range-line">
+    <span>📊 <strong id="dr-earliest">...</strong> ~ <strong id="dr-latest">...</strong></span>
+    <span class="dr-sep">·</span>
+    <span>마지막 업데이트 <strong id="dr-generated">...</strong></span>
+  </div>
   <div class="subtitle" id="header-subtitle">데이터 로딩 중...</div>
   <div class="data-notice-pin" id="data-notice" title="안내">
     <span>📌 <strong id="notice-from-date">...</strong>부터</span>
@@ -1899,6 +1918,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <button type="button" data-period="7" class="active">최근 7일</button>
         <button type="button" data-period="14">14일</button>
         <button type="button" data-period="30">30일</button>
+        <button type="button" data-period="90">90일</button>
       </span>
       <button type="button" id="btn-reset-brand" class="reset-brand-btn" style="display:none;">← KFC로 되돌리기</button>
     </div>
@@ -3331,6 +3351,14 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       document.getElementById('footer-time').textContent = '생성: ' + data.generated_at;
     }
 
+    // 헤더 데이터 범위: 최초 영상 업로드일 ~ 최신 영상 업로드일 · 마지막 생성 시각
+    var drE = document.getElementById('dr-earliest');
+    var drL = document.getElementById('dr-latest');
+    var drG = document.getElementById('dr-generated');
+    if (drE) drE.textContent = data.data_earliest || '-';
+    if (drL) drL.textContent = data.data_latest || '-';
+    if (drG) drG.textContent = data.generated_at || data.date || '-';
+
     // Initial render
     renderBrands();
   }
@@ -3369,7 +3397,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   // 기간 필터링된 data 뷰 반환 (원본 latest 수정 없이 브랜드별 videos 만 필터)
   function getFilteredLatest() {
     if (!EXEC.latest) return null;
-    if (!EXEC.period || EXEC.period >= 30) return EXEC.latest;  // 30일 = 전체
+    // 원본 JSON window_days 이상이면 전체 데이터 그대로 사용
+    var srcDays = EXEC.latest.window_days || 90;
+    if (!EXEC.period || EXEC.period >= srcDays) return EXEC.latest;
     var cutoff = new Date();
     cutoff.setDate(cutoff.getDate() - EXEC.period);
     // upload_date 포맷 "2026.04.14" → Date
