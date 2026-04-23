@@ -664,6 +664,7 @@ a:hover { text-decoration: underline; }
 .sentiment-inline.pos { background: #d1fae5; color: #065f46; border-color: #86efac; }
 .sentiment-inline.none { background: #f3f4f6; color: #9ca3af; border-color: #e5e7eb; font-weight: 500; }
 .sentiment-inline.low-conf { opacity: 0.62; border-style: dashed; }
+.coverage-note { opacity: 0.72; font-size: 0.85em; font-weight: 500; margin-left: 2px; }
 .exec-date-range { margin-left: 8px; display: inline-flex; gap: 4px; align-items: center; }
 .exec-date-range input[type="date"] {
   background: var(--bg-card);
@@ -3178,17 +3179,36 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       var isLowConf = sTotal < SAMPLE_HIGH_MIN;
       var extraCls = isLowConf ? ' low-conf' : '';
       var refNote = isLowConf ? ' <span style="opacity:0.6;font-size:0.88em;">(참고)</span>' : '';
-      var tipNote = isLowConf
-        ? '댓글 ' + sTotal + '개 — 참고용(15개 이상이면 정규 판정) — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0)
-        : '💬 댓글 ' + sTotal + '개 KR-BERT+Qwen3 — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0);
+      // 수집 커버리지: sTotal / comment_count (YouTube 원본 수)
+      var ytTotal = v.comment_count || 0;
+      var covNote = '';
+      var covTitle = '';
+      if (ytTotal > 0 && sTotal > 0) {
+        var covPct = Math.round(sTotal / ytTotal * 100);
+        if (ytTotal > sTotal) {
+          covNote = ' <span class="coverage-note">(원본 ' + formatNumber(ytTotal) + '개 중 ' +
+            formatNumber(sTotal) + '개 수집 · ' + covPct + '%)</span>';
+          covTitle = ' — 수집 ' + sTotal + '/' + ytTotal + '개 (' + covPct + '%)';
+        }
+      }
+      var tipNote = (isLowConf
+        ? '댓글 ' + sTotal + '개 — 참고용(15개 이상이면 정규 판정)'
+        : '💬 댓글 ' + sTotal + '개 KR-BERT+Qwen3')
+        + covTitle + ' — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0);
       inlineSent += '<span class="sentiment-inline ' + sCls + extraCls + '" title="' + tipNote + '">💬 ' +
-        sIcon + ' 댓글 ' + sLabel + ' ' + Math.round(sPct * 100) + '% <span style="opacity:0.7">(' + sCnt + '/' + sTotal + ')</span>' + refNote + '</span>';
+        sIcon + ' 댓글 ' + sLabel + ' ' + Math.round(sPct * 100) + '% <span style="opacity:0.7">(' + sCnt + '/' + sTotal + ')</span>' + refNote + covNote + '</span>';
     } else if (sTotal > 0) {
       // 1~9개: 표본 부족 — 판정 보류, 분포만 툴팁으로
-      inlineSent += '<span class="sentiment-inline none" title="댓글 ' + sTotal + '개로 통계 판정 보류 (10개 이상 필요) — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0) + '">💬 🔬 표본 부족 <span style="opacity:0.7">(' + sTotal + '개)</span></span>';
+      var ytT = v.comment_count || 0;
+      var covBit = (ytT > sTotal) ? ' · 원본 ' + formatNumber(ytT) + '개 중' : '';
+      inlineSent += '<span class="sentiment-inline none" title="댓글 ' + sTotal + '개로 통계 판정 보류 (10개 이상 필요)' + covBit + ' — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0) + '">💬 🔬 표본 부족 <span style="opacity:0.7">(' + sTotal + '개' + (ytT > sTotal ? ' / 원본 ' + formatNumber(ytT) : '') + ')</span></span>';
     } else {
-      // 0개: 댓글 없음
-      inlineSent += '<span class="sentiment-inline none" title="댓글 없음">💬 — 댓글 없음</span>';
+      // 0개: 수집 못한 원본 표시
+      var ytT0 = v.comment_count || 0;
+      var msg0 = ytT0 > 0
+        ? '💬 — 댓글 ' + formatNumber(ytT0) + '개 중 0개 수집'
+        : '💬 — 댓글 없음';
+      inlineSent += '<span class="sentiment-inline none" title="' + (ytT0 > 0 ? '원본 ' + ytT0 + '개 있음, 수집 미완료' : '댓글 없음') + '">' + msg0 + '</span>';
     }
     // ② 내용 감성 (제목+설명, 댓글 있든 없든 표시)
     if (v.video_meta_sentiment) {
@@ -3364,6 +3384,16 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     if (bTotal > 0) {
       brandSentHtml = '<span class="brand-stat">부정 ' + Math.round(bRatio * 100) + '% (' + bSc.neg + '/' + bTotal + ')</span>' + warnBadgeHtml(bWarn);
     }
+    // 댓글 수집 커버리지 — brand 내 모든 영상 comment_count 합 vs sentiment_counts 합
+    var ytCommentTotal = 0;
+    filteredVideos.forEach(function(v) { ytCommentTotal += (v.comment_count || 0); });
+    var covHtml = '';
+    if (ytCommentTotal > 0) {
+      var covPct = bTotal > 0 ? Math.round(bTotal / ytCommentTotal * 100) : 0;
+      covHtml = '<span class="brand-stat" title="YouTube 원본 ' + formatNumber(ytCommentTotal) +
+        '개 중 ' + formatNumber(bTotal) + '개 수집 (' + covPct + '%)">💬 ' +
+        formatNumber(bTotal) + '/' + formatNumber(ytCommentTotal) + ' 수집</span>';
+    }
     var criticalHtml = '';
     if (criticalCount > 0) {
       criticalHtml = '<span class="brand-critical-alert">🔴 치명 콘텐츠 ' + criticalCount + '건</span>';
@@ -3376,6 +3406,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         '<span class="brand-stat">영상 ' + filteredVideos.length + '개</span>' +
         '<span class="brand-stat">조회수 ' + formatNumber(totalViews) + '</span>' +
         '<span class="brand-stat">Short ' + nShort + ' / Long ' + nLong + '</span>' +
+        covHtml +
         brandSentHtml +
         '<div class="brand-tier-badges">' + tierHtml + '</div>' +
       '</div>' +
