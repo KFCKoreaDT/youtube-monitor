@@ -466,11 +466,29 @@ a:hover { text-decoration: underline; }
 }
 .brand-tier-badge {
   font-size: 0.72rem;
-  padding: 2px 8px;
+  padding: 3px 10px;
   border-radius: 12px;
   background: var(--bg-input);
   color: var(--text-secondary);
-  border: 1px solid var(--border);
+  border: 1.5px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.15s ease;
+  font-weight: 600;
+}
+.brand-tier-badge:hover {
+  border-color: var(--accent-light);
+  color: var(--text-primary);
+}
+.brand-tier-badge.active {
+  background: linear-gradient(135deg, var(--accent), #ff5a3c);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(228,0,43,0.25);
+}
+.brand-tier-badge.inactive {
+  opacity: 0.42;
+  text-decoration: line-through;
 }
 
 /* AI Summary */
@@ -3162,7 +3180,14 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     var SAMPLE_DISPLAY_MIN = 10;  // 감성 비율 표시 최소
     var SAMPLE_HIGH_MIN = 15;     // 정규 판정 (워닝 연동)
     var inlineSent = '';
-    // ① 댓글 감성
+    // ① 내용 감성 (먼저) — 제목+설명 기반 크리에이터 의도
+    if (v.video_meta_sentiment) {
+      var ms0 = v.video_meta_sentiment;
+      var mCls0 = ms0 === '부정' ? 'neg' : (ms0 === '중립' ? 'mid' : 'pos');
+      var mIcon0 = ms0 === '부정' ? '😠' : (ms0 === '중립' ? '😐' : '😊');
+      inlineSent += '<span class="sentiment-inline meta ' + mCls0 + '" title="📝 제목+설명 KR-BERT 분석 · 크리에이터 의도 추정">📝 ' + mIcon0 + ' 내용 ' + escapeHtml(ms0) + '</span>';
+    }
+    // ② 댓글 감성 (나중)
     if (sTotal >= SAMPLE_DISPLAY_MIN) {
       var posRatio = (sc.pos || 0) / sTotal;
       var neuRatio = (sc.neu || 0) / sTotal;
@@ -3210,13 +3235,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         : '💬 — 댓글 없음';
       inlineSent += '<span class="sentiment-inline none" title="' + (ytT0 > 0 ? '원본 ' + ytT0 + '개 있음, 수집 미완료' : '댓글 없음') + '">' + msg0 + '</span>';
     }
-    // ② 내용 감성 (제목+설명, 댓글 있든 없든 표시)
-    if (v.video_meta_sentiment) {
-      var ms = v.video_meta_sentiment;
-      var mCls = ms === '부정' ? 'neg' : (ms === '중립' ? 'mid' : 'pos');
-      var mIcon = ms === '부정' ? '😠' : (ms === '중립' ? '😐' : '😊');
-      inlineSent += '<span class="sentiment-inline meta ' + mCls + '" title="📝 제목+설명 KR-BERT 분석 · 크리에이터 의도 추정 (신뢰도 낮음)">📝 ' + mIcon + ' 내용 ' + escapeHtml(ms) + '</span>';
-    }
+    // (내용 감성은 위에서 먼저 표시됨 — ①)
     // 둘 다 없으면 "댓글 없음" 표시
     if (!inlineSent) {
       inlineSent = '<span class="sentiment-inline none" title="댓글 및 메타 분석 없음">· –</span>';
@@ -3342,10 +3361,24 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       totalViews += (v.views || 0);
     });
 
+    // Tier 배지 — 클릭 토글 (불 켜짐/꺼짐) · 마우스오버 툴팁 (구독자 범위)
+    var TIER_INFO = {
+      'Official': {range: '공식 채널 (브랜드 자체 업로드)', emoji: '🏛'},
+      'Mega':     {range: '1M+ 구독자', emoji: '🌟'},
+      'Macro':    {range: '100K~1M 구독자', emoji: '⭐'},
+      'Mid':      {range: '10K~100K 구독자', emoji: '🔵'},
+      'Micro':    {range: '1K~10K 구독자', emoji: '🟢'},
+      'Nano':     {range: '1K 미만 구독자', emoji: '⚪'},
+    };
     var tierHtml = '';
     ALL_TIERS.forEach(function(t) {
       if (tierCounts[t] > 0) {
-        tierHtml += '<span class="brand-tier-badge">' + t + ' ' + tierCounts[t] + '</span>';
+        var info = TIER_INFO[t] || {range: '', emoji: ''};
+        var isActive = filters.tiers.has(t);
+        tierHtml += '<span class="brand-tier-badge ' + (isActive ? 'active' : 'inactive') +
+          '" data-tier-toggle="' + escapeHtml(t) + '"' +
+          ' title="' + escapeHtml(t + ' — ' + info.range + ' · 클릭하면 이 등급 영상 숨김/표시')  + '">' +
+          info.emoji + ' ' + t + ' ' + tierCounts[t] + '</span>';
       }
     });
 
@@ -3450,6 +3483,18 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       container.innerHTML = html;
     } else {
       container.innerHTML = '<div class="no-results">조건에 맞는 영상이 없습니다. 필터를 조정해보세요.</div>';
+    }
+
+    // Brand 섹션 내 tier 배지 클릭 → 해당 티어 필터 토글 (전역 filters.tiers 공유)
+    if (!container._tierHandlerAttached) {
+      container.addEventListener('click', function(e) {
+        var el = e.target.closest && e.target.closest('.brand-tier-badge[data-tier-toggle]');
+        if (el) {
+          var t = el.getAttribute('data-tier-toggle');
+          if (t && typeof toggleTier === 'function') toggleTier(t);
+        }
+      });
+      container._tierHandlerAttached = true;
     }
 
     // Update result count
