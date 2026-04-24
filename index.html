@@ -2018,24 +2018,6 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 </head>
 <body>
 
-<!-- 베타 공지 팝업 -->
-<div class="beta-modal-overlay" id="beta-modal" style="display:none;" role="dialog" aria-modal="true" aria-labelledby="beta-modal-title">
-  <div class="beta-modal">
-    <div class="beta-modal-badge">BETA</div>
-    <h2 class="beta-modal-title" id="beta-modal-title">🚧 개발 중 · 베타 버전</h2>
-    <p class="beta-modal-body">
-      현재 <strong>개발중인 베타 버전</strong>입니다.<br>
-      수정 및 요청 사항은 <strong>박민재 과장</strong>에게 전달 바랍니다.
-    </p>
-    <div class="beta-modal-footer">
-      <label class="beta-modal-check">
-        <input type="checkbox" id="beta-skip-today">
-        <span>오늘 하루 열지 않음</span>
-      </label>
-      <button class="beta-modal-btn" id="beta-modal-close">확인</button>
-    </div>
-  </div>
-</div>
 
 <div class="header">
   <div class="header-actions">
@@ -2796,36 +2778,6 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 <script>
 (function() {
   'use strict';
-
-  // ===== Beta 공지 팝업 =====
-  (function initBetaModal() {
-    var modal = document.getElementById('beta-modal');
-    if (!modal) return;
-    var KEY = 'kfc_yt_beta_skip_date';
-    var today = new Date().toISOString().slice(0, 10);  // YYYY-MM-DD
-    try {
-      if (localStorage.getItem(KEY) === today) return;  // 오늘 하루 열지 않음
-    } catch (e) { /* localStorage 차단 시 무시 */ }
-    modal.style.display = 'flex';
-    var closeBtn = document.getElementById('beta-modal-close');
-    var skipBox = document.getElementById('beta-skip-today');
-    function closeModal() {
-      try {
-        if (skipBox && skipBox.checked) localStorage.setItem(KEY, today);
-      } catch (e) { /* ignore */ }
-      modal.style.display = 'none';
-    }
-    if (closeBtn) closeBtn.addEventListener('click', closeModal);
-    modal.addEventListener('click', function(e) {
-      if (e.target === modal) closeModal();  // 바깥 클릭 시 닫기
-    });
-    document.addEventListener('keydown', function onEsc(e) {
-      if (e.key === 'Escape' && modal.style.display !== 'none') {
-        closeModal();
-        document.removeEventListener('keydown', onEsc);
-      }
-    });
-  })();
 
   // ===== DOM Safety Helpers (Null-safe accessors) =====
   // 동기 : HTML 수정 시 DOM 요소를 제거해도 JS가 null 참조로 전체 렌더 중단되지 않도록.
