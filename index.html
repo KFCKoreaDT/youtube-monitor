@@ -3843,8 +3843,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     renderBrands();
   }
 
-  // Load data
-  fetch('./data/latest.json')
+  // Load data — 캐시 무효화 (10분 단위 timestamp)
+  var _cacheBust = Math.floor(Date.now() / (10 * 60 * 1000));
+  fetch('./data/latest.json?v=' + _cacheBust, { cache: 'no-cache' })
     .then(function(res) {
       if (!res.ok) throw new Error('HTTP ' + res.status);
       return res.json();
