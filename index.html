@@ -3350,10 +3350,15 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   }
 
   function renderBrand(key, brand, filteredVideos) {
-    // Tier 배지 카운트는 "전체 브랜드 영상" 기준으로 — tier 토글 꺼도 배지 유지되어 재클릭 가능
+    // Tier 배지 카운트는 "tier 필터만 제외한 나머지 모두 적용" 기준 —
+    // 기간/포맷/검색은 반영, tier 토글은 꺼도 배지 유지되어 재클릭 가능
     var tierCountsAll = {};
     ALL_TIERS.forEach(function(t) { tierCountsAll[t] = 0; });
     (brand.videos || []).forEach(function(v) {
+      // tier 필터 외의 필터만 통과 체크
+      if (!passesPeriod(v)) return;
+      if (!passesFormat(v)) return;
+      if (!passesSearch(v)) return;
       var t0 = v.creator_tier || 'Nano';
       if (tierCountsAll[t0] != null) tierCountsAll[t0]++;
     });
