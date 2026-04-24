@@ -3350,7 +3350,14 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   }
 
   function renderBrand(key, brand, filteredVideos) {
-    // Re-compute tier counts over filtered set (so they match what's shown)
+    // Tier 배지 카운트는 "전체 브랜드 영상" 기준으로 — tier 토글 꺼도 배지 유지되어 재클릭 가능
+    var tierCountsAll = {};
+    ALL_TIERS.forEach(function(t) { tierCountsAll[t] = 0; });
+    (brand.videos || []).forEach(function(v) {
+      var t0 = v.creator_tier || 'Nano';
+      if (tierCountsAll[t0] != null) tierCountsAll[t0]++;
+    });
+    // 화면 표시용 (필터 적용된) 카운트 — 헤더 stats 에 사용
     var tierCounts = {};
     ALL_TIERS.forEach(function(t) { tierCounts[t] = 0; });
     var nShort = 0, nLong = 0, totalViews = 0;
@@ -3372,13 +3379,14 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     };
     var tierHtml = '';
     ALL_TIERS.forEach(function(t) {
-      if (tierCounts[t] > 0) {
+      // "브랜드 전체 영상 기준" 카운트가 0 이상이면 항상 표시 (필터 꺼도 유지)
+      if (tierCountsAll[t] > 0) {
         var info = TIER_INFO[t] || {range: '', emoji: ''};
         var isActive = filters.tiers.has(t);
         tierHtml += '<span class="brand-tier-badge ' + (isActive ? 'active' : 'inactive') +
           '" data-tier-toggle="' + escapeHtml(t) + '"' +
-          ' title="' + escapeHtml(t + ' — ' + info.range + ' · 클릭하면 이 등급 영상 숨김/표시')  + '">' +
-          info.emoji + ' ' + t + ' ' + tierCounts[t] + '</span>';
+          ' title="' + escapeHtml(t + ' — ' + info.range + ' · 클릭하면 이 등급 영상 숨김/표시') + '">' +
+          info.emoji + ' ' + t + ' ' + tierCountsAll[t] + '</span>';
       }
     });
 
