@@ -2073,9 +2073,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     <div class="exec-meta">
       <span id="exec-baseline-wrap" style="display:none;">비교 기준 <strong id="exec-baseline">-</strong></span>
       <span class="period-toggle" id="period-toggle" role="group" aria-label="기간 필터">
-        <button type="button" data-period="7" class="active">최근 7일</button>
+        <button type="button" data-period="7">최근 7일</button>
         <button type="button" data-period="14">14일</button>
-        <button type="button" data-period="30">30일</button>
+        <button type="button" data-period="30" class="active">30일</button>
         <button type="button" data-period="custom">기간 지정</button>
       </span>
       <span class="date-range exec-date-range" id="exec-date-range" style="display:none;">
@@ -2236,8 +2236,8 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       <div class="filter-group-label"><span class="icon">📅</span> 기간</div>
       <button class="chip" data-period="today">오늘</button>
       <button class="chip" data-period="1">최근 1일</button>
-      <button class="chip active" data-period="7">최근 7일</button>
-      <button class="chip" data-period="30">최근 30일</button>
+      <button class="chip" data-period="7">최근 7일</button>
+      <button class="chip active" data-period="30">최근 30일</button>
       <button class="chip" data-period="custom">기간 지정</button>
       <div class="date-range" id="date-range">
         <input type="date" id="date-from">
@@ -2979,7 +2979,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   var BRAND_KEYS_ORDER = []; // sorted brand key order (from data)
   var BRAND_KEYS_IN_DATA = []; // keys present in data
   var filters = {
-    period: '7',                      // 'today' | '1' | '7' | '30' | 'custom'
+    period: '30',                     // 기본 30일
     customFrom: null,                 // Date
     customTo: null,                   // Date
     brands: new Set(),                // selected brand keys
@@ -3874,7 +3874,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     sortDir: 'desc',
     splits: {},           // { brand_code: {paid, earned, engagement} } — computeTierSplit 캐시
     selectedBrand: 'kfc', // v4: 클릭으로 KPI Strip 기준 브랜드 전환
-    period: 7,            // v5: 기본 7일 (로딩 빠름, 30일 선택 시 client-side 재계산)
+    period: 30,           // 기본 30일 (데이터가 stale 해도 보이도록)
     customFrom: null,     // v6: 기간 지정 모드
     customTo: null,
   };
