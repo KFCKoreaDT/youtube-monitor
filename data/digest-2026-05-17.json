@@ -1,0 +1,536 @@
+{
+  "date": "2026-05-17",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "kfc": {
+      "display": "KFC 한국",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "burgerking": {
+      "display": "버거킹",
+      "video_count": 2,
+      "total_views": 9380,
+      "total_likes": 228,
+      "total_comments": 34,
+      "n_short": 0,
+      "n_long": 2,
+      "tier_counts": {
+        "Micro": 1,
+        "Nano": 1
+      },
+      "summary": "버거킹 메뉴: 신메뉴 N종에 대한 소비자 반응이 긍정적이고, 경제학 아빠의 영상에서 버거킹 치킨 프로모션과 관련된 내용이 언급되었으나 구체적인 제품은 명시되지 않았다.\n  📌 버거킹 신메뉴 · 경제학 아빠 영상 · 소비자 반응",
+      "videos": [
+        {
+          "video_id": "1Elg-5RllPk",
+          "title": "먹고 싶은 거 다 때려넣은 집밥 브이로그 | 마라탕, 까르보불닭, 버거킹, 만동제과 마늘바게트 | 먹방 요리 vlog",
+          "channel": "김돌솥",
+          "subscribers": 11300,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 9374,
+          "likes": 226,
+          "comment_count": 33,
+          "engagement_rate": 0.0276,
+          "duration": 1130,
+          "is_short": false,
+          "buzz_score": 57.9,
+          "upload_date": "2026.05.16",
+          "url": "https://www.youtube.com/watch?v=1Elg-5RllPk",
+          "description_excerpt": "#요리브이로그  #먹방브이로그 #집밥브이로그\n\n마라탕 맛집\n중경마라탕 신촌점\n서울 서대문구 연세로11길 15 1층\n\n마늘바게트 맛집\n만동제과 연남점\n서울 서대문구 연희로 32\n\n00:00 시작\n00:12 마라탕 + 셀프토핑\n03:47 까르보불닭 + 냉동만두 등등 냉털\n06:28 소시지 백반\n10:10 만동제과 마늘바게트\n11:56 복길이 그루밍쇼\n12:19 통삼겹 수육 + 순댓국밥 정식\n16:41 폼프리츠 감튀 + 버거킹 구워먹기\n\n인스타그램 @stonepot_kim\n이메일 kimstonepot@gmail.com\n감사합니다!!",
+          "top_comments": [
+            {
+              "author": "@moms_opossum",
+              "text": "감튀 좋아하시면 네덜란드 음식 중에 캅살론이란 음식이 있습니다 감튀 위에 고다치즈, 케밥재료를 듬뿍 올려서 알루미늄 째로 오븐에 넣고 한 번 구운 뒤 마늘 소스랑 삼발 소스를 뿌리는 음식이 있습니다\n딱히 근본이 있는 음식은 아니라 내가 먹고 싶은 대로 토핑해서 떵개 하면 되는데 이거 진짜 개야르입니다\n네덜란드에서 교환학생 다녀오는 동안 10키로 찌운 범인입",
+              "likes": 16
+            },
+            {
+              "author": "@mihhhy-h2z",
+              "text": "시켜줘.. 김돌솥 명예 에센뽀득 홍보대사..",
+              "likes": 11
+            },
+            {
+              "author": "@aaaakak1",
+              "text": "자막보고 여성분인줄알았는데 목소리듣고 놀람요😂",
+              "likes": 10
+            },
+            {
+              "author": "@user-qx7gu1rz2q",
+              "text": "와 마라탕에 토핑 직접 추가하는 앨리트 행동에 감명받음..",
+              "likes": 7
+            },
+            {
+              "author": "@s0ouun12",
+              "text": "아 ㅁㅣ친.. 완벽한 내 깔의 먹방 유튜버를 찾은 것 같다",
+              "likes": 3
+            }
+          ]
+        },
+        {
+          "video_id": "jugA7rRf4eI",
+          "title": "버거킹 홈플러스 치킨, 한국인이 매일 모르고 돈 주는 곳",
+          "channel": "경제학 아빠",
+          "subscribers": 955,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 6,
+          "likes": 2,
+          "comment_count": 1,
+          "engagement_rate": 0.5,
+          "duration": 806,
+          "is_short": false,
+          "buzz_score": 27.4,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=jugA7rRf4eI",
+          "description_excerpt": "오늘 점심에 낸 9,800원 — 절반은 어디로 갔을까요?\n한국 직장인이 매일 모르고 돈 주는 4곳입니다.\n지난주 화요일 점심, 30살 직장인이 낸 9,800원.\n그중 절반 이상이 사모펀드 통장으로 흘러갔습니다.\n\n한국 사모펀드 시장 153조 6천억 — 정부 예산의 21%.\n그리고 그 LP 중 가장 큰 손이 우리 국민연금 90조 6천억.\n\n오늘은 한국인이 일주일 안에 만지는 사모펀드 4종을 분해합니다.\n홈플러스·bhc 치킨·버거킹·공차.\n\n📌 챕터\n00:00  점심값 9,800원\n01:30 한국 사모펀드 153조 시장\n03:30 1번",
+          "top_comments": [
+            {
+              "author": "@economy-dad",
+              "text": "영상에 다 못 담은 사례 몇 개 추가:\r\n- 락앤락 (어피니티 6,300억)\r\n- 한온시스템 (한앤컴퍼니)\r\n- 두산공작기계 (MBK)\r\n- 노랑통닭 (큐캐피탈 700억)\r\n\r\n수치 출처: 금감원, 인베스트조선, 더스쿠프, 머니투데이.\r\n\r\n\r\n\r\n저는 솔직히 bhc 6년 동안 5,017억 배당 회수가 가장 놀랐어요.\r\n가맹점 매출은 13.5% 줄었는데 본",
+              "likes": 0
+            }
+          ]
+        }
+      ]
+    },
+    "mcdonalds": {
+      "display": "맥도날드",
+      "video_count": 8,
+      "total_views": 10244,
+      "total_likes": 279,
+      "total_comments": 63,
+      "n_short": 1,
+      "n_long": 7,
+      "tier_counts": {
+        "Nano": 6,
+        "Micro": 1,
+        "Mega": 1
+      },
+      "summary": "맥도날드의 신메뉴 와사비게살크림크로켓 버거가 시네마틱 비주얼로 소개되어 화제를 모았으며, 소비자들은 부드러운 게살 크림과 톡 쏘는 와사비의 조합을 호평했으나, 실제 맛에 대한 궁금증도 제기되었다.\n  📌 와사비게살크림크로켓 · 시네마틱 비주얼 · 신메뉴",
+      "videos": [
+        {
+          "video_id": "pBxceaB_ne0",
+          "title": "맥도날드 먹방 ㄱㄱ  시참 토요일 저녁 8시 랜덤스쿼드 경쟁전 배틀그라운드 배그 스배",
+          "channel": "임구산",
+          "subscribers": 187,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 275,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.0073,
+          "duration": 42899,
+          "is_short": false,
+          "buzz_score": 11.5,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=pBxceaB_ne0",
+          "description_excerpt": "배틀그라운드\nimgusan",
+          "top_comments": []
+        },
+        {
+          "video_id": "dOGOsQ5hxCo",
+          "title": "맥도날드가 나을듯",
+          "channel": "만드로 게임",
+          "subscribers": 207,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 3,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 470,
+          "is_short": false,
+          "buzz_score": 7.9,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=dOGOsQ5hxCo",
+          "description_excerpt": "nan",
+          "top_comments": []
+        },
+        {
+          "video_id": "XQNJDue5EiA",
+          "title": "맥도날드 신메뉴 와사비게살크림크로켓 버거를 시네마틱 비주얼로 구현하다 ( Gemini & Flow & Kling AI & Primiere Pro)",
+          "channel": "archive.sunyoung",
+          "subscribers": 1,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 38,
+          "is_short": true,
+          "buzz_score": 6.1,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=XQNJDue5EiA",
+          "description_excerpt": "\"부드러운 게살 크림과 톡 쏘는 와사비의 강렬한 만남.\"\n\n글로벌 브랜드 맥도날드의 시즌 메뉴를 Vision Lab만의 시네마틱  감성으로 재해석한 실험입니다.\n게살의 풍부한 질감과 와사비의 신선한 색감을 극대화하기 위해 매크로 텍스처와 다이내믹한 라이팅 제어에 집중했습니다.\n( 먹고 싶어서 맛을 상상하면서~~ )\n\n📸 제작에 사용된 원본 이미지 컷과 비하인드는 인스타그램과 숏츠에서 확인하실 수 있습니다.\n\n#visionlab   #AI영상 #맥도날드 #와사비게살크림크로켓버거 #광고디자인\n\nInstagram: @archive.sun",
+          "top_comments": []
+        }
+      ]
+    },
+    "lotteria": {
+      "display": "롯데리아",
+      "video_count": 4,
+      "total_views": 18435,
+      "total_likes": 669,
+      "total_comments": 62,
+      "n_short": 0,
+      "n_long": 4,
+      "tier_counts": {
+        "Nano": 3,
+        "Macro": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "momstouch": {
+      "display": "맘스터치",
+      "video_count": 4,
+      "total_views": 113791,
+      "total_likes": 1605,
+      "total_comments": 114,
+      "n_short": 0,
+      "n_long": 4,
+      "tier_counts": {
+        "Nano": 3,
+        "Macro": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "popeyes": {
+      "display": "파파이스",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "subway": {
+      "display": "서브웨이",
+      "video_count": 3,
+      "total_views": 138,
+      "total_likes": 3,
+      "total_comments": 6,
+      "n_short": 0,
+      "n_long": 3,
+      "tier_counts": {
+        "Nano": 3
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "bbq": {
+      "display": "BBQ치킨",
+      "video_count": 5,
+      "total_views": 999,
+      "total_likes": 24,
+      "total_comments": 4,
+      "n_short": 1,
+      "n_long": 4,
+      "tier_counts": {
+        "Nano": 4,
+        "Mega": 1
+      },
+      "summary": "BBQ치킨의 최근 동향은 구체적인 신메뉴나 프로모션에 대한 정보가 부족하여 '신메뉴 N종'으로 표현해야 하며, 소비자들의 반응 역시 특정 메뉴에 대한 긍정적 또는 부정적 의견이 확인되지 않았다. 따라서 KFC는 BBQ치킨의 최근 동향을 모니터링하면서 자체 프로모션 및 신제품 출시 전략을 강화하는 것이 필요하다.\n  📌 신메뉴 N종 · 소비자 반응 미확보 · 프로모션 전략",
+      "videos": [
+        {
+          "video_id": "Gqxa8Atq8Qw",
+          "title": "260324(화)잡복1 황금올리브vs1호닭  BvsC #월배국민체육센터 저녁7시~10시 #달서스포츠클럽",
+          "channel": "라켓들고준비",
+          "subscribers": 636,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 10,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.1,
+          "duration": 857,
+          "is_short": false,
+          "buzz_score": 8.7,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=Gqxa8Atq8Qw",
+          "description_excerpt": "nan",
+          "top_comments": []
+        }
+      ]
+    },
+    "bhc": {
+      "display": "BHC치킨",
+      "video_count": 6,
+      "total_views": 12739,
+      "total_likes": 164,
+      "total_comments": 65,
+      "n_short": 0,
+      "n_long": 6,
+      "tier_counts": {
+        "Nano": 4,
+        "Micro": 2
+      },
+      "summary": "BHC치킨의 '뿌링클'과 '치킨꼬치'가 다이어트 중인 유저에게 인기가 있지만, 이는 개인적인 브이로그에서 언급된 내용으로 BHC치킨의 전체적인 신메뉴나 프로모션에 대한 정보는 제공하지 않음.\n  📌 뿌링클 · 치킨꼬치 · 다이어트",
+      "videos": [
+        {
+          "video_id": "mzpJIhQSPfA",
+          "title": "[다이어트 일지 #3] 찐 다이어트 시작 전 뭐든 입에 집어넣기ㅣ 대방어+간장계란밥+라면 +뿌링클+수박주스+알감자+치킨꼬치+스파게티+로제마라샹궈+곱도리탕",
+          "channel": "현살빼",
+          "subscribers": 113,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 53,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.0377,
+          "duration": 1358,
+          "is_short": false,
+          "buzz_score": 9.7,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=mzpJIhQSPfA",
+          "description_excerpt": "#고도비만 #먹방 #체중기록 #다이어트 #브이로그 #다이어트",
+          "top_comments": []
+        }
+      ]
+    },
+    "kyochon": {
+      "display": "교촌치킨",
+      "video_count": 13,
+      "total_views": 8815,
+      "total_likes": 17,
+      "total_comments": 1,
+      "n_short": 1,
+      "n_long": 12,
+      "tier_counts": {
+        "Nano": 7,
+        "Micro": 6
+      },
+      "summary": "교촌치킨의 허니콤보와 다양한 메뉴가 ASMR 먹방 영상에서 주로 언급되었으며, 소비자들은 치킨과 떡볶이 등 조합 메뉴에 대해 긍정적인 반응을 보였다. 그러나 타사 제품들이 섞여 있어 교촌치킨만의 프로모션이나 신메뉴 정보는 부족하다.\n  📌 허니콤보 · ASMR 먹방 · 떡볶이 치킨 조합",
+      "videos": [
+        {
+          "video_id": "VqSenqwGBko",
+          "title": "ASMR MUKBANG 마라떡볶이 핫도그 오징어튀김 주먹밥 교촌 허니콤보 치킨먹방! Mala Tteokbokki & Chicken EATING SOUND!",
+          "channel": "Crazy Grinder",
+          "subscribers": 14300,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 432,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.0023,
+          "duration": 2945,
+          "is_short": false,
+          "buzz_score": 11.7,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=VqSenqwGBko",
+          "description_excerpt": "ASMR MUKBANG 마라떡볶이 핫도그 오징어튀김 주먹밥 교촌 허니콤보 치킨먹방! Mala Tteokbokki & Chicken EATING SOUND!\n\n\ncrushing things with car,\ncrushing things with car unspeakable,\ncrushing things with car asmr,\ncrushing things with car wingrove family,\ncrushing things with car live,\ncrushing things with car satisfying,\ncrushi",
+          "top_comments": []
+        },
+        {
+          "video_id": "ID-5P0GaNqY",
+          "title": "ASMR MUKBANG 마라떡볶이 핫도그 오징어튀김 주먹밥 교촌 허니콤보 치킨먹방! Mala Tteokbokki & Chicken EATING SOUND!",
+          "channel": "Crazy Grinder",
+          "subscribers": 14300,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 266,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.0038,
+          "duration": 2413,
+          "is_short": false,
+          "buzz_score": 11.4,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=ID-5P0GaNqY",
+          "description_excerpt": "ASMR MUKBANG 마라떡볶이 핫도그 오징어튀김 주먹밥 교촌 허니콤보 치킨먹방! Mala Tteokbokki & Chicken EATING SOUND!\n\n\ncrushing things with car,\ncrushing things with car unspeakable,\ncrushing things with car asmr,\ncrushing things with car wingrove family,\ncrushing things with car live,\ncrushing things with car satisfying,\ncrushi",
+          "top_comments": []
+        },
+        {
+          "video_id": "6f_CFg5NLcU",
+          "title": "냉정 교촌치킨",
+          "channel": "신상호 Sangho",
+          "subscribers": 253,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 94,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 1085,
+          "is_short": false,
+          "buzz_score": 9.6,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=6f_CFg5NLcU",
+          "description_excerpt": "nan",
+          "top_comments": []
+        },
+        {
+          "video_id": "wtngJ3n7ukk",
+          "title": "ASMR MUKBANG 마라떡볶이 핫도그 오징어튀김 주먹밥 교촌 허니콤보 치킨먹방! Mala Tteokbokki & Chicken EATING SOUND!",
+          "channel": "Crazy Grinder",
+          "subscribers": 14300,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 486,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 2401,
+          "is_short": false,
+          "buzz_score": 9.6,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=wtngJ3n7ukk",
+          "description_excerpt": "ASMR MUKBANG 마라떡볶이 핫도그 오징어튀김 주먹밥 교촌 허니콤보 치킨먹방! Mala Tteokbokki & Chicken EATING SOUND!\n\n\ncrushing things with car,\ncrushing things with car unspeakable,\ncrushing things with car asmr,\ncrushing things with car wingrove family,\ncrushing things with car live,\ncrushing things with car satisfying,\ncrushi",
+          "top_comments": []
+        },
+        {
+          "video_id": "0umI9EsPeeM",
+          "title": "ASMR MUKBANG 마라떡볶이 핫도그 오징어튀김 주먹밥 교촌 허니콤보 치킨먹방! Mala Tteokbokki & Chicken EATING SOUND!",
+          "channel": "Crazy Grinder",
+          "subscribers": 14300,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 351,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 2851,
+          "is_short": false,
+          "buzz_score": 9.2,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=0umI9EsPeeM",
+          "description_excerpt": "ASMR MUKBANG 마라떡볶이 핫도그 오징어튀김 주먹밥 교촌 허니콤보 치킨먹방! Mala Tteokbokki & Chicken EATING SOUND!\n\n\ncrushing things with car,\ncrushing things with car unspeakable,\ncrushing things with car asmr,\ncrushing things with car wingrove family,\ncrushing things with car live,\ncrushing things with car satisfying,\ncrushi",
+          "top_comments": []
+        },
+        {
+          "video_id": "4ToonfEiFIU",
+          "title": "한국가기까지 D - 5! 어제 먹은 불닭으로 인해 배탈을 획득한 외노자의 화장실 스토리..#두쫀쿠 #엽떡 #불닭 #오지치즈피자 #지코바치킨 #교촌레드윙 #청양고추핫바 #브이로그",
+          "channel": "외노자",
+          "subscribers": 17,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 19,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.1053,
+          "duration": 26,
+          "is_short": true,
+          "buzz_score": 8.1,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=4ToonfEiFIU",
+          "description_excerpt": "nan",
+          "top_comments": []
+        },
+        {
+          "video_id": "XpCJ8isHOR8",
+          "title": "3년만에 교촌 먹엇슴😋😋",
+          "channel": "서경인대?",
+          "subscribers": 28,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1,
+          "likes": 1,
+          "comment_count": 1,
+          "engagement_rate": 2.0,
+          "duration": 361,
+          "is_short": false,
+          "buzz_score": 7.0,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=XpCJ8isHOR8",
+          "description_excerpt": "인스타그램 = l___ee_s_ \n\n\n\n\n\n\n\n#대전 #일상 #교촌치킨 #먹방",
+          "top_comments": [
+            {
+              "author": "@아자스발",
+              "text": "헉 영상보니까 너무 배고프다...",
+              "likes": 0
+            }
+          ]
+        },
+        {
+          "video_id": "hCfs_KQ5gPs",
+          "title": "교촌 2만원의 충격 비밀 7가지",
+          "channel": "뇌과학 편의점",
+          "subscribers": 16,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 435,
+          "is_short": false,
+          "buzz_score": 6.8,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=hCfs_KQ5gPs",
+          "description_excerpt": "💬 \"가장 먼저 욕을 먹은 브랜드가 가장 큰 가격 결정권을 가집니다.\"\n\n1990년대 7천원 치킨이 어떻게 2만원이 넘었을까요? 교촌치킨이 당신의 지갑을 여는 7가지 심리 트릭을 파헤칩니다. 프리미엄 전략부터 배달 플랫폼 수수료까지, 교묘한 가격 인상 구조를 이해하고 더 이상 호구 잡히지 마세요. 이 영상을 통해 당신의 소비 심리가 어떻게 조종되는지 깨닫게 될 것입니다.\n\n⏱ 타임스탬프\n0:00  2만 원 치킨의 등장 — 가격 3배 인상 비밀\n0:50  교촌치킨 2만 원 정상화 심리 7가지\n1:41  선두 브랜드의 가격 결정권과 프",
+          "top_comments": []
+        },
+        {
+          "video_id": "KKzrJBzaA9g",
+          "title": "금요일엔 바삭한 꼬끼오#치킨송 #한국노래 #라틴팝 #듀엣곡 #금요일노래#한국가요#쏘주#맥주#치킨#교촌치킨#쏘맥",
+          "channel": "Freedom K-Soul",
+          "subscribers": 0,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 4,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.25,
+          "duration": 195,
+          "is_short": false,
+          "buzz_score": 6.7,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=KKzrJBzaA9g",
+          "description_excerpt": "띵동 울리면 시작되는 금요일 치킨 데이트송.\n여성 고음 라틴 그루브와 남성 저음 티키타카가 만드는\n귀엽고 바삭한 한국어 라틴 팝.\n\n꼬-끼-오 훅과\n치지직 자글자글 소리가\n금요일 밤을 맛있게 깨웁니다.\n\n인공지능 생성 음악입니다.\n스포티파이에서 들어보세요.\nhttps://open.spotify.com/artist/78jdgwinNhapxg13LqRNrT\n\n#치킨노래 #치킨데이트 #한국가요 #라틴그루브 #남녀듀엣 #인공지능음악 #신곡 #스포티파이음악",
+          "top_comments": []
+        },
+        {
+          "video_id": "q_HZLlJF7w4",
+          "title": "허니콤보/새송이들깨무침/중딩밥상",
+          "channel": "꽃구름",
+          "subscribers": 2,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 9,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 163,
+          "is_short": false,
+          "buzz_score": 5.1,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=q_HZLlJF7w4",
+          "description_excerpt": "오늘 뭐 먹지??",
+          "top_comments": []
+        },
+        {
+          "video_id": "L36MQv3VYRA",
+          "title": "오늘 진짜 힘들었는데.. 허니콤보 한 마리로 힐링했습니다 [Mukbang]",
+          "channel": "Honbap 우진",
+          "subscribers": 6,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 2,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 479,
+          "is_short": false,
+          "buzz_score": 4.9,
+          "upload_date": "2026.05.15",
+          "url": "https://www.youtube.com/watch?v=L36MQv3VYRA",
+          "description_excerpt": "#혼밥 #asmr #mukbang #먹방 #치킨",
+          "top_comments": []
+        }
+      ]
+    }
+  }
+}
